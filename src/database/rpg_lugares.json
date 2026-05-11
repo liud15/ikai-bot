@@ -1,0 +1,482 @@
+[
+    {
+        "id": 1,
+        "bioma": "Bosques y Flora",
+        "nombre": "🌳 Bosque de las Hadas",
+        "descripcion": "un bosque vibrante donde el polen brilla en la oscuridad",
+        "foto": "https://i.pinimg.com/1200x/46/01/36/460136ef0545ad4e2a9d6ab55d296975.jpg",
+        "mensajes": {
+            "exito": "Limpiaste la maleza del Bosque de las Hadas descubriendo tesoros naturales intactos y robando el néctar dorado.",
+            "derrota_menor": "Unas enredaderas púrpuras te atraparon y robaron tu vida, pero escapaste adolorido cortando sus raíces.",
+            "emboscada": "¡Una horda de fey corruptos asaltó tu campamento en el claro principal! Huiste ensangrentado y perdiste todo tu equipo."
+        }
+    },
+    {
+        "id": 2,
+        "bioma": "Bosques y Flora",
+        "nombre": "🌿 Arboleda de los Ents Dormidos",
+        "descripcion": "un antiguo sendero rodeado de árboles con rostros melancólicos",
+        "foto": "https://i.pinimg.com/1200x/7c/0b/fe/7c0bfe6e196e8d5f90f3a6529a5e8275.jpg",
+        "mensajes": {
+            "exito": "Esquivaste las raíces vigilantes y saqueaste las ofrendas secretas sagradas de los Ents majestuosos.",
+            "derrota_menor": "Un Guardián de Madera despertó enojado y te golpeó con su rama; apenas saliste de la Arboleda arrastrándote.",
+            "emboscada": "¡El bosque entero despertó y sus pesadas raíces rompieron tus extremidades! Caíste inconsciente entre la hojarasca."
+        }
+    },
+    {
+        "id": 3,
+        "bioma": "Bosques y Flora",
+        "nombre": "🔮 Selva de Cristal Espina",
+        "descripcion": "una selva letal donde las hojas cortan como vidrio",
+        "foto": "https://i.pinimg.com/1200x/0d/36/ec/0d36ec6495517813bc1c37492c686d2a.jpg",
+        "mensajes": {
+            "exito": "Evadidas las zarzas translúcidas de cristal, obtuviste los preciosos diamantes vegetales sanos y salvos.",
+            "derrota_menor": "Te cortaste decenas de veces el rostro con el filo orgánico de cristal y huiste ensangrentado salvando unas piedras.",
+            "emboscada": "¡Una tormenta de astillas de cristal reventó donde estabas! Todo tu cuerpo fue acribillado y caíste gravemente herido."
+        }
+    },
+    {
+        "id": 4,
+        "bioma": "Bosques y Flora",
+        "nombre": "🌺 Jardín de la Diosa Olvidada",
+        "descripcion": "ruinas circulares repletas de flores que nunca marchitan",
+        "foto": "https://i.pinimg.com/1200x/98/9e/72/989e723812e5b0f681192db23a76b93d.jpg",
+        "mensajes": {
+            "exito": "Rendiste homenaje sagrado y el Jardín bendijo tu causa con pétalos curativos convertidos en tesoro ancestral.",
+            "derrota_menor": "Los pétalos te indujeron fiebre alta mientras saqueabas la estatua divina, dejándote moribundo pero con ganancias.",
+            "emboscada": "¡El espíritu de la Diosa Olvidada desató su cólera, su luz te pulverizó temporalmente purgándote de la existencia!"
+        }
+    },
+    {
+        "id": 5,
+        "bioma": "Bosques y Flora",
+        "nombre": "🌸 Valle de los Cerezos Eternos",
+        "descripcion": "un valle donde siempre es primavera y caen pétalos de sakura",
+        "foto": "https://i.pinimg.com/1200x/60/1d/73/601d734f3452065acd040bdb4ac49937.jpg",
+        "mensajes": {
+            "exito": "Dominaste a los samuráis caídos que protegían las santas flores y tomaste sus reliquias imperiales.",
+            "derrota_menor": "La lluvia de navajas sakura lastimó profundamente tus manos, pero encontraste oro forjado caído en el valle.",
+            "emboscada": "¡Decenas de espectros guerreros surgieron de los árboles, atravesando tu vientre con su magia sin misericordia!"
+        }
+    },
+    {
+        "id": 6,
+        "bioma": "Acuáticos y Abisales",
+        "nombre": "🌊 Lago de la Luna Reflejada",
+        "descripcion": "un lago tan cristalino que el cielo y el agua parecen uno solo",
+        "foto": "https://i.pinimg.com/1200x/57/cc/86/57cc860409e7506c6930096443dbd68a.jpg",
+        "mensajes": {
+            "exito": "Buceaste perfecto hasta el fondo ignorando a los hipnotizadores y trajiste las joyas celestiales intactas.",
+            "derrota_menor": "Casi te ahogas en la falsa profundidad del Lago; subiste tosiendo agua mágica, con un botín pírrico.",
+            "emboscada": "¡El monstruo del vacío lacustre se elevó enrollando todo tu cuerpo en la locura aplastándote al unísono!"
+        }
+    },
+    {
+        "id": 7,
+        "bioma": "Acuáticos y Abisales",
+        "nombre": "🐙 Abismo de Coral Negro",
+        "descripcion": "una trinchera submarina iluminada por medusas bioluminiscentes",
+        "foto": "https://i.pinimg.com/1200x/a1/48/57/a14857fcbadd1cdb7df1c2707dd55bc8.jpg",
+        "mensajes": {
+            "exito": "Esquivaste venenos bioluminiscentes letales y pescaste la perlas de cristal abisal en lo oscuro.",
+            "derrota_menor": "La picadura venenosa de una medusa te paralizó temporalmente; escapaste de arrastre perdiendo tesoros.",
+            "emboscada": "¡Tiburones ciegos gigantes detectaron tu intrusión! Fuerzas invisibles arrancaron tu carne bajo las olas."
+        }
+    },
+    {
+        "id": 8,
+        "bioma": "Acuáticos y Abisales",
+        "nombre": "⚓ Costa de los Naufragios Fantasma",
+        "descripcion": "una espesa neblina cubre cientos de barcos antiguos",
+        "foto": "https://i.pinimg.com/1200x/87/fe/50/87fe50998ab613727995e0d586c55960.jpg",
+        "mensajes": {
+            "exito": "Invocaste un viento sagrado espantando almas en desgracia para saquear todos los tesoros perdidos pirata.",
+            "derrota_menor": "A un marino espectral le dolió su tajo helado en tu hombro, robando valiosa vida por unos cuantos de cobre.",
+            "emboscada": "¡Fuiste amarrado a un ancla maldita mientras toneladas de presión te sumergían directo en un final negro!"
+        }
+    },
+    {
+        "id": 9,
+        "bioma": "Acuáticos y Abisales",
+        "nombre": "🐉 Cascadas del Dragón de Agua",
+        "descripcion": "monumentales caídas de agua que desafían la gravedad",
+        "foto": "https://i.pinimg.com/1200x/e7/0e/60/e70e602dfaf7ef4db4de1a70ed2b6b8a.jpg",
+        "mensajes": {
+            "exito": "Saltaste libre entre rocas perfectas sorteando los tsunamis locales descubriendo la guarida draconiana vacía.",
+            "derrota_menor": "Te resbalaste perdiendo el agarre hacia una estalactita. Golpeaste fuerte la cabeza reteniendo oro de milagro.",
+            "emboscada": "¡El gran ser marino dueño del torrente acuático aplastó tu humanidad desarmada en caída vertical total!"
+        }
+    },
+    {
+        "id": 10,
+        "bioma": "Acuáticos y Abisales",
+        "nombre": "🍃 Pantano de los Lamentos",
+        "descripcion": "aguas turbias donde sombras misteriosas acechan bajo el lodo",
+        "foto": "https://i.pinimg.com/1200x/a1/93/9d/a1939da819d8a1493e6f4e939d837719.jpg",
+        "mensajes": {
+            "exito": "Lograste recolectar hierbas oscuras evadiendo a los acechadores camuflados vendiéndolas a gran costo extraído.",
+            "derrota_menor": "Enfermaste fatal por la miasma local pantanoso sufriendo horribles calambres gástricos mientras juntabas tu botín.",
+            "emboscada": "¡Tu bota se hundió y decenas de cadáveres pálidos ahogados surgieron hundiéndote en su dolorida fosa!"
+        }
+    },
+    {
+        "id": 11,
+        "bioma": "Montañosos y Aéreos",
+        "nombre": "⛰️ Picos Rompecielos",
+        "descripcion": "montañas tan altas que rasgan las nubes en dos",
+        "foto": "https://i.pinimg.com/1200x/83/03/1a/83031aab7b6c30d48804d59f05be0852.jpg",
+        "mensajes": {
+            "exito": "Te balanceaste por sus bordes escarpados llegando al pico imbatido recuperando gemas estelares a salvo.",
+            "derrota_menor": "La falta de oxígeno nubló tus sentidos. Caíste metros herido leve en la cabeza, pero pescaste algo de valor en la roca.",
+            "emboscada": "¡Un trol empujó el pico exacto causando una avalancha rocosa inmensa; huesos rotos fue poco para describir la derrota!"
+        }
+    },
+    {
+        "id": 12,
+        "bioma": "Montañosos y Aéreos",
+        "nombre": "☁️ Archipiélago Flotante de Aethel",
+        "descripcion": "islas de tierra y hierba que levitan en el cielo abierto",
+        "foto": "https://i.pinimg.com/1200x/af/c3/65/afc365cdf90569be640dab0d84e90da5.jpg",
+        "mensajes": {
+            "exito": "Planeaste de nube en isla derrotando guardias solares en su base central asegurando los tesoros gravimétricos.",
+            "derrota_menor": "Una fuerte corriente descendente te hizo caer en el lodo celestial golpeándote torpe todo el pecho con pérdida mínima de botín.",
+            "emboscada": "¡Te percataste de una emboscada aviar gigante a último minuto! El impacto fue mortal lanzándote grave sin piedad al vacío."
+        }
+    },
+    {
+        "id": 13,
+        "bioma": "Montañosos y Aéreos",
+        "nombre": "☄️ Cráter del Meteorito Arcano",
+        "descripcion": "una enorme grieta brillante que exhala energía púrpura",
+        "foto": "https://i.pinimg.com/1200x/40/cc/da/40ccda2383a05ec4a82fffe8ff0386e3.jpg",
+        "mensajes": {
+            "exito": "La irradiación letal fortaleció tu defensa y recolectaste el núcleo radioactivo mágico puro de un tajo absoluto.",
+            "derrota_menor": "La zona tóxica generó mutaciones ardorosas en tu cuerpo robando salud; por inercia te aferraste al meteoro ganando menos de lo soñado.",
+            "emboscada": "¡Anomalías espacio-temporales del meteorito provocaron que una bestia elemental oscura te quemara vivo por el poder puro!"
+        }
+    },
+    {
+        "id": 14,
+        "bioma": "Montañosos y Aéreos",
+        "nombre": "⚡ Nido del Pájaro del Trueno",
+        "descripcion": "cúspide rústica constantemente golpeada por relámpagos",
+        "foto": "https://i.pinimg.com/1200x/8c/2c/b3/8c2cb39b3b78754096185b28b0ef8d1d.jpg",
+        "mensajes": {
+            "exito": "Sincronizaste tus cruces limpios perdiendo a las guardianas entre ecos eléctricos masivos saqueando el gran nido entero intacto.",
+            "derrota_menor": "Un relámpago colosal estático afectó un choque quemando tu flanco derecho mientras llenaste tu mochila entre gritos dolorosos.",
+            "emboscada": "¡Tres Pajaros del Trueno en ira absoluta te reventaron descargas continuas de trillones de voltios casi carbonizando la esencia vital!"
+        }
+    },
+    {
+        "id": 15,
+        "bioma": "Montañosos y Aéreos",
+        "nombre": "🧊 Cordillera de Escarcha Eterna",
+        "descripcion": "glaciares masivos que parecen colmillos de hielo",
+        "foto": "https://i.pinimg.com/1200x/54/6a/69/546a698b29ac17ce24805af9e723accd.jpg",
+        "mensajes": {
+            "exito": "Atravesaste la gélida barrera natural descubriendo el lago sub-cero repleto de diamantes limpios libres de la nieve asfixiante.",
+            "derrota_menor": "Fuiste engañado por la nieve que bloqueó tus dedos rompiendo piel de hielo mientras forzadamente tomaste plata antigua de la caverna.",
+            "emboscada": "¡Golems helados furiosos fracturaron enteramente el glaciar mismo dejando caer la montaña infinita sobre todo tu cráneo y espalda!"
+        }
+    },
+    {
+        "id": 16,
+        "bioma": "Desérticos y Yermos",
+        "nombre": "💀 Desierto de las Cenizas Blancas",
+        "descripcion": "un mar de arena blanca donde nunca sopla el viento",
+        "foto": "https://i.pinimg.com/1200x/03/c6/a0/03c6a09a45bf547b7b61f7d80d10a3cb.jpg",
+        "mensajes": {
+            "exito": "Encontraste una estela arcana prístina oculta dentro de las dunas fantasmales tomando su ofrenda inmaculada de oro.",
+            "derrota_menor": "El silencio absoluto comenzó a matarte por dentro; lograste apenas recoger chatarra sagrada pero un mareo horrible afectó tu cordura profundamente.",
+            "emboscada": "¡Horrores calcificados en el subsuelo agarraron desde la tierra hirviente destrozando huesos con garras esqueléticas masivas!"
+        }
+    },
+    {
+        "id": 17,
+        "bioma": "Desérticos y Yermos",
+        "nombre": "🦴 Cañón de Huesos de Dragón",
+        "descripcion": "desfiladero formado por el esqueleto petrificado de un leviatán",
+        "foto": "https://i.pinimg.com/1200x/31/72/2a/31722a7f91549653af0fb19c17fb2a77.jpg",
+        "mensajes": {
+            "exito": "Escalaste hasta el mismísimo cráneo dracónico y lograste minar los dientes de joya valiosa engañando a las arañas de hueso.",
+            "derrota_menor": "Punzantes púas de hueso te atravesaron la pantorrilla, dolió a rabiar, pudiste recoger menos joyas de lo esperado entre la sangre y costillas.",
+            "emboscada": "¡Una maldición levantó espectros del leviatán resecando tu propia agua interna como castigo al perturbar tierra de reyes caídos!"
+        }
+    },
+    {
+        "id": 18,
+        "bioma": "Desérticos y Yermos",
+        "nombre": "🏜️ Mar de Dunas Carmesí",
+        "descripcion": "un desierto abrasador cuya arena parece sangre bajo el sol",
+        "foto": "https://i.pinimg.com/1200x/44/35/92/443592fcace524c3e7ab01798adfdbba.jpg",
+        "mensajes": {
+            "exito": "Aprovechaste la falta de Sol y encontraste los templos beduinos de las dunas rojas recolectando las sedas impagables sin ser notado.",
+            "derrota_menor": "En la exploración las dunas hirvientes desgastaron tu cuerpo horrendo pero tus manos aún rasgaron reliquias doradas con cortes brutales y quemaduras.",
+            "emboscada": "¡Un pavoroso demonio rojo de seis extremidades trituró absolutamente el cuerpo de explorador con ira caníbal por profanar terreno desolado de reyes!"
+        }
+    },
+    {
+        "id": 19,
+        "bioma": "Desérticos y Yermos",
+        "nombre": "💧 Oasis de los Espejismos",
+        "descripcion": "un resguardo de agua mágica que vuelve locos a los viajeros",
+        "foto": "https://i.pinimg.com/1200x/19/c3/48/19c34880317c06fb192ee042f8539f85.jpg",
+        "mensajes": {
+            "exito": "Usando protecciones místicas purificaste las ninfas locales obteniendo aguas milenarias cotizadas al mayor precio del comercio.",
+            "derrota_menor": "Caíste victima a las visiones aterradoras paralizado de dolor ciego llevándote oro pero dañando permanentemente pedazos puros de la cordura misma.",
+            "emboscada": "¡Los tentáculos de espejismo que no eran espejismo realmente desgarraron veneno en tu cuello inmovilizando brutal antes de dejar tu alma robada sin dudarlo!"
+        }
+    },
+    {
+        "id": 20,
+        "bioma": "Desérticos y Yermos",
+        "nombre": "⚔️ Páramo de Acero",
+        "descripcion": "un yermo lleno de espadas oxidadas de una guerra olvidada",
+        "foto": "https://i.pinimg.com/1200x/ba/20/9d/ba209d2028b71a721480726d3ac53326.jpg",
+        "mensajes": {
+            "exito": "Soporte de acero, ganancia de acero. Lograste sacar la espada intacta mítica resguardando ganancias supremas frente al óxido en control total del terreno.",
+            "derrota_menor": "Fuiste acuchillado miserable por fantasmas caballeros armados de hierro malgastado pero saliste huyendo cojeante cargan pesadas recompensas del terreno sangriento.",
+            "emboscada": "¡Una formación imbatible de milicia zombi atravesó tu pobre resistencia convirtiéndote solo en un alfiler lleno de puñaladas sangrantes entre la ruina del bosque afilado!"
+        }
+    },
+    {
+        "id": 21,
+        "bioma": "Estructuras y Ruinas",
+        "nombre": "🏛️ Academia Mágica en Ruinas",
+        "descripcion": "bibliotecas colapsadas con libros flotando en gravedad cero",
+        "foto": "https://i.pinimg.com/1200x/55/15/94/55159457a249b36e81f1ecd72dd548fa.jpg",
+        "mensajes": {
+            "exito": "Descifraste protecciones arcanas en la sala 12 saqueando pergaminos perdidos sin que los orbes de luz guardián te detectasen a pesar de la gravedad fluctuante.",
+            "derrota_menor": "Un hechizo inestable te dejó sordo con pérdida parcial de movimiento. Apenas pudiste huir robando pequeños grimorios con tremenda dificultad ardosa.",
+            "emboscada": "¡El espectro del Archiduque colérico arrojó fuego inmaterial derramando el alma y derrumbando inmortales muros con tu ser sepultado adentro en olvido total!"
+        }
+    },
+    {
+        "id": 22,
+        "bioma": "Estructuras y Ruinas",
+        "nombre": "🕰️ Torre del Reloj Roto",
+        "descripcion": "una gigantesca maquinaria de engranajes que doblan el tiempo",
+        "foto": "https://i.pinimg.com/1200x/7d/e3/01/7de301d478f65d6bbb3bb0befec71acf.jpg",
+        "mensajes": {
+            "exito": "Navegaste el laberinto temporal y congelaste el espacio robando engranajes del mismísimo Cronos obteniendo recompensa legendaria en una coreografía perfecta fluida.",
+            "derrota_menor": "Un salto temporal falló y desgarró y envejeció bruscamente parte de tu espalda y piernas al tiempo logrando tomar tesoros por el choque inexperto pero heróico.",
+            "emboscada": "¡Quedaste envuelto eternamente un minuto exacto destrozando cordura y cuerpo por miles de ciclos sin descanso con la aguja letal masacrando esperanza ajena!"
+        }
+    },
+    {
+        "id": 23,
+        "bioma": "Estructuras y Ruinas",
+        "nombre": "🔥 Catacumbas del Rey Exánime",
+        "descripcion": "pasillos subterráneos iluminados por fuego azul",
+        "foto": "https://i.pinimg.com/1200x/f2/71/c1/f271c192a0f7096f307105f564c76c95.jpg",
+        "mensajes": {
+            "exito": "Apagaste las flamas de tumba azul superando a las brujas malditas extirpando el botín necrológico más puro del sarcófago prohibido absoluto del rey decaído impecable.",
+            "derrota_menor": "Aspiraste hollín profano que debilitó pulmones al máximo perdiendo valiente gran salud por oro putrefacto que sin embargo sirvió un propósito letal valioso para sobrevivir.",
+            "emboscada": "¡El mismísimo Rey de la penumbra clavó acero embrujado abriendo fatal las barrigas cobardes sepultándote con gárgolas antes de parpadear!"
+        }
+    },
+    {
+        "id": 24,
+        "bioma": "Estructuras y Ruinas",
+        "nombre": "⚙️ Ciudadela Mecánica Abandonada",
+        "descripcion": "una urbe de latón impulsada por vapor que sigue funcionando sola",
+        "foto": "https://i.pinimg.com/1200x/1a/8a/89/1a8a899c780cc32f6f93fcf64e273d4e.jpg",
+        "mensajes": {
+            "exito": "Burlaste defensas automatizadas piratas y envenenaste combustible vaporizado dominando todas las factorías ocultas extrayendo piezas ultra exóticas sin rival.",
+            "derrota_menor": "Fallas del pistón de latón te arrojaron agua ferviente por media cara. Arrancaste diamantes brutos soportando la asolada de vapor hirviente en extremo valiente.",
+            "emboscada": "¡Un escuadrón autómata de la policía decrépita giró sierras sobre tu pecho demoliendo toda tu resistencia con metal abrasador!"
+        }
+    },
+    {
+        "id": 25,
+        "bioma": "Estructuras y Ruinas",
+        "nombre": "🌌 Templo del Fin del Mundo",
+        "descripcion": "un altar blanco suspendido sobre el inmenso vacío estelar",
+        "foto": "https://i.pinimg.com/1200x/e2/0b/69/e20b6953859279aeb5cfbd3bd1801a16.jpg",
+        "mensajes": {
+            "exito": "Meditaste en el filo del universo. Comulgaste los dioses del silencio profundo obteniendo su fragmento y la recompensa cósmica sagrada impune de caos oscuro.",
+            "derrota_menor": "Te asomaste y el vacío jaló retinas lastimando en profundidad el coraje real tuyo arrancando por un hilo del balcón inmenso llevándote oro apenas para calmar el pánico ardiente extremo.",
+            "emboscada": "¡Te perdiste mirando abajo y las sombras arrancaron tu propio ser arrojando al precipicio celestial triturándote a merced del silencio y frío infinitos!"
+        }
+    },
+    {
+        "id": 26,
+        "bioma": "Dimensionales / Sobrenaturales",
+        "nombre": "💎 Dimensión de Cristal",
+        "descripcion": "un espacio infinito de prismas reflectantes",
+        "foto": "https://i.pinimg.com/1200x/0f/02/e4/0f02e4d05a94f742737074156c195719.jpg",
+        "mensajes": {
+            "exito": "Evitaste tus dobles reflectantes asesinos rompiendo el cristal central maestro de forma quirúrgica dominando toda la física prisma brillante perfecta.",
+            "derrota_menor": "Un espejo errático explotó tajando hombros, extremidad e irrumpiendo piel; escapaste adoloridísimo con cristales en tu manto sagrado pero con botín valeroso seguro.",
+            "emboscada": "¡Cientos de reflectos vivos de ti mismo usaron cada miedo clavando navajas eternamente en agonía visual perpetua y brutal!"
+        }
+    },
+    {
+        "id": 27,
+        "bioma": "Dimensionales / Sobrenaturales",
+        "nombre": "☁️ Mar de Nubes Invertido",
+        "descripcion": "un plano donde caminas sobre las nubes y el cielo está abajo",
+        "foto": "https://i.pinimg.com/1200x/5f/89/53/5f8953720ed349f3ce0214585968ff26.jpg",
+        "mensajes": {
+            "exito": "Usaste la anti-gravedad para bucear nube alta sacando tesoros divinos perdidos en algodón suave de inmortales deidades caídas antes con audacia invicta intocable.",
+            "derrota_menor": "Mareos cósmicos golpearon mente; caíste temporal al fondo del cielo rompiendo cráneo falso antes de subir y huir empacando riquezas de deidad pequeña.",
+            "emboscada": "¡Relámpagos anti-magnéticos partieron las raíces celestes ahogándote violentísimo con plomo oscuro envuelto en tempestad y truenos sin fin ahogo maldito!"
+        }
+    },
+    {
+        "id": 28,
+        "bioma": "Dimensionales / Sobrenaturales",
+        "nombre": "🌫️ Reino de Purgatorio Sombrío",
+        "descripcion": "un mundo sin colores donde todos los sonidos son ecos",
+        "foto": "https://i.pinimg.com/1200x/35/58/eb/3558ebcc288f26f85dd8d3bebe4044bf.jpg",
+        "mensajes": {
+            "exito": "No mostraste debilidad frente a los fantasmas propios limpiando la energía sombría y extrayendo metales de ceniza maldita sin sucumbir absoluto a la debilidad jamás.",
+            "derrota_menor": "Tu energía drenó hasta casi matarte por frío existencial; logras empujar las puertas y robar riquezas frías temblando débil pero no lo suficiente a tu fin.",
+            "emboscada": "¡Legiones que no perdonan de los tristes caídos aplastaron el pecho asaltando mente hasta borrarte dejando cascarón vacío e inerte frente a un desahucio macabro!"
+        }
+    },
+    {
+        "id": 29,
+        "bioma": "Dimensionales / Sobrenaturales",
+        "nombre": "🌀 Horizonte de Sucesos Místico",
+        "descripcion": "el borde de un agujero negro hecho puramente de magia densa",
+        "foto": "https://i.pinimg.com/1200x/84/f8/59/84f859c7001d1b7acef22df69ee7247e.jpg",
+        "mensajes": {
+            "exito": "Pescaste en la destrucción del evento universal, obteniendo polvo mágico estelar ultra exótico superando toda la fuerza devoradora oscura imbatible del vacío final.",
+            "derrota_menor": "El agujero deformó el tiempo de tu dedo causando necrosis mística grave logrando apartarte antes de absorber todo llevando gemas pesadas y oscuras letales victoriosamente.",
+            "emboscada": "¡El borde engulló enteramente la nave astillando hasta la luz misma y tus huesos compactando tu masa en tamaño atómico asesino atroz cruel e infame!"
+        }
+    },
+    {
+        "id": 30,
+        "bioma": "Dimensionales / Sobrenaturales",
+        "nombre": "✨ Santuario de la Memoria",
+        "descripcion": "un salón lleno de esferas que muestran el pasado del universo",
+        "foto": "https://i.pinimg.com/1200x/a9/af/54/a9af5437f9167860ae692f0ce518b589.jpg",
+        "mensajes": {
+            "exito": "Evitaste ver pasados prohibidos enfocándote y saqueando recuerdos puros diamantes líquidos conservando la gloria mística incorrupta total ante la omnipotencia callada.",
+            "derrota_menor": "Miraste tu propia muerte pasada fracturando brutal cerebro unida con sangre manante nasal ganando joyas por costo del tormento infernal de los profetas rotos.",
+            "emboscada": "¡El pasado cambió y nunca exististe! Agonía pura se manifestó anulando a golpes todo cuerpo aplastando cordura total destruyendo recuerdos vivos sin esperanza pura."
+        }
+    },
+    {
+        "id": 31,
+        "bioma": "Mundo Humano / Urbano Fantasía",
+        "nombre": "🏮 Callejón de los Yokai",
+        "descripcion": "un rincón neón escondido en Tokio donde comercian los demonios",
+        "foto": "https://i.pinimg.com/1200x/4b/c2/b3/4bc2b391b12359ced43da547c0a173d5.jpg",
+        "mensajes": {
+            "exito": "Robaste en las sombras a la yakuza demoníaca cruzando callejones luces de neon con maestría ágil recuperando yenes ensangrentados malditos e intocables perfectos.",
+            "derrota_menor": "Un demonio gordo asestó cuchillo neón quemante en tu brazo escapando tú bajo lluvia con honor sangriento robado con la bolsa repleta apenas vivos ambos pero feliz del botín masivo.",
+            "emboscada": "¡Emboscado por Tengus invisibles! Múltiples disparos de energía maligna ametrallaron de balazos tu espalda derribando sobre basura todo de una de un tajo total y fatal."
+        }
+    },
+    {
+        "id": 32,
+        "bioma": "Mundo Humano / Urbano Fantasía",
+        "nombre": "🧪 Mercado Negro Subterráneo",
+        "descripcion": "un laberinto de tiendas clandestinas vendiendo objetos malditos",
+        "foto": "https://i.pinimg.com/1200x/58/e8/34/58e8346155139be00d4d6e8c5c147d30.jpg",
+        "mensajes": {
+            "exito": "Seduciste y timaste a brujos desquiciados asaltando su mercancía vendiéndola doble a guardias corruptos haciendo negocio redondo limpio ganando reputación absoluta ilícita.",
+            "derrota_menor": "Descubrieron la farsa propinando paliza mágica, arrastrándote afuera moribundo lograste escapar escondiendo orbes debajo del fango en el dolor agudo e inmenso cruel valiente.",
+            "emboscada": "¡Una runa estafadora ató cadenas malditas en tus huesos esclavizando la cacería cortando cabezas en sacrificio inmolando tu honor trágico a plena luz subterránea cruel!"
+        }
+    },
+    {
+        "id": 33,
+        "bioma": "Mundo Humano / Urbano Fantasía",
+        "nombre": "🚂 Estación de Trenes Espiritual",
+        "descripcion": "andenes nebulosos donde los espectros esperan su tren",
+        "foto": "https://i.pinimg.com/1200x/fe/ee/ea/feeeeade79094713b400af14a0a2bc68.jpg",
+        "mensajes": {
+            "exito": "Asaltaste el vagón del tren del hades logrando evacuar monedas de caronte fantasma en movimiento impecable antes que tocara terreno espectral fatal invicto.",
+            "derrota_menor": "Tropezaste bajando del andén veloz dislocando tu brazo mientras guardas fantasmas rajaban espaldas huyendo y riendo de terror extremo recolectando metales sucios pagables de forma.",
+            "emboscada": "¡El conductor poseído te arrolló debajo de la furgoneta astral triturando carne viva con rieles infernales sin un fin de misericordia destripado letal ferozmente dolor inmenso!"
+        }
+    },
+    {
+        "id": 34,
+        "bioma": "Mundo Humano / Urbano Fantasía",
+        "nombre": "🏰 Barrio Gótico Inundado",
+        "descripcion": "una antigua ciudad victoriana hundida a medias en el océano",
+        "foto": "https://i.pinimg.com/1200x/e1/50/62/e150628dd30ece5e369e470325e779c6.jpg",
+        "mensajes": {
+            "exito": "Nadadores no debían estar aquí. Asaltaste la mansión del conde vampiro abisal llevándote herencias victorianas doradas en puro mar victorioso del terror vampírico limpio intachable.",
+            "derrota_menor": "Murciélagos marinos drenaron parte letal de tu vida pero tú pescaste rubíes con red asomando a flote moribundo tosiendo de terror extremo y sangre en mar negro huyendo vivo.",
+            "emboscada": "¡Cientos vampiros emergiendo rasgados te desgarraron a la parte baja tirando hasta ahogarte empalado letal monstruos infames torturadores brutales locos por su comida frita mortal y triste."
+        }
+    },
+    {
+        "id": 35,
+        "bioma": "Mundo Humano / Urbano Fantasía",
+        "nombre": "🏴‍☠️ Castillo Flotante del Gremio",
+        "descripcion": "una inmensa base pirata voladora construida con globos y hierro",
+        "foto": "https://i.pinimg.com/1200x/a6/b5/1b/a6b51b07b204c8513bd1af7daad90665.jpg",
+        "mensajes": {
+            "exito": "Saboteaste amarras saltando del globo rey atrayendo la fama pirata voladora estallando todos los barriles de hierro salvando riquezas gloriosas del cielo azul con maestría aérea implacable sublime gloriosa y perfecta de admirar al unísono de dioses.",
+            "derrota_menor": "Un balazo en ala quemó pluma fuerte, te dejó cayendo cojo sobre fardo de paja salvador y pudiste apenas recoger diamantes piratas cojeando fuerte y duro pero rico y vencedor.",
+            "emboscada": "¡Balas de cañón te partieron todo el esternón empujando cuerpo fuera barco cayendo sin fin mientras los gritos aplastaban aéreos letales crueles sobre cielo sin piedad final e imperdonable con derrota épica para bardos tristes en el infierno vil brutal letal e inmenso dolor profundo."
+        }
+    },
+    {
+        "id": 36,
+        "bioma": "Subterráneos y Cuarteles",
+        "nombre": "⛏️ Mina del Resplandor Dorado",
+        "descripcion": "túneles saturados del brillo cegador de un mineral extraño",
+        "foto": "https://i.pinimg.com/1200x/f8/97/37/f89737cf5fe3c0e46405bf9422e17d94.jpg",
+        "mensajes": {
+            "exito": "Cegado, utilizaste ecos puros aplastando defensores extrayendo el oro puro de ley que abunda del resplandor salvando la mina brillante sin sufrir y salir triunfante glorioso e inmenso de rico sagrado y eterno dominando todo.",
+            "derrota_menor": "Envenenamiento mineral debilitó tus piernas y quemó parcialmente visión logrando arrancar parte la de mina de oro puro y huir gateando de la brillante pero brutal trampa subterránea de muerte rica envidiada terrible y sangrienta ganando la apuesta final.",
+            "emboscada": "¡El mineral radioactivo purificó órganos vitales disolviendo alma hirviendo viva quemadura nuclear fatal sobre la tumba gloriosa de los ignorantes locos aplastantes mortales crueles aplastando tu miseria y fin profundo cruel brutal devastador aniquilador con gran y potente horror innegable amargo desalmado del fondo final."
+        }
+    },
+    {
+        "id": 37,
+        "bioma": "Subterráneos y Cuarteles",
+        "nombre": "⛓️ Prisión Tártaro",
+        "descripcion": "la cárcel más profunda del mundo, guardada por gólems de piedra",
+        "foto": "https://i.pinimg.com/1200x/17/db/3f/17db3fb83986436676ad68323a4a05dd.jpg",
+        "mensajes": {
+            "exito": "Dominaste la fuga logrando corromper sistemas, sacando reos famosos a cambio de enormes diamantes pagando su rescate limpiamente bajo tus términos y logrando riqueza e insultos ilesos majestuosa impoluta de un gran y potente explorador victorioso invicto incontrolable dominando golem y acero con inteligencia pura ganando la mayor fortuna del subsuelo negro.",
+            "derrota_menor": "Desviando lanzas gólem en tus piernas sufriste dolor sangrante logrando escabullir gemas presidiarias saliendo al pozo principal pero requiriendo ayuda grande letal pero un botín gigante seguro inmenso cruel pero favorable ante todo el terror agudo del sistema oscuro infernal corrupto ganando valerosa fama pero pidiendo clemencia al cielo.",
+            "emboscada": "¡Triturado vivo a manos pesadas bajo martillos gigantes rocosos dejándote pudrir sin aire luz encerrando cadáver triturado eternamente en celda infernal del dolor más profundo castigador y sin ley de la tumba de dioses caídos monstruosos crueles e infernales letales castigando a mortales tristes destripando su osadía fútil ridícula vergonzosa penosa inútil trágica aniquiladora e insufrible en absoluto extremo del abismo insano putrefacto eterno del dolor final."
+        }
+    },
+    {
+        "id": 38,
+        "bioma": "Subterráneos y Cuarteles",
+        "nombre": "🩸 Coliseo Sangriento",
+        "descripcion": "arenas de combate manchadas de eras de peleas de gladiadores",
+        "foto": "https://i.pinimg.com/1200x/35/a1/5c/35a15cbf85d9b578dc9398fc13429677.jpg",
+        "mensajes": {
+            "exito": "Venciste a tres leones demoníacos en combate directo bajo los hurras del público oscuro llevándote fama monedas estandarte bañado puro intacto glorioso intocable supremo valeroso héroe gladiador de la edad de acero sangre y victoria dorada inmortalizada ganadora de riqueza total y sagrada bendita del fuego de honor de dioses caídos gloriosos alabados del estadio completo sangrante eterno puro supremo.",
+            "derrota_menor": "Un tajo vil por espalda de trampa arena arrojó dolor extremo logrando ensartar tu tridente sobreviviendo apaleado y amado por multitudes logrando oro seguro en manos muertas tu gloria duele y punza fuerte pero oro de la arena jamás despreciado y aplaudido en la inmensa miseria heróica pura de honor valeroso del final ganado con sudor lágrimas dolor punzante ardiente sangriento heroico triunfador aplastante trágico hermoso cruel victorioso absoluto.",
+            "emboscada": "¡Los campeones traicionaron desatando cincuenta perros del inframundo rasgando yuca carne pulmón todo triturado ante burla general perdiendo riqueza humillado muerto aplastado devorado por arena infame vil del coliseo más demente y brutal cruel sangrante desgarrador inhumano infeliz espantoso sin clemencia ninguna torturando cada pulso nervioso de la agonía agónica sufriente del guerrero caído pisoteado escupido destruido humillado acabado final horrible y devastador para nadie jamás en la memoria asoladora eterna infame e inhumana y bestial de dioses podridos."
+        }
+    },
+    {
+        "id": 39,
+        "bioma": "Subterráneos y Cuarteles",
+        "nombre": "🦬 Laberinto del Minotauro",
+        "descripcion": "pasillos de setos oscuros que cambian de forma constantemente",
+        "foto": "https://i.pinimg.com/1200x/d1/10/6c/d1106c870a4d29528adfbbe10e4bb495.jpg",
+        "mensajes": {
+            "exito": "Siguiendo el trazo arcaico engañaste mente y mito, decapitando minotauro real llevándote cofres de joya de reyes minoicos antiguo sin rozar armadura dominando laberinto y bestia con maestría insuperable dorada pulcra e implacable fuerte valiente heroica superior ganando todo su premio real sagrado del final triunfante grandioso maravilloso estupendo invicto intocable superior del cielo alabado espléndido valioso ganador divino.",
+            "derrota_menor": "Un giro engañoso clavó trampa en tu tórax quebrado en sudor cazaste el monstruo sacando ganancia pero sufriendo dolor maldito trampa cruel sangrando sin cesar ganando botín noble arcaico precioso de un peligro eminente agudo sofocante y trágico victorioso adolorido agonizante valiente desesperado pero vencedor triunfante del calvario oscuro del final laberíntico tortuoso sinuoso letal.",
+            "emboscada": "¡El Minotauro colosal partió pared triturando cráneo escudo con masivo pisoton mortal aplastante del horror antiguo perdiendo todo sin escape al destierro maldito brutal sin ley sin luz devorado mutilado aplastado asesinado destripado aniquilado humillado y acabado perdedor letal trágico fin sombrío espeluznante destellante sangrante maldoso y atroz infernal destrozado y olvidado muerto por siempre jamas bestial letal infame dolor sordo cruel e inhumano total rotundo fin destructivo del cazador desdichado!"
+        }
+    },
+    {
+        "id": 40,
+        "bioma": "Subterráneos y Cuarteles",
+        "nombre": "🔔 Cámara de las Almas Resonantes",
+        "descripcion": "un salón inmenso lleno de campanas que suenan solas",
+        "foto": "https://i.pinimg.com/1200x/a7/33/5c/a7335c272a44f18c2a5da4dea06e7b2c.jpg",
+        "mensajes": {
+            "exito": "Tus oídos sordos ayudaron superando los gritos de muerte dominando el espíritu guardián llevándote energía áurea resonante intacta sin rozar armadura dominando la acústica mágica de los infiernos triunfante.",
+            "derrota_menor": "Sufriendo hemorragia timpánica logras sacar diamante espiritual cayendo al umbral sangrante del terror rítmico perdiendo vida valiosa a cambio del botín supremo milenario adolorido sin par vencedor del caos armónico.",
+            "emboscada": "¡Campanadas espectrales masivas destrozaron mente materia esqueleto órganos reducidos a un polvo espectral y ceniza borrado bajo sinfonía trágica sangrante infernal brutal y macabra sin dejar ningún tipo de existencia divina o letal infame desalmado destruido fútil inútil desgarrador fatal e inhumano para un fin doloroso final!"
+        }
+    }
+]
