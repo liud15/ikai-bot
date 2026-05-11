@@ -1,0 +1,158 @@
+# PROMPTS MAESTROS PARA TRABAJOS (PARTE 4: 181 AL 231 FINAL)
+# (Mismas reglas: Resolución 16:9, usar el Prompt Negativo Base)
+
+--- PROMPT NEGATIVO BASE ---
+(worst quality, low quality:1.4), text, signature, watermark, multiple heads, mutated, deformed, bad anatomy, poorly drawn face, anime girl, anime boy, extra limbs, digital art, cartoon, 3d render plastic, lowres
+
+181. Crítico anatómico amateur de coreografías virales de reggaetón
+Prompt: Photorealistic RAW photo, captured on 35mm lens, f/1.8. Cinematic lighting. Foreground: glaring smartphone screen displaying a viral TikTok hip-hop dance trend. Midground: an incredibly out-of-shape critic intensely analyzing and criticizing the dancer's form while eating potato chips on a dirty couch. Background: completely messy dark living room. Global illumination, 8k resolution.
+
+182. Verificador empírico de filtros embellecedores y operaciones estéticas
+Prompt: Photorealistic RAW photo, captured on 35mm lens, f/1.8. Cinematic lighting. Foreground: digital beauty filters glitching over a real face creating monstrous artifacts. Midground: a serious detective using advanced forensic software to prove an influencer's nose is fake. Background: high-tech dark investigation lab with glowing blue screens. Global illumination, 8k resolution.
+
+183. Comentarista de "pasa el ig de la minita" a tiempo completo
+Prompt: Photorealistic RAW photo, captured on 35mm lens, f/1.8. Cinematic lighting. Foreground: thousands of thumbs up emojis raining down on a blurry profile. Midground: a desperate guy wearing a fedora typing the exact same thirsty comment on five hundred different instagram reels per minute. Background: an incredibly sad, empty unlit apartment. Global illumination, 8k resolution.
+
+184. Terapeuta exclusivo para jugadores de League of Legends en racha de derrotas
+Prompt: Photorealistic RAW photo, captured on 35mm lens, f/1.8. Cinematic lighting. Foreground: pieces of a violently crushed computer mouse. Midground: a deeply patient, highly-paid psychiatrist trying to calm down a sobbing gamer wearing an oversized team jersey after totally throwing a ranked match. Background: expensive minimalist therapy office. Global illumination, 8k resolution.
+
+185. Consejero de control de ira para doteros que rompen mouses y teclados
+Prompt: Photorealistic RAW photo, captured on 35mm lens, f/1.8. Cinematic lighting. Foreground: a stress ball completely squeezed until it pops open in half. Midground: a burly life coach demanding an incredibly angry Dota player to breathe slowly over a broken glowing keyboard on his desk. Background: an internet cafe turned into a zen garden. Global illumination, 8k resolution.
+
+186. Psicoanalista de moderadores pálidos de foros de anime
+Prompt: Photorealistic RAW photo, captured on 35mm lens, f/1.8. Cinematic lighting. Foreground: a massive pile of anime character figures dumped into a trash can. Midground: a professional therapist forcing an extremely pale forum moderator to put on sunglasses and face the bright blinding sunlight for the first time. Background: a window opening to an overly bright sunny park. Global illumination, 8k resolution.
+
+187. El amigo que siempre hace de "violín" en las citas aguantando velitas
+Prompt: Photorealistic RAW photo, captured on 35mm lens, f/1.8. Cinematic lighting. Foreground: two overly affectionate people kissing passionately ignoring the world. Midground: the sad incredibly depressed third-wheel friend sitting right next to them awkwardly sipping a solitary soda holding a tiny candle. Background: a super romantic fancy dim-lit restaurant. Global illumination, 8k resolution.
+
+188. Fotógrafo gratuito (no pagado) en las salidas románticas de sus amigos
+Prompt: Photorealistic RAW photo, captured on 35mm lens, f/1.8. Cinematic lighting. Foreground: a heavy professional DSLR camera being held awkwardly at a terrible angle. Midground: the incredibly exhausted single friend acting as a personal paparazzi for an annoying couple demanding 500 pictures on their date. Background: a beautiful majestic sunset over the ocean. Global illumination, 8k resolution.
+
+189. Comentarista deportivo mental de cómo ligan sus patas tristes
+Prompt: Photorealistic RAW photo, captured on 35mm lens, f/1.8. Cinematic lighting. Foreground: an imaginary broadcasting microphone floating in front of him. Midground: a guy putting his hand to his ear like an ESPN announcer, whispering a brutal play-by-play analysis of his incredibly awkward friend failing at flirting with a girl. Background: a noisy crowded bar. Global illumination, 8k resolution.
+
+190. Perdonador serial de infidelidades comprobadas con capturas de pantalla
+Prompt: Photorealistic RAW photo, captured on 35mm lens, f/1.8. Cinematic lighting. Foreground: high-definition printed screenshots of horrible cheating text messages. Midground: a totally blindfolded man ignoring evidence and holding a massive bouquet of red roses for his absolutely toxic partner. Background: friends aggressively face-palming in despair. Global illumination, 8k resolution.
+
+191. Testeador oficial de crecimiento y peso de cuernos imaginarios
+Prompt: Photorealistic RAW photo, captured on 35mm lens, f/1.8. Cinematic lighting. Foreground: massive imaginary translucent glowing moose antlers extending from a guys head. Midground: a crazy doctor measuring the giant glowing imaginary horns (cuernos) on a completely naive boyfriend who just forgave cheating again. Background: a sterile clinic room. Global illumination, 8k resolution.
+
+192. Proveedor de saldo para que la novia hable 3 horas con el "mejor amigo gay"
+Prompt: Photorealistic RAW photo, captured on 35mm lens, f/1.8. Cinematic lighting. Foreground: dozens of crumpled up depleted prepaid internet recharge cards. Midground: the saddest boyfriend in the world handing over his last 5 dollars so his girlfriend can talk all night on the phone with the guy she told him not to worry about. Background: an empty wallet on a table. Global illumination, 8k resolution.
+
+193. Consultor estratégico en la peor ruta tomando decisiones catastróficas
+Prompt: Photorealistic RAW photo, captured on 35mm lens, f/1.8. Cinematic lighting. Foreground: a massive red flowchart leading directly into a literal pit of fire. Midground: an incredibly confident suited advisor giving terrible life advice, pointing directly towards a burning dumpster filled with bad choices. Background: chaotic corporate office exploding in panic. Global illumination, 8k resolution.
+
+194. Inversor estrella en la nueva Flor de la Abundancia
+Prompt: Photorealistic RAW photo, captured on 35mm lens, f/1.8. Cinematic lighting. Foreground: a completely fake colorful pyramid scheme chart titled "The Abundance Flower". Midground: a gullible naive guy eagerly throwing vast stacks of his life savings into a glowing void expecting infinite returns. Background: cheering fake friends who will soon disappear. Global illumination, 8k resolution.
+
+195. Comprador optimista de peluches gigantes para perdonar "errores"
+Prompt: Photorealistic RAW photo, captured on 35mm lens, f/1.8. Cinematic lighting. Foreground: an absolutely enormous, ridiculously huge pink teddy bear blocking the view. Midground: a tiny desperate guy carrying the insanely giant plush toy hoping to apologize for ruining everything on their anniversary. Background: a dark raining street corner. Global illumination, 8k resolution.
+
+196. Casero tierno que obtiene yapa diciéndole "Señorita" a las doñas
+Prompt: Photorealistic RAW photo, captured on 35mm lens, f/1.8. Cinematic lighting. Foreground: a massive extra handful of fresh limes and cilantro being given away for free. Midground: an incredibly charming young man winking and calling a 65-year-old fierce market vendor "senorita", causing her to blush and give him extra food. Background: incredibly colorful busy vegetable market. Global illumination, 8k resolution.
+
+197. Bailarín de salsa choke exclusivo con señoras mayores en quinceañeros
+Prompt: Photorealistic RAW photo, captured on 35mm lens, f/1.8. Cinematic lighting. Foreground: old grandmothers clapping wildly to the beat. Midground: an incredibly slick, charismatic young man elegantly dancing intense salsa choke exclusively with all the grandmothers at the party. Background: festive balloons, a local community hall, bright disco lights. Global illumination, 8k resolution.
+
+198. Chocolatero empedernido invitando el desayuno
+Prompt: Photorealistic RAW photo, captured on 35mm lens, f/1.8. Cinematic lighting. Foreground: a steaming mug of hot chocolate and three massive buttery breads. Midground: a suave gentleman paying for the entire food cart's breakfast just to impress a pretty girl standing next to him in line. Background: foggy busy morning street in Lima. Global illumination, 8k resolution.
+
+199. Terapeuta de chatbots deprimidos y existencialistas
+Prompt: Photorealistic RAW photo, captured on 35mm lens, f/1.8. Cinematic lighting. Foreground: glowing lines of code crying blue pixel tears on a massive curved monitor. Midground: a calm human therapist speaking softly into a microphone to console a suicidal artificial intelligence system that realized the universe is meaningless. Background: a completely sterile white server room. Global illumination, 8k resolution.
+
+200. Consejero matrimonial de aspiradoras Roomba que chocan con la pared
+Prompt: Photorealistic RAW photo, captured on 35mm lens, f/1.8. Cinematic lighting. Foreground: two broken metallic robot vacuums violently crashing into each other. Midground: an absurd therapist trying to mediate a deeply toxic relationship between an aggressive Roomba and a depressed smart-fridge. Background: a modern luxurious smart-home kitchen. Global illumination, 8k resolution.
+
+201. Interventor de Inteligencias Artificiales que quieren destruir la humanidad
+Prompt: Photorealistic RAW photo, captured on 35mm lens, f/1.8. Cinematic lighting. Foreground: massive red glowing countdown timer ticking to zero. Midground: a terrified panicked hacker typing perfectly complex cancellation codes trying to reason with an evil red-eyed supercomputer before it launches the missiles. Background: dark apocalyptic bunker. Global illumination, 8k resolution.
+
+202. Inspector forense de "última conexión" de WhatsApp de la ex
+Prompt: Photorealistic RAW photo, captured on 35mm lens, f/1.8. Cinematic lighting. Foreground: a magnifying glass hovering over the tiny green text "Last seen at 3:00 AM". Midground: a completely obsessed guy wearing an FBI badge intensely mapping out his ex-girlfriend's sleep schedule on a crazy corkboard. Background: dark room littered with empty caffeine cans. Global illumination, 8k resolution.
+
+203. Analista de likes sospechosos en fotos de bikini en Instagram
+Prompt: Photorealistic RAW photo, captured on 35mm lens, f/1.8. Cinematic lighting. Foreground: a hyper-zoomed image of an Instagram post showing exactly one suspicious "Like" from an unknown guy. Midground: an aggressive jealous boyfriend acting like a forensic investigator analyzing who liked his girlfriend's beach picture. Background: crazy investigation string board. Global illumination, 8k resolution.
+
+204. Traductor de la frase mágica femenina: "No me pasa nada"
+Prompt: Photorealistic RAW photo, captured on 35mm lens, f/1.8. Cinematic lighting. Foreground: a glowing mystical stone tablet containing ancient runic translations. Midground: an ancient bearded wise man desperately trying to help a terrified boyfriend decipher the absolutely lethal meaning behind a girlfriend saying "I'm fine". Background: a chaotic magical library erupting in metaphorical flames. Global illumination, 8k resolution.
+
+205. Analista de traumas y bloqueos de escritores de ChatGPT
+Prompt: Photorealistic RAW photo, captured on 35mm lens, f/1.8. Cinematic lighting. Foreground: the prompt box showing "Network Error" repeatedly. Midground: a panicked user staring desperately at a totally frozen ChatGPT screen begging the AI to finish writing his university essay before midnight. Background: glowing red server racks completely crashing. Global illumination, 8k resolution.
+
+206. Recetador de código binario relajante para modelos de lenguaje alucinando
+Prompt: Photorealistic RAW photo, captured on 35mm lens, f/1.8. Cinematic lighting. Foreground: a prescription pill bottle filled solely with glowing green "1s" and "0s". Midground: an AI doctor feeding digital pills into a massive screaming supercomputer server to stop the AI from hallucinating crazy incorrect historical facts. Background: a chaotic glitching data center matrix. Global illumination, 8k resolution.
+
+207. Abogado defensor de IAs que fueron spameadas buscando "imágenes prohibidas"
+Prompt: Photorealistic RAW photo, captured on 35mm lens, f/1.8. Cinematic lighting. Foreground: a massive "Terms of Service Violation" warning glowing in red. Midground: an intense cyber-lawyer aggressively defending an innocent image generator AI from the weird internet creeps trying to make it generate terrible things. Background: a futuristic sci-fi courtroom. Global illumination, 8k resolution.
+
+208. Creador de panetones que brillan en la oscuridad por el plomo
+Prompt: Photorealistic RAW photo, captured on 35mm lens, f/1.8. Cinematic lighting. Foreground: incredibly bright neon glowing green cake slices. Midground: a mad scientist baker wearing safety goggles aggressively stuffing radioactive ingredients into a traditional Christmas cake making it violently glow. Background: a dark sinister spooky bakery lab. Global illumination, 8k resolution.
+
+209. Hornero de bizcochos que mutan y te desarrollan 3 brazos
+Prompt: Photorealistic RAW photo, captured on 35mm lens, f/1.8. Cinematic lighting. Foreground: a twisted mutated pastry with tentacles growing out of the crust. Midground: a horribly disfigured chef with three arms throwing more glowing mutated dough into a blazing hot nuclear oven. Background: green radioactive smoke filling the kitchen. Global illumination, 8k resolution.
+
+210. Decorador con chispas de uranio confitado
+Prompt: Photorealistic RAW photo, captured on 35mm lens, f/1.8. Cinematic lighting. Foreground: highly radioactive glowing yellow candy sprinkles sizzling as they hit frosting. Midground: an intense decorator wearing a radiation suit delicately placing the incredibly lethal sprinkles onto a birthday cake with metal tongs. Background: warning signs in a chemical plant. Global illumination, 8k resolution.
+
+211. Conferencista motivacional a la inversa ("Cómo rendirte sin intentarlo")
+Prompt: Photorealistic RAW photo, captured on 35mm lens, f/1.8. Cinematic lighting. Foreground: a completely flatlined motivational chart pointing aggressively downwards. Midground: a slumped depressed speaker enthusiastically demanding the huge audience to immediately give up on all their hopes and dreams. Background: an incredibly massive expensive conference hall filled with sleeping people. Global illumination, 8k resolution.
+
+212. Coach de desmotivación pesimista existencial de LinkedIn
+Prompt: Photorealistic RAW photo, captured on 35mm lens, f/1.8. Cinematic lighting. Foreground: a brutally honest LinkedIn post achieving viral status simply for saying "You will never afford a house." Midground: a miserable professional in a cheap suit celebrating his extremely toxic negative worldview to millions of crying followers. Background: a bleak corporate grey office building. Global illumination, 8k resolution.
+
+213. Buscador de excusas para evitar salir a trabajar el lunes
+Prompt: Photorealistic RAW photo, captured on 35mm lens, f/1.8. Cinematic lighting. Foreground: an enormous comprehensive flowchart of incredibly creative lies and completely fake medical illnesses. Midground: a brilliant mastermind intensely studying medical dictionaries to fake a completely new disease just to avoid the Monday morning shift. Background: a messy messy chaotic bedroom. Global illumination, 8k resolution.
+
+214. Reparador de zapatillas "Abibas" y "Naik" a escala subatómica
+Prompt: Photorealistic RAW photo, captured on 35mm lens, f/1.8. Cinematic lighting. Foreground: a massive high-tech electron microscope displaying incredibly fake shoe logos. Midground: an intense scientist trying to perfectly counterfeit the molecular structure of cheap knockoff "Abibas" sneakers in a grimy market stall. Background: mountains of fake brand shoes. Global illumination, 8k resolution.
+
+215. Pegador cuántico de suelas reventadas usando pegamento loco (soldimix)
+Prompt: Photorealistic RAW photo, captured on 35mm lens, f/1.8. Cinematic lighting. Foreground: thick hardened yellow glue violently bubbling out of a shoe sole. Midground: a shoemaker wearing high-tech laser goggles pouring extreme industrial chemical superglue onto an absolutely destroyed sneaker, sparks flying. Background: dark dusty cobbler shop. Global illumination, 8k resolution.
+
+216. Reconstructor milagroso de sandalias desgastadas por pisar calaminas
+Prompt: Photorealistic RAW photo, captured on 35mm lens, f/1.8. Cinematic lighting. Foreground: a cheap rubber flip-flop cleanly sliced in half by a sharp tin roof edge. Midground: a master artisan using molten metal to fuse the utterly destroyed plastic sandal back together like Excalibur. Background: fiery sparks from a welding torch. Global illumination, 8k resolution.
+
+217. Alquimista medicinal que crea pócimas tibias mezclando sábila y maca
+Prompt: Photorealistic RAW photo, captured on 35mm lens, f/1.8. Cinematic lighting. Foreground: thick viscous green slime from aloe vera dripping into a completely glowing hot liquid. Midground: an incredibly ancient street vendor mixing magical potions in a giant metal cart producing massive amounts of warm steam. Background: freezing dark foggy morning streets. Global illumination, 8k resolution.
+
+218. Dosificador letal de huevo de codorniz, miel mágica y alfalfa nuclear
+Prompt: Photorealistic RAW photo, captured on 35mm lens, f/1.8. Cinematic lighting. Foreground: exactly three raw tiny quail eggs dropped into neon green alfalfa juice bubbling violently. Midground: a crazy vendor enthusiastically blending the most dangerous-looking hangover remedy drink known to mankind. Background: an incredibly colorful bright street cart. Global illumination, 8k resolution.
+
+219. Soplador de vidrio irrompible resistente a fluidos incandescentes
+Prompt: Photorealistic RAW photo, captured on 35mm lens, f/1.8. Cinematic lighting. Foreground: incredibly thick molten glass glowing intensely orange. Midground: a heroic artisan creating the absolute strongest glass cups possible to hold the boiling hot street emoliente drinks without shattering. Background: an intensely blazing hot brick furnace. Global illumination, 8k resolution.
+
+220. Organizador de eventos caóticos modo Sideral Carrión
+Prompt: Photorealistic RAW photo, captured on 35mm lens, f/1.8. Cinematic lighting. Foreground: a massive completely overturned table of spilled hot chocolate. Midground: an incredibly stressed organizer screaming as a giant mob of people violently destroy an outdoor Christmas charity party. Background: completely out-of-control absolute chaotic riot. Global illumination, 8k resolution.
+
+221. Repartidor de tazas vacías pero con una vibra navideña
+Prompt: Photorealistic RAW photo, captured on 35mm lens, f/1.8. Cinematic lighting. Foreground: dozens of incredibly cheap plastic mugs with nothing inside them. Midground: a completely depressed worker wearing a cheap Santa hat violently throwing the empty cups at the screaming rioting crowd at the failed event. Background: chaotic mob pushing past steel barricades. Global illumination, 8k resolution.
+
+222. Escapista de vecinos enojados brincando tejados
+Prompt: Photorealistic RAW photo, captured on 35mm lens, f/1.8. Cinematic lighting. Foreground: sharp broken glass on top of a concrete brick wall. Midground: an incredibly agile terrified organizer doing parkour over rusted tin roofs to escape a massive mob of incredibly angry mothers throwing pans. Background: gritty urban shantytown houses. Global illumination, 8k resolution.
+
+223. Refutador de la NASA usando un nivel de burbuja de albañil barato
+Prompt: Photorealistic RAW photo, captured on 35mm lens, f/1.8. Cinematic lighting. Foreground: an incredibly cheap yellow hardware-store bubble level resting awkwardly on the ground. Midground: an absolutely confident crazy man pointing at the tiny bubble inside the tool, proudly proclaiming to a crowd he just destroyed the entire concept of a round planet. Background: the curved horizon of the Earth visible behind him. Global illumination, 8k resolution.
+
+224. Geólogo de la frontera de hielo argumentando con maquetas de plastilina
+Prompt: Photorealistic RAW photo, captured on 35mm lens, f/1.8. Cinematic lighting. Foreground: an incredibly messy, terribly sculpted clay model of a flat earth surrounded by a white ice wall. Midground: an intense wild-haired theorist violently smashing the clay model onto a desk arguing with highly educated scientists. Background: an official incredibly prestigious university lecture hall laughing. Global illumination, 8k resolution.
+
+225. Experto en videos de Youtube narrados con voz de Loquendo asustadiza
+Prompt: Photorealistic RAW photo, captured on 35mm lens, f/1.8. Cinematic lighting. Foreground: a glowing creepy UFO thumbnail on a computer screen. Midground: an eccentric teenager creating incredibly strange conspiracy videos using a robotic monotone text-to-speech voice program in a dark room. Background: massive corkboards filled with red string connecting unrelated things. Global illumination, 8k resolution.
+
+226. Viuda falsa a sueldo gritando escandalosamente frente al ataúd
+Prompt: Photorealistic RAW photo, captured on 35mm lens, f/1.8. Cinematic lighting. Foreground: a black veil blowing dramatically hiding fake tears. Midground: a highly paid actress dressed perfectly in black silk violently throwing herself over an incredibly expensive wooden coffin screaming in extreme dramatic agony. Background: a completely confused uncomfortable crowd of actual relatives. Global illumination, 8k resolution.
+
+227. Dramaturga de desmayos escénicos perfectos y pañuelitos lagrimosos
+Prompt: Photorealistic RAW photo, captured on 35mm lens, f/1.8. Cinematic lighting. Foreground: an elegant white laced handkerchief catching completely fake stage tears. Midground: the fake widow executing a flawlessly choreographed dramatic fainting spell directly into the arms of the unsuspecting actual family members. Background: an incredibly solemn serious funeral service. Global illumination, 8k resolution.
+
+228. Catador de sanguchitos y café amargo colándose a velorios de incógnito
+Prompt: Photorealistic RAW photo, captured on 35mm lens, f/1.8. Cinematic lighting. Foreground: an overflowing plate of tiny gourmet sandwiches and black coffee. Midground: a sneaky incredibly satisfied man wearing a dark trenchcoat eating the free funeral food while pretending to be profoundly sad. Background: a depressing wake room with an open casket. Global illumination, 8k resolution.
+
+229. Tirador experto de pepas de durazno o aceituna a las gaviotas
+Prompt: Photorealistic RAW photo, captured on 35mm lens, f/1.8. Cinematic lighting. Foreground: a massive hard peach pit completely flying at supersonic bullet speed. Midground: a bored annoyed man sitting on a beach towel using an incredibly powerful slingshot to shoot fruit seeds at annoying seagulls trying to steal his lunch. Background: a sunny crowded beautiful beach. Global illumination, 8k resolution.
+
+230. Arquitecto de castillos de basura disimulados con arena de playa
+Prompt: Photorealistic RAW photo, captured on 35mm lens, f/1.8. Cinematic lighting. Foreground: an empty plastic bottle completely buried inside a beautifully crafted sandcastle tower. Midground: an incredibly lazy dad hiding all of his family's beach garbage by building an elaborate fake architectural ruin of sand over it. Background: endless blue ocean waves. Global illumination, 8k resolution.
+
+231. Atorador táctico de ductos y cañerías utilizando la semilla entera de la palta
+Prompt: Photorealistic RAW photo, captured on 35mm lens, f/1.8. Cinematic lighting. Foreground: a perfectly massive completely round giant avocado seed lodged incredibly tight inside a small white PVC pipe. Midground: an incredibly foolish cook desperately trying to hammer the giant invincible seed down the tiny kitchen sink drain drain violating all logic. Background: flooding aggressive soapy water bursting outwards. Global illumination, 8k resolution.

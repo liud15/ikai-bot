@@ -1,0 +1,161 @@
+# PROMPTS MAESTROS PARA ESCENARIOS / ZONAS (Nivel Dios - Hiperrealismo Fotográfico)
+# 
+# Instrucciones de uso avanzado para Qwen Image / DeepSeek / Nanobanana:
+# - Copia el "Prompt Positivo" en la primera caja de tu generador.
+# - Copia el "Prompt Negativo Base" en la caja de negativos (Aplica para todos los paisajes).
+# - OBLIGATORIO: Ajusta la resolución a formato horizontal 3:2 (ej. 1200x800 o similar).
+
+--- PROMPT NEGATIVO BASE (VÁLIDO PARA TODOS LOS LUGARES) ---
+(worst quality, low quality:1.4), text, signature, watermark, character, person, people, human, anime girl, anime boy, animal, blurry, out of focus, distorted architecture, bad perspective, cropped, framed, digital art, illustration, painting, cartoon, 3d render plastic, lowres
+
+==============================================================
+=== 🌳 BIOMAS DE BOSQUES Y FLORA =============================
+==============================================================
+
+1. Bosque de las Hadas
+Prompt: Photorealistic RAW photo, captured on 35mm lens, f/1.8. Cinematic lighting. Foreground: highly detailed glowing yellow pollen floating around damp mossy stones. Midground: a vibrant bioluminescent enchanted forest in cyan and magenta with massive ancient trees. Background: dense mystical mist obscuring the deep woods during blue hour. Global illumination, ray tracing, Unreal Engine 5, subtle film grain, chromatic aberration, 8k resolution. No digital art style, no painting effect, natural atmosphere.
+
+2. Arboleda de los Ents Dormidos
+Prompt: Photorealistic RAW photo, captured on 35mm lens, f/1.8. Cinematic lighting. Foreground: micro-details in thick green moss and wild ferns on a dirt path. Midground: ancient towering trees with natural melancholic human-like faces formed in the highly detailed bark. Background: shadowy dense forest canopy during overcast noon. Global illumination, ray tracing, octane render, subtle film grain, chromatic aberration, 8k resolution. No digital art style, no painting effect, natural atmosphere.
+
+3. Selva de Cristal Espina
+Prompt: Photorealistic RAW photo, captured on 35mm lens, f/1.8. Cinematic lighting. Foreground: razor-sharp translucent green and purple glass leaves reflecting light. Midground: a dense chaotic exotic jungle made entirely of highly reflective glass flora. Background: towering crystal vines catching the sunlight during golden hour. Global illumination, ray tracing, octane render, lens flare, subtle film grain, chromatic aberration, 8k resolution. No digital art style, no painting effect, natural atmosphere.
+
+4. Jardín de la Diosa Olvidada
+Prompt: Photorealistic RAW photo, captured on 35mm lens, f/1.8. Cinematic lighting. Foreground: extreme micro-details on perfectly blooming colorful wildflowers moving in the wind. Midground: a broken white marble statue of a goddess covered by natural vines on circular ruins. Background: eternal spring landscape under a bright blue sky during golden hour. Global illumination, ray tracing, octane render, lens flare, subtle film grain, chromatic aberration, 8k resolution. No digital art style, no painting effect, natural atmosphere.
+
+5. Valle de los Cerezos Eternos
+Prompt: Photorealistic RAW photo, captured on 35mm lens, f/1.8. Cinematic lighting. Foreground: soft pink cherry blossom petals resting on wet riverside rocks, long exposure water effect. Midground: thousands of Sakura trees in full bloom next to a gentle flowing river. Background: distant soft misty mountains during golden hour. Global illumination, ray tracing, lumen, subtle film grain, chromatic aberration, 8k resolution. No digital art style, no painting effect, natural atmosphere.
+
+==============================================================
+=== 🌊 BIOMAS ACUÁTICOS Y ABISALES ===========================
+==============================================================
+
+6. Lago de la Luna Reflejada
+Prompt: Photorealistic RAW photo, captured on 35mm lens, f/1.8. Cinematic lighting. Foreground: shallow water showing highly detailed smooth pebbles on the lakebed, long exposure. Midground: a massive perfectly crystal-clear lake acting as a flawless mirror. Background: a gigantic bright full moon and starry sky reflecting perfectly on the water during deep night. Global illumination, ray tracing, octane render, subtle film grain, chromatic aberration, 8k resolution. No digital art style, no painting effect, natural atmosphere.
+
+7. Abismo de Coral Negro
+Prompt: Photorealistic RAW photo, captured on 35mm lens, f/1.8. Cinematic lighting. Foreground: micro-details on porous black coral reef structures and deep sea snow floating. Midground: glowing neon blue and pink bioluminescent jellyfish illuminating the pitch black ocean trench. Background: endless dark abyssal depths with light caustics during deep midnight. Global illumination, ray tracing, Unreal Engine 5, subtle film grain, chromatic aberration, 8k resolution. No digital art style, no painting effect, natural atmosphere.
+
+8. Costa de los Naufragios Fantasma
+Prompt: Photorealistic RAW photo, captured on 35mm lens, f/1.8. Cinematic lighting. Foreground: long exposure dark water washing over wet highly detailed black sand and driftwood. Midground: hundreds of rotting wooden pirate ships half-sunken, emitting an eerie glowing cyan aura. Background: extremely thick ominous green mist rolling over the sea during twilight. Global illumination, ray tracing, lumen, subtle film grain, chromatic aberration, 8k resolution. No digital art style, no painting effect, natural atmosphere.
+
+9. Cascadas del Dragón de Agua
+Prompt: Photorealistic RAW photo, captured on 35mm lens, f/1.8. Cinematic lighting. Foreground: violent water splashing on detailed jagged wet rocks, long exposure. Midground: monumental majestic waterfalls flowing upwards off floating cliffs, defying gravity. Background: bright sunny sky with a massive rainbow formed in the mist during overcast noon. Global illumination, ray tracing, octane render, subtle film grain, chromatic aberration, 8k resolution. No digital art style, no painting effect, natural atmosphere.
+
+10. Pantano de los Lamentos
+Prompt: Photorealistic RAW photo, captured on 35mm lens, f/1.8. Cinematic lighting. Foreground: murky poisonous green water with highly detailed decaying roots and mud. Midground: dead crooked trees rising from the dark swamp with mysterious shadowy shapes lurking beneath. Background: extremely thick grey fog obscuring the horizon during blue hour. Global illumination, ray tracing, Unreal Engine 5, subtle film grain, chromatic aberration, 8k resolution. No digital art style, no painting effect, natural atmosphere.
+
+==============================================================
+=== ⛰️ BIOMAS MONTAÑOSOS Y AÉREOS ============================
+==============================================================
+
+11. Picos Rompecielos
+Prompt: Photorealistic RAW photo, captured on 35mm lens, f/1.8. Cinematic lighting. Foreground: highly detailed sharp rocky snow-covered ledge, shallow depth of field. Midground: incredibly high jagged mountain peaks physically tearing through a thick layer of clouds. Background: a vast sea of clouds illuminated by warm sunlight during golden hour. Global illumination, ray tracing, octane render, lens flare, subtle film grain, chromatic aberration, 8k resolution. No digital art style, no painting effect, natural atmosphere.
+
+12. Archipiélago Flotante de Aethel
+Prompt: Photorealistic RAW photo, captured on 35mm lens, f/1.8. Cinematic lighting. Foreground: lush green grass swaying in the wind on the edge of a floating island cliff. Midground: huge chunks of earth levitating mid-air with waterfalls pouring off the sides into the void. Background: endless blue sky with scattered majestic clouds during overcast noon. Global illumination, ray tracing, lumen, subtle film grain, chromatic aberration, 8k resolution. No digital art style, no painting effect, natural atmosphere.
+
+13. Cráter del Meteorito Arcano
+Prompt: Photorealistic RAW photo, captured on 35mm lens, f/1.8. Cinematic lighting. Foreground: hyper-detailed cracked dry earth glowing with deep purple magical energy lines. Midground: a colossal impact crater containing a massive glowing arcane crystal emitting a light pillar. Background: a dark dusty wasteland landscape illuminated by the magical crystal during twilight. Global illumination, ray tracing, Unreal Engine 5, lens flare, subtle film grain, chromatic aberration, 8k resolution. No digital art style, no painting effect, natural atmosphere.
+
+14. Nido del Pájaro del Trueno
+Prompt: Photorealistic RAW photo, captured on 35mm lens, f/1.8. Cinematic lighting. Foreground: highly detailed burnt black wooden logs forming a massive nest. Midground: the absolute highest peak of a jagged cruel mountain surrounded by electrical tension. Background: extremely violent dark thunderstorm clouds with multiple intense lightning strikes. Global illumination, ray tracing, octane render, subtle film grain, chromatic aberration, 8k resolution. No digital art style, no painting effect, natural atmosphere.
+
+15. Cordillera de Escarcha Eterna
+Prompt: Photorealistic RAW photo, captured on 35mm lens, f/1.8. Cinematic lighting. Foreground: micro-details in crystalline ice formations and blowing snow, shallow depth of field. Midground: massive brutal glaciers shaped like the sharp teeth of a dragon. Background: pure whiteout blizzard masking the distant frozen wasteland during overcast noon. Global illumination, ray tracing, lumen, subtle film grain, chromatic aberration, 8k resolution. No digital art style, no painting effect, natural atmosphere.
+
+==============================================================
+=== 🏜️ BIOMAS DESÉRTICOS Y YERMOS ============================
+==============================================================
+
+16. Desierto de las Cenizas Blancas
+Prompt: Photorealistic RAW photo, captured on 35mm lens, f/1.8. Cinematic lighting. Foreground: hyper-detailed fine pure white ash acting like sand. Midground: a vast infinite monochromatic desert covering the ancient ruins of a colossal skeleton. Background: a dead, entirely grey lifeless sky during overcast noon. Global illumination, ray tracing, octane render, subtle film grain, chromatic aberration, 8k resolution. No digital art style, no painting effect, natural atmosphere.
+
+17. Cañón de Huesos de Dragón
+Prompt: Photorealistic RAW photo, captured on 35mm lens, f/1.8. Cinematic lighting. Foreground: highly detailed dry cracked red earth and small fossilized bone fragments. Midground: a deep rocky canyon formed around the gargantuan petrified ribs of a leviathan dragon. Background: intense desert heat waves distorting the distant cliffs during golden hour. Global illumination, ray tracing, Unreal Engine 5, subtle film grain, chromatic aberration, 8k resolution. No digital art style, no painting effect, natural atmosphere.
+
+18. Mar de Dunas Carmesí
+Prompt: Photorealistic RAW photo, captured on 35mm lens, f/1.8. Cinematic lighting. Foreground: incredibly detailed wind-swept ripples in deep blood-red desert sand. Midground: massive rolling crimson sand dunes stretching across a scorching environment. Background: a vibrant burning orange sun setting heavily in the hazy sky during golden hour. Global illumination, ray tracing, octane render, lens flare, subtle film grain, chromatic aberration, 8k resolution. No digital art style, no painting effect, natural atmosphere.
+
+19. Oasis de los Espejismos
+Prompt: Photorealistic RAW photo, captured on 35mm lens, f/1.8. Cinematic lighting. Foreground: crystal clear glowing blue water on detailed wet sand, long exposure. Midground: a perfectly pristine magical desert oasis with slightly iridescent, holographic palm trees. Background: heat mirage distortion blurring the empty endless desert during intense noon. Global illumination, ray tracing, lumen, subtle film grain, chromatic aberration, 8k resolution. No digital art style, no painting effect, natural atmosphere.
+
+20. Páramo de Acero
+Prompt: Photorealistic RAW photo, captured on 35mm lens, f/1.8. Cinematic lighting. Foreground: extreme macro detail of heavy orange rust and decay on forgotten metal swords struck in the ground. Midground: a desolate grey wasteland completely covered in millions of ancient rusted spears and weapons. Background: a tragic gloomy dark cloudy sky signaling an incoming storm during twilight. Global illumination, ray tracing, octane render, subtle film grain, chromatic aberration, 8k resolution. No digital art style, no painting effect, natural atmosphere.
+
+==============================================================
+=== 🏛️ ESTRUCTURAS Y RUINAS ==================================
+==============================================================
+
+21. Academia Mágica en Ruinas
+Prompt: Photorealistic RAW photo, captured on 35mm lens, f/1.8. Cinematic lighting. Foreground: dust motes dancing in light rays above highly detailed broken marble floor tiles. Midground: a collapsed grand gothic magical library with thousands of glowing spell books floating in zero gravity. Background: massive destroyed bookshelves fading into the dark shadows of the library during blue hour. Global illumination, ray tracing, Unreal Engine 5, subtle film grain, chromatic aberration, 8k resolution. No digital art style, no painting effect, natural atmosphere.
+
+22. Torre del Reloj Roto
+Prompt: Photorealistic RAW photo, captured on 35mm lens, f/1.8. Cinematic lighting. Foreground: incredibly detailed brushed brass cogs, oil stains, and frozen pendulums. Midground: the gargantuan complex interior of a steampunk clock tower, mechanisms frozen in time. Background: magical golden light pouring through monumental cracked glass dials during golden hour. Global illumination, ray tracing, octane render, lens flare, subtle film grain, chromatic aberration, 8k resolution. No digital art style, no painting effect, natural atmosphere.
+
+23. Catacumbas del Rey Exánime
+Prompt: Photorealistic RAW photo, captured on 35mm lens, f/1.8. Cinematic lighting. Foreground: hyper-detailed cold dark stonework with thousands of human skulls embedded in the walls. Midground: a terrifying long underground crypt illuminated only by braziers burning with eerie cold blue fire. Background: deep oppressive pitch-black darkness swallowing the corridor. Global illumination, ray tracing, lumen, subtle film grain, chromatic aberration, 8k resolution. No digital art style, no painting effect, natural atmosphere.
+
+24. Ciudadela Mecánica Abandonada
+Prompt: Photorealistic RAW photo, captured on 35mm lens, f/1.8. Cinematic lighting. Foreground: micro-details on rusted iron pipes and copper valves venting thick white steam. Midground: an enormous deserted complex Victorian brass and steel city with automated machinery. Background: a heavy cloudy sky painted orange and purple during golden hour. Global illumination, ray tracing, octane render, subtle film grain, chromatic aberration, 8k resolution. No digital art style, no painting effect, natural atmosphere.
+
+25. Templo del Fin del Mundo
+Prompt: Photorealistic RAW photo, captured on 35mm lens, f/1.8. Cinematic lighting. Foreground: perfectly smooth pristine white marble stairs reflecting starlight. Midground: a flawless greek temple floating completely isolated in an infinite cosmic void. Background: a blindingly beautiful colorful starry nebula and glowing galaxies. Global illumination, ray tracing, Unreal Engine 5, subtle film grain, chromatic aberration, 8k resolution. No digital art style, no painting effect, natural atmosphere.
+
+==============================================================
+=== 🌌 DIMENSIONALES / SOBRENATURALES ========================
+==============================================================
+
+26. Dimensión de Cristal
+Prompt: Photorealistic RAW photo, captured on 35mm lens, f/1.8. Cinematic lighting. Foreground: hyper-realistic sharp geometric glass prisms refracting blinding rainbow light. Midground: an infinite empty space filled with enormous floating mirrors and crystal structures. Background: an abstract kaleidoscope of infinite optical reflections. Global illumination, ray tracing, octane render, lens flare, subtle film grain, chromatic aberration, 8k resolution. No digital art style, no painting effect, natural atmosphere.
+
+27. Mar de Nubes Invertido
+Prompt: Photorealistic RAW photo, captured on 35mm lens, f/1.8. Cinematic lighting. Foreground: highly detailed fluffy sunset clouds acting as a solid walkable ground, extreme realism. Midground: an upside-down surreal world where gravity is reversed. Background: the sky below is a deep blue starry night spanning endlessly. Global illumination, ray tracing, lumen, subtle film grain, chromatic aberration, 8k resolution. No digital art style, no painting effect, natural atmosphere.
+
+28. Reino de Purgatorio Sombrío
+Prompt: Photorealistic RAW photo, captured on 35mm lens, f/1.8. Cinematic lighting. Foreground: incredibly detailed shattered stone rubble on a desaturated grey floor. Midground: an entirely grayscale, black-and-white silent world with floating broken medieval architecture. Background: heavy, suffocating deep fog hiding the infinite void during overcast noon. Global illumination, ray tracing, Unreal Engine 5, subtle film grain, chromatic aberration, 8k resolution. No digital art style, no painting effect, natural atmosphere.
+
+29. Horizonte de Sucesos Místico
+Prompt: Photorealistic RAW photo, captured on 35mm lens, f/1.8. Cinematic lighting. Foreground: space rocks and debris being aggressively pulled, intense motion blur. Midground: the spiraling edge of a massive magical black hole pulling in the fabric of reality with a purple energy aura. Background: cosmic backdrop of stretched stars and extreme gravity distortion. Global illumination, ray tracing, octane render, lens flare, subtle film grain, chromatic aberration, 8k resolution. No digital art style, no painting effect, natural atmosphere.
+
+30. Santuario de la Memoria
+Prompt: Photorealistic RAW photo, captured on 35mm lens, f/1.8. Cinematic lighting. Foreground: perfect mirror reflection on a thin layer of highly detailed pristine water on the floor, long exposure. Midground: millions of glowing ethereal memory orbs floating inside an infinitely large grand hall. Background: soft golden divine light pouring from an unseen magnificent source during golden hour. Global illumination, ray tracing, lumen, subtle film grain, chromatic aberration, 8k resolution. No digital art style, no painting effect, natural atmosphere.
+
+==============================================================
+=== 🏙️ MUNDO HUMANO / URBANO FANTASÍA =======================
+==============================================================
+
+31. Callejón de los Yokai
+Prompt: Photorealistic RAW photo, captured on 35mm lens, f/1.8. Cinematic lighting. Foreground: highly detailed wet cobblestone street reflecting neon lights, shallow depth of field. Midground: a hidden dark cyberpunk Tokyo alleyway lit by traditional Japanese paper lanterns with eerie colored flames. Background: shadowy archaic magical shops vanishing into the misty night during blue hour. Global illumination, ray tracing, octane render, subtle film grain, chromatic aberration, 8k resolution. No digital art style, no painting effect, natural atmosphere.
+
+32. Mercado Negro Subterráneo
+Prompt: Photorealistic RAW photo, captured on 35mm lens, f/1.8. Cinematic lighting. Foreground: extreme detail on glowing magical potions and rugged dark artifacts on a wooden table. Midground: a dark claustrophobic labyrinth of underground dirt tunnels with makeshift tents and shady merchant stalls. Background: heavily blurred figures passing by in the murky shadows during twilight. Global illumination, ray tracing, Unreal Engine 5, subtle film grain, chromatic aberration, 8k resolution. No digital art style, no painting effect, natural atmosphere.
+
+33. Estación de Trenes Espiritual
+Prompt: Photorealistic RAW photo, captured on 35mm lens, f/1.8. Cinematic lighting. Foreground: highly detailed vintage wooden train platform edge meeting calm endless ocean water, long exposure. Midground: an archaic Victorian train station entirely surrounded by water, decorated with beautiful glowing lanterns. Background: extremely thick ghostly white sea fog obscuring the horizon during blue hour. Global illumination, ray tracing, lumen, subtle film grain, chromatic aberration, 8k resolution. No digital art style, no painting effect, natural atmosphere.
+
+34. Barrio Gótico Inundado
+Prompt: Photorealistic RAW photo, captured on 35mm lens, f/1.8. Cinematic lighting. Foreground: dark ocean water splashing violently against the carved stone of an ancient gargoyle statue, long exposure. Midground: a submerged Victorian gothic city, with only the spires and roofs of cathedrals above the water level. Background: a grim dark stormy sky with heavy rain falling. Global illumination, ray tracing, octane render, subtle film grain, chromatic aberration, 8k resolution. No digital art style, no painting effect, natural atmosphere.
+
+35. Castillo Flotante del Gremio
+Prompt: Photorealistic RAW photo, captured on 35mm lens, f/1.8. Cinematic lighting. Foreground: macro details of thick hemp ropes, distressed wood, and flapping canvas flags. Midground: an immense pirate-like floating base built from cobbled-together iron ships and balloons flying high above the clouds. Background: a brilliant bright blue sky with majestic cumulonimbus clouds during golden hour. Global illumination, ray tracing, lumen, subtle film grain, chromatic aberration, 8k resolution. No digital art style, no painting effect, natural atmosphere.
+
+==============================================================
+=== 🪨 SUBTERRÁNEOS Y CUARTELES ==============================
+==============================================================
+
+36. Mina del Resplandor Dorado
+Prompt: Photorealistic RAW photo, captured on 35mm lens, f/1.8. Cinematic lighting. Foreground: hyper-detailed rocky mine floor with wooden support beams and raw gold dust scattered. Midground: a complex underground dwarven tunnel completely saturated with massive glowing yellow magical crystals. Background: the glowing mine tunnel descending deeper into darkness. Global illumination, ray tracing, Unreal Engine 5, lens flare, subtle film grain, chromatic aberration, 8k resolution. No digital art style, no painting effect, natural atmosphere.
+
+37. Prisión Tártaro
+Prompt: Photorealistic RAW photo, captured on 35mm lens, f/1.8. Cinematic lighting. Foreground: extremely detailed thick rusted iron chains hanging precariously over a sheer cliff face. Midground: a bottomless dark cylindrical stone abyss lined with hundreds of small terrifying carved prison cells. Background: oppressive suffocating darkness that swallows all light in the deep pit. Global illumination, ray tracing, octane render, subtle film grain, chromatic aberration, 8k resolution. No digital art style, no painting effect, natural atmosphere.
+
+38. Coliseo Sangriento
+Prompt: Photorealistic RAW photo, captured on 35mm lens, f/1.8. Cinematic lighting. Foreground: micro-details of dark reddish stained sand and broken rusted gladiator swords abandoned in the dirt. Midground: an ancient massive Roman-style gladiatorial arena built for giants in a state of ruin. Background: intense afternoon sunlight casting dramatic hard diagonal shadows through the ruined arches during golden hour. Global illumination, ray tracing, lumen, subtle film grain, chromatic aberration, 8k resolution. No digital art style, no painting effect, natural atmosphere.
+
+39. Laberinto del Minotauro
+Prompt: Photorealistic RAW photo, captured on 35mm lens, f/1.8. Cinematic lighting. Foreground: hyper-detailed thick muddy ground with terrifyingly sharp green thorns creeping in. Midground: an endless terrifying maze constructed of impossibly tall, dense dark thorny hedges. Background: pitch black sky contrasting against thick ground-level fog during midnight. Global illumination, ray tracing, Unreal Engine 5, subtle film grain, chromatic aberration, 8k resolution. No digital art style, no painting effect, natural atmosphere.
+
+40. Cámara de las Almas Resonantes
+Prompt: Photorealistic RAW photo, captured on 35mm lens, f/1.8. Cinematic lighting. Foreground: incredible metallic reflections showing every scratch on heavy bronze and golden hanging bells. Midground: a colossal empty vaulted chamber made of polished silver stone filled with thousands of hanging bells. Background: soft mystical divine light shining down from a vast dark ceiling. Global illumination, ray tracing, octane render, subtle film grain, chromatic aberration, 8k resolution. No digital art style, no painting effect, natural atmosphere.

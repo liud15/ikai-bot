@@ -1,0 +1,190 @@
+# PROMPTS MAESTROS PARA TRABAJOS (Nivel Dios - Hiperrealismo Fotográfico Humorístico)
+#
+# Instrucciones de uso avanzado para Qwen Image / DeepSeek / Midjourney:
+# - Copia el "Prompt Positivo" en la primera caja de tu generador.
+# - Copia el "Prompt Negativo Base" en la caja de negativos (Aplica para todos los trabajos).
+# - Te recomiendo resolución horizontal 16:9 (ej. 1920x1080) para que el thumbnail se vea extendido y épico.
+
+--- PROMPT NEGATIVO BASE (VÁLIDO PARA TODOS LOS TRABAJOS) ---
+(worst quality, low quality:1.4), text, signature, watermark, multiple heads, mutated, deformed, bad anatomy, poorly drawn face, anime girl, anime boy, extra limbs, extra fingers, digital art, flat illustration, painting, cartoon, 3d render plastic, lowres, boring
+
+==============================================================
+=== 🏗️ INGENIERÍA Y CONSTRUCCIÓN ============================
+==============================================================
+
+1. Supervisor aerodinámico de esteras para evitar que vuelen en invierno
+Prompt: Photorealistic RAW photo, captured on 35mm lens, f/1.8. Cinematic lighting. Foreground: hyper-detailed woven reed mats (esteras) flapping violently in strong wind. Midground: a serious Peruvian construction worker wearing a dirty yellow hardhat, holding down the reed mats with an intense, heroic expression, fighting a storm. Background: moody, cloudy winter sky over a vast shantytown on a steep hill (cerro). Global illumination, ray tracing, grit and dirt on face, dramatic lighting, subtle film grain, 8k resolution. No digital art style, humorous but epic realism.
+
+2. Arquitecto de invasiones de cerros en temporada de elecciones
+Prompt: Photorealistic RAW photo, captured on 35mm lens, f/1.8. Cinematic lighting. Foreground: detailed blueprint papers covered in dirt and white chalk lines on dry earth. Midground: a smug architect in a cheap suit and yellow hardhat, pointing aggressively at a barren rocky steep hill. Background: hundreds of tiny wooden stakes with flags planted across the sandy hill under a blinding midday sun. Global illumination, octane render, lens flare, subtle film grain, 8k resolution. No digital art style, humorous realism.
+
+3. Especialista acústico de lluvia sobre chapa de lata (evaluador de ruido para dormir)
+Prompt: Photorealistic RAW photo, captured on 35mm lens, f/1.8. Cinematic lighting. Foreground: macro shot of massive rain drops hitting a rusted corrugated tin roof, water splashing. Midground: a tired man wearing professional gaming headphones, lying on a cheap mattress directly under the tin roof, looking stressed with giant bags under his eyes. Background: a tiny dimly lit room with a single flickering lightbulb during a heavy storm. Global illumination, ray tracing, moody atmosphere, subtle film grain, 8k resolution.
+
+4. Inversor de riesgo en peleas de gallos clandestinas
+Prompt: Photorealistic RAW photo, captured on 35mm lens, f/1.8. Cinematic lighting. Foreground: sharp focus on handfuls of wrinkled currency bills being aggressively slammed onto a wooden table. Midground: a sweaty, intense man wearing a fedora hat and gold chains, yelling with a vein popping on his forehead. Background: out-of-focus crowd of people in a dark, dusty, underground arena illuminated by a single harsh overhead spotlight. Global illumination, ray tracing, high contrast, subtle film grain, 8k resolution.
+
+5. Analista Senior "all-in" en módulos de Te Apuesto
+Prompt: Photorealistic RAW photo, captured on 35mm lens, f/1.8. Cinematic lighting. Foreground: dozens of crumpled printed betting tickets and a half-empty cup of cheap coffee. Midground: a crazy-looking guy with messy hair staring intensely with wide eyes at a glowing sports betting terminal screen. Background: a brightly lit, sterile betting shop with multiple TVs showing football matches. Global illumination, octane render, screen reflection on face, subtle film grain, 8k resolution.
+
+6. Asesor financiero de ludópatas en tragamonedas de a luca del mercado
+Prompt: Photorealistic RAW photo, captured on 35mm lens, f/1.8. Cinematic lighting. Foreground: a mountain of shiny silver coins reflecting neon lights. Midground: a "financial advisor" wearing a cheap oversized oversized suit, holding a calculator and whispering conspiratorially into the ear of a desperate person playing a rusty slot machine. Background: a dark, dingy market alley barely lit by the flashing lights of cheap fruit machines. Global illumination, ray tracing, neon glow, subtle film grain, 8k resolution.
+
+7. Carpintero de metales pesados e ilusiones rotas
+Prompt: Photorealistic RAW photo, captured on 35mm lens, f/1.8. Cinematic lighting. Foreground: bright orange sparks from an angle grinder flying intensely towards the camera. Midground: a tough, bearded carpenter aggressively sawing a solid iron I-beam with a wooden hand saw, looking frustrated and muscular. Background: a messy, dusty woodshop filled with scrap metal and broken wooden chairs. Global illumination, ray tracing, high contrast, atmospheric dust, subtle film grain, 8k resolution.
+
+8. Ensamblador de muebles de trupán usando soplete y cinta scotch
+Prompt: Photorealistic RAW photo, captured on 35mm lens, f/1.8. Cinematic lighting. Foreground: hyper-detailed roll of clear scotch tape and a roaring blue blowtorch flame. Midground: a confused handyman trying to fix a collapsing, cheap flat-pack wooden wardrobe using only the blowtorch and masking tape, sweat on his forehead. Background: a messy living room with screws scattered everywhere. Global illumination, octane render, comedic timing, sharp focus, subtle film grain, 8k resolution.
+
+9. Vulcanizador de puertas apolilladas y sillas cojas
+Prompt: Photorealistic RAW photo, captured on 35mm lens, f/1.8. Cinematic lighting. Foreground: a steaming hot vulcanizing iron pressing down on a piece of rotten wood. Midground: a mechanic in a grease-stained overall attempting to inflate a wooden chair leg with an air compressor pump like it's a car tire. Background: a roadside tire repair shop (llantería) with tires stacked up under the hot sun. Global illumination, ray tracing, gritty realism, humorous concept, subtle film grain, 8k resolution.
+
+10. Arquitecto de pirámides rojas en juergas universitarias
+Prompt: Photorealistic RAW photo, captured on 35mm lens, f/1.8. Cinematic lighting. Foreground: a towering, perfectly balanced pyramid made of hundreds of shiny red plastic cups. Midground: a serious university student wearing geometric glasses, using a ruler and a compass to measure the exact distance to place the next red cup, treating it like a masterpiece. Background: a chaotic, out-of-focus college party with neon lights and dancing people. Global illumination, ray tracing, shallow depth of field, subtle film grain, 8k resolution.
+
+11. Ingeniero estructural de torres de "Copa Chela" a las 3 AM
+Prompt: Photorealistic RAW photo, captured on 35mm lens, f/1.8. Cinematic lighting. Foreground: highly detailed glass condensation on empty beer bottles stacked precariously high. Midground: a drunk but intensely focused man using a leveler tool on a massive, unstable tower made entirely of empty 1-liter brown beer bottles on a sticky table. Background: a dark, smoke-filled local bar at 3 AM. Global illumination, octane render, dramatic shadows, realistic reflections, 8k resolution.
+
+12. Perito en demolición y recojo de vasitos plásticos post-tono
+Prompt: Photorealistic RAW photo, captured on 35mm lens, f/1.8. Cinematic lighting. Foreground: crushed red plastic cups and spilled dark liquid on a sticky tile floor. Midground: a completely exhausted person wearing professional SWAT bomb-defusal gear, carefully picking up a single plastic cup with tactical tongs. Background: the devastating aftermath of a wild party in a destroyed living room, golden morning sunlight creeping through the window. Global illumination, ray tracing, cinematic dawn lighting, subtle film grain, 8k resolution.
+
+13. Especialista en chapa y pintura de Optimus Prime en la Av. Grau
+Prompt: Photorealistic RAW photo, captured on 35mm lens, f/1.8. Cinematic lighting. Foreground: hyper-detailed spray paint can spraying bright glossy red paint. Midground: a mechanic wearing a breathing mask, painting the massive metallic leg of Optimus Prime, which is parked alongside broken cars. The giant leg has a tribal fire decal on it. Background: a chaotic, dirty automotive street market in Latin America (Av. Grau), lots of car parts hanging. Global illumination, ray tracing, grit and grime, metal reflections, 8k resolution.
+
+14. Técnico en resurrección de micros interprovinciales que se creen robots
+Prompt: Photorealistic RAW photo, captured on 35mm lens, f/1.8. Cinematic lighting. Foreground: a tangled mess of glowing 12-volt wires and rusty engine parts. Midground: an old, colorful Peruvian bus (micro) that is halfway transforming into a giant rusty robot, wires sparking. A mechanic is banging its knee with a large wrench. Background: a dusty, oil-stained garage lot under an overcast sky. Global illumination, ray tracing, detailed rust textures, cyberpunk vibes, 8k resolution.
+
+15. Ensamblador de mototaxis modelo Decepticon con parlantes de discoteca
+Prompt: Photorealistic RAW photo, captured on 35mm lens, f/1.8. Cinematic lighting. Foreground: massive custom subwoofers with glowing purple LED lights vibrating intensely. Midground: a futuristic, evil-looking three-wheeled auto-rickshaw (mototaxi) covered in sharp black armor spikes and purple neon. A proud mechanic stands next to it folding his arms. Background: a dark street illuminated entirely by the neon glow of the vehicle. Global illumination, octane render, cyberpunk aesthetic, subtle film grain, 8k resolution.
+
+16. Chofer de Fórmula 1 en la Tía Veneno
+Prompt: Photorealistic RAW photo, captured on 35mm lens, f/1.8. Cinematic lighting. Foreground: a flaming grill cooking greasy hamburgers with smoke billowing out. Midground: a street food vendor wearing a professional red Formula 1 racing helmet and fireproof suit, aggressively flipping burgers at hyper-speed on his metal cart. Background: a busy street at night with light trails from fast-moving cars. Global illumination, ray tracing, motion blur on the background, epic realism, 8k resolution.
+
+17. Especialista en evasión de fiscalizadores y serenazgo a máxima velocidad
+Prompt: Photorealistic RAW photo, captured on 35mm lens, f/1.8. Cinematic lighting. Foreground: wooden wheels of a street food cart lifting off the ground as it takes a sharp turn, sparks flying. Midground: a vendor running incredibly fast, pushing a cart overflowing with cooking oil, dodging an out-of-focus municipal security truck with flashing blue lights. Background: motion-blurred city streets at night. Global illumination, octane render, high-speed action shot, gritty, 8k resolution.
+
+18. Distribuidor logístico de rachi y pancita en horas punta
+Prompt: Photorealistic RAW photo, captured on 35mm lens, f/1.8. Cinematic lighting. Foreground: hyper-detailed grilled meat skewers dripping fat over burning coals. Midground: a vendor looking like a military tactician, looking at a smartwatch while simultaneously handing out 10 plates of food to a massive, hungry crowd in business suits. Background: the chaos of a downtown busy financial district during rush hour. Global illumination, ray tracing, warm fire lighting, 8k resolution.
+
+19. Contratista y traficante de lotes en Marte
+Prompt: Photorealistic RAW photo, captured on 35mm lens, f/1.8. Cinematic lighting. Foreground: sharp focus on red Martian dust blowing over a cheap wooden "FOR SALE" sign written in Spanish. Midground: an arrogant real estate agent in a cheap shiny suit wearing a space helmet, pointing to a barren stretch of red rocks on Mars like it's a luxury property. Background: the vast, red Martian landscape with two moons in the sky. Global illumination, ray tracing, cinematic space lighting, 8k resolution.
+
+20. Diseñador de interiores de esteras espaciales con gravedad cero
+Prompt: Photorealistic RAW photo, captured on 35mm lens, f/1.8. Cinematic lighting. Foreground: floating woven reed mats (esteras) and corrugated tin sheets floating weightlessly. Midground: an interior designer in a spacesuit arranging a floating plastic chair and a hanging bulb inside a zero-gravity shanty house in deep space. Background: the pitch-black void of space through a makeshift window, showing planet Earth in the distance. Global illumination, octane render, surreal realism, 8k resolution.
+
+==============================================================
+=== 🏥 CIENCIAS DE LA SALUD Y ESPIRITUALES ===================
+==============================================================
+
+21. Antenista de Movistar camuflado de enfermero del MINSA
+Prompt: Photorealistic RAW photo, captured on 35mm lens, f/1.8. Cinematic lighting. Foreground: a medical syringe that has a tiny microchip and a glowing green Wi-Fi antenna inside it. Midground: a suspicious nurse wearing a hospital uniform over a blue telecom company shirt, adjusting a satellite dish on a patient's head instead of taking his temperature. Background: a run-down, poorly lit local medical post. Global illumination, ray tracing, humorous cyberpunk, subtle film grain, 8k resolution.
+
+22. Evaluador de tamales mal amarrados
+Prompt: Photorealistic RAW photo, captured on 35mm lens, f/1.8. Cinematic lighting. Foreground: a steaming hot Andean tamal wrapped in corn husks that is tragically splitting open, spilling corn dough. Midground: an intense surgeon in green scrubs wearing magnifying loupes, holding surgical forceps and a medical needle, delicately trying to suture the broken tamal leaf back together. Background: a sterile, bright operating room with surgical lights. Global illumination, ray tracing, macro focus on the food surgery, 8k resolution.
+
+23. Cirujano de T-Rex de feria a un sol
+Prompt: Photorealistic RAW photo, captured on 35mm lens, f/1.8. Cinematic lighting. Foreground: highly detailed cheap green plastic, hollow inside, showing mold lines. Midground: a serious veterinarian performing life-saving surgery on a small, cheap plastic toy T-Rex with a missing leg, using superglue and tweezers. Background: a dark desk illuminated by a single intense surgical desk lamp. Global illumination, ray tracing, hilarious contrast of scale and seriousness, 8k resolution.
+
+24. Ortodoncista de aves de pelea mutantes
+Prompt: Photorealistic RAW photo, captured on 35mm lens, f/1.8. Cinematic lighting. Foreground: metal braces and tiny rubber bands attached to a large, scary beak. Midground: a brave dentist wearing protective goggles and thick leather gloves, installing braces on a gigantic, aggressive, mutated rooster that emits a faint green radioactive glow. Background: a sterile dental office. Global illumination, octane render, neon glow reflecting on metal, 8k resolution.
+
+25. Sommelier de agua empozada en baches de pista
+Prompt: Photorealistic RAW photo, captured on 35mm lens, f/1.8. Cinematic lighting. Foreground: a crystal-clear elegant wine glass filled with murky brown mud water. Midground: a high-class, snobby sommelier in a tuxedo, kneeling on the dirty street asphalt, delicately smelling a massive, rainwater-filled pothole (bache) with an expression of tasting fine wine. Background: a ruined city street during a rainy night with blurred car headlights. Global illumination, ray tracing, reflection on the puddle, 8k resolution.
+
+26. Cupido logístico de auquénidos
+Prompt: Photorealistic RAW photo, captured on 35mm lens, f/1.8. Cinematic lighting. Foreground: a detailed arrow with a suction cup tip instead of an arrowhead, painted pink. Midground: a worker in the high Andes wearing an angelic halo, pushing two grumpy-looking llamas together to make them kiss. Background: majestic, breathtaking view of the snowy Andes mountains under a bright blue sky. Global illumination, ray tracing, natural light, epic landscape, 8k resolution.
+
+27. Tasador de dientes de leche en el mercado negro de la magia
+Prompt: Photorealistic RAW photo, captured on 35mm lens, f/1.8. Cinematic lighting. Foreground: a small human baby tooth resting on a black velvet cloth, glowing faintly under a magnifying glass. Midground: a shady, mystical pawnbroker with a jeweler's loupe attached to his eye, examining the tooth in a dark, candlelit room filled with strange artifacts. Background: dusty shelves with glowing potions and old coins. Global illumination, octane render, mysterious atmosphere, 8k resolution.
+
+28. Controlador de chibolos que gritan en partidas de Dota
+Prompt: Photorealistic RAW photo, captured on 35mm lens, f/1.8. Cinematic lighting. Foreground: a smashed, glowing gaming keyboard missing several keys. Midground: a desperately exhausted nanny/babysitter wearing noise-canceling earmuffs, holding a ruler, standing behind an angry 12-year-old kid who is aggressively screaming at a glowing computer screen. Background: a dark, smelly internet cafe (cabina) filled with glowing monitors. Global illumination, ray tracing, neon monitor lighting, 8k resolution.
+
+29. Jinete de cobayas gigantes de tómbola
+Prompt: Photorealistic RAW photo, captured on 35mm lens, f/1.8. Cinematic lighting. Foreground: dirt and sawdust flying from massive paws. Midground: a tiny, fearless jockey in racing gear riding a gigantic, fluffy, aggressive guinea pig (cuy) the size of a horse. Background: an underground race track surrounded by cheering crowds placing bets. Global illumination, ray tracing, intense action, motion blur on background, 8k resolution.
+
+==============================================================
+=== 💼 NEGOCIOS, ADMINISTRACIÓN Y REDES ======================
+==============================================================
+
+30. Gerente de saltarines oxidados de feria de pueblo
+Prompt: Photorealistic RAW photo, captured on 35mm lens, f/1.8. Cinematic lighting. Foreground: heavily detailed rusted springs and torn faded colorful vinyl fabric. Midground: a depressed "CEO" wearing an oversized suit, standing proudly with arms crossed in front of a completely deflated, sad-looking bouncy castle shaped like a deranged clown. Background: a dusty, empty dirt field in a village under a bleak grey sky. Global illumination, ray tracing, melancholic humor, 8k resolution.
+
+31. Especialista en racionamiento extremo de papel higiénico (dos cuadritos exactos)
+Prompt: Photorealistic RAW photo, captured on 35mm lens, f/1.8. Cinematic lighting. Foreground: exactly two perfect squares of cheap, rough toilet paper clamped in precision tweezers. Midground: a stern, military-looking guard in a tuxedo standing fiercely in front of a dirty public restroom door, holding the tweezers like a priceless artifact. Background: dingy tiles of a marketplace bathroom. Global illumination, ray tracing, dramatic lighting on the toilet paper, 8k resolution.
+
+32. Matemático que cobra 100% de interés en tazos de Pokémon brillantes
+Prompt: Photorealistic RAW photo, captured on 35mm lens, f/1.8. Cinematic lighting. Foreground: a pile of shiny, holographic retro Pokémon Tazos reflecting light sharply. Midground: a kid dressed like a mafia boss (suit, sunglasses) sitting at a school desk, using a calculator and pointing a wooden ruler threateningly at a crying classmate to collect his debt. Background: an out-of-focus elementary school classroom. Global illumination, ray tracing, intense dramatic lighting, 8k resolution.
+
+33. Técnico reiniciador de routers golpeándolos contra la mesa
+Prompt: Photorealistic RAW photo, captured on 35mm lens, f/1.8. Cinematic lighting. Foreground: a cheap, dusty plastic internet router violently smashing against a wooden desk, plastic pieces flying. Midground: an angry IT technician in an internet cafe raising the router high above his head like a caveman using a club to fix the internet connection. Background: rows of angry gamers sitting at computers screaming. Global illumination, ray tracing, action shot, motion blur, 8k resolution.
+
+34. Sommelier de bebidas rehidratantes preparadas con ron de quemar
+Prompt: Photorealistic RAW photo, captured on 35mm lens, f/1.8. Cinematic lighting. Foreground: a crystal wine glass filled with bright neon blue sports drink mixed with bubbling liquid. Midground: a sophisticated gentleman in a tuxedo swirling the neon blue liquid in an alleyway, doing an elegant wine tasting gesture while a street dog watches him in confusion. Background: graffiti-covered brick walls in a slum at night. Global illumination, octane render, neon reflections, 8k resolution.
+
+35. Representante de avatares anime con 2 espectadores en Twitch
+Prompt: Photorealistic RAW photo, captured on 35mm lens, f/1.8. Cinematic lighting. Foreground: an empty pizza box and an ash tray next to a glowing keyboard. Midground: an exhausted, unkempt manager looking devastated at three monitors. On the screen, a colorful energetic 3D anime VTuber girl is smiling broadly, while the viewer count shows a giant red "1". Background: a dark, messy bedroom bathed in the blue light of the monitors. Global illumination, ray tracing, moody atmosphere, 8k resolution.
+
+36. Panadero nocturno en horno de ladrillos mágicos radiactivos
+Prompt: Photorealistic RAW photo, captured on 35mm lens, f/1.8. Cinematic lighting. Foreground: a traditional Peruvian panetón (sweet bread) that is glowing with intense, neon green radioactive light. Midground: a baker wearing a heavy lead hazmat suit over his apron, carefully using a wooden peel to extract the glowing bread from an ancient brick oven that emits green flames. Background: a dark bakery at midnight. Global illumination, octane render, intense neon green lighting, 8k resolution.
+
+37. Creador de excusas competitivas ("gg, me lagué")
+Prompt: Photorealistic RAW photo, captured on 35mm lens, f/1.8. Cinematic lighting. Foreground: a computer screen showing a bright red "DEFEAT" sign in a video game. Midground: a sweaty, extremely stressed gamer grabbing his hair in despair, while pulling a yellow LAN cable completely out of the wall with his foot to fake an internet crash. Background: a dark gaming room lit by RGB lights. Global illumination, ray tracing, emotional intensity, 8k resolution.
+
+38. Cirujano avícola de alta velocidad en el mercado central
+Prompt: Photorealistic RAW photo, captured on 35mm lens, f/1.8. Cinematic lighting. Foreground: hyper-detailed yellow feathers flying through the air like snow. Midground: a vendor in a white apron moving his hands so fast they are a blurry vortex, plucking a raw chicken at lightning speed in a crowded food market. Background: cinematic out-of-focus marketplace crowd and hanging meat under naked lightbulbs. Global illumination, ray tracing, intense motion blur on hands, 8k resolution.
+
+39. Intérprete de mugidos de estrés en vacas que no quieren dar leche
+Prompt: Photorealistic RAW photo, captured on 35mm lens, f/1.8. Cinematic lighting. Foreground: a leather psychologist's couch sitting in the middle of a muddy farm field. Midground: a cow wearing giant fashionable reading glasses lying on the couch looking severely depressed. Next to it, a doctor with a clipboard is nodding sympathetically taking notes. Background: rolling green hills under an overcast sky. Global illumination, ray tracing, surreal humor, 8k resolution.
+
+40. Gobernador absoluto del chat de apoderados del colegio
+Prompt: Photorealistic RAW photo, captured on 35mm lens, f/1.8. Cinematic lighting. Foreground: a smartphone screen displaying a WhatsApp chat filled with angry messages and mom emojis. Midground: an evil-looking woman dressed like a medieval queen with a plastic crown, sitting on a toilet holding the phone, pressing a giant red "BAN" button on the screen with an evil smile. Background: a normal, slightly messy bathroom. Global illumination, ray tracing, dramatic lighting from the phone screen, 8k resolution.
+
+41. Especulador pobre esperando que el Dogecoin lo saque del barrio
+Prompt: Photorealistic RAW photo, captured on 35mm lens, f/1.8. Cinematic lighting. Foreground: a rusty, dusty old laptop displaying a tiny golden dogecoin coin graphic going straight down on a red chart. Midground: a guy sitting on a flipped paint bucket in an unfinished brick room with no plaster, wearing a fake gold watch, staring at the screen with tears of desperation in his eyes. Background: exposed red bricks and cement blocks. Global illumination, ray tracing, gritty realism, 8k resolution.
+
+42. Degustador experto de hamburguesas a sol con papas rancias
+Prompt: Photorealistic RAW photo, captured on 35mm lens, f/1.8. Cinematic lighting. Foreground: a highly detailed, incredibly greasy, dubious looking burger dripping yellow mayonnaise. Midground: a man dressed as a Michelin-star food critic tying a napkin around his neck, looking at a dirty street food cart (Tía Veneno) like it's a 5-star restaurant. He holds a magnifying glass over the grey meat. Background: busy night street corner with neon signs. Global illumination, ray tracing, humorous contrast, 8k resolution.
+
+43. Falsificador de partidas registrales extraterrestres de SUNARP
+Prompt: Photorealistic RAW photo, captured on 35mm lens, f/1.8. Cinematic lighting. Foreground: an official-looking document stamped with "PROPIEDAD EN MARTE" in Spanish, but written over a napkin. Midground: a shady bureaucrat in a dingy office printing out fake land deeds for the Moon and Mars using an ancient, jammed inkjet printer. Background: stacks of dusty paper and a poster of an alien in a business suit. Global illumination, ray tracing, 8k resolution.
+
+==============================================================
+=== 🎭 CIENCIAS HUMANAS Y PSICOLOGÍA =========================
+==============================================================
+
+44. Experto en pagar con una moneda de 20 céntimos borrosa y camuflada
+Prompt: Photorealistic RAW photo, captured on 35mm lens, f/1.8. Cinematic lighting. Foreground: macro shot of two fingers holding an incredibly smooth, completely smoothed-out, unrecognizable featureless metal coin. Midground: a nervous passenger sneaking the fake coin into the hand of an intimidating bus conductor (cobrador de combi) while looking the other way. Background: the crowded, claustrophobic inside of a moving Peruvian public bus. Global illumination, ray tracing, shallow depth of field, 8k resolution.
+
+45. Abogado de patentes de grageas de colores y miel de chancaca
+Prompt: Photorealistic RAW photo, captured on 35mm lens, f/1.8. Cinematic lighting. Foreground: a massive slice of sticky, colorful Peruvian Turrón de Doña Pepa sitting on a wooden desk. Midground: a serious lawyer in a suit dramatically slamming a thick legal document on the desk to claim copyright ownership of the colorful candy sprinkles. Background: an office with towering stacks of legal books. Global illumination, ray tracing, serious tone vs silly subject, 8k resolution.
+
+46. Doble de riesgo bajando un cerro en mototaxi sin frenos
+Prompt: Photorealistic RAW photo, captured on 35mm lens, f/1.8. Cinematic lighting. Foreground: sparks flying off the completely destroyed, smoking brake pads of a three-wheeled auto-rickshaw. Midground: the mototaxi flying mid-air down a terrifyingly steep, unpaved hill (cerro) while the driver is screaming in absolute terror, steering wheel detached in his hands. Background: the sprawling slums of Lima far below. Global illumination, ray tracing, extreme action blur, epic, 8k resolution.
+
+47. Experto en "ir a comprar cigarros a la tienda" y no volver jamás
+Prompt: Photorealistic RAW photo, captured on 35mm lens, f/1.8. Cinematic lighting. Foreground: an empty pack of cigarettes dropped on a dark, wet sidewalk. Midground: the silhouette of a man walking away down a long, foggy, empty street under a flickering yellow streetlamp, carrying a tiny suitcase. He is stepping into a portal of thick mist. Background: deep fog and mystery. Global illumination, ray tracing, noir atmosphere, melancholic humor, 8k resolution.
+
+48. Redactor de Fanfics románticos entre Sideral y Gokú
+Prompt: Photorealistic RAW photo, captured on 35mm lens, f/1.8. Cinematic lighting. Foreground: a glowing laptop screen showing absurd, badly spelled romantic fanfiction text. Midground: an obsessive, crazy-looking person with messy hair furiously typing on the keyboard in a dark room. Posters of Dragon Ball Z and random internet memes cover the walls. Background: heavy clutter, empty energy drink cans. Global illumination, ray tracing, blue screen glow, 8k resolution.
+
+49. Juez supremo de la moral, fiscal y verdugo en hilos de Twitter (X)
+Prompt: Photorealistic RAW photo, captured on 35mm lens, f/1.8. Cinematic lighting. Foreground: a smartphone screen displaying the Twitter/X logo glowing menacingly. Midground: a teenager sitting on a toilet holding the phone, dressed as a medieval executioner with a black hood, pointing an accusatory finger at reality. Background: toilet paper and bathroom tiles bathed in dark, moody cinematic light. Global illumination, ray tracing, 8k resolution.
+
+50. Doble de riesgo sin seguro médico ni dignidad (Retos de TikTok)
+Prompt: Photorealistic RAW photo, captured on 35mm lens, f/1.8. Cinematic lighting. Foreground: a smartphone on a tripod recording a video. Midground: a foolish teenager slipping backward on a staircase covered in liquid soap, frozen mid-air milliseconds before a painful crash, with a panicked expression. Background: a normal suburban house. Global illumination, ray tracing, high shutter speed, frozen action, 8k resolution.
+
+51. El amigo que siempre hace de "violín" aguantando velitas
+Prompt: Photorealistic RAW photo, captured on 35mm lens, f/1.8. Cinematic lighting. Foreground: an actual lit wax candle melting onto a plate. Midground: a deeply depressed third guy sitting alone at a tiny restaurant table, literally holding a candle, while completely ignoring the couple passionately making out right next to him. Background: a romantic, expensive Italian restaurant with dim lighting. Global illumination, ray tracing, harsh reality vs romance, 8k resolution.
+
+52. Analista de likes sospechosos en fotos de bikini en Instagram
+Prompt: Photorealistic RAW photo, captured on 35mm lens, f/1.8. Cinematic lighting. Foreground: a magnifying glass held extremely close to a smartphone screen glowing brightly. Midground: a paranoid girlfriend wearing a trench coat and sunglasses indoors, investigating her boyfriend's Instagram likes on a corkboard covered in red yarn and pinned photos, like an FBI agent hunting a serial killer. Background: dark room lit only by desk lamps. Global illumination, ray tracing, 8k resolution.
+
+53. Pegador cuántico de suelas reventadas usando soldimix
+Prompt: Photorealistic RAW photo, captured on 35mm lens, f/1.8. Cinematic lighting. Foreground: a destroyed, ripped-open cheap sneaker with the sole falling off. Midground: an intense scientist wearing safety goggles and a lab coat, using an extremely precise high-tech laser and a tube of cheap superglue to weld the shoe back together on a futuristic lab bench. Background: high-tech scientific equipment in a dark room. Global illumination, octane render, absurd sci-fi, 8k resolution.
+
+54. Escapista de vecinos enojados brincando tejados por Chocolatada
+Prompt: Photorealistic RAW photo, captured on 35mm lens, f/1.8. Cinematic lighting. Foreground: shattered roof tiles flying into the air as someone jumps on them. Midground: a terrified guy spilling a giant pot of hot chocolate while doing a parkour jump across the roofs of a very poor neighborhood, chased by an angry mob carrying sticks. Background: a massive, chaotic riot happening in the streets below. Global illumination, ray tracing, action movie style, aerial angle, 8k resolution.
+
+55. Viuda falsa a sueldo gritando escandalosamente frente al ataúd
+Prompt: Photorealistic RAW photo, captured on 35mm lens, f/1.8. Cinematic lighting. Foreground: a luxurious wooden coffin surrounded by white flowers. Midground: a woman dressed in excessive black mourning clothes and a black veil, dramatically throwing herself onto the coffin, screaming and crying theatrically, while looking sideways at the family to see if they are watching her performance. Background: confused relatives at a somber funeral. Global illumination, ray tracing, 8k resolution.

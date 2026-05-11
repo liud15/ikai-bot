@@ -1,0 +1,143 @@
+# PROMPTS MAESTROS PARA MINERÍA / VETAS Y MINAS RPG (Nivel Dios - Hiperrealismo Fotográfico)
+# 
+# Instrucciones de uso avanzado para Qwen Image / DeepSeek / Nanobanana:
+# - Copia el "Prompt Positivo" en la primera caja de tu generador.
+# - Copia el "Prompt Negativo Base" en la caja de negativos (Aplica para todos los entornos).
+# - OBLIGATORIO: Usa resolución cuadrada 1:1 (1024x1024) o 4:3 para interiores de mina.
+# - Cada prompt está agrupado por TIER de mina y por TIPO DE EVENTO (éxito, accidente, derrumbe).
+
+--- PROMPT NEGATIVO BASE (VÁLIDO PARA TODAS LAS MINAS) ---
+(worst quality, low quality:1.4), text, signature, watermark, character, person, people, human, anime girl, anime boy, animal, blurry, out of focus, distorted perspective, bad architecture, cropped, framed, digital art, illustration, painting, cartoon, 3d render plastic, lowres, flat lighting, overexposed
+
+==============================================================
+=== ⚪ TIER COMÚN — MINA DE COBRE ===========================
+==============================================================
+
+1. Entrada a la Mina de Cobre
+Prompt: Photorealistic RAW photo, captured on 24mm lens, f/2.8. Cinematic lighting. Foreground: hyper-detailed raw copper ore chunks partially embedded in dusty brown rock wall, mine cart tracks visible on the ground. Midground: the entrance of a shallow earthen mine tunnel reinforced with rough-cut timber support beams, lanterns casting warm orange light. Background: an overcast grey sky barely visible through the tunnel mouth, blurred miners' tools leaning against the walls. Global illumination, ray tracing, octane render, subtle film grain, chromatic aberration, 8k resolution. No digital art style, no painting effect, natural atmosphere.
+
+2. Veta de Cobre Descubierta
+Prompt: Photorealistic RAW photo, captured on 35mm lens, f/2.0. Cinematic lighting, low key interior. Foreground: extreme macro detail on raw rough copper ore with natural blue-green oxidation patina, pick axe marks in fresh rock. Midground: a wide irregular vein of raw copper ore running through cracked beige sandstone, illuminated dramatically by a single hanging oil lantern. Background: dark rough tunnel walls receding into shadow with small dust particles floating in the air. Global illumination, ray tracing, lumen, subtle film grain, chromatic aberration, 8k resolution. No digital art style, no painting effect, natural atmosphere.
+
+3. Derrumbe en la Mina de Cobre
+Prompt: Photorealistic RAW photo, captured on 24mm lens, f/2.8. Cinematic lighting, dramatic tension. Foreground: hyper-detailed jagged broken rocks, snapped wooden support beams, and thick dust clouds actively collapsing. Midground: a shallow tunnel corridor in the process of catastrophically collapsing, ceiling cracking open with cascading rubble. Background: the far end of the tunnel still intact, faintly lit by a swinging lantern, emphasizing the scale of the destruction. Global illumination, ray tracing, Unreal Engine 5, subtle film grain, chromatic aberration, 8k resolution. No digital art style, no painting effect, natural atmosphere.
+
+4. Vagoneta de Mineral de Cobre
+Prompt: Photorealistic RAW photo, captured on 35mm lens, f/2.0. Cinematic lighting. Foreground: hyper-detailed rusted iron mine cart overfilled with raw copper ore chunks and rocky debris, small coal flecks scattered on the wooden plank floor. Midground: a narrow mine tunnel with double rail tracks, wooden support beams, and warm orange lantern glow. Background: the tunnel disappearing into deep darkness ahead, with hanging pickaxes and ropes blurred in the background. Global illumination, ray tracing, octane render, subtle film grain, chromatic aberration, 8k resolution. No digital art style, no painting effect, natural atmosphere.
+
+5. Polvo de Mineral Flotando en la Galería
+Prompt: Photorealistic RAW photo, captured on 35mm lens, f/1.8. Cinematic lighting, god rays. Foreground: hyper-detailed copper-colored mineral dust particles suspended in mid-air catching light, shallow depth of field. Midground: a long underground mining gallery with timber-reinforced walls bathed in shafts of warm golden lantern light creating visible god rays through the dust. Background: the gallery disappearing into absolute darkness at the far end, blurred tool racks and ore bags. Global illumination, ray tracing, octane render, gentle film grain, chromatic aberration, 8k resolution. No digital art style, no painting effect, natural atmosphere.
+
+==============================================================
+=== 🔵 TIER MÁGICO — MINA DE PLATA ========================
+==============================================================
+
+6. Galería de Plata Reluciente
+Prompt: Photorealistic RAW photo, captured on 24mm lens, f/2.0. Cinematic lighting. Foreground: hyper-detailed raw silver ore nuggets embedded in dark basalt rock, metallic sheen reflecting lantern light. Midground: a deep curved mine corridor where enormous silver veins run through the dark stone walls like rivers of frozen moonlight, glowing faintly. Background: more silver veins fading into the dark, dripping water reflecting light on the wet stone floor. Global illumination, ray tracing, Unreal Engine 5, subtle film grain, chromatic aberration, 8k resolution. No digital art style, no painting effect, natural atmosphere.
+
+7. Cueva de Cuarzo y Plata
+Prompt: Photorealistic RAW photo, captured on 35mm lens, f/1.8. Cinematic lighting. Foreground: macro-detailed white quartz crystal clusters growing from the grey stone floor, small silver deposits nestled between formations. Midground: a natural underground chamber where massive white quartz spires rise from the ground alongside rich silver veins, creating a natural cathedral-like interior. Background: stalactites dripping water and faint bioluminescent moss adding a dim blue-green glow to the cave walls. Global illumination, ray tracing, lumen, subtle film grain, chromatic aberration, 8k resolution. No digital art style, no painting effect, natural atmosphere.
+
+8. Gas Tóxico en la Mina de Plata
+Prompt: Photorealistic RAW photo, captured on 24mm lens, f/2.8. Cinematic lighting, eerie atmosphere. Foreground: highly detailed yellow-green sulfurous gas visibly hugging the wet stone floor, dead torch on the ground suggesting abandonment. Midground: a low-ceilinged mine corridor entirely flooded at floor level with a thick, creeping neon-yellow toxic gas cloud obscuring the ore cart tracks. Background: the far end of the tunnel barely visible through the thick chemical haze, a swinging upturned lantern. Global illumination, ray tracing, octane render, subtle film grain, chromatic aberration, 8k resolution. No digital art style, no painting effect, natural atmosphere.
+
+9. Veta de Plata Perfecta
+Prompt: Photorealistic RAW photo, captured on 35mm lens, f/2.0. Cinematic lighting, editorial photography. Foreground: hyper-detailed raw silver nuggets with crystalline metallic structure, dark grey stone matrix broken open. Midground: a stunning natural cross-section of dark stone wall revealing a wide, unbroken, perfectly continuous silver ore vein stretching across the full frame. Background: rough stone tunnel walls receding into darkness, mineral dust floating in the lantern light. Global illumination, ray tracing, Unreal Engine 5, subtle film grain, chromatic aberration, 8k resolution. No digital art style, no painting effect, natural atmosphere.
+
+10. Inundación Parcial de la Galería de Plata
+Prompt: Photorealistic RAW photo, captured on 24mm lens, f/2.8. Cinematic lighting. Foreground: long exposure dark underground water flooding the mine tunnel floor, perfectly reflecting the silver veins above, shallow ripples from underground dripping. Midground: a partially flooded mine corridor where the silver ore veins in the ceiling reflect perfectly in the black water below, creating a mirror effect. Background: the waterlogged tunnel receding into darkness, broken support beams and abandoned equipment floating. Global illumination, ray tracing, lumen, subtle film grain, chromatic aberration, 8k resolution. No digital art style, no painting effect, natural atmosphere.
+
+==============================================================
+=== 🟣 TIER ÉPICO — MINA DE ZAFIRO ========================
+==============================================================
+
+11. Caverna de Cristales de Zafiro
+Prompt: Photorealistic RAW photo, captured on 14mm ultra-wide lens, f/2.8. Cinematic lighting. Foreground: extreme close-up of floor-level raw deep blue sapphire crystals half-embedded in dark stone, catching the light like prisms. Midground: an enormous natural cavern completely encrusted with enormous, razor-sharp sapphire blue crystal formations, pillars and shelves of blue gem rising from the floor and dropping from the ceiling. Background: the full chamber in all its terrifying scale, glowing with deep blue internal crystal light. Global illumination, ray tracing, octane render, lens flare, subtle film grain, chromatic aberration, 8k resolution. No digital art style, no painting effect, natural atmosphere.
+
+12. Rayo de Luz en la Caverna de Zafiro
+Prompt: Photorealistic RAW photo, captured on 35mm lens, f/2.0. Cinematic lighting, god rays. Foreground: hyper-detailed sapphire blue faceted crystals casting rainbow prismatic light onto the cave floor perfectly, shallow depth of field. Midground: a single powerful shaft of white light breaking through a crack in the cavern ceiling, hitting a massive floor-to-ceiling sapphire crystal and exploding into a cascade of blue, white, and violet prismatic light. Background: blue crystals absorbing and re-emitting light in all directions in the darkened cave. Global illumination, ray tracing, Unreal Engine 5, lens flare, subtle film grain, chromatic aberration, 8k resolution. No digital art style, no painting effect, natural atmosphere.
+
+13. Criatura Subterránea Despertada
+Prompt: Photorealistic RAW photo, captured on 35mm lens, f/2.8. Cinematic lighting, horror atmosphere. Foreground: hyper-detailed cracks erupting through the blue crystal cave floor revealing a glowing orange magma beneath. Midground: the wall of a sapphire crystal cavern exploding inward as a massive subterranean creature bursts through, its body the color of dark stone and magma, scattering million-coin sapphire crystals like shrapnel. Background: the remainder of the stable cavern behind, pristine blue crystals contrasting with the violence of the breach. Global illumination, ray tracing, octane render, subtle film grain, chromatic aberration, 8k resolution. No digital art style, no painting effect, natural atmosphere.
+
+14. Rubíes en la Pared de Zafiro
+Prompt: Photorealistic RAW photo, captured on 35mm lens, f/1.8. Cinematic lighting, gemstone editorial. Foreground: extreme macro details of deep red ruby crystals and royal blue sapphire crystals side by side in dark volcanic rock, light refracting through both. Midground: a complex dark basalt rock wall with irregularly distributed raw ruby and sapphire ore pockets scattered like embedded jewels. Background: a faint blue glow emanating from deeper in the cavern, water dripping from stalactites. Global illumination, ray tracing, lumen, subtle film grain, chromatic aberration, 8k resolution. No digital art style, no painting effect, natural atmosphere.
+
+15. Derrumbe Catastrófico en la Mina de Zafiro
+Prompt: Photorealistic RAW photo, captured on 24mm lens, f/2.8. Cinematic lighting, high drama. Foreground: massive blue crystal shards flying through the air like missiles, dark stone debris and blue gem dust creating a thick cloud. Midground: the main sapphire crystal cavern in complete cataclysmic structural failure, ceiling collapsing in slow motion, enormous blue crystal pillars toppling and shattering, releasing a cloud of glowing blue gem dust. Background: the chamber entrance barely visible through the chaos as the only possible escape route. Global illumination, ray tracing, Unreal Engine 5, subtle film grain, chromatic aberration, 8k resolution. No digital art style, no painting effect, natural atmosphere.
+
+==============================================================
+=== 🔴 TIER MÍTICO — MINA ABISMAL ===========================
+==============================================================
+
+16. Las Profundidades Abisales
+Prompt: Photorealistic RAW photo, captured on 14mm ultra-wide lens, f/2.8. Cinematic lighting. Foreground: hyper-detailed black obsidian rock floor cracked and glowing with deep magenta and violet magical energy veins running through every fracture. Midground: an impossibly deep underground abyss, its walls composed of pure black obsidian and ancient dark stone, its depth impossible to see, illuminated only by pulsing veins of arcane purple magical energy running through every crack. Background: the bottom of the abyss, a faint violet glow, too distant to see clearly. Global illumination, ray tracing, octane render, lens flare, subtle film grain, chromatic aberration, 8k resolution. No digital art style, no painting effect, natural atmosphere.
+
+17. Corazón de la Mina Abismal
+Prompt: Photorealistic RAW photo, captured on 14mm ultra-wide lens, f/2.8. Cinematic lighting, awe-inspiring scale. Foreground: hyper-detailed black glassy obsidian and deep red ruby raw crystals, hot to the touch, faint heat distortion visible. Midground: an enormous underground chamber at the very heart of the earth, entirely lined with massive raw obsidian formations and veins of deep red ruby, a faint red magmatic light illuminating everything from far below. Background: the chamber ceiling so high it is invisible in the darkness, only the glowing ore veins visible. Global illumination, ray tracing, Unreal Engine 5, subtle film grain, chromatic aberration, 8k resolution. No digital art style, no painting effect, natural atmosphere.
+
+18. Entidad Oscura en las Profundidades
+Prompt: Photorealistic RAW photo, captured on 35mm lens, f/2.8. Cinematic lighting, existential dread. Foreground: absolute pitch-black obsidian cave floor cracking open to reveal glowing purple magma veins, temperature distortion. Midground: a vast underground cavern where a formless, enormous entity of pure shadow materializes from between the obsidian shafts, emitting no light, absorbing it, with only two cold violet pinpricks of eldritch light indicating its presence. Background: the chamber it inhabits, perfectly dark except for the purple ore veins barely illuminating the scale of the monster. Global illumination, ray tracing, octane render, subtle film grain, chromatic aberration, 8k resolution. No digital art style, no painting effect, natural atmosphere.
+
+19. Suelo del Abismo Derrumbándose
+Prompt: Photorealistic RAW photo, captured on 14mm ultra-wide lens, f/2.8. Cinematic lighting, catastrophic. Foreground: extreme close-up of the obsidian floor violently shattering and falling away into an infinite glowing magenta void below, extreme peril. Midground: the entire floor of a deep underground blackstone cavern dropping into the abyss, obsidian slabs and mineral formations falling silently into a bottomless violet and red light far below. Background: the chamber walls still intact, ancient runes carved into the black stone suddenly illuminated by the light from below as the floor disappears. Global illumination, ray tracing, Unreal Engine 5, subtle film grain, chromatic aberration, 8k resolution. No digital art style, no painting effect, natural atmosphere.
+
+20. Veta de Obsidiana Sagrada con Runas
+Prompt: Photorealistic RAW photo, captured on 35mm lens, f/1.8. Cinematic lighting, mystical. Foreground: extreme macro hyper-detail on raw black obsidian surface, perfectly mirror-like, with ancient glowing golden runes carved naturally by geological pressure. Midground: a wall of pure black volcanic obsidian the size of a building face, streaked with naturally occurring glowing golden arcane rune lines, as if the earth itself is writing sacred text in stone. Background: the dark cavern surrounding it, all light absorbed by the obsidian except the rune glow. Global illumination, ray tracing, lumen, lens flare, subtle film grain, chromatic aberration, 8k resolution. No digital art style, no painting effect, natural atmosphere.
+
+==============================================================
+=== ⛏️ HERRAMIENTAS Y OBJETOS DE MINERÍA ===================
+==============================================================
+
+21. Pico de Minero Brillante
+Prompt: Photorealistic RAW photo, captured on 35mm lens, f/1.8. Cinematic lighting, product photography. Foreground: extreme close-up hyper-detail on the sharp ironclad tip of a heavy dwarven mining pickaxe, silver ore dust embedded in the metal. Midground: a beautifully forged heavy pickaxe with runes carved into its dark iron head, resting diagonally against a rough mine wall, illuminated by a warm lantern glow. Background: rough-cut stone tunnel wall and scattered raw mineral chips. Global illumination, ray tracing, octane render, subtle film grain, chromatic aberration, 8k resolution. No digital art style, no painting effect, natural atmosphere.
+
+22. Sacos de Mineral Apilados
+Prompt: Photorealistic RAW photo, captured on 35mm lens, f/2.0. Cinematic lighting. Foreground: hyper-detailed thick burlap sacks tied with rope, mineral dust caked on the fabric surface, raw ore chunks peeking through loose knots. Midground: a large pile of heavy mining sacks overflowing with different raw ore — copper, silver, and gem fragments — stacked in a rough mine depot room. Background: a dim lantern-lit underground storage room with rough stone walls and stacked wooden crates. Global illumination, ray tracing, lumen, subtle film grain, chromatic aberration, 8k resolution. No digital art style, no painting effect, natural atmosphere.
+
+23. Linterna de Minero Solitaria
+Prompt: Photorealistic RAW photo, captured on 35mm lens, f/1.4. Cinematic lighting, moody. Foreground: extreme macro detail on the warm glowing flame of a large antique miner's oil lantern, heat distortion visible above the flame. Midground: the lonely lantern hanging from a support beam hook in an abandoned deep mine tunnel, its warm orange circle of light the only thing standing against absolute darkness. Background: pure pitch black shadows consuming the rest of the tunnel in every direction. Global illumination, ray tracing, octane render, subtle film grain, chromatic aberration, 8k resolution. No digital art style, no painting effect, natural atmosphere.
+
+24. Diamante en Bruto Encontrado
+Prompt: Photorealistic RAW photo, captured on 100mm macro lens, f/2.0. Cinematic lighting, macro gemstone photography. Foreground: extreme macro hyper-detail on a raw uncut diamond resting in a miner's calloused dusty palm, the stone perfectly clear and refracting white light into a dazzling prismatic display. Midground: the rough stone background of a deep mine tunnel, ore dust on the surrounding stone. Background: soft darkness of the mine interior falling off quickly behind. Global illumination, ray tracing, Unreal Engine 5, lens flare, subtle film grain, chromatic aberration, 8k resolution. No digital art style, no painting effect, natural atmosphere.
+
+25. Mural de Minerales Expuesto
+Prompt: Photorealistic RAW photo, captured on 24mm lens, f/2.8. Cinematic lighting, geological documentary style. Foreground: hyper-detailed cross-section of raw stone showing six different mineral veins side by side — copper, iron, silver, quartz, ruby, sapphire — each a different color running in parallel. Midground: a full exposed mine face, freshly chipped open, revealing a stunning geological cross-section like a natural painting of minerals in layered strata. Background: the dark mine tunnel framing the luminous wall of natural mineral color. Global illumination, ray tracing, octane render, subtle film grain, chromatic aberration, 8k resolution. No digital art style, no painting effect, natural atmosphere.
+
+==============================================================
+=== 💥 ESCENAS DE ACCIDENTE Y PELIGRO ======================
+==============================================================
+
+26. Explosión de Polvo de Roca
+Prompt: Photorealistic RAW photo, captured on 35mm lens, f/2.8. Cinematic lighting, high-speed photography. Foreground: massive plume of beige and grey rock dust exploding outward toward the camera, tiny sharp rock fragments frozen mid-air in slow motion. Midground: the inner wall of a mine tunnel freshly blasted open, jagged edges of stone still sharp, massive quantities of mineral dust filling the air. Background: the dark tunnel receding behind the explosion, swinging lanterns. Global illumination, ray tracing, lumen, subtle film grain, chromatic aberration, 8k resolution. No digital art style, no painting effect, natural atmosphere.
+
+27. Grieta Abierta en el Suelo
+Prompt: Photorealistic RAW photo, captured on 24mm lens, f/2.8. Cinematic lighting, geological drama. Foreground: extreme macro detail of the violently split edge of a mine tunnel floor, dark obsidian and grey stone cracked cleanly, a deep orange glow rising from the gap below. Midground: a dramatic rupture opening in the mine floor stretching across the full width of a tunnel, revealing a terrifying orange-glowing magma chamber far below. Background: the tunnel intact on both sides of the chasm, emphasizing the impossible gap. Global illumination, ray tracing, Unreal Engine 5, subtle film grain, chromatic aberration, 8k resolution. No digital art style, no painting effect, natural atmosphere.
+
+28. Cadena de Soportes Cediendo
+Prompt: Photorealistic RAW photo, captured on 24mm lens, f/2.8. Cinematic lighting, tension and dread. Foreground: extreme detail of thick old wooden support beams dramatically splintering and bending under immense weight, sawdust and bark flying. Midground: a long mine corridor where multiple timber support structures are simultaneously failing, the ceiling visibly bowing downward, cracks spreading across the stone above each beam. Background: the ceiling beginning to drop at the far end, a cloud of dust already rising. Global illumination, ray tracing, octane render, subtle film grain, chromatic aberration, 8k resolution. No digital art style, no painting effect, natural atmosphere.
+
+29. Agua Subterránea Inundando el Túnel
+Prompt: Photorealistic RAW photo, captured on 14mm ultra-wide lens, f/2.8. Cinematic lighting, fast shutter speed. Foreground: an explosive, violent wall of dark underground water bursting through a cracked mine wall at full force, stones and mineral debris embedded in the water mass. Midground: a mine tunnel corridor being rapidly filled by the sudden inundation, tools and ore carts floating violently. Background: the far end of tunnel, higher ground barely visible, becoming an island in the rising black water. Global illumination, ray tracing, lumen, subtle film grain, chromatic aberration, 8k resolution. No digital art style, no painting effect, natural atmosphere.
+
+30. Magma Filtrándose por las Paredes
+Prompt: Photorealistic RAW photo, captured on 35mm lens, f/2.8. Cinematic lighting, hell aesthetic. Foreground: extreme close-up detail of slow-moving bright orange magma oozing through a crack in a perfectly black basalt wall, the surfaces around it blackening and smoking from the heat. Midground: a deep mine tunnel where multiple small streams of glowing orange magma are seeping through the stone walls from every crack, filling the corridor with intense heat and red-orange glow. Background: the far end of the tunnel glowing red, magma pooling on the stone floor. Global illumination, ray tracing, Unreal Engine 5, lens flare, subtle film grain, chromatic aberration, 8k resolution. No digital art style, no painting effect, natural atmosphere.
+
+==============================================================
+=== 🌟 DROPS RAROS Y MOMENTOS ESPECIALES ====================
+==============================================================
+
+31. Geoda de Cristal Gigante Descubierta
+Prompt: Photorealistic RAW photo, captured on 14mm ultra-wide lens, f/2.8. Cinematic lighting. Foreground: hyper-detailed flawless crystal druzy formations in brilliant amethyst purple and white, catching every photon of light. Midground: a tiny mine tunnel mouth opening into a spectacular, massive natural geode chamber, its entire interior lined wall-to-wall with perfect amethyst and white quartz crystals larger than a man, naturally lit by their own faint luminescence. Background: the overwhelming scale of the chamber dwarfing the tiny mine entrance. Global illumination, ray tracing, octane render, lens flare, subtle film grain, chromatic aberration, 8k resolution. No digital art style, no painting effect, natural atmosphere.
+
+32. Diamante Flotando en Energía Arcana
+Prompt: Photorealistic RAW photo, captured on 35mm lens, f/1.8. Cinematic lighting. Foreground: extreme macro detail on a flawless, perfectly clear raw diamond hovering mid-air, surrounded by swirling particles of soft golden arcane light. Midground: the diamond floating at chest height in the center of a small natural cavern alcove, defying gravity, emitting a soft warm prismatic glow that lights the dark stone walls around it. Background: dark rough stone cave walls, ancient carved symbols barely visible. Global illumination, ray tracing, Unreal Engine 5, lens flare, subtle film grain, chromatic aberration, 8k resolution. No digital art style, no painting effect, natural atmosphere.
+
+33. Veta de Oro Puro Descubierta
+Prompt: Photorealistic RAW photo, captured on 35mm lens, f/1.8. Cinematic lighting, gold rush atmosphere. Foreground: extreme macro hyper-detail on raw bright yellow gold ore embedded perfectly in white quartz host rock, shimmering. Midground: a smooth solid rock wall newly cracked open revealing an enormous, impossibly wide gold ore vein running floor to ceiling, gleaming under the prospector lantern light. Background: glittering gold's glow illuminating the dark mine tunnel around it in warm golden light. Global illumination, ray tracing, octane render, lens flare, subtle film grain, chromatic aberration, 8k resolution. No digital art style, no painting effect, natural atmosphere.
+
+34. Relicario Enterrado Encontrado
+Prompt: Photorealistic RAW photo, captured on 35mm lens, f/2.0. Cinematic lighting, archaeology style. Foreground: extreme close-up hyper-detail on an ancient ornate stone reliquary box partially revealed in the dirt, runes still glowing after centuries underground. Midground: a narrow mine working where mining has accidentally uncovered an ancient carved stone vault buried in the natural earth above the tunnel, soil and rock debris around a perfectly intact glowing relic container. Background: the dark rough tunnel walls and ceiling. Global illumination, ray tracing, lumen, lens flare, subtle film grain, chromatic aberration, 8k resolution. No digital art style, no painting effect, natural atmosphere.
+
+35. Caverna de Hongos Bioluminiscentes con Minerales
+Prompt: Photorealistic RAW photo, captured on 24mm lens, f/2.0. Cinematic lighting. Foreground: extreme detail on large glowing cyan, blue, and magenta bioluminescent mushrooms growing between white quartz crystals on the dark cave floor. Midground: a natural underground chamber where massive glowing fungi the size of small trees grow alongside gleaming mineral veins, creating a surreal garden of light in the absolute deep earth. Background: deep cave walls receding into darkness, more glowing mushrooms barely visible. Global illumination, ray tracing, octane render, subtle film grain, chromatic aberration, 8k resolution. No digital art style, no painting effect, natural atmosphere.

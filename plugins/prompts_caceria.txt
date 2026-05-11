@@ -1,0 +1,298 @@
+# PROMPTS MAESTROS PARA ANIMALES / CACERÍA (Nivel Dios - Hiperrealismo Fotográfico)
+# 
+# Instrucciones de uso avanzado para Qwen Image / DeepSeek / Nanobanana:
+# - Copia el "Prompt Positivo" en la primera caja de tu generador.
+# - Copia el "Prompt Negativo Base" en la caja de negativos (Aplica para todos los animales).
+# - Te recomiendo resolución cuadrada 1:1 (ej. 1024x1024) para los animales, o 4:3 para retratos.
+
+--- PROMPT NEGATIVO BASE (VÁLIDO PARA TODOS LOS ANIMALES) ---
+(worst quality, low quality:1.4), text, signature, watermark, multiple heads, mutated, deformed, bad anatomy, poorly drawn face, human, humanoid, anime girl, anime boy, extra limbs, extra ears, missing limbs, digital art, illustration, painting, cartoon, 3d render plastic, lowres
+
+==============================================================
+=== TIER 1 (COMUNES) =========================================
+==============================================================
+
+1. 🐇 Conejo Cuerno de Luna
+Prompt: Photorealistic RAW photo, captured on 35mm lens, f/1.8. Cinematic lighting, macro photography. Foreground: highly detailed wet grass and glowing cyan ferns, shallow depth of field. Midground: a cute fluffy white rabbit with a glowing crescent moon-shaped crystal horn resting on its forehead. Background: dense mystical forest mist during blue hour. Global illumination, ray tracing, Unreal Engine 5, subtle film grain, chromatic aberration, 8k resolution. No digital art style, no painting effect, natural atmosphere.
+
+2. 🐸 Sapo Hongo de Cristal
+Prompt: Photorealistic RAW photo, captured on 35mm lens, f/1.8. Cinematic lighting, macro photography. Foreground: slimy highly detailed wet lily pad with water droplets reflecting neon light. Midground: a large mystical toad with translucent glowing neon crystal mushrooms growing on its back. Background: a dark murky swamp with glowing floating spores during midnight. Global illumination, ray tracing, octane render, subtle film grain, chromatic aberration, 8k resolution. No digital art style, no painting effect, natural atmosphere.
+
+3. 🐦 Pájaro Trueno Bebé
+Prompt: Photorealistic RAW photo, captured on 35mm lens, f/1.8. Cinematic lighting, macro photography. Foreground: sharp detailed wet tree branch with tiny electrical sparks flying off. Midground: a cute tiny bird with electrifying blue and yellow feathers perched defensively, emitting small lighting arcs. Background: dynamic stormy sky with heavy rain and out-of-focus lightning strikes during overcast noon. Global illumination, ray tracing, lumen, subtle film grain, chromatic aberration, 8k resolution. No digital art style, no painting effect, natural atmosphere.
+
+4. 🦊 Zorro Cola de Fuego
+Prompt: Photorealistic RAW photo, captured on 35mm lens, f/1.8. Cinematic lighting. Foreground: highly detailed cracked black volcanic rock emitting intense heat waves, shallow depth of field. Midground: a majestic red fox with a tail made of pure roaring magical fire, standing proudly with glowing amber eyes. Background: a dangerous glowing lava field under a dark twilight sky. Global illumination, ray tracing, octane render, lens flare, subtle film grain, chromatic aberration, 8k resolution. No digital art style, no painting effect, natural atmosphere.
+
+5. 🐐 Cabra Blanca Astral
+Prompt: Photorealistic RAW photo, captured on 35mm lens, f/1.8. Cinematic lighting. Foreground: crisp white snow and detailed frozen rocks on a mountain peak, freezing mist. Midground: a divine pure white mountain goat with glowing starry constellations embedded in its fur, large curled horns made of star-glass. Background: majestic aurora borealis filling the starry night sky during winter night. Global illumination, ray tracing, lumen, subtle film grain, chromatic aberration, 8k resolution. No digital art style, no painting effect, natural atmosphere.
+
+6. 🐿️ Ardilla Ladrona de Nueces Mágicas
+Prompt: Photorealistic RAW photo, captured on 35mm lens, f/1.8. Cinematic lighting, macro photography. Foreground: sharp detailed rough bark on an old oak tree, shallow depth of field. Midground: a mischievous fluffy squirrel holding a glowing bright purple magical acorn, wearing a tiny leaf bandit mask. Background: a sunlit forest canopy with dust motes dancing in the air during golden hour. Global illumination, ray tracing, Unreal Engine 5, subtle film grain, chromatic aberration, 8k resolution. No digital art style, no painting effect, natural atmosphere.
+
+7. 🦔 Erizo de Púas Venenosas
+Prompt: Photorealistic RAW photo, captured on 35mm lens, f/1.8. Cinematic lighting, macro photography. Foreground: dead brown leaves and highly detailed toxic purple mushrooms on a forest floor. Midground: a cute but dangerous hedgehog, its spikes glowing neon toxic green, crawling cautiously. Background: a dark misty woods releasing faint green gas during overcast twilight. Global illumination, ray tracing, lumen, subtle film grain, chromatic aberration, 8k resolution. No digital art style, no painting effect, natural atmosphere.
+
+8. 🐢 Tortuga Caparazón de Granito
+Prompt: Photorealistic RAW photo, captured on 35mm lens, f/1.8. Cinematic lighting. Foreground: hyper-detailed dry cracked earth and sand blowing in the wind, shallow depth of field. Midground: a heavy ancient tortoise, its shell made of solid cracked grey granite with glowing blue runes carved into the stone. Background: intense harsh desert sunlight and dry rocky canyons during noon. Global illumination, ray tracing, Unreal Engine 5, subtle film grain, chromatic aberration, 8k resolution. No digital art style, no painting effect, natural atmosphere.
+
+9. 🦢 Cisne Cantor Ilusorio
+Prompt: Photorealistic RAW photo, captured on 35mm lens, f/1.8. Cinematic lighting. Foreground: long exposure water ripples on the surface of a pristine lake reflecting colorful light. Midground: an ethereal translucent swan made of shimmering water and light swimming gracefully, elegant pose. Background: soft out-of-focus dreamlike forest with heavy blooming sunlight during golden hour. Global illumination, ray tracing, octane render, lens flare, subtle film grain, chromatic aberration, 8k resolution. No digital art style, no painting effect, natural atmosphere.
+
+10. 🦦 Nutria de Aguas Místicas
+Prompt: Photorealistic RAW photo, captured on 35mm lens, f/1.8. Cinematic lighting. Foreground: highly detailed splashing water droplets freezing mid-air, fast shutter speed. Midground: an adorable river otter with glowing cyan tribal markings on its wet fur, swimming playfully. Background: a glowing magical river surrounded by out-of-focus floating water lilies during blue hour. Global illumination, ray tracing, octane render, subtle film grain, chromatic aberration, 8k resolution. No digital art style, no painting effect, natural atmosphere.
+
+==============================================================
+=== TIER 2 (MÁGICOS) =========================================
+==============================================================
+
+11. 🐗 Jabalí Acorazado
+Prompt: Photorealistic RAW photo, captured on 35mm lens, f/1.8. Cinematic lighting. Foreground: thick deep chaotic mud splashing in slow motion, shallow depth of field. Midground: a huge aggressive wild boar covered in natural dark iron-like armor plating, huge sharp bronze tusks, snorting aggressively. Background: a dark war-torn battlefield under heavy grey skies during overcast day. Global illumination, ray tracing, Unreal Engine 5, subtle film grain, chromatic aberration, 8k resolution. No digital art style, no painting effect, natural atmosphere.
+
+12. 🦇 Murciélago Vampiro Gigante
+Prompt: Photorealistic RAW photo, captured on 35mm lens, f/1.8. Cinematic lighting. Foreground: highly detailed damp cave stalactites dripping water, shallow depth of field. Midground: a terrifying giant vampire bat hanging upside down, massive leathery wings framing glowing ruby-red eyes, sharp fangs. Background: pitch black suffocating cave depths illuminated faintly by crimson light. Global illumination, ray tracing, lumen, subtle film grain, chromatic aberration, 8k resolution. No digital art style, no painting effect, natural atmosphere.
+
+13. 🐺 Lobo Sombra Salvaje
+Prompt: Photorealistic RAW photo, captured on 35mm lens, f/1.8. Cinematic lighting. Foreground: detailed dead cracked pine needles on the ground, long shadows stretching. Midground: a terrifying large wolf whose body is made of swirling black shadows and smoking black mist, glowing piercing purple eyes, howling. Background: a dead creepy forest under a massive blood red moon. Global illumination, ray tracing, Unreal Engine 5, subtle film grain, chromatic aberration, 8k resolution. No digital art style, no painting effect, natural atmosphere.
+
+14. 🐍 Serpiente Escamas de Esmeralda
+Prompt: Photorealistic RAW photo, captured on 35mm lens, f/1.8. Cinematic lighting. Foreground: ancient cracked golden ruins covered in thick detailed vines. Midground: a massive deadly viper covered in perfectly hexagonal emerald gemstone scales that reflect the light, coiled and hissing with fangs exposed. Background: a dense humid jungle canopy allowing god rays to pierce through during golden hour. Global illumination, ray tracing, octane render, lens flare, subtle film grain, chromatic aberration, 8k resolution. No digital art style, no painting effect, natural atmosphere.
+
+15. 🕷️ Araña Tejedora de Pesadillas
+Prompt: Photorealistic RAW photo, captured on 35mm lens, f/1.8. Cinematic lighting, macro photography. Foreground: hyper-detailed thick glowing purple silk threads covered in dew drops, shallow depth of field. Midground: a terrifying giant tarantula with glowing purple venomous sacs, climbing aggressively on its web. Background: a dark terrifying violet cave illuminated by bioluminescent fungi during night. Global illumination, ray tracing, Unreal Engine 5, subtle film grain, chromatic aberration, 8k resolution. No digital art style, no painting effect, natural atmosphere.
+
+16. 🦅 Águila Ojo de Tormenta
+Prompt: Photorealistic RAW photo, captured on 35mm lens, f/1.8. Cinematic lighting. Foreground: high-speed wind blowing highly detailed silver and dark grey feathers shedding mid-air. Midground: a majestic giant eagle with a small vortex of wind surrounding its massive wings, flying powerfully. Background: a turbulent terrifying thunderstorm with crackling lightning in a dark sky. Global illumination, ray tracing, lumen, subtle film grain, chromatic aberration, 8k resolution. No digital art style, no painting effect, natural atmosphere.
+
+17. 🐆 Leopardo Cazador de Almas
+Prompt: Photorealistic RAW photo, captured on 35mm lens, f/1.8. Cinematic lighting. Foreground: highly detailed cold stone tombstones partially covered in blue mist. Midground: a sleek stealthy black leopard with glowing bright cyan tribal runes covering its body, stepping silently in a hunting pose. Background: an eerie abandoned graveyard illuminated only by bright moonlight. Global illumination, ray tracing, octane render, subtle film grain, chromatic aberration, 8k resolution. No digital art style, no painting effect, natural atmosphere.
+
+18. 🐊 Cocodrilo Fauces de Acero
+Prompt: Photorealistic RAW photo, captured on 35mm lens, f/1.8. Cinematic lighting. Foreground: murky dirty water ripping open to reveal a highly detailed rusted metallic snout, splashing water. Midground: a massive prehistoric crocodile, its jaw and back scales made of rusted jagged steel, aggressively emerging from the swamp. Background: a dark industrial magical wasteland filled with ruins and fog during overcast twilight. Global illumination, ray tracing, Unreal Engine 5, subtle film grain, chromatic aberration, 8k resolution. No digital art style, no painting effect, natural atmosphere.
+
+19. 🦡 Tejón Rabioso de las Tierras Bajas
+Prompt: Photorealistic RAW photo, captured on 35mm lens, f/1.8. Cinematic lighting. Foreground: highly detailed dirt and splattered mud flying into the air, shallow depth of field. Midground: a heavily scarred robust honey badger with glowing red eyes of fury, standing aggressively and snarling violently. Background: a pile of broken fantasy weapons and shields on a desolate dirt plain. Global illumination, ray tracing, lumen, subtle film grain, chromatic aberration, 8k resolution. No digital art style, no painting effect, natural atmosphere.
+
+20. 🦉 Búho Oráculo Nocturno
+Prompt: Photorealistic RAW photo, captured on 35mm lens, f/1.8. Cinematic lighting. Foreground: highly detailed ancient dusty tomes and aged paper scrolls resting on a wooden desk. Midground: a giant grand owl with four golden glowing eyes, its feathers looking like a deep starry night sky, perched silently. Background: an endless dark ancient magical library filled with soft blurred candlelight. Global illumination, ray tracing, octane render, subtle film grain, chromatic aberration, 8k resolution. No digital art style, no painting effect, natural atmosphere.
+
+==============================================================
+=== TIER 3 (ÉPICOS) ==========================================
+==============================================================
+
+21. 🐻 Oso Rúnico Furioso
+Prompt: Photorealistic RAW photo, captured on 35mm lens, f/1.8. Cinematic lighting. Foreground: massive uprooted pine trees and shattered rocks flying through the air, aggressive motion. Midground: an enormous grizzly bear standing on two legs roaring, glowing orange Norse runes carved deep into its thick dark fur, enormous glowing claws. Background: a destroyed dense pine forest with dust and debris filling the air during stormy twilight. Global illumination, ray tracing, Unreal Engine 5, subtle film grain, chromatic aberration, 8k resolution. No digital art style, no painting effect, natural atmosphere.
+
+22. 🦂 Escorpión Rey del Desierto
+Prompt: Photorealistic RAW photo, captured on 35mm lens, f/1.8. Cinematic lighting. Foreground: hyper-detailed grains of golden sand sliding down a massive dune, extreme heat waves distorting the air. Midground: a gigantic desert scorpion made of solid gold and black obsidian, its huge stinger dripping with glowing green venom, crawling aggressively. Background: an endless scorching hot desert under a blinding noon sun. Global illumination, ray tracing, octane render, lens flare, subtle film grain, chromatic aberration, 8k resolution. No digital art style, no painting effect, natural atmosphere.
+
+23. 🦅 Grifo Guardián del Viento
+Prompt: Photorealistic RAW photo, captured on 35mm lens, f/1.8. Cinematic lighting. Foreground: detailed white lion fur transitioning into golden eagle feathers, majestic lighting. Midground: a regal griffon wearing ancient carved elven silver armor on its chest, soaring powerfully through the sky. Background: fluffy white dramatic cumulonimbus clouds illuminated by intense sun rays during golden hour. Global illumination, ray tracing, lumen, lens flare, subtle film grain, chromatic aberration, 8k resolution. No digital art style, no painting effect, natural atmosphere.
+
+24. 🐅 Tigre Dientes de Hielo
+Prompt: Photorealistic RAW photo, captured on 35mm lens, f/1.8. Cinematic lighting. Foreground: highly detailed cracking blue ice on a frozen lake surface, freezing mist blowing. Midground: a massive white saber-toothed tiger standing aggressively, its colossal fangs made of solid blue magical ice emitting cold vapor, piercing blue eyes. Background: a terrifying snowy blizzard obscuring a frozen mountain range during overcast day. Global illumination, ray tracing, Unreal Engine 5, subtle film grain, chromatic aberration, 8k resolution. No digital art style, no painting effect, natural atmosphere.
+
+25. 🦍 Gorila Brazo de Acero
+Prompt: Photorealistic RAW photo, captured on 35mm lens, f/1.8. Cinematic lighting. Foreground: the ground violently shattering into thousands of rocky fragments, intense impact dust. Midground: a colossal silverback gorilla with both arms completely replaced by ancient glowing dwarven mechanical steampunk brass prosthetics, slamming its metal fists into the earth roaring. Background: ancient overgrown jungle ruins bathed in warm god rays during golden hour. Global illumination, ray tracing, octane render, subtle film grain, chromatic aberration, 8k resolution. No digital art style, no painting effect, natural atmosphere.
+
+26. 🦖 Raptor de Garras Sangrientas
+Prompt: Photorealistic RAW photo, captured on 35mm lens, f/1.8. Cinematic lighting. Foreground: highly detailed giant prehistoric fern leaves being pushed aside violently, intense motion blur. Midground: a terrifying agile velociraptor covered in red and black scales, extremely sharp glowing crimson claws, running aggressively forward in a hunting stance. Background: a dense humid prehistoric magical jungle with dark shadowy canopy. Global illumination, ray tracing, lumen, subtle film grain, chromatic aberration, 8k resolution. No digital art style, no painting effect, natural atmosphere.
+
+27. 🦏 Rinoceronte Carga Destructora
+Prompt: Photorealistic RAW photo, captured on 35mm lens, f/1.8. Cinematic lighting. Foreground: massive chunks of earth and broken wood flying towards the camera, violent destruction. Midground: a monstrous rhino the size of a tank charging forward blindly, its massive horn glowing like hot magma and dripping lava. Background: a burning Savannah landscape with intense heat distortion during a fiery sunset. Global illumination, ray tracing, octane render, lens flare, subtle film grain, chromatic aberration, 8k resolution. No digital art style, no painting effect, natural atmosphere.
+
+28. 🦑 Kraken Joven de los Lagos
+Prompt: Photorealistic RAW photo, captured on 35mm lens, f/1.8. Cinematic lighting. Foreground: massive turbulent water waves splashing violently against jagged rocks, long exposure. Midground: a massive aquatic kraken with glowing blue bioluminescent patterns on its thick tentacles, surfacing violently and roaring. Background: a dark mysterious mountain lake surrounded by pine trees under a stormy dark sky. Global illumination, ray tracing, Unreal Engine 5, subtle film grain, chromatic aberration, 8k resolution. No digital art style, no painting effect, natural atmosphere.
+
+29. 🐘 Mamut Colmillo de Tormenta
+Prompt: Photorealistic RAW photo, captured on 35mm lens, f/1.8. Cinematic lighting. Foreground: thick freezing snow blowing rapidly across the frame, blinding whiteout conditions. Midground: a colossal wooly mammoth walking slowly with immense power, its massive tusks crackling with intense white lightning bolts. Background: a flat endless frozen wasteland under a terrifying dark sky with lightning strikes. Global illumination, ray tracing, lumen, subtle film grain, chromatic aberration, 8k resolution. No digital art style, no painting effect, natural atmosphere.
+
+30. 🦈 Gran Tiburón Dunas de Arena
+Prompt: Photorealistic RAW photo, captured on 35mm lens, f/1.8. Cinematic lighting. Foreground: highly detailed golden sand flying violently into the air like ocean spray, slow motion. Midground: a massive mutated great white shark bursting aggressively out of a desert sand dune, mouth wide open exposing razor sharp teeth, terrifying scale. Background: an endless scorching hot desert under a blinding harsh noon sun. Global illumination, ray tracing, octane render, lens flare, subtle film grain, chromatic aberration, 8k resolution. No digital art style, no painting effect, natural atmosphere.
+
+==============================================================
+=== TIER 4 (MÍTICOS - JEFES FINALES) =========================
+==============================================================
+
+31. 🦄 Unicornio Corrompido
+Prompt: Photorealistic RAW photo, captured on 35mm lens, f/1.8. Cinematic lighting. Foreground: highly detailed dark red blood dripping onto bleached white skulls in a pile. Midground: a dark twisted demonic unicorn with pure pitch-black fur and a jagged glowing purple horn, bleeding black essence from its piercing red eyes. Background: a terrifying hellish landscape filled with dark smoke and distant red fires during midnight. Global illumination, ray tracing, Unreal Engine 5, subtle film grain, chromatic aberration, 8k resolution. No digital art style, no painting effect, natural atmosphere.
+
+32. 🦈 Leviatán de Tierra
+Prompt: Photorealistic RAW photo, captured on 35mm lens, f/1.8. Cinematic lighting. Foreground: massive boulders and uprooted pine trees tumbling down a violently shaking mountain slope. Midground: a colossal earth dragon-serpent bursting out from the side of a massive mountain, its scales made of jagged tectonic plates, roaring to the sky. Background: an apocalyptic scene of falling rocks and extreme dust clouds obscuring a tiny forest below. Global illumination, ray tracing, lumen, subtle film grain, chromatic aberration, 8k resolution. No digital art style, no painting effect, natural atmosphere.
+
+33. 🐉 Cría de Dragón Infernal
+Prompt: Photorealistic RAW photo, captured on 35mm lens, f/1.8. Cinematic lighting. Foreground: hyper-detailed glowing molten lava flowing over black scorched cracked earth, intense heat waves. Midground: an angry baby dragon made entirely of jagged black ash and pure orange magma, rearing back and breathing a stream of intense bright white fire. Background: a terrifying volcanic landscape filled with dark smoke and erupting volcanoes. Global illumination, ray tracing, octane render, lens flare, subtle film grain, chromatic aberration, 8k resolution. No digital art style, no painting effect, natural atmosphere.
+
+34. 🦅 Fénix Renacido en Cenizas
+Prompt: Photorealistic RAW photo, captured on 35mm lens, f/1.8. Cinematic lighting. Foreground: macro details of glowing red-hot embers and dark ashes swirling in the air. Midground: a majestic divine phoenix bird spreading its massive wings, the bird is entirely composed of blindingly bright white and gold moving fire, screaming triumphantly. Background: extremely dark shadows inside an ancient ruined temple contrasting with the blinding holy fire during night. Global illumination, ray tracing, Unreal Engine 5, lens flare, subtle film grain, chromatic aberration, 8k resolution. No digital art style, no painting effect, natural atmosphere.
+
+35. 🐲 Dragón Anciano de la Calamidad
+Prompt: Photorealistic RAW photo, captured on 35mm lens, f/1.8. Cinematic lighting. Foreground: extreme wind flattening tiny ruined buildings and trees in a dark valley. Midground: an unimaginably massive ancient dragon floating in the sky, scales of void black containing entire galaxies, charging a devastating apocalyptic purple energy beam in its open jaws. Background: a terrifying apocalyptic dark sky swirling into a massive storm vortex. Global illumination, ray tracing, octane render, lens flare, subtle film grain, chromatic aberration, 8k resolution. No digital art style, no painting effect, natural atmosphere.
+
+36. 🪱 Gusano Devorador de Mundos
+Prompt: Photorealistic RAW photo, captured on 35mm lens, f/1.8. Cinematic lighting. Foreground: the Earth's crust violently splitting open, massive tectonic plates shifting upwards. Midground: an impossibly large terrifying god-worm bursting straight up out of the earth, its open mouth a spiraling abyss of thousands of sharp glowing teeth, terrifying scale. Background: dark cloudy apocalyptic sky filled with dust and debris blocking the sun. Global illumination, ray tracing, Unreal Engine 5, subtle film grain, chromatic aberration, 8k resolution. No digital art style, no painting effect, natural atmosphere.
+
+37. 🐺 Cerbero Perro del Inframundo
+Prompt: Photorealistic RAW photo, captured on 35mm lens, f/1.8. Cinematic lighting. Foreground: highly detailed molten lava rivers flowing over dark obsidian stone, heavy smoke. Midground: a massive terrifying three-headed hellhound, its fur made of spiked dark iron and burning hellfire, drooling glowing magma, snarling aggressively. Background: gargantuan black iron gates of the underworld looming against a fiery red sky. Global illumination, ray tracing, octane render, subtle film grain, chromatic aberration, 8k resolution. No digital art style, no painting effect, natural atmosphere.
+
+38. 🐍 Basilisco Mirada Petrificante
+Prompt: Photorealistic RAW photo, captured on 35mm lens, f/1.8. Cinematic lighting. Foreground: half-petrified decaying logs and completely stone-turned leaves on a forest floor. Midground: a giant monstrous serpent-lizard hybrid covered in sickening dark green scales, rearing up and possessing multiple terrifying glowing yellow eyes that emit a petrifying aura. Background: a terrifying grey forest where all trees and animals are frozen solid out of stone. Global illumination, ray tracing, Unreal Engine 5, subtle film grain, chromatic aberration, 8k resolution. No digital art style, no painting effect, natural atmosphere.
+
+39. 🐙 Horror Cósmico Tentacular
+Prompt: Photorealistic RAW photo, captured on 35mm lens, f/1.8. Cinematic lighting. Foreground: the fabric of reality literally tearing apart like glowing jagged glass shards floating in zero gravity. Midground: a floating eldritch abomination composed of countless writhing purple wet tentacles and floating disjointed massive eyeballs staring chaotically. Background: an endless terrifying starry void of deep space and cosmic nebulae. Global illumination, ray tracing, octane render, subtle film grain, chromatic aberration, 8k resolution. No digital art style, no painting effect, natural atmosphere.
+
+40. 🦁 Quimera Rey de las Bestias
+Prompt: Photorealistic RAW photo, captured on 35mm lens, f/1.8. Cinematic lighting. Foreground: perfectly smooth highly reflective golden marble under an intense bright divine light. Midground: an ultimate god-like chimera: head of an armored radiant lion, body of a winged storm-dragon, tail of a massive venomous scaled serpent, standing majestically and glowing with a divine golden aura. Background: a heavenly floating castle in an endless bright blue sky filled with majestic clouds during golden hour. Global illumination, ray tracing, lumen, lens flare, subtle film grain, chromatic aberration, 8k resolution. No digital art style, no painting effect, natural atmosphere.
+
+==============================================================
+=== NUEVAS BESTIAS — TIER 1 (COMUNES) =======================
+==============================================================
+
+41. 🦋 Mariposa Polvo de Diamante
+Prompt: Photorealistic RAW photo, captured on 100mm macro lens, f/2.8. Cinematic lighting, extreme macro photography. Foreground: hyper-detailed glittering diamond dust particles suspended mid-air, catching rainbow light in shallow depth of field. Midground: an exquisite giant butterfly with wings made entirely of translucent faceted diamond crystal, perfectly still on a flower. Background: a sun-drenched white wildflower meadow during golden hour with soft bokeh. Global illumination, ray tracing, Unreal Engine 5, lens flare, subtle film grain, chromatic aberration, 8k resolution. No digital art style, no painting effect, natural atmosphere.
+
+42. 🦎 Lagartija de Escamas Solares
+Prompt: Photorealistic RAW photo, captured on 35mm lens, f/1.8. Cinematic lighting, macro photography. Foreground: hyper-detailed cracked sun-baked clay earth radiating intense heat waves. Midground: a small yet fierce lizard covered in perfect mirrored solar panel scales reflecting intense white sunlight, eyes gleaming like golden molten glass, perched on a rock. Background: a blazing noon desert landscape with dramatic harsh shadows and a hazy sky. Global illumination, ray tracing, octane render, lens flare, subtle film grain, chromatic aberration, 8k resolution. No digital art style, no painting effect, natural atmosphere.
+
+43. 🐝 Abeja Reina de Cristal
+Prompt: Photorealistic RAW photo, captured on 100mm macro lens, f/2.0. Cinematic lighting, extreme macro photography. Foreground: hyper-detailed shattered glassy honeycomb cells made of translucent crystal dripping glowing amber honey, shallow depth of field. Midground: a regal giant queen bee with a body of solid clear crystal and wings of iridescent glass, hovering in a commanding pose, emitting a faint prismatic glow. Background: a dark cave interior illuminated by thousands of tiny glowing crystal bees. Global illumination, ray tracing, Unreal Engine 5, subtle film grain, chromatic aberration, 8k resolution. No digital art style, no painting effect, natural atmosphere.
+
+==============================================================
+=== NUEVAS BESTIAS — TIER 2 (MÁGICOS) =======================
+==============================================================
+
+44. 🐬 Delfín Sombra del Abismo
+Prompt: Photorealistic RAW photo, captured on 35mm lens, f/1.8. Cinematic underwater lighting. Foreground: hyper-detailed deep ocean water with godray shafts of dim bioluminescent light penetrating the black depths. Midground: a sleek and terrifying pitch-black dolphin with glowing deep violet sonar wave rings rippling outward from its blowhole, moving at incredible speed. Background: the absolute black void of the deep ocean abyss with distant glowing deep-sea creatures. Global illumination, ray tracing, lumen, subtle film grain, chromatic aberration, 8k resolution. No digital art style, no painting effect, natural atmosphere.
+
+45. 🦌 Ciervo Astado de Plata Viva
+Prompt: Photorealistic RAW photo, captured on 35mm lens, f/1.8. Cinematic lighting. Foreground: highly detailed silver liquid mercury droplets dripping from autumn leaves onto dark mossy ground. Midground: a tall magnificent stag with enormous branching antlers made of flowing living silver liquid, its white fur glowing faintly, standing alert in a moonlit clearing. Background: a dark enchanted autumn forest bathed in ethereal blue moonlight with silver mist rolling in. Global illumination, ray tracing, octane render, subtle film grain, chromatic aberration, 8k resolution. No digital art style, no painting effect, natural atmosphere.
+
+==============================================================
+=== NUEVAS BESTIAS — TIER 3 (ÉPICOS) ========================
+==============================================================
+
+46. 🦩 Garza Carmesí de la Muerte
+Prompt: Photorealistic RAW photo, captured on 35mm lens, f/1.8. Cinematic lighting. Foreground: hyper-detailed dark red feathers drifting slowly in stagnant air, shallow depth of field. Midground: a tall elegant flamingo-like heron with deep blood-crimson plumage dripping neurotoxin, its beak sharp as a surgical blade, standing in a dead silent marsh in a predatory pose. Background: a foreboding dark swamp under an ominous red twilight sky filled with black silhouette trees. Global illumination, ray tracing, Unreal Engine 5, subtle film grain, chromatic aberration, 8k resolution. No digital art style, no painting effect, natural atmosphere.
+
+47. 🐋 Ballena de Tinta Negra
+Prompt: Photorealistic RAW photo, captured on 35mm wide angle lens, f/2.8. Cinematic lighting, dramatic scale contrast. Foreground: massive ocean waves violently collapsing, turbulent dark water churning in slow motion. Midground: an impossibly enormous black whale the size of an island breaching the ocean surface, its body releasing dense clouds of impenetrable black magical ink that darkens everything it touches. Background: a nighttime open ocean under a dark stormy sky with small boats dwarfed in scale. Global illumination, ray tracing, octane render, subtle film grain, chromatic aberration, 8k resolution. No digital art style, no painting effect, natural atmosphere.
+
+48. 🦁 León Etéreo de las Dunas
+Prompt: Photorealistic RAW photo, captured on 35mm lens, f/1.8. Cinematic lighting. Foreground: hyper-detailed golden desert sand partially fading into a transparent ghostly glow at the edges. Midground: a majestic lion caught between the physical and spiritual planes, its body partially transparent and made of warm golden light and shifting sand particles, glowing eyes like twin suns, in a powerful stance. Background: a vast empty desert at twilight, the horizon ablaze with orange and violet light. Global illumination, ray tracing, lumen, lens flare, subtle film grain, chromatic aberration, 8k resolution. No digital art style, no painting effect, natural atmosphere.
+
+==============================================================
+=== NUEVAS BESTIAS — TIER 4 (MÍTICOS) =======================
+==============================================================
+
+49. 🌑 Sombra del Vacío Sin Nombre
+Prompt: Photorealistic RAW photo, captured on 35mm lens, f/1.8. Cinematic lighting. Foreground: the physical floor literally dissolving into an infinite black void, reality crumbling at the edges. Midground: a towering formless entity of absolute darkness with no features except two small pinpricks of cold white light where eyes should be, surrounded by collapsing reality and torn fragments of space. Background: an endless pitch black void consuming all light, small fragments of destroyed worlds floating silently. Global illumination, ray tracing, Unreal Engine 5, subtle film grain, chromatic aberration, 8k resolution. No digital art style, no painting effect, natural atmosphere.
+
+50. 🌊 Titán Océano Primordial
+Prompt: Photorealistic RAW photo, captured on 14mm ultra-wide lens, f/2.8. Cinematic lighting, biblical scale. Foreground: massive saltwater waves the size of skyscrapers crashing forward, white foam and sea spray blinding the frame. Midground: a colossal ancient titan composed entirely of living churning ocean water, standing taller than mountains, lifting continents with its hands, eyes glowing with deep ocean blue bioluminescence. Background: a terrifying apocalyptic seascape under a black hurricane sky with the horizon swallowed in tidal waves. Global illumination, ray tracing, octane render, lens flare, subtle film grain, chromatic aberration, 8k resolution. No digital art style, no painting effect, natural atmosphere.
+
+51. 🦚 Pavo Real de Plumas Malditas
+Prompt: Photorealistic RAW photo, captured on 35mm lens, f/1.8. Cinematic lighting. Foreground: hyper-detailed iridescent feather fragments on dark mossy ground emitting a faint cursed purple glow, shallow depth of field. Midground: a grand and sinister peacock spreading its enormous fan of pitch-black feathers covered in glowing violet hypnotic eye patterns, standing in a commanding pose. Background: a dark ancient cursed garden at twilight, twisted black trees and faint purple mist. Global illumination, ray tracing, Unreal Engine 5, subtle film grain, chromatic aberration, 8k resolution. No digital art style, no painting effect, natural atmosphere.
+
+==============================================================
+=== NUEVAS BESTIAS — TIER 4 (MÍTICOS) — CONTINUACIÓN ========
+==============================================================
+
+52. ⚡ Coloso de Relámpagos Eternos
+Prompt: Photorealistic RAW photo, captured on 14mm ultra-wide lens, f/2.8. Cinematic lighting, epic scale. Foreground: the earth shattering and scorching under immense electrical discharge, molten glass forming from the heat. Midground: a colossal armored titan made entirely of pure crackling white-blue electricity, standing as tall as a skyscraper, its form constantly shifting and reforming from millions of lightning bolts. Background: a pitch-black apocalyptic sky split open by a permanent supercell thunderstorm directly above. Global illumination, ray tracing, lumen, lens flare, subtle film grain, chromatic aberration, 8k resolution. No digital art style, no painting effect, natural atmosphere.
+
+
+==============================================================
+=== NUEVAS BESTIAS — TIER 1 (COMUNES) =======================
+==============================================================
+
+53. 🦝 Mapache Ladrón de Sombras
+Prompt: Photorealistic RAW photo, captured on 35mm lens, f/1.8. Cinematic lighting, low key lighting. Foreground: highly detailed cobblestone street with wet puddles reflecting dim yellow lantern light, shallow depth of field. Midground: a sly raccoon holding a glowing stolen magical gem, its fur blending seamlessly into wisps of dark black smoke. Background: a blurry, dark medieval market alleyway at midnight. Global illumination, ray tracing, Unreal Engine 5, subtle film grain, chromatic aberration, 8k resolution. No digital art style, no painting effect, natural atmosphere.
+
+54. 🪲 Escarabajo de Cristal
+Prompt: Photorealistic RAW photo, captured on 100mm macro lens, f/2.0. Cinematic lighting, macro photography. Foreground: highly detailed rough dark tree bark covered in glowing neon moss. Midground: a massive mystical beetle with a highly detailed, faceted, translucent crystalline shell reflecting prismatic colors. Background: a soft glowing enchanted forest at twilight. Global illumination, ray tracing, octane render, subtle film grain, chromatic aberration, 8k resolution. No digital art style, no painting effect, natural atmosphere.
+
+55. 🦆 Pato de Aguas Termales Magmáticas
+Prompt: Photorealistic RAW photo, captured on 35mm lens, f/1.8. Cinematic lighting. Foreground: hyper-detailed bubbling hot orange magma meeting black volcanic rock, intense steam rising. Midground: a calm duck swimming in the magma, its feathers made of dark obsidian and glowing red embers, looking completely unbothered. Background: a dark, smoky volcanic cave environment with soft red glowing light. Global illumination, ray tracing, lumen, lens flare, subtle film grain, chromatic aberration, 8k resolution. No digital art style, no painting effect, natural atmosphere.
+
+56. 🐁 Ratón de Biblioteca Arcana
+Prompt: Photorealistic RAW photo, captured on 100mm macro lens, f/2.8. Cinematic lighting, extreme macro. Foreground: hyper-detailed rough parchment paper of an ancient open book with glowing golden magical text, shallow depth of field. Midground: a tiny intelligent-looking mouse with faint glowing blue runic tattoos on its fur, reading the book intently. Background: tall endless dark wooden bookshelves filled with dusty tomes in soft blurred candlelight. Global illumination, ray tracing, Unreal Engine 5, subtle film grain, chromatic aberration, 8k resolution. No digital art style, no painting effect, natural atmosphere.
+
+57. 🐌 Caracol con Caparazón de Cuarzo
+Prompt: Photorealistic RAW photo, captured on 100mm macro lens, f/2.0. Cinematic lighting, macro photography. Foreground: highly detailed wet green moss growing on a smooth dark grey river stone. Midground: a large slug-like snail carrying a heavy, perfectly faceted, glowing purple amethyst quartz crystal as its shell. Background: a misty dark forest floor during twilight. Global illumination, ray tracing, octane render, lens flare, subtle film grain, chromatic aberration, 8k resolution. No digital art style, no painting effect, natural atmosphere.
+
+==============================================================
+=== NUEVAS BESTIAS — TIER 2 (MÁGICOS) =======================
+==============================================================
+
+58. 🦃 Pavo de Fuego Azul
+Prompt: Photorealistic RAW photo, captured on 35mm lens, f/1.8. Cinematic lighting. Foreground: highly detailed scorched black earth emitting faint wisps of smoke. Midground: a magnificent large wild turkey spreading its tail, but the feathers are made entirely of roaring, elegant bright blue and cyan magical fire. Background: an ancient stone courtyard illuminated intensely by the blue light during nighttime. Global illumination, ray tracing, Unreal Engine 5, lens flare, subtle film grain, chromatic aberration, 8k resolution. No digital art style, no painting effect, natural atmosphere.
+
+59. 🦘 Canguro Boxeador de Vientos
+Prompt: Photorealistic RAW photo, captured on 35mm lens, f/1.8. Cinematic lighting, high shutter speed. Foreground: dry yellow steppe grass violently bending and tearing under intense wind pressure. Midground: an incredibly muscular, heavily scarred kangaroo standing on its tail, fists raised in a boxing stance, surrounded by a violent swirling vortex of visible wind. Background: a stormy, dust-filled outback plain under a dramatic cloudy sky. Global illumination, ray tracing, lumen, subtle film grain, chromatic aberration, 8k resolution. No digital art style, no painting effect, natural atmosphere.
+
+60. 🦥 Perezoso Manipulador del Tiempo
+Prompt: Photorealistic RAW photo, captured on 35mm lens, f/1.8. Cinematic lighting. Foreground: hyper-detailed thick jungle vines covered in dew drops, hovering in mid-air frozen in time. Midground: a sleepy three-toed sloth hanging upside down, emitting a visible sphere of rippling, time-distorting golden energy that warps the air around it. Background: a dense, humid rainforest out of focus with god rays piercing through the canopy. Global illumination, ray tracing, octane render, subtle film grain, chromatic aberration, 8k resolution. No digital art style, no painting effect, natural atmosphere.
+
+61. 🦨 Mofeta de Gas Alucinógeno
+Prompt: Photorealistic RAW photo, captured on 35mm lens, f/1.8. Cinematic lighting. Foreground: detailed dead leaves and broken twigs on a forest floor, partially obscured by a thick ground-hugging mist. Midground: a black and white skunk standing defensively, releasing a thick, glowing, highly toxic magenta and neon-pink hallucinogenic gas cloud from its tail. Background: dark silhouettes of pine trees wrapped in the creepy purple fog during twilight. Global illumination, ray tracing, Unreal Engine 5, subtle film grain, chromatic aberration, 8k resolution. No digital art style, no painting effect, natural atmosphere.
+
+62. 🐫 Camello de las Arenas de Cristal
+Prompt: Photorealistic RAW photo, captured on 35mm lens, f/1.8. Cinematic lighting. Foreground: highly detailed grains of sand shimmering like crushed glass, reflecting blinding white light. Midground: a regal desert camel whose humps and joints are formed from jagged, translucent golden crystal formations growing out of its sandy fur. Background: endless rolling sand dunes creating surreal optical illusions and heat waves under a blazing hot desert sun. Global illumination, ray tracing, octane render, lens flare, subtle film grain, chromatic aberration, 8k resolution. No digital art style, no painting effect, natural atmosphere.
+
+==============================================================
+=== NUEVAS BESTIAS — TIER 3 (ÉPICOS) ========================
+==============================================================
+
+63. 🦕 Plesiosaurio Devorador de Ríos
+Prompt: Photorealistic RAW photo, captured on 14mm ultra-wide lens, f/2.8. Cinematic lighting. Foreground: violent, murky brown river water churning and splashing heavily against the camera lens. Midground: a gargantuan, terrifyingly thick plesiosaur bursting from the deep river, its massive long neck ending in open jaws lined with backward-facing teeth, large enough to swallow a boat. Background: a dark, claustrophobic Amazonian jungle canopy during a heavy tropical rainstorm. Global illumination, ray tracing, lumen, subtle film grain, chromatic aberration, 8k resolution. No digital art style, no painting effect, natural atmosphere.
+
+64. 🧌 Troll de las Cumbres Sangrientas
+Prompt: Photorealistic RAW photo, captured on 35mm lens, f/1.8. Cinematic lighting. Foreground: sharp, detailed, freezing white snow heavily stained with fresh, hyper-realistic dark red blood. Midground: a towering, incredibly muscular mythical troll with stony skin and thick frost-covered hair, holding a massive stone club, roaring violently. Background: an extremely hostile, freezing Himalayan mountain peak during a brutal, blinding blizzard. Global illumination, ray tracing, Unreal Engine 5, subtle film grain, chromatic aberration, 8k resolution. No digital art style, no painting effect, natural atmosphere.
+
+65. 🪿 Ganso Creador de Terremotos
+Prompt: Photorealistic RAW photo, captured on 35mm lens, f/1.8. Cinematic lighting. Foreground: massive jagged boulders and rocks violently levitating and shattering from intense seismic vibrations. Midground: a colossal, terrifyingly majestic white goose landing heavily, its flat feet generating shockwaves that crack the solid stone beneath it, an aura of pure destruction surrounding it. Background: a deep, dusty canyon valley filled with falling rock avalanches during harsh sunlight. Global illumination, ray tracing, octane render, subtle film grain, chromatic aberration, 8k resolution. No digital art style, no painting effect, natural atmosphere.
+
+66. 🗿 Gárgola de Ónice Despierta
+Prompt: Photorealistic RAW photo, captured on 35mm lens, f/1.8. Cinematic lighting, dark fantasy mood. Foreground: hyper-detailed weathered grey gothic stone architecture covered in dark creeping ivy. Midground: a terrifying, demonic gargoyle statue coming to life, made entirely of polished, pure black onyx stone, its eyes glowing with a sinister piercing red light. Background: a stormy, apocalyptic dark sky illuminated by a massive fork of lightning. Global illumination, ray tracing, Unreal Engine 5, subtle film grain, chromatic aberration, 8k resolution. No digital art style, no painting effect, natural atmosphere.
+
+67. 🐈‍⬛ Pantera de Materia Oscura
+Prompt: Photorealistic RAW photo, captured on 35mm lens, f/1.8. Cinematic lighting. Foreground: completely black, light-absorbing shadows stretching across a stone temple floor. Midground: an incredibly sleek, terrifying black panther made entirely of shifting dark matter, it absorbs all light around it, leaving a void-like silhouette against the environment, eyes glowing like cold, distant dying white stars. Background: ancient ruins bathed in eerie, pale moonlight. Global illumination, ray tracing, lumen, subtle film grain, chromatic aberration, 8k resolution. No digital art style, no painting effect, natural atmosphere.
+
+==============================================================
+=== NUEVAS BESTIAS — TIER 4 (MÍTICOS) =======================
+==============================================================
+
+68. 🦭 Morsa Tectónica del Fin del Mundo
+Prompt: Photorealistic RAW photo, captured on 14mm ultra-wide lens, aerial photography. Cinematic lighting, biblical scale. Foreground: massive tsunami waves crashing violently against jagged black icebergs. Midground: an unfathomably colossal mythical walrus breaking the ocean's surface, its body massive enough to cause earthquakes, sporting two gargantuan tusks that look like frozen mountains. Background: a terrifying apocalyptic storm, dark rolling clouds, and torrential freezing rain over the raging sea. Global illumination, ray tracing, octane render, subtle film grain, chromatic aberration, 8k resolution. No digital art style, no painting effect, natural atmosphere.
+
+69. 🐞 Mariquita del Eclipse Solar
+Prompt: Photorealistic RAW photo, captured on 100mm macro lens, f/1.8. Cinematic lighting. Foreground: absolute darkness creeping over highly detailed cracked earth as the light is sucked away. Midground: a massive, terrifyingly beautiful ladybug. Its rounded shell features glowing, perfect rings of golden fire resembling a total solar eclipse, emitting an awe-inspiring, blinding cosmic light from its spots. Background: a darkened daytime sky transitioning into a starry night. Global illumination, ray tracing, Unreal Engine 5, lens flare, subtle film grain, chromatic aberration, 8k resolution. No digital art style, no painting effect, natural atmosphere.
+
+70. 🐴 Pegaso de Polvo Estelar
+Prompt: Photorealistic RAW photo, captured on 35mm lens, f/1.8. Cinematic lighting. Foreground: ethereal, floating fragments of glowing asteroid rock slowly drifting in zero gravity. Midground: a divine, breathtaking winged horse composed entirely of swirling, glowing nebulas, cosmic dust, and bright shining constellations, galloping powerfully through the void. Background: the deep, terrifying majesty of outer space, filled with distant galaxies and vibrant purple cosmic clouds. Global illumination, ray tracing, lumen, lens flare, subtle film grain, chromatic aberration, 8k resolution. No digital art style, no painting effect, natural atmosphere.
+
+71. 🐕 Sabueso del Ragnarok
+Prompt: Photorealistic RAW photo, captured on 35mm lens, f/1.8. Cinematic lighting, epic scale. Foreground: hyper-detailed massive broken links of heavy dark iron chains scattered on scorched, burning earth. Midground: an impossibly gigantic, apocalyptic demonic hound towering over the landscape, snarling with pure apocalyptic rage, drooling molten fire, eyes burning with the destruction of the world. Background: an apocalyptic landscape with a blood-red sky, falling meteors, and total devastation. Global illumination, ray tracing, octane render, lens flare, subtle film grain, chromatic aberration, 8k resolution. No digital art style, no painting effect, natural atmosphere.
+
+72. 🦀 Cangrejo Isla Milenaria
+Prompt: Photorealistic RAW photo, captured on 14mm ultra-wide lens, f/2.8. Cinematic lighting, gargantuan scale. Foreground: huge ocean waves breaking against the colossal, barnacle-covered legs of a creature emerging from the sea. Midground: a mythical, world-class giant crab; its back is literally a fully formed tropical island complete with dense ancient jungles, waterfalls, and a smoking volcano. Background: an endless, vast blue ocean under a partly cloudy, dramatic afternoon sky. Global illumination, ray tracing, Unreal Engine 5, subtle film grain, chromatic aberration, 8k resolution. No digital art style, no painting effect, natural atmosphere.
+
+
+==============================================================
+=== 5 NUEVAS BESTIAS DE LEYENDA (SHENLONG Y MÁS) ============
+==============================================================
+
+73. 🔮 Dragón de los Siete Orbes
+Prompt: Photorealistic RAW photo, captured on 14mm ultra-wide lens. Cinematic lighting, biblical scale. Foreground: seven glowing, perfectly spherical magical crystal balls resting on a dark stone altar. Midground: a colossal, majestic Eastern serpentine dragon bursting into the sky, its emerald green scales radiating divine golden light, long mystical whiskers flowing in the wind. Background: a terrifyingly dark, pitch-black sky split entirely by intense branching golden lightning strikes. Global illumination, ray tracing, Unreal Engine 5, lens flare, subtle film grain, chromatic aberration, 8k resolution. No digital art style, no painting effect, natural atmosphere.
+
+74. 🐒 Gran Rey Mono de Piedra
+Prompt: Photorealistic RAW photo, captured on 35mm lens, f/1.8. Cinematic lighting. Foreground: shattered ancient stone temple tiles flying into the air from immense physical force. Midground: a mythical monkey warrior with glowing golden eyes, wearing ancient tattered celestial armor, wielding an impossibly heavy glowing iron staff with red runic inscriptions, standing in an arrogant martial arts stance. Background: a mountain peak rising above a sea of white clouds during a majestic sunrise. Global illumination, ray tracing, octane render, lens flare, subtle film grain, chromatic aberration, 8k resolution. No digital art style, no painting effect, natural atmosphere.
+
+75. 🪼 Medusa Cósmica Asimiladora
+Prompt: Photorealistic RAW photo, captured on 35mm lens, f/1.8. Cinematic lighting. Foreground: literal fragments of space-time floating and distorting like glass shards. Midground: an unfathomably massive, terrifyingly beautiful jellyfish composed of glowing pink, purple, and blue galaxies, its tentacles trailing cosmic dust and devouring starlight as it floats omniously. Background: the pitch-black void of outer space illuminated only by the creature's bioluminescent nebulas. Global illumination, ray tracing, Unreal Engine 5, subtle film grain, chromatic aberration, 8k resolution. No digital art style, no painting effect, natural atmosphere.
+
+76. 🐂 Minotauro del Laberinto Eterno
+Prompt: Photorealistic RAW photo, captured on 35mm lens, f/1.8. Cinematic lighting, dark fantasy mood. Foreground: heavily detailed dirty cobblestone floor stained with old blood, a broken bronze sword lying in a puddle. Midground: a massive, terrifying Minotaur with incredibly muscular anatomy, thick black fur, and giant bloodstained iron horns, snorting aggressively in the dark. Background: claustrophobic, towering maze walls made of ancient rough grey stone illuminated by flickering torches. Global illumination, ray tracing, lumen, subtle film grain, chromatic aberration, 8k resolution. No digital art style, no painting effect, natural atmosphere.
+
+77. 🦛 Behemoth de las Almas Pesadas
+Prompt: Photorealistic RAW photo, captured on 35mm lens, f/1.8. Cinematic lighting. Foreground: bubbling, highly detailed toxic green mud and rotting skeletal remains sinking into the mire. Midground: a monstrous, prehistoric hippopotamus of mythological scale, its thick skin looking like cracked dark armor plating, opening its massive jaws lined with jagged, terrifying teeth. Background: a creepy, foggy underworld river environment with floating blue wisps of souls in the background. Global illumination, ray tracing, octane render, subtle film grain, chromatic aberration, 8k resolution. No digital art style, no painting effect, natural atmosphere.
