@@ -3,6 +3,44 @@
 import { download, detail, search } from "../lib/hentaila.js";
 import { File } from "megajs";
 
+const delay = ms => new Promise(r => setTimeout(r, ms));
+
+/** Envía un mensaje de forma segura, sin crashear si la conexión se cerró */
+async function safeSend(conn, chat, content, opts = {}) {
+    try {
+        return await conn.sendMessage(chat, content, opts);
+    } catch (e) {
+        console.error('[hentaila] safeSend falló:', e.message);
+        return null;
+    }
+}
+
+/** Envía imagen con caption; si falla, reintenta como texto plano */
+async function sendWithCover(conn, chat, coverUrl, caption, quoted) {
+    // Intentar descargar el cover
+    let coverBuffer = null;
+    try {
+        const res = await fetch(coverUrl, {
+            headers: { 'Referer': 'https://hentaila.com/', 'User-Agent': 'Mozilla/5.0' },
+            signal: AbortSignal.timeout(10000) // 10s timeout
+        });
+        if (res.ok) coverBuffer = Buffer.from(await res.arrayBuffer());
+    } catch (e) { /* sin cover */ }
+
+    // Intentar enviar con imagen
+    if (coverBuffer) {
+        const sent = await safeSend(conn, chat, {
+            image: coverBuffer,
+            caption,
+            mimetype: 'image/jpeg'
+        }, { quoted });
+        if (sent) return sent;
+    }
+
+    // Fallback: enviar solo texto
+    return await safeSend(conn, chat, { text: caption }, { quoted });
+}
+
 let handler = async (m, { command, usedPrefix, conn, text, args }) => {
     if (!text) return m.reply(`\`Ingresa el título o la URL de HentaiLA. Ejemplo:\`\n\n • ${usedPrefix + command} Honey Blonde\n • ${usedPrefix + command} https://hentaila.com/media/honey-blonde-2`);
 
@@ -35,19 +73,8 @@ ${epsDisplay}${epsAbbrev}
 > ⏳ Descargando todos los episodios automáticamente...
 `.trim();
 
-            await conn.sendMessage(m.chat, {
-                text: cap,
-                contextInfo: {
-                    externalAdReply: {
-                        title: info.title,
-                        body: 'HentaiLA - Descarga',
-                        thumbnailUrl: info.cover,
-                        sourceUrl: text,
-                        mediaType: 1,
-                        renderLargerThumbnail: true
-                    }
-                }
-            }, { quoted: m });
+            // Enviar con imagen del cover (fallback a texto si falla)
+            await sendWithCover(conn, m.chat, info.cover, cap, m);
 
             let sortedEpisodes = info.episodes.sort((a, b) => parseInt(a.ep) - parseInt(b.ep));
             for (const episode of sortedEpisodes) {
@@ -55,12 +82,12 @@ ${epsDisplay}${epsAbbrev}
                     const inf = await download(episode.link);
 
                     if (inf.error) {
-                        await conn.reply(m.chat, `❌ Error: No se pudieron obtener los links de descarga para el episodio ${episode.ep}.\nDetalles: ${inf.error}`, m);
+                        await safeSend(conn, m.chat, { text: `❌ Error: No se pudieron obtener los links de descarga para el episodio ${episode.ep}.\nDetalles: ${inf.error}` }, { quoted: m });
                         continue;
                     }
 
                     if (!inf.dl.mega) {
-                        await conn.reply(m.chat, `❌ No se encontró link de Mega para el episodio ${episode.ep}.`, m);
+                        await safeSend(conn, m.chat, { text: `❌ No se encontró link de Mega para el episodio ${episode.ep}.` }, { quoted: m });
                         continue;
                     }
 
@@ -70,7 +97,7 @@ ${epsDisplay}${epsAbbrev}
                     const videoBuffer = await file.downloadBuffer();
 
                     if (!videoBuffer || videoBuffer.length < 1000) {
-                        await conn.reply(m.chat, `❌ El archivo descargado está vacío o corrupto para el episodio ${episode.ep}.`, m);
+                        await safeSend(conn, m.chat, { text: `❌ El archivo descargado está vacío o corrupto para el episodio ${episode.ep}.` }, { quoted: m });
                         continue;
                     }
 
@@ -79,9 +106,12 @@ ${epsDisplay}${epsAbbrev}
                         mimetype: 'video/mp4',
                         asDocument: true
                     });
+
+                    // Pequeña pausa entre episodios para no saturar la conexión
+                    await delay(2000);
                 } catch (err) {
                     console.error('[hentaila] Error al descargar ep:', episode.ep, err);
-                    await conn.reply(m.chat, `❌ Error al descargar el episodio ${episode.ep}: ${err.message}`, m);
+                    await safeSend(conn, m.chat, { text: `❌ Error al descargar el episodio ${episode.ep}: ${err.message}` }, { quoted: m });
                 }
             }
             m.react("✅");
@@ -90,33 +120,22 @@ ${epsDisplay}${epsAbbrev}
             m.react('🔍');
             const results = await search(text);
             if (results.length === 0) {
-                return conn.reply(m.chat, '❌ No se encontraron resultados en HentaiLA.', m);
+                return await safeSend(conn, m.chat, { text: '❌ No se encontraron resultados en HentaiLA.' }, { quoted: m });
             }
 
             let cap = `◢ HentaiLA - Search ◤\n`;
-            results.slice(0, 15).forEach((res, index) => {
+            const displayResults = results.slice(0, 15);
+            displayResults.forEach((res, index) => {
                 cap += `\n\`${index + 1}\`\n「✦」\`Title :\` ${res.title}\n> 🏷️ \`Categoría :\` ${res.category}\n> 🔗 \`Link :\` ${res.link}\n`;
             });
 
-            await conn.sendMessage(m.chat, {
-                text: cap,
-                contextInfo: {
-                    mentionedJid: [m.sender],
-                    externalAdReply: {
-                        title: 'Búsqueda HentaiLA',
-                        body: 'Resultados',
-                        thumbnailUrl: results[0].cover,
-                        sourceUrl: results[0].link,
-                        mediaType: 1,
-                        renderLargerThumbnail: true
-                    }
-                }
-            }, { quoted: m });
+            // Enviar con imagen del primer resultado (fallback a texto si falla)
+            await sendWithCover(conn, m.chat, displayResults[0].cover, cap, m);
             m.react("✅");
         }
     } catch (error) {
         console.error('Error en handler hentaila:', error);
-        conn.reply(m.chat, '❌ Error al procesar la solicitud: ' + error.message, m);
+        await safeSend(conn, m.chat, { text: '❌ Error al procesar la solicitud: ' + error.message }, { quoted: m });
     }
 };
 
