@@ -6,8 +6,17 @@ import { unwatchFile, watchFile } from 'fs'
 import chalk from 'chalk'
 import fetch from 'node-fetch'
 
-// Corrección de importación para nuevas versiones de Baileys
-const { proto, jidNormalizedUser } = await import('@whiskeysockets/baileys')
+// ======================================================================
+// 🛡️ SISTEMA BLINDADO DE EXTRACCIÓN DE BAILEYS (handler)
+// ======================================================================
+const BaileysRaw = await import('@whiskeysockets/baileys');
+const BaileysModule = BaileysRaw.default ? { ...BaileysRaw, ...BaileysRaw.default } : { ...BaileysRaw };
+
+// ✅ FIX: alias directo para evitar "baileys is not defined"
+const baileys = BaileysModule;
+
+const proto = BaileysModule.proto || BaileysModule.WAProto || BaileysModule.WAproto;
+const { jidNormalizedUser } = BaileysModule;
 
 const isNumber = x => typeof x === 'number' && !isNaN(x)
 const delay = ms => isNumber(ms) && new Promise(resolve => setTimeout(function () {
@@ -15,11 +24,30 @@ const delay = ms => isNumber(ms) && new Promise(resolve => setTimeout(function (
     resolve()
 }, ms))
 
+function stripDevice(jid = '') {
+    return String(jid).replace(/:\d+(?=@)/, '')
+}
+
+function normalizeAuthJid(value) {
+    const raw = Array.isArray(value) ? value[0] : value
+    if (!raw) return null
+    const text = stripDevice(String(raw).trim())
+    if (!text) return null
+    if (text.endsWith('@lid') || text.endsWith('@s.whatsapp.net')) return text
+    const number = text.replace(/[^0-9]/g, '')
+    return number ? `${number}@s.whatsapp.net` : null
+}
+
+function normalizeAuthList(list = []) {
+    return [...new Set(list.map(normalizeAuthJid).filter(Boolean))]
+}
+
 // Utilidades de LID internas
 async function areJidsSameUserLid(jid1, jid2, conn) {
     if (!jid1 || !jid2) return false;
+    jid1 = stripDevice(jid1)
+    jid2 = stripDevice(jid2)
     if (jid1 === jid2) return true;
-    if (jid1.replace(/:\d+/, '') === jid2.replace(/:\d+/, '')) return true;
     
     const lid = jid1.endsWith('@lid') ? jid1 : (jid2.endsWith('@lid') ? jid2 : null);
     const pn = jid1.endsWith('@s.whatsapp.net') ? jid1 : (jid2.endsWith('@s.whatsapp.net') ? jid2 : null);
@@ -344,8 +372,9 @@ export async function handler(chatUpdate) {
         let _user = global.db.data && global.db.data.users && global.db.data.users[m.sender]
 
         // --- Detección de owner/mods/prems compatible con LID ---
-        const ownerJids = [...global.owner.map(([number]) => number)].map(v => v.replace(/[^0-9]/g, '') + '@s.whatsapp.net')
-        let isROwner = ownerJids.includes(m.sender)
+        const senderJid = stripDevice(m.sender)
+        const ownerJids = normalizeAuthList(global.owner)
+        let isROwner = ownerJids.includes(senderJid)
         // Si m.sender es un LID resuelto, ya debería coincidir. Si no, verificar async
         if (!isROwner && m.sender.endsWith('@lid')) {
             for (const oj of ownerJids) {
@@ -355,8 +384,8 @@ export async function handler(chatUpdate) {
         const isOwner = isROwner || m.fromMe
         let isMods = isROwner
         if (!isMods) {
-            const modJids = global.mods.map(v => v.replace(/[^0-9]/g, '') + '@s.whatsapp.net')
-            isMods = modJids.includes(m.sender)
+            const modJids = normalizeAuthList(global.mods)
+            isMods = modJids.includes(senderJid)
             if (!isMods && m.sender.endsWith('@lid')) {
                 for (const mj of modJids) {
                     if (await areJidsSameUserLid(m.sender, mj, this)) { isMods = true; break }
@@ -365,8 +394,8 @@ export async function handler(chatUpdate) {
         }
         let isPrems = isROwner
         if (!isPrems) {
-            const premJids = global.prems.map(v => v.replace(/[^0-9]/g, '') + '@s.whatsapp.net')
-            isPrems = premJids.includes(m.sender) || _user?.premium == true
+            const premJids = normalizeAuthList(global.prems)
+            isPrems = premJids.includes(senderJid) || _user?.premium == true
             if (!isPrems && m.sender.endsWith('@lid')) {
                 for (const pj of premJids) {
                     if (await areJidsSameUserLid(m.sender, pj, this)) { isPrems = true; break }
@@ -399,8 +428,12 @@ export async function handler(chatUpdate) {
         let usedPrefix
 
         // --- Resolución de participantes compatible con LID (Baileys v7) ---
-        const groupMetadata = m.isGroup ? ((conn.chats[m.chat] || {}).metadata || await this.groupMetadata(m.chat).catch(_ => null)) : {}
-        const participants = m.isGroup ? (groupMetadata.participants || []) : []
+        const groupMetadata = m.isGroup
+            ? (((conn.chats[m.chat] || {}).metadata ||
+               (this.ws?.readyState === 1 ? await this.groupMetadata(m.chat).catch(_ => null) : null)) ||
+               { participants: [] })
+            : { participants: [] }
+        const participants = Array.isArray(groupMetadata.participants) ? groupMetadata.participants : []
         
         // Buscar participante del sender y del bot usando resolución LID-aware
         const user = (m.isGroup ? await findParticipant(participants, m.sender, this) : null) || {}

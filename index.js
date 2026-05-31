@@ -1,4 +1,8 @@
+// Temp files are centralized outside the project folder.
+// Default: /tmp/ikai-bot on Linux, OS temp/ikai-bot on Windows.
 process.env['NODE_TLS_REJECT_UNAUTHORIZED'] = '1'
+
+import { botTmpDir, formatBytes, getPathSpace } from './lib/tmp.js'
 import './settings.js'
 import { setupMaster, fork } from 'cluster'
 import { watchFile, unwatchFile } from 'fs'
@@ -14,7 +18,6 @@ import lodash from 'lodash'
 import { mitaJadiBot } from './plugins/jadibot-serbot.js';
 import chalk from 'chalk'
 import syntaxerror from 'syntax-error'
-import {tmpdir} from 'os'
 import {format} from 'util'
 import boxen from 'boxen'
 import P from 'pino'
@@ -71,6 +74,15 @@ global.API = (name, path = '/', query = {}, apikeyqueryname) => (name in global.
 global.timestamp = {start: new Date}
 
 const __dirname = global.__dirname(import.meta.url)
+const BOT_TMP_DIR = botTmpDir
+try {
+const tmpSpace = getPathSpace(BOT_TMP_DIR)
+const cwdSpace = getPathSpace(__dirname)
+console.log(`[Temp] ${BOT_TMP_DIR} libre: ${formatBytes(tmpSpace.freeBytes)} / ${formatBytes(tmpSpace.totalBytes)}`)
+console.log(`[Disk] ${__dirname} libre: ${formatBytes(cwdSpace.freeBytes)} / ${formatBytes(cwdSpace.totalBytes)}`)
+} catch (err) {
+console.error('[Temp] No se pudo leer el espacio disponible:', err.message)
+}
 
 global.opts = new Object(yargs(process.argv.slice(2)).exitProcess(false).parse())
 global.prefix = new RegExp('^[#/!.]')
@@ -153,7 +165,7 @@ return msg?.message || ""
 },
 msgRetryCounterCache,
 msgRetryCounterMap,
-defaultQueryTimeoutMs: undefined,
+defaultQueryTimeoutMs: 30000,
 version,
 }
 
@@ -191,7 +203,7 @@ conn.well = false;
 if (!opts['test']) {
 if (global.db) setInterval(async () => {
 if (global.db.data) await global.db.write()
-if (opts['autocleartmp'] && (global.support || {}).find) (tmp = [os.tmpdir(), 'tmp', `${jadi}`], tmp.forEach((filename) => cp.spawn('find', [filename, '-amin', '3', '-type', 'f', '-delete'])));
+    // Nota: limpieza del temporal se realiza en el setInterval de clearTmp() mas abajo
 }, 30 * 1000);
 }
 
@@ -378,11 +390,28 @@ Object.freeze(global.support);
 }
 
 function clearTmp() {
-const tmpDir = join(__dirname, 'tmp')
-const filenames = readdirSync(tmpDir)
-filenames.forEach(file => {
-const filePath = join(tmpDir, file)
-unlinkSync(filePath)})
+    const tmpDir = BOT_TMP_DIR
+    // Crear la carpeta si no existe (ej. primer arranque)
+    if (!existsSync(tmpDir)) { mkdirSync(tmpDir, { recursive: true }); return }
+    let borrados = 0
+    try {
+        const filenames = readdirSync(tmpDir)
+        filenames.forEach(file => {
+            try {
+                const filePath = join(tmpDir, file)
+                if (statSync(filePath).isFile()) {
+                    unlinkSync(filePath)
+                    borrados++
+                }
+            } catch (err) {
+                // Ignorar errores por archivo individual (ej. archivo en uso)
+                console.error(`[clearTmp] No se pudo borrar ${file}:`, err.message)
+            }
+        })
+    } catch (err) {
+        console.error('[clearTmp] Error al leer temporal:', err.message)
+    }
+    return borrados
 }
 
 function purgeSession() {
