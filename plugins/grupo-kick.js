@@ -5,9 +5,13 @@ var handler = async (m, { conn, participants, usedPrefix, command }) => {
 
     let user = m.mentionedJid[0] ? m.mentionedJid[0] : m.quoted.sender;
 
-    const groupInfo = await conn.groupMetadata(m.chat);
-    const ownerGroup = groupInfo.owner || m.chat.split`-`[0] + '@s.whatsapp.net';
-    const ownerBot = global.owner[0][0] + '@s.whatsapp.net';
+    const groupInfo = await conn.groupMetadata(m.chat).catch(_ => null);
+    const ownerGroup = groupInfo?.owner || m.chat.split`-`[0] + '@s.whatsapp.net';
+    const ownerBotJids = global.owner
+        .map(v => Array.isArray(v) ? v[0] : v)
+        .map(v => String(v || '').trim())
+        .filter(Boolean)
+        .map(v => v.endsWith('@lid') || v.endsWith('@s.whatsapp.net') ? v : v.replace(/[^0-9]/g, '') + '@s.whatsapp.net');
     //const nn = conn.getName(m.sender);
 
     if (user === conn.user.jid) {
@@ -18,7 +22,7 @@ var handler = async (m, { conn, participants, usedPrefix, command }) => {
         return conn.reply(m.chat, `${emoji2} No puedo eliminar al propietario del grupo.`, m);
     }
 
-    if (user === ownerBot) {
+    if (ownerBotJids.includes(user)) {
         return conn.reply(m.chat, `${emoji2} No puedo eliminar al propietario del bot.`, m);
     }
 

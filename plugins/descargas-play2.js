@@ -1,9 +1,9 @@
 import fetch from 'node-fetch'
 import fs from 'fs'
 import path from 'path'
-import os from 'os'
 import { exec } from 'child_process'
 import { promisify } from 'util'
+import { tmpPath } from '../lib/tmp.js'
 
 const execPromise = promisify(exec)
 
@@ -71,7 +71,7 @@ let handler = async (m, { conn, text, command, usedPrefix }) => {
     const authorName = author?.name || 'YouTube'
 
     // ── play2: enviar como audio de WhatsApp con tarjeta de previsualización ──────
-    if (command === 'play2') {
+    if (command === 'play' || command === 'play2') {
       await conn.sendMessage(m.chat, {
         audio: audioBuff,
         mimetype: 'audio/mpeg',
@@ -110,20 +110,23 @@ ${global.wm || ''}`.trim()
       }, { quoted: m })
 
       // ── play2audio: enviar como nota de voz (PTT) ─────────────────────────────────
-    } else if (command === 'play2audio') {
-      const tempDir = path.join(os.tmpdir(), 'mitabot_tmp')
+    } else if (command === 'playaudio' || command === 'play2audio') {
+      const tempDir = tmpPath('mitabot_tmp')
       if (!fs.existsSync(tempDir)) fs.mkdirSync(tempDir, { recursive: true })
 
       const inputFile = path.join(tempDir, `${Date.now()}_in.mp3`)
-      const outputFile = path.join(tempDir, `${Date.now()}_out.opus`)
+      const outputFile = path.join(tempDir, `${Date.now()}_out.ogg`)
       fs.writeFileSync(inputFile, audioBuff)
 
       try {
         await execPromise(
-          `ffmpeg -i "${inputFile}" -c:a libopus -b:a 128k -vbr on -compression_level 10 "${outputFile}"`
+          `ffmpeg -y -i "${inputFile}" -vn -c:a libopus -b:a 128k -vbr on -compression_level 10 -f ogg "${outputFile}"`
         )
+        if (!fs.existsSync(outputFile) || fs.statSync(outputFile).size === 0) {
+          throw new Error('ffmpeg genero un OGG vacio')
+        }
         await conn.sendMessage(m.chat, {
-          audio: fs.readFileSync(outputFile),
+          audio: { url: outputFile },
           mimetype: 'audio/ogg; codecs=opus',
           ptt: true
         }, { quoted: m })
@@ -146,9 +149,9 @@ ${global.wm || ''}`.trim()
   }
 }
 
-handler.help = ['play2 <título|link>', 'play2mp3 <título|link>', 'play2audio <título|link>']
+handler.help = ['play <título|link>', 'playaudio <título|link>', 'play2 <título|link>', 'play2mp3 <título|link>', 'play2audio <título|link>']
 handler.tags = ['downloader']
-handler.command = ['play2', 'play2mp3', 'play2audio']
+handler.command = ['play', 'playaudio', 'play2', 'play2mp3', 'play2audio']
 handler.limit = true
 handler.daftar = true
 

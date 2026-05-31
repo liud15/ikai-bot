@@ -3,9 +3,18 @@ import axios from 'axios'
 import { createRequire } from 'module'
 import { fileURLToPath } from 'url'
 import { dirname, join } from 'path'
+import { createWriteStream, existsSync, mkdirSync, unlinkSync } from 'fs'
+import { pipeline } from 'stream/promises'
+import { randomBytes } from 'crypto'
+import { botTmpDir, formatBytes, getPathSpace } from '../lib/tmp.js'
 
 const __dirname = dirname(fileURLToPath(import.meta.url))
 const require = createRequire(import.meta.url)
+
+// ── Carpeta temporal local del bot ────────────────────────────────────────────
+// Usamos el mismo temporal que ve Baileys para evitar mezclar ./tmp y /tmp.
+const BOT_TMP = botTmpDir
+if (!existsSync(BOT_TMP)) mkdirSync(BOT_TMP, { recursive: true })
 
 // Ruta al archivo de credenciales del service account
 const CREDENTIALS_PATH = join(__dirname, '..', 'drive-credentials.json')
@@ -96,37 +105,65 @@ let handler = async (m, { conn, args, usedPrefix, command }) => {
     let errores = 0
 
     for (const archivo of lista) {
+        // Nombre temporal único para evitar colisiones entre descargas simultáneas
+        const tmpName = randomBytes(8).toString('hex') + '_' + archivo.name.replace(/[^a-zA-Z0-9._-]/g, '_')
+        const tmpPath = join(BOT_TMP, tmpName)
+
         try {
             const fileSizeMB = archivo.size ? (parseInt(archivo.size) / 1024 / 1024).toFixed(1) : '?'
+            const fileSizeNum = archivo.size ? parseInt(archivo.size) / 1024 / 1024 : 0
+            const fileSizeBytes = archivo.size ? parseInt(archivo.size) : 0
+            const esDocumento = fileSizeNum > 160
+            if (fileSizeBytes) {
+                const tmpSpace = getPathSpace(BOT_TMP)
+                const requiredBytes = Math.ceil(fileSizeBytes * 2.25)
+                if (tmpSpace.freeBytes < requiredBytes) {
+                    throw new Error(`Temporal sin espacio suficiente. Libre: ${formatBytes(tmpSpace.freeBytes)}. Necesario aprox: ${formatBytes(requiredBytes)}. TMP: ${BOT_TMP}`)
+                }
+            }
 
             // URL de descarga directa via Drive API
             const downloadUrl = `https://www.googleapis.com/drive/v3/files/${archivo.id}?alt=media`
             const authClient = await getDriveClient().context._options.auth.getClient()
             const token = await authClient.getAccessToken()
 
+            // Paso 1: descargar al temporal unico del bot.
             const response = await axios.get(downloadUrl, {
                 headers: { Authorization: `Bearer ${token.token}` },
-                responseType: 'arraybuffer',
-                maxContentLength: Infinity,  // sin límite de tamaño
+                responseType: 'stream',
+                maxContentLength: Infinity,
                 maxBodyLength: Infinity,
                 timeout: 300000              // 5 minutos
             })
+            await pipeline(response.data, createWriteStream(tmpPath))
 
-            const buffer = Buffer.from(response.data)
+            // ── Paso 2: Enviar con conn.sendMessage + { url: ruta_local } ────────────
+            // Baileys acepta rutas locales en { video: { url: '/ruta/al/archivo' } }
+            // Baileys lee el archivo local y crea su copia cifrada en el mismo temporal.
+            // Completamente distinto a sendFile() que internamente hace writeFile → ENOSPC.
             const mime = archivo.mimeType || 'video/mp4'
-            const fileSizeNum = archivo.size ? parseInt(archivo.size) / 1024 / 1024 : 0
-            const esDocumento = fileSizeNum > 160
             const caption = `🎬 *${archivo.name}*\n📊 ${fileSizeMB} MB${esDocumento ? '\n📄 _Enviado como documento por superar 160 MB_' : ''}`
 
-            await conn.sendFile(m.chat, buffer, archivo.name, caption, m, null, {
+            const mediaKey = esDocumento         ? 'document'
+                           : /^video/.test(mime)  ? 'video'
+                           : /^audio/.test(mime)  ? 'audio'
+                           : /^image/.test(mime)  ? 'image'
+                           : 'document'
+
+            await conn.sendMessage(m.chat, {
+                [mediaKey]: { url: tmpPath },  // ← ruta local, Baileys la lee directo
                 mimetype: mime,
-                asDocument: esDocumento
-            })
+                fileName: archivo.name,
+                caption: caption
+            }, { quoted: m })
 
             enviados++
         } catch (e) {
             errores++
             console.error(`[Drive] Error enviando ${archivo.name}:`, e.message)
+        } finally {
+            // Borrar el temporal SIEMPRE (éxito o error)
+            try { if (existsSync(tmpPath)) unlinkSync(tmpPath) } catch (_) {}
         }
     }
 

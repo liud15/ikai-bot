@@ -80,7 +80,9 @@ let handler = async (m, { conn, usedPrefix, command, text }) => {
             text: `${_emoji2} Procesando con Gemini...`
         }, { quoted: m })
 
-        const groupMeta = await conn.groupMetadata(m.chat).catch(() => null)
+        const groupMeta = (conn.ws?.readyState === 1)
+            ? await conn.groupMetadata(m.chat).catch(() => null)
+            : null
         const groupName = groupMeta?.subject || 'un chat'
         const chatId = m.chat.split('@')[0]
 

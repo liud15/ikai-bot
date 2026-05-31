@@ -21,7 +21,9 @@ let handler = async (m, { conn, usedPrefix, command, text }) => {
         }, { quoted: m })
 
         // Obtener el nombre del grupo
-        const groupMeta = await conn.groupMetadata(m.chat).catch(() => null)
+        const groupMeta = (conn.ws?.readyState === 1)
+            ? await conn.groupMetadata(m.chat).catch(() => null)
+            : null
         const groupName = groupMeta?.subject || 'un grupo'
 
         // Construir la pregunta con contexto del bot

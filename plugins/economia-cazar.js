@@ -110,6 +110,29 @@ const HABITATS = {
     73: 'el altar sagrado bajo el cielo oscurecido por relámpagos',
     74: 'la cima de la montaña de los cinco elementos',
     75: 'el horizonte de sucesos del agujero negro distorsionado',
+    78: 'el santuario sumergido de memorias líquidas',
+    79: 'la pradera polar bajo la aurora boreal',
+    80: 'el bosque primordial cubierto de niebla dorada',
+    81: 'el bosque nuboso de medianoche',
+    82: 'el archivo desértico enterrado en arena',
+    83: 'la catedral de hielo bajo el océano ártico',
+    84: 'el cañón oceánico de cristal sonoro',
+    85: 'el campo de huesos al atardecer',
+    86: 'el pantano boreal del bosque invertido',
+    87: 'el bosque de bambú bajo lluvia intensa',
+    88: 'la poza termal del santuario de sueños',
+    89: 'la pradera alta junto al bosque antiguo',
+    90: 'la selva hundida bajo tormenta monzónica',
+    91: 'la fosa hadal de gravedad imposible',
+    92: 'la forja volcánica bajo la montaña',
+    93: 'el salar blanco de espejismos infinitos',
+    94: 'la sabana crepuscular del observatorio estelar',
+    95: 'la zanja sagrada del río profundo',
+    96: 'la red subterránea de raíces profundas',
+    97: 'el bambusal blanco de la montaña fantasma',
+    98: 'el observatorio submarino de mareas eternas',
+    99: 'la pirámide selvática del vacío nocturno',
+    100: 'la grieta dimensional microscópica',
 }
 
 const CAZAR_USUARIO_MSGS = [
@@ -285,20 +308,11 @@ let handler = async (m, { conn, usedPrefix, command, text }) => {
         txt += `> 🎖️ Rango actual: *${rango}*`
     }
 
-    // Enviar con thumbnail si el animal tiene foto
+    // Enviar la imagen completa si el animal tiene foto
     if (animal.foto && animal.foto.startsWith('http')) {
         await conn.sendMessage(m.chat, {
-            text: txt,
-            contextInfo: {
-                externalAdReply: {
-                    title: `🏹 ${animal.nombre}`,
-                    body: `${TIER_BADGE[animal.tier] || animal.tier} | IKAIBOT RPG`,
-                    thumbnailUrl: animal.foto,
-                    sourceUrl: '',
-                    mediaType: 1,
-                    renderLargerThumbnail: true
-                }
-            }
+            image: { url: animal.foto },
+            caption: txt
         }, { quoted: m })
     } else {
         await m.reply(txt)
