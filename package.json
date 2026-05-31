@@ -9,7 +9,11 @@
     "plugins": "plugins"
   },
   "scripts": {
-    "start": "node index.js"
+    "start": "node start.js",
+    "start:win": "node start.js",
+    "import:chars": "node scripts/import-characters.js",
+    "mal:scrape": "node scripts/mal-scraper.js",
+    "mal:scrape:import": "node scripts/mal-scraper.js --import"
   },
   "repository": {
     "type": "git",

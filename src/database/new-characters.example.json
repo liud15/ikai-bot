@@ -1,0 +1,15 @@
+[
+  {
+    "name": "Nombre del personaje",
+    "gender": "Mujer",
+    "source": "Nombre del anime",
+    "value": "1500",
+    "img": [
+      "https://ejemplo.com/imagen.jpg"
+    ],
+    "vid": [],
+    "aliases": [
+      "Alias opcional"
+    ]
+  }
+]
