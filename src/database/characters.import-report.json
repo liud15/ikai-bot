@@ -1,0 +1,5833 @@
+{
+  "input": "C:\\Users\\Usuario\\Downloads\\characters (1).json",
+  "write": true,
+  "fuzzy": true,
+  "fuzzyThreshold": 0.8,
+  "existingBefore": 2462,
+  "incoming": 241,
+  "added": 85,
+  "skipped": 156,
+  "nextIdAfterImport": "2560",
+  "addedCharacters": [
+    {
+      "id": "2475",
+      "name": "Senko San",
+      "gender": "Mujer",
+      "value": "45000",
+      "source": "Sewayaki Kitsune no Senko-san",
+      "img": [],
+      "vid": [],
+      "user": null,
+      "status": "Libre",
+      "votes": 0,
+      "aliases": [
+        "senko_(sewayaki_kitsune_no_senko-san)"
+      ]
+    },
+    {
+      "id": "2476",
+      "name": "Meimei (Kusuriya no Hitorigoto)",
+      "gender": "Mujer",
+      "value": "26186",
+      "source": "Kusuriya no Hitorigoto",
+      "img": [],
+      "vid": [],
+      "user": null,
+      "status": "Libre",
+      "votes": 0,
+      "aliases": [
+        "meimei_(kusuriya_no_hitorigoto)"
+      ]
+    },
+    {
+      "id": "2477",
+      "name": "Rahan",
+      "gender": "Hombre",
+      "value": "26871",
+      "source": "Kusuriya no Hitorigoto",
+      "img": [],
+      "vid": [],
+      "user": null,
+      "status": "Libre",
+      "votes": 0,
+      "aliases": [
+        "rahan_(kusuriya_no_hitorigoto)"
+      ]
+    },
+    {
+      "id": "2478",
+      "name": "Gaoshun",
+      "gender": "Hombre",
+      "value": "2584",
+      "source": "Kusuriya no Hitorigoto",
+      "img": [],
+      "vid": [],
+      "user": null,
+      "status": "Libre",
+      "votes": 0,
+      "aliases": [
+        "gaoshun_(kusuriya_no_hitorigoto)"
+      ]
+    },
+    {
+      "id": "2479",
+      "name": "Ah-Dou",
+      "gender": "Mujer",
+      "value": "2638",
+      "source": "Kusuriya no Hitorigoto",
+      "img": [],
+      "vid": [],
+      "user": null,
+      "status": "Libre",
+      "votes": 0,
+      "aliases": [
+        "ah-duo_(kusuriya_no_hitorigoto)"
+      ]
+    },
+    {
+      "id": "2480",
+      "name": "Kiwi Araga",
+      "gender": "Mujer",
+      "value": "26296",
+      "source": "Mahou Shoujo ni Akogarate",
+      "img": [],
+      "vid": [],
+      "user": null,
+      "status": "Libre",
+      "votes": 0,
+      "aliases": [
+        "araga_kiwi"
+      ]
+    },
+    {
+      "id": "2481",
+      "name": "Iino Miko",
+      "gender": "Mujer",
+      "value": "27639",
+      "source": "Kaguya-sama",
+      "img": [],
+      "vid": [],
+      "user": null,
+      "status": "Libre",
+      "votes": 0,
+      "aliases": [
+        "iino_miko"
+      ]
+    },
+    {
+      "id": "2482",
+      "name": "Trigger",
+      "gender": "Mujer",
+      "value": "27158",
+      "source": "Zenless Zone Zero",
+      "img": [],
+      "vid": [],
+      "user": null,
+      "status": "Libre",
+      "votes": 0,
+      "aliases": [
+        "trigger_(zenless_zone_zero)"
+      ]
+    },
+    {
+      "id": "2483",
+      "name": "Tsukishiro Yanagi",
+      "gender": "Mujer",
+      "value": "37299",
+      "source": "Zenless Zone Zero",
+      "img": [],
+      "vid": [],
+      "user": null,
+      "status": "Libre",
+      "votes": 0,
+      "aliases": [
+        "tsukishiro_yanagi"
+      ]
+    },
+    {
+      "id": "2484",
+      "name": "Burnice White",
+      "gender": "Mujer",
+      "value": "27397",
+      "source": "Zenless Zone Zero",
+      "img": [],
+      "vid": [],
+      "user": null,
+      "status": "Libre",
+      "votes": 0,
+      "aliases": [
+        "burnice_white"
+      ]
+    },
+    {
+      "id": "2485",
+      "name": "Miyabi Hoshimi",
+      "gender": "Mujer",
+      "value": "28176",
+      "source": "Zenless Zone Zero",
+      "img": [],
+      "vid": [],
+      "user": null,
+      "status": "Libre",
+      "votes": 0,
+      "aliases": [
+        "hoshimi_miyabi"
+      ]
+    },
+    {
+      "id": "2486",
+      "name": "Jane Doe",
+      "gender": "Mujer",
+      "value": "28367",
+      "source": "Zenless Zone Zero",
+      "img": [],
+      "vid": [],
+      "user": null,
+      "status": "Libre",
+      "votes": 0,
+      "aliases": [
+        "jane_doe_(zenless_zone_zero)"
+      ]
+    },
+    {
+      "id": "2487",
+      "name": "Astra Yao",
+      "gender": "Mujer",
+      "value": "75837",
+      "source": "Zenless Zone Zero",
+      "img": [],
+      "vid": [],
+      "user": null,
+      "status": "Libre",
+      "votes": 0,
+      "aliases": [
+        "astra_yao"
+      ]
+    },
+    {
+      "id": "2488",
+      "name": "Evelyn Chevalier",
+      "gender": "Mujer",
+      "value": "28367",
+      "source": "Zenless Zone Zero",
+      "img": [],
+      "vid": [],
+      "user": null,
+      "status": "Libre",
+      "votes": 0,
+      "aliases": [
+        "evelyn_chevalier"
+      ]
+    },
+    {
+      "id": "2489",
+      "name": "Ben Bigger",
+      "gender": "Hombre",
+      "value": "87497",
+      "source": "Zenless Zone Zero",
+      "img": [],
+      "vid": [],
+      "user": null,
+      "status": "Libre",
+      "votes": 0,
+      "aliases": [
+        "ben_bigger"
+      ]
+    },
+    {
+      "id": "2490",
+      "name": "Vivian Banshee",
+      "gender": "Mujer",
+      "value": "27297",
+      "source": "Zenless Zone Zero",
+      "img": [],
+      "vid": [],
+      "user": null,
+      "status": "Libre",
+      "votes": 0,
+      "aliases": [
+        "vivian_banshee"
+      ]
+    },
+    {
+      "id": "2491",
+      "name": "Qingyi",
+      "gender": "Mujer",
+      "value": "26196",
+      "source": "Zenless Zone Zero",
+      "img": [],
+      "vid": [],
+      "user": null,
+      "status": "Libre",
+      "votes": 0,
+      "aliases": [
+        "qingyi_(zenless_zone_zero)"
+      ]
+    },
+    {
+      "id": "2492",
+      "name": "Ju Fufu",
+      "gender": "Mujer",
+      "value": "21697",
+      "source": "Zenless Zone Zero",
+      "img": [],
+      "vid": [],
+      "user": null,
+      "status": "Libre",
+      "votes": 0,
+      "aliases": [
+        "ju_fufu"
+      ]
+    },
+    {
+      "id": "2493",
+      "name": "Yi Xuan",
+      "gender": "Mujer",
+      "value": "29379",
+      "source": "Zenless Zone Zero",
+      "img": [],
+      "vid": [],
+      "user": null,
+      "status": "Libre",
+      "votes": 0,
+      "aliases": [
+        "yixuan_(zenless_zone_zero)"
+      ]
+    },
+    {
+      "id": "2494",
+      "name": "Venus",
+      "gender": "Mujer",
+      "value": "28368",
+      "source": "Zenless Zone Zero",
+      "img": [],
+      "vid": [],
+      "user": null,
+      "status": "Libre",
+      "votes": 0,
+      "aliases": [
+        "venus_(zenless_zone_zero)"
+      ]
+    },
+    {
+      "id": "2495",
+      "name": "Luciana De Montefio",
+      "gender": "Mujer",
+      "value": "27397",
+      "source": "Zenless Zone Zero",
+      "img": [],
+      "vid": [],
+      "user": null,
+      "status": "Libre",
+      "votes": 0,
+      "aliases": [
+        "luciana_de_montefio"
+      ]
+    },
+    {
+      "id": "2496",
+      "name": "Soldier 11",
+      "gender": "Mujer",
+      "value": "28376",
+      "source": "Zenless Zone Zero",
+      "img": [],
+      "vid": [],
+      "user": null,
+      "status": "Libre",
+      "votes": 0,
+      "aliases": [
+        "soldier_11_(zenless_zone_zero)"
+      ]
+    },
+    {
+      "id": "2497",
+      "name": "Sweety",
+      "gender": "Mujer",
+      "value": "38276",
+      "source": "Zenless Zone Zero",
+      "img": [],
+      "vid": [],
+      "user": null,
+      "status": "Libre",
+      "votes": 0,
+      "aliases": [
+        "sweety_(zenless_zone_zero)"
+      ]
+    },
+    {
+      "id": "2498",
+      "name": "Soukaku",
+      "gender": "Mujer",
+      "value": "36826",
+      "source": "Zenless Zone Zero",
+      "img": [],
+      "vid": [],
+      "user": null,
+      "status": "Libre",
+      "votes": 0,
+      "aliases": [
+        "soukaku_(zenless_zone_zero)"
+      ]
+    },
+    {
+      "id": "2499",
+      "name": "Asaba Harumasa",
+      "gender": "Hombre",
+      "value": "85577",
+      "source": "Zenless Zone Zero",
+      "img": [],
+      "vid": [],
+      "user": null,
+      "status": "Libre",
+      "votes": 0,
+      "aliases": [
+        "asaba_harumasa"
+      ]
+    },
+    {
+      "id": "2500",
+      "name": "Seth Lowell",
+      "gender": "Hombre",
+      "value": "27357",
+      "source": "Zenless Zone Zero",
+      "img": [],
+      "vid": [],
+      "user": null,
+      "status": "Libre",
+      "votes": 0,
+      "aliases": [
+        "seth_lowell"
+      ]
+    },
+    {
+      "id": "2501",
+      "name": "Koleda Belobog",
+      "gender": "Mujer",
+      "value": "37396",
+      "source": "Zenless Zone Zero",
+      "img": [],
+      "vid": [],
+      "user": null,
+      "status": "Libre",
+      "votes": 0,
+      "aliases": [
+        "koleda_belobog"
+      ]
+    },
+    {
+      "id": "2502",
+      "name": "Hugo Vlad",
+      "gender": "Hombre",
+      "value": "28368",
+      "source": "Zenless Zone Zero",
+      "img": [],
+      "vid": [],
+      "user": null,
+      "status": "Libre",
+      "votes": 0,
+      "aliases": [
+        "hugo_vlad"
+      ]
+    },
+    {
+      "id": "2503",
+      "name": "Orchidea",
+      "gender": "Mujer",
+      "value": "73835",
+      "source": "Zenless Zone Zero",
+      "img": [],
+      "vid": [],
+      "user": null,
+      "status": "Libre",
+      "votes": 0,
+      "aliases": [
+        "orchidea_(zenless_zone_zero)"
+      ]
+    },
+    {
+      "id": "2504",
+      "name": "Alice Thymefield",
+      "gender": "Mujer",
+      "value": "27368",
+      "source": "Zenless Zone Zero",
+      "img": [],
+      "vid": [],
+      "user": null,
+      "status": "Libre",
+      "votes": 0,
+      "aliases": [
+        "alice_thymefield"
+      ]
+    },
+    {
+      "id": "2505",
+      "name": "Ukinami Yuzuha",
+      "gender": "Mujer",
+      "value": "46286",
+      "source": "Zenless Zone Zero",
+      "img": [],
+      "vid": [],
+      "user": null,
+      "status": "Libre",
+      "votes": 0,
+      "aliases": [
+        "ukinami_yuzuha"
+      ]
+    },
+    {
+      "id": "2506",
+      "name": "Twiggy",
+      "gender": "Mujer",
+      "value": "26386",
+      "source": "Zenless Zone Zero",
+      "img": [],
+      "vid": [],
+      "user": null,
+      "status": "Libre",
+      "votes": 0,
+      "aliases": [
+        "twiggy_(zenless_zone_zero)"
+      ]
+    },
+    {
+      "id": "2507",
+      "name": "Pan Yinhu",
+      "gender": "Mujer",
+      "value": "66387",
+      "source": "Zenless Zone Zero",
+      "img": [],
+      "vid": [],
+      "user": null,
+      "status": "Libre",
+      "votes": 0,
+      "aliases": [
+        "pan_yinhu"
+      ]
+    },
+    {
+      "id": "2508",
+      "name": "Pompey",
+      "gender": "Hombre",
+      "value": "2377",
+      "source": "Zenless Zone Zero",
+      "img": [],
+      "vid": [],
+      "user": null,
+      "status": "Libre",
+      "votes": 0,
+      "aliases": [
+        "pompey_(zenless_zone_zero)"
+      ]
+    },
+    {
+      "id": "2509",
+      "name": "Orpheus",
+      "gender": "Mujer",
+      "value": "73687",
+      "source": "Zenless Zone Zero",
+      "img": [],
+      "vid": [],
+      "user": null,
+      "status": "Libre",
+      "votes": 0,
+      "aliases": [
+        "orpheus_(zenless_zone_zero)"
+      ]
+    },
+    {
+      "id": "2510",
+      "name": "Bangboo",
+      "gender": "Mujer",
+      "value": "59368",
+      "source": "Zenless Zone Zero",
+      "img": [],
+      "vid": [],
+      "user": null,
+      "status": "Libre",
+      "votes": 0,
+      "aliases": [
+        "bangboo_(zenless_zone_zero)"
+      ]
+    },
+    {
+      "id": "2511",
+      "name": "Conny",
+      "gender": "Mujer",
+      "value": "1728",
+      "source": "Miira no Kaikata",
+      "img": [],
+      "vid": [],
+      "user": null,
+      "status": "Libre",
+      "votes": 0,
+      "aliases": [
+        "coony_(miira_no_kaikata)"
+      ]
+    },
+    {
+      "id": "2512",
+      "name": "Jotaro Kujo",
+      "gender": "Hombre",
+      "value": "18367",
+      "source": "JoJo's Bizarre Adventure",
+      "img": [],
+      "vid": [],
+      "user": null,
+      "status": "Libre",
+      "votes": 0,
+      "aliases": [
+        "jotaro_kujo"
+      ]
+    },
+    {
+      "id": "2513",
+      "name": "Star Platinum",
+      "gender": "Hombre",
+      "value": "3797",
+      "source": "JoJo's Bizarre Adventure",
+      "img": [],
+      "vid": [],
+      "user": null,
+      "status": "Libre",
+      "votes": 0,
+      "aliases": [
+        "star_platinum"
+      ]
+    },
+    {
+      "id": "2514",
+      "name": "Giorno Giovanna",
+      "gender": "Hombre",
+      "value": "27388",
+      "source": "JoJo's Bizarre Adventure",
+      "img": [],
+      "vid": [],
+      "user": null,
+      "status": "Libre",
+      "votes": 0,
+      "aliases": [
+        "giorno_giovanna"
+      ]
+    },
+    {
+      "id": "2515",
+      "name": "Rohan Kishibe",
+      "gender": "Hombre",
+      "value": "2739",
+      "source": "JoJo's Bizarre Adventure",
+      "img": [],
+      "vid": [],
+      "user": null,
+      "status": "Libre",
+      "votes": 0,
+      "aliases": [
+        "kishibe_rohan"
+      ]
+    },
+    {
+      "id": "2516",
+      "name": "The World",
+      "gender": "Hombre",
+      "value": "29399",
+      "source": "JoJo's Bizarre Adventure",
+      "img": [],
+      "vid": [],
+      "user": null,
+      "status": "Libre",
+      "votes": 0,
+      "aliases": [
+        "the_world"
+      ]
+    },
+    {
+      "id": "2517",
+      "name": "Rio Tsukatsuki",
+      "gender": "Mujer",
+      "value": "393917",
+      "source": "Blue Archive",
+      "img": [],
+      "vid": [],
+      "user": null,
+      "status": "Libre",
+      "votes": 0,
+      "aliases": [
+        "tsukatsuki_rio"
+      ]
+    },
+    {
+      "id": "2518",
+      "name": "Shalltear Bloodfallen",
+      "gender": "Mujer",
+      "value": "29298",
+      "source": "Overlord",
+      "img": [],
+      "vid": [],
+      "user": null,
+      "status": "Libre",
+      "votes": 0,
+      "aliases": [
+        "shalltear_bloodfallen"
+      ]
+    },
+    {
+      "id": "2519",
+      "name": "Onikata Kayoko",
+      "gender": "Mujer",
+      "value": "86629",
+      "source": "Blue Archive",
+      "img": [],
+      "vid": [],
+      "user": null,
+      "status": "Libre",
+      "votes": 0,
+      "aliases": [
+        "onikata_kayoko"
+      ]
+    },
+    {
+      "id": "2520",
+      "name": "Nozomi Tachibana",
+      "gender": "Mujer",
+      "value": "35826",
+      "source": "Blue Archive",
+      "img": [],
+      "vid": [],
+      "user": null,
+      "status": "Libre",
+      "votes": 0,
+      "aliases": [
+        "nozomi_(blue_archive)"
+      ]
+    },
+    {
+      "id": "2521",
+      "name": "Rin Nanagami",
+      "gender": "Mujer",
+      "value": "58398",
+      "source": "Blue Archive",
+      "img": [],
+      "vid": [],
+      "user": null,
+      "status": "Libre",
+      "votes": 0,
+      "aliases": [
+        "nanagami_rin"
+      ]
+    },
+    {
+      "id": "2522",
+      "name": "Rin Kagamine",
+      "gender": "Mujer",
+      "value": "37878",
+      "source": "Vocaloid",
+      "img": [],
+      "vid": [],
+      "user": null,
+      "status": "Libre",
+      "votes": 0,
+      "aliases": [
+        "kagamine_rin"
+      ]
+    },
+    {
+      "id": "2523",
+      "name": "Luka Megurine",
+      "gender": "Mujer",
+      "value": "36878",
+      "source": "Vocaloid",
+      "img": [],
+      "vid": [],
+      "user": null,
+      "status": "Libre",
+      "votes": 0,
+      "aliases": [
+        "megurine_luka"
+      ]
+    },
+    {
+      "id": "2524",
+      "name": "Akita Neru",
+      "gender": "Mujer",
+      "value": "1287",
+      "source": "Vocaloid",
+      "img": [],
+      "vid": [],
+      "user": null,
+      "status": "Libre",
+      "votes": 0,
+      "aliases": [
+        "akita_neru"
+      ]
+    },
+    {
+      "id": "2525",
+      "name": "Oliver",
+      "gender": "Hombre",
+      "value": "3958",
+      "source": "Vocaloid",
+      "img": [],
+      "vid": [],
+      "user": null,
+      "status": "Libre",
+      "votes": 0,
+      "aliases": [
+        "oliver_(vocaloid)"
+      ]
+    },
+    {
+      "id": "2526",
+      "name": "Flower",
+      "gender": "Mujer",
+      "value": "38497",
+      "source": "Vocaloid",
+      "img": [],
+      "vid": [],
+      "user": null,
+      "status": "Libre",
+      "votes": 0,
+      "aliases": [
+        "flower_(vocaloid)"
+      ]
+    },
+    {
+      "id": "2527",
+      "name": "Gumi",
+      "gender": "Mujer",
+      "value": "2817",
+      "source": "Vocaloid",
+      "img": [],
+      "vid": [],
+      "user": null,
+      "status": "Libre",
+      "votes": 0,
+      "aliases": [
+        "gumi"
+      ]
+    },
+    {
+      "id": "2528",
+      "name": "Mahoraga",
+      "gender": "Hombre",
+      "value": "16826",
+      "source": "Jujutsu Kaisen",
+      "img": [],
+      "vid": [],
+      "user": null,
+      "status": "Libre",
+      "votes": 0,
+      "aliases": [
+        "mahoraga_(jujutsu_kaisen)"
+      ]
+    },
+    {
+      "id": "2529",
+      "name": "Yusepe",
+      "gender": "Desconocido",
+      "value": "309768",
+      "source": "Jujutsu Kaisen",
+      "img": [],
+      "vid": [],
+      "user": null,
+      "status": "Libre",
+      "votes": 0,
+      "aliases": [
+        "yusepe_(jujutsu_kaisen)"
+      ]
+    },
+    {
+      "id": "2530",
+      "name": "Nanami Kento",
+      "gender": "Hombre",
+      "value": "2762",
+      "source": "Jujutsu Kaisen",
+      "img": [],
+      "vid": [],
+      "user": null,
+      "status": "Libre",
+      "votes": 0,
+      "aliases": [
+        "nanami_kento"
+      ]
+    },
+    {
+      "id": "2531",
+      "name": "Pack",
+      "gender": "Desconocido",
+      "value": "81683",
+      "source": "Re:Zero",
+      "img": [],
+      "vid": [],
+      "user": null,
+      "status": "Libre",
+      "votes": 0,
+      "aliases": [
+        "pack_(re:zero)"
+      ]
+    },
+    {
+      "id": "2532",
+      "name": "Perona",
+      "gender": "Mujer",
+      "value": "32729",
+      "source": "One Piece",
+      "img": [],
+      "vid": [],
+      "user": null,
+      "status": "Libre",
+      "votes": 0,
+      "aliases": [
+        "perona"
+      ]
+    },
+    {
+      "id": "2533",
+      "name": "Zoro Roronoa",
+      "gender": "Hombre",
+      "value": "29278",
+      "source": "One Piece",
+      "img": [],
+      "vid": [],
+      "user": null,
+      "status": "Libre",
+      "votes": 0,
+      "aliases": [
+        "zoro_roronoa"
+      ]
+    },
+    {
+      "id": "2534",
+      "name": "Yamato",
+      "gender": "Mujer",
+      "value": "29367",
+      "source": "One Piece",
+      "img": [],
+      "vid": [],
+      "user": null,
+      "status": "Libre",
+      "votes": 0,
+      "aliases": [
+        "yamato_(one_piece)"
+      ]
+    },
+    {
+      "id": "2535",
+      "name": "Jolyne Kujo",
+      "gender": "Mujer",
+      "value": "3782",
+      "source": "JoJo's Bizarre Adventure",
+      "img": [],
+      "vid": [],
+      "user": null,
+      "status": "Libre",
+      "votes": 0,
+      "aliases": [
+        "jolyne_kujo"
+      ]
+    },
+    {
+      "id": "2536",
+      "name": "Dio Brando",
+      "gender": "Hombre",
+      "value": "3827",
+      "source": "JoJo's Bizarre Adventure",
+      "img": [],
+      "vid": [],
+      "user": null,
+      "status": "Libre",
+      "votes": 0,
+      "aliases": [
+        "dio_brando"
+      ]
+    },
+    {
+      "id": "2537",
+      "name": "Bruno Bucciarati",
+      "gender": "Hombre",
+      "value": "5785",
+      "source": "JoJo's Bizarre Adventure",
+      "img": [],
+      "vid": [],
+      "user": null,
+      "status": "Libre",
+      "votes": 0,
+      "aliases": [
+        "bruno_bucciarati"
+      ]
+    },
+    {
+      "id": "2538",
+      "name": "Retzel",
+      "gender": "Mujer",
+      "value": "39600",
+      "source": "Prima Doll",
+      "img": [],
+      "vid": [],
+      "user": null,
+      "status": "Libre",
+      "votes": 0,
+      "aliases": [
+        "retzel_(prima_doll)"
+      ]
+    },
+    {
+      "id": "2539",
+      "name": "Haizakura",
+      "gender": "Mujer",
+      "value": "39600",
+      "source": "Prima Doll",
+      "img": [],
+      "vid": [],
+      "user": null,
+      "status": "Libre",
+      "votes": 0,
+      "aliases": [
+        "haizakura_(prima_doll)"
+      ]
+    },
+    {
+      "id": "2540",
+      "name": "Karasuba",
+      "gender": "Mujer",
+      "value": "17396",
+      "source": "Prima Doll",
+      "img": [],
+      "vid": [],
+      "user": null,
+      "status": "Libre",
+      "votes": 0,
+      "aliases": [
+        "karasuba_(prima_doll)"
+      ]
+    },
+    {
+      "id": "2541",
+      "name": "Gekka",
+      "gender": "Mujer",
+      "value": "39600",
+      "source": "Prima Doll",
+      "img": [],
+      "vid": [],
+      "user": null,
+      "status": "Libre",
+      "votes": 0,
+      "aliases": [
+        "gekka_(prima_doll)"
+      ]
+    },
+    {
+      "id": "2542",
+      "name": "Himeno",
+      "gender": "Mujer",
+      "value": "19379",
+      "source": "Chainsaw Man",
+      "img": [],
+      "vid": [],
+      "user": null,
+      "status": "Libre",
+      "votes": 0,
+      "aliases": [
+        "himeno_(chainsaw_man)"
+      ]
+    },
+    {
+      "id": "2543",
+      "name": "Mita",
+      "gender": "Mujer",
+      "value": "19629",
+      "source": "MiSide",
+      "img": [],
+      "vid": [],
+      "user": null,
+      "status": "Libre",
+      "votes": 0,
+      "aliases": [
+        "mita_(miside)"
+      ]
+    },
+    {
+      "id": "2544",
+      "name": "Cool Mita",
+      "gender": "Mujer",
+      "value": "28618",
+      "source": "MiSide",
+      "img": [],
+      "vid": [],
+      "user": null,
+      "status": "Libre",
+      "votes": 0,
+      "aliases": [
+        "cool_mita_(miside)"
+      ]
+    },
+    {
+      "id": "2545",
+      "name": "Gawr Gura",
+      "gender": "Mujer",
+      "value": "99689",
+      "source": "Hololive",
+      "img": [],
+      "vid": [],
+      "user": null,
+      "status": "Libre",
+      "votes": 0,
+      "aliases": [
+        "gawr_gura"
+      ]
+    },
+    {
+      "id": "2546",
+      "name": "Chara",
+      "gender": "Desconocido",
+      "value": "39279",
+      "source": "Undertale",
+      "img": [],
+      "vid": [],
+      "user": null,
+      "status": "Libre",
+      "votes": 0,
+      "aliases": [
+        "chara"
+      ]
+    },
+    {
+      "id": "2547",
+      "name": "Kumi Katayama",
+      "gender": "Mujer",
+      "value": "200",
+      "source": "Persona",
+      "img": [],
+      "vid": [],
+      "user": null,
+      "status": "Libre",
+      "votes": 0,
+      "aliases": [
+        "katayama_kumi"
+      ]
+    },
+    {
+      "id": "2548",
+      "name": "Ichigo Saitou",
+      "gender": "Hombre",
+      "value": "1000",
+      "source": "Oshi no Ko",
+      "img": [],
+      "vid": [],
+      "user": null,
+      "status": "Libre",
+      "votes": 0,
+      "aliases": [
+        "saitou_ichigo"
+      ]
+    },
+    {
+      "id": "2549",
+      "name": "Chocola",
+      "gender": "Mujer",
+      "value": "90",
+      "source": "Nekopara",
+      "img": [],
+      "vid": [],
+      "user": null,
+      "status": "Libre",
+      "votes": 0,
+      "aliases": [
+        "chocola"
+      ]
+    },
+    {
+      "id": "2550",
+      "name": "Vanilla",
+      "gender": "Mujer",
+      "value": "10",
+      "source": "Nekopara",
+      "img": [],
+      "vid": [],
+      "user": null,
+      "status": "Libre",
+      "votes": 0,
+      "aliases": [
+        "vanilla"
+      ]
+    },
+    {
+      "id": "2551",
+      "name": "Cinnamon",
+      "gender": "Mujer",
+      "value": "1000",
+      "source": "Nekopara",
+      "img": [],
+      "vid": [],
+      "user": null,
+      "status": "Libre",
+      "votes": 0,
+      "aliases": [
+        "cinnamon_(nekopara)"
+      ]
+    },
+    {
+      "id": "2552",
+      "name": "Coconut",
+      "gender": "Mujer",
+      "value": "2300",
+      "source": "Nekopara",
+      "img": [],
+      "vid": [],
+      "user": null,
+      "status": "Libre",
+      "votes": 0,
+      "aliases": [
+        "coconut_(nekopara)"
+      ]
+    },
+    {
+      "id": "2553",
+      "name": "Maple",
+      "gender": "Mujer",
+      "value": "890",
+      "source": "Nekopara",
+      "img": [],
+      "vid": [],
+      "user": null,
+      "status": "Libre",
+      "votes": 0,
+      "aliases": [
+        "maple_(nekopara)"
+      ]
+    },
+    {
+      "id": "2554",
+      "name": "Cacao",
+      "gender": "Mujer",
+      "value": "40",
+      "source": "Nekopara",
+      "img": [],
+      "vid": [],
+      "user": null,
+      "status": "Libre",
+      "votes": 0,
+      "aliases": [
+        "cacao_(nekopara)"
+      ]
+    },
+    {
+      "id": "2555",
+      "name": "Mini Yaemori",
+      "gender": "Mujer",
+      "value": "700",
+      "source": "Kanojo, Okarishimasu",
+      "img": [],
+      "vid": [],
+      "user": null,
+      "status": "Libre",
+      "votes": 0,
+      "aliases": [
+        "yaemori_mini"
+      ]
+    },
+    {
+      "id": "2556",
+      "name": "Tina Sprout",
+      "gender": "Mujer",
+      "value": "4000",
+      "source": "Black Bullet",
+      "img": [],
+      "vid": [],
+      "user": null,
+      "status": "Libre",
+      "votes": 0,
+      "aliases": [
+        "tina_sprout"
+      ]
+    },
+    {
+      "id": "2557",
+      "name": "Ahiara Enju",
+      "gender": "Mujer",
+      "value": "1000",
+      "source": "Black Bullet",
+      "img": [],
+      "vid": [],
+      "user": null,
+      "status": "Libre",
+      "votes": 0,
+      "aliases": [
+        "aihara_enju"
+      ]
+    },
+    {
+      "id": "2558",
+      "name": "Latifa Fleuranza",
+      "gender": "Mujer",
+      "value": "2000",
+      "source": "Amagami Brilliant Park",
+      "img": [],
+      "vid": [],
+      "user": null,
+      "status": "Libre",
+      "votes": 0,
+      "aliases": [
+        "latifa_fleuranza"
+      ]
+    },
+    {
+      "id": "2559",
+      "name": "Konjiki No Yami",
+      "gender": "Mujer",
+      "value": "5000",
+      "source": "To LOVE-Ru",
+      "img": [],
+      "vid": [],
+      "user": null,
+      "status": "Libre",
+      "votes": 0,
+      "aliases": [
+        "konjiki_no_yami"
+      ]
+    }
+  ],
+  "skippedCharacters": [
+    {
+      "input": {
+        "name": "Erika Amano",
+        "value": 47297,
+        "gender": "Mujer",
+        "source": "Kakkou no Iinazuke",
+        "keyword": "amano_erika"
+      },
+      "normalized": {
+        "name": "Erika Amano",
+        "gender": "Mujer",
+        "value": "47297",
+        "source": "Kakkou no Iinazuke",
+        "img": [],
+        "vid": [],
+        "aliases": [
+          "amano_erika"
+        ]
+      },
+      "reason": "duplicate",
+      "duplicate": {
+        "type": "same_name",
+        "match": {
+          "id": "2279",
+          "name": "Erika Amano",
+          "source": "A Couple of Cuckoos"
+        }
+      }
+    },
+    {
+      "input": {
+        "name": "Hiro Segawa",
+        "value": 46296,
+        "gender": "Mujer",
+        "source": "Kakkou no Iinazuke",
+        "keyword": "segawa_hiro"
+      },
+      "normalized": {
+        "name": "Hiro Segawa",
+        "gender": "Mujer",
+        "value": "46296",
+        "source": "Kakkou no Iinazuke",
+        "img": [],
+        "vid": [],
+        "aliases": [
+          "segawa_hiro"
+        ]
+      },
+      "reason": "duplicate",
+      "duplicate": {
+        "type": "same_name",
+        "match": {
+          "id": "2281",
+          "name": "Hiro Segawa",
+          "source": "A Couple of Cuckoos"
+        }
+      }
+    },
+    {
+      "input": {
+        "name": "Sachi Umino",
+        "value": 81936,
+        "gender": "Mujer",
+        "source": "Kakkou no Iinazuke",
+        "keyword": "umino_sachi_(kakkou_no_iinazuke)"
+      },
+      "normalized": {
+        "name": "Sachi Umino",
+        "gender": "Mujer",
+        "value": "81936",
+        "source": "Kakkou no Iinazuke",
+        "img": [],
+        "vid": [],
+        "aliases": [
+          "umino_sachi_(kakkou_no_iinazuke)"
+        ]
+      },
+      "reason": "duplicate",
+      "duplicate": {
+        "type": "same_name",
+        "match": {
+          "id": "2280",
+          "name": "Sachi Umino",
+          "source": "A Couple of Cuckoos"
+        }
+      }
+    },
+    {
+      "input": {
+        "name": "Nagi Umino",
+        "value": 36178,
+        "gender": "Hombre",
+        "source": "Kakkou no Iinazuke",
+        "keyword": "umino_nagi"
+      },
+      "normalized": {
+        "name": "Nagi Umino",
+        "gender": "Hombre",
+        "value": "36178",
+        "source": "Kakkou no Iinazuke",
+        "img": [],
+        "vid": [],
+        "aliases": [
+          "umino_nagi"
+        ]
+      },
+      "reason": "duplicate",
+      "duplicate": {
+        "type": "same_name",
+        "match": {
+          "id": "2278",
+          "name": "Nagi Umino",
+          "source": "A Couple of Cuckoos"
+        }
+      }
+    },
+    {
+      "input": {
+        "name": "Mao Mao",
+        "value": 16296,
+        "gender": "Mujer",
+        "source": "Kusuriya no Hitorigoto",
+        "keyword": "maomao_(kusuriya_no_hitorigoto)"
+      },
+      "normalized": {
+        "name": "Mao Mao",
+        "gender": "Mujer",
+        "value": "16296",
+        "source": "Kusuriya no Hitorigoto",
+        "img": [],
+        "vid": [],
+        "aliases": [
+          "maomao_(kusuriya_no_hitorigoto)"
+        ]
+      },
+      "reason": "duplicate",
+      "duplicate": {
+        "type": "same_name_source",
+        "match": {
+          "id": "113",
+          "name": "Mao Mao",
+          "source": "Kusuriya no Hitorigoto"
+        }
+      }
+    },
+    {
+      "input": {
+        "name": "Jinshi",
+        "value": 36197,
+        "gender": "Hombre",
+        "source": "Kusuriya no Hitorigoto",
+        "keyword": "jinshi_(kusuriya_no_hitorigoto)"
+      },
+      "normalized": {
+        "name": "Jinshi",
+        "gender": "Hombre",
+        "value": "36197",
+        "source": "Kusuriya no Hitorigoto",
+        "img": [],
+        "vid": [],
+        "aliases": [
+          "jinshi_(kusuriya_no_hitorigoto)"
+        ]
+      },
+      "reason": "duplicate",
+      "duplicate": {
+        "type": "same_name_source",
+        "match": {
+          "id": "1386",
+          "name": "Jinshi",
+          "source": "Kusuriya no Hitorigoto"
+        }
+      }
+    },
+    {
+      "input": {
+        "name": "Xiaolan",
+        "value": 36296,
+        "gender": "Mujer",
+        "source": "Kusuriya no Hitorigoto",
+        "keyword": "xiaolan_(kusuriya_no_hitorigoto)"
+      },
+      "normalized": {
+        "name": "Xiaolan",
+        "gender": "Mujer",
+        "value": "36296",
+        "source": "Kusuriya no Hitorigoto",
+        "img": [],
+        "vid": [],
+        "aliases": [
+          "xiaolan_(kusuriya_no_hitorigoto)"
+        ]
+      },
+      "reason": "duplicate",
+      "duplicate": {
+        "type": "same_name_source",
+        "match": {
+          "id": "2052",
+          "name": "Xiaolan",
+          "source": "Kusuriya no Hitorigoto"
+        }
+      }
+    },
+    {
+      "input": {
+        "name": "Lihua",
+        "value": 27196,
+        "gender": "Mujer",
+        "source": "Kusuriya no Hitorigoto",
+        "keyword": "lihua_(kusuriya_no_hitorigoto)"
+      },
+      "normalized": {
+        "name": "Lihua",
+        "gender": "Mujer",
+        "value": "27196",
+        "source": "Kusuriya no Hitorigoto",
+        "img": [],
+        "vid": [],
+        "aliases": [
+          "lihua_(kusuriya_no_hitorigoto)"
+        ]
+      },
+      "reason": "duplicate",
+      "duplicate": {
+        "type": "same_name_source",
+        "match": {
+          "id": "2054",
+          "name": "Lihua",
+          "source": "Kusuriya no Hitorigoto"
+        }
+      }
+    },
+    {
+      "input": {
+        "name": "Loulan",
+        "value": 18366,
+        "gender": "Mujer",
+        "source": "Kusuriya no Hitorigoto",
+        "keyword": "loulan_(kusuriya_no_hitorigoto)"
+      },
+      "normalized": {
+        "name": "Loulan",
+        "gender": "Mujer",
+        "value": "18366",
+        "source": "Kusuriya no Hitorigoto",
+        "img": [],
+        "vid": [],
+        "aliases": [
+          "loulan_(kusuriya_no_hitorigoto)"
+        ]
+      },
+      "reason": "duplicate",
+      "duplicate": {
+        "type": "same_name_source",
+        "match": {
+          "id": "2057",
+          "name": "Loulan",
+          "source": "Kusuriya no Hitorigoto"
+        }
+      }
+    },
+    {
+      "input": {
+        "name": "Gyokuyou",
+        "value": 26186,
+        "gender": "Mujer",
+        "source": "Kusuriya no Hitorigoto",
+        "keyword": "gyokuyou_(kusuriya_no_hitorigoto)"
+      },
+      "normalized": {
+        "name": "Gyokuyou",
+        "gender": "Mujer",
+        "value": "26186",
+        "source": "Kusuriya no Hitorigoto",
+        "img": [],
+        "vid": [],
+        "aliases": [
+          "gyokuyou_(kusuriya_no_hitorigoto)"
+        ]
+      },
+      "reason": "duplicate",
+      "duplicate": {
+        "type": "same_name",
+        "match": {
+          "id": "2423",
+          "name": "Gyokuyou",
+          "source": "The Apothecary Diaries"
+        }
+      }
+    },
+    {
+      "input": {
+        "name": "Pairin",
+        "value": 5726,
+        "gender": "Mujer",
+        "source": "Kusuriya no Hitorigoto",
+        "keyword": "pairin_(kusuriya_no_hitorigoto)"
+      },
+      "normalized": {
+        "name": "Pairin",
+        "gender": "Mujer",
+        "value": "5726",
+        "source": "Kusuriya no Hitorigoto",
+        "img": [],
+        "vid": [],
+        "aliases": [
+          "pairin_(kusuriya_no_hitorigoto)"
+        ]
+      },
+      "reason": "duplicate",
+      "duplicate": {
+        "type": "same_name_source",
+        "match": {
+          "id": "2056",
+          "name": "Pairin",
+          "source": "Kusuriya no Hitorigoto"
+        }
+      }
+    },
+    {
+      "input": {
+        "name": "Lishu",
+        "value": 2638,
+        "gender": "Mujer",
+        "source": "Kusuriya no Hitorigoto",
+        "keyword": "lishu_(kusuriya_no_hitorigoto)"
+      },
+      "normalized": {
+        "name": "Lishu",
+        "gender": "Mujer",
+        "value": "2638",
+        "source": "Kusuriya no Hitorigoto",
+        "img": [],
+        "vid": [],
+        "aliases": [
+          "lishu_(kusuriya_no_hitorigoto)"
+        ]
+      },
+      "reason": "duplicate",
+      "duplicate": {
+        "type": "same_name_source",
+        "match": {
+          "id": "2053",
+          "name": "Lishu",
+          "source": "Kusuriya no Hitorigoto"
+        }
+      }
+    },
+    {
+      "input": {
+        "name": "Torako Koshi",
+        "value": 2683,
+        "gender": "Mujer",
+        "source": "Shikanoko Nokonoko Koshitantan",
+        "keyword": "koshi_torako"
+      },
+      "normalized": {
+        "name": "Torako Koshi",
+        "gender": "Mujer",
+        "value": "2683",
+        "source": "Shikanoko Nokonoko Koshitantan",
+        "img": [],
+        "vid": [],
+        "aliases": [
+          "koshi_torako"
+        ]
+      },
+      "reason": "duplicate",
+      "duplicate": {
+        "type": "same_name_source",
+        "match": {
+          "id": "1161",
+          "name": "Torako Koshi",
+          "source": "Shikanoko Nokonoko Koshitantan"
+        }
+      }
+    },
+    {
+      "input": {
+        "name": "Neko Nekoyamada",
+        "value": 36196,
+        "gender": "Mujer",
+        "source": "Shikanoko Nokonoko Koshitantan",
+        "keyword": "nekoyamada_neko"
+      },
+      "normalized": {
+        "name": "Neko Nekoyamada",
+        "gender": "Mujer",
+        "value": "36196",
+        "source": "Shikanoko Nokonoko Koshitantan",
+        "img": [],
+        "vid": [],
+        "aliases": [
+          "nekoyamada_neko"
+        ]
+      },
+      "reason": "duplicate",
+      "duplicate": {
+        "type": "same_name_source",
+        "match": {
+          "id": "1166",
+          "name": "Neko Nekoyamada",
+          "source": "Shikanoko Nokonoko Koshitantan"
+        }
+      }
+    },
+    {
+      "input": {
+        "name": "Noko Shikanoko",
+        "value": 2397,
+        "gender": "Mujer",
+        "source": "Shikanoko Nokonoko Koshitantan",
+        "keyword": "shikanoko_noko"
+      },
+      "normalized": {
+        "name": "Noko Shikanoko",
+        "gender": "Mujer",
+        "value": "2397",
+        "source": "Shikanoko Nokonoko Koshitantan",
+        "img": [],
+        "vid": [],
+        "aliases": [
+          "shikanoko_noko"
+        ]
+      },
+      "reason": "duplicate",
+      "duplicate": {
+        "type": "same_name_source",
+        "match": {
+          "id": "1162",
+          "name": "Noko Shikanoko",
+          "source": "Shikanoko Nokonoko Koshitantan"
+        }
+      }
+    },
+    {
+      "input": {
+        "name": "Meme Bashame",
+        "value": 26396,
+        "gender": "Mujer",
+        "source": "Shikanoko Nokonoko Koshitantan",
+        "keyword": "bashame_meme"
+      },
+      "normalized": {
+        "name": "Meme Bashame",
+        "gender": "Mujer",
+        "value": "26396",
+        "source": "Shikanoko Nokonoko Koshitantan",
+        "img": [],
+        "vid": [],
+        "aliases": [
+          "bashame_meme"
+        ]
+      },
+      "reason": "duplicate",
+      "duplicate": {
+        "type": "same_name_source",
+        "match": {
+          "id": "1159",
+          "name": "Meme Bashame",
+          "source": "Shikanoko Nokonoko Koshitantan"
+        }
+      }
+    },
+    {
+      "input": {
+        "name": "Utena Hiiragi",
+        "value": 3719,
+        "gender": "Mujer",
+        "source": "Mahou Shoujo ni Akogarate",
+        "keyword": "hiiragi_utena"
+      },
+      "normalized": {
+        "name": "Utena Hiiragi",
+        "gender": "Mujer",
+        "value": "3719",
+        "source": "Mahou Shoujo ni Akogarate",
+        "img": [],
+        "vid": [],
+        "aliases": [
+          "hiiragi_utena"
+        ]
+      },
+      "reason": "duplicate",
+      "duplicate": {
+        "type": "same_name",
+        "match": {
+          "id": "2366",
+          "name": "Utena Hiiragi",
+          "source": "Gushing over Magical Girls"
+        }
+      }
+    },
+    {
+      "input": {
+        "name": "Kaguya Shinomiya",
+        "value": 27639,
+        "gender": "Mujer",
+        "source": "Kaguya-sama",
+        "keyword": "shinomiya_kaguya"
+      },
+      "normalized": {
+        "name": "Kaguya Shinomiya",
+        "gender": "Mujer",
+        "value": "27639",
+        "source": "Kaguya-sama",
+        "img": [],
+        "vid": [],
+        "aliases": [
+          "shinomiya_kaguya"
+        ]
+      },
+      "reason": "duplicate",
+      "duplicate": {
+        "type": "same_name",
+        "match": {
+          "id": "175",
+          "name": "Kaguya Shinomiya",
+          "source": "Kaguya-sama: Love is War"
+        }
+      }
+    },
+    {
+      "input": {
+        "name": "Chika Fujiwara",
+        "value": 36196,
+        "gender": "Mujer",
+        "source": "Kaguya-sama",
+        "keyword": "fujiwara_chika"
+      },
+      "normalized": {
+        "name": "Chika Fujiwara",
+        "gender": "Mujer",
+        "value": "36196",
+        "source": "Kaguya-sama",
+        "img": [],
+        "vid": [],
+        "aliases": [
+          "fujiwara_chika"
+        ]
+      },
+      "reason": "duplicate",
+      "duplicate": {
+        "type": "same_name",
+        "match": {
+          "id": "192",
+          "name": "Chika Fujiwara",
+          "source": "Kaguya-sama: Love is War"
+        }
+      }
+    },
+    {
+      "input": {
+        "name": "Yuu Ishigami",
+        "value": 68828,
+        "gender": "Hombre",
+        "source": "Kaguya-sama",
+        "keyword": "ishigami_yuu"
+      },
+      "normalized": {
+        "name": "Yuu Ishigami",
+        "gender": "Hombre",
+        "value": "68828",
+        "source": "Kaguya-sama",
+        "img": [],
+        "vid": [],
+        "aliases": [
+          "ishigami_yuu"
+        ]
+      },
+      "reason": "duplicate",
+      "duplicate": {
+        "type": "same_name",
+        "match": {
+          "id": "683",
+          "name": "Yuu Ishigami",
+          "source": "Kaguya-sama: Love is War"
+        }
+      }
+    },
+    {
+      "input": {
+        "name": "Miyuki Shirogane",
+        "value": 27299,
+        "gender": "Hombre",
+        "source": "Kaguya-sama",
+        "keyword": "shirogane_miyuki"
+      },
+      "normalized": {
+        "name": "Miyuki Shirogane",
+        "gender": "Hombre",
+        "value": "27299",
+        "source": "Kaguya-sama",
+        "img": [],
+        "vid": [],
+        "aliases": [
+          "shirogane_miyuki"
+        ]
+      },
+      "reason": "duplicate",
+      "duplicate": {
+        "type": "same_name",
+        "match": {
+          "id": "174",
+          "name": "Miyuki Shirogane",
+          "source": "Kaguya-sama: Love is War"
+        }
+      }
+    },
+    {
+      "input": {
+        "name": "Moeha Fujiwara",
+        "value": 38626,
+        "gender": "Mujer",
+        "source": "Kaguya-sama",
+        "keyword": "fujiwara_moeha"
+      },
+      "normalized": {
+        "name": "Moeha Fujiwara",
+        "gender": "Mujer",
+        "value": "38626",
+        "source": "Kaguya-sama",
+        "img": [],
+        "vid": [],
+        "aliases": [
+          "fujiwara_moeha"
+        ]
+      },
+      "reason": "duplicate",
+      "duplicate": {
+        "type": "same_name",
+        "match": {
+          "id": "688",
+          "name": "Moeha Fujiwara",
+          "source": "Kaguya-sama: Love is War"
+        }
+      }
+    },
+    {
+      "input": {
+        "name": "Kei Shirogane",
+        "value": 47296,
+        "gender": "Mujer",
+        "source": "Kaguya-sama",
+        "keyword": "shirogane_kei"
+      },
+      "normalized": {
+        "name": "Kei Shirogane",
+        "gender": "Mujer",
+        "value": "47296",
+        "source": "Kaguya-sama",
+        "img": [],
+        "vid": [],
+        "aliases": [
+          "shirogane_kei"
+        ]
+      },
+      "reason": "duplicate",
+      "duplicate": {
+        "type": "same_name",
+        "match": {
+          "id": "2439",
+          "name": "Kei Shirogane",
+          "source": "Kaguya-sama: Love is War"
+        }
+      }
+    },
+    {
+      "input": {
+        "name": "Ellen Joe",
+        "value": 36251,
+        "gender": "Mujer",
+        "source": "Zenless Zone Zero",
+        "keyword": "ellen_joe",
+        "votes": 2,
+        "lastVoteTime": 1758398034261
+      },
+      "normalized": {
+        "name": "Ellen Joe",
+        "gender": "Mujer",
+        "value": "36251",
+        "source": "Zenless Zone Zero",
+        "img": [],
+        "vid": [],
+        "aliases": [
+          "ellen_joe"
+        ]
+      },
+      "reason": "duplicate",
+      "duplicate": {
+        "type": "same_name_source",
+        "match": {
+          "id": "1756",
+          "name": "Ellen Joe",
+          "source": "Zenless zone Zero"
+        }
+      }
+    },
+    {
+      "input": {
+        "name": "Zhu Yuan",
+        "value": 26396,
+        "gender": "Mujer",
+        "source": "Zenless Zone Zero",
+        "keyword": "zhu_yuan"
+      },
+      "normalized": {
+        "name": "Zhu Yuan",
+        "gender": "Mujer",
+        "value": "26396",
+        "source": "Zenless Zone Zero",
+        "img": [],
+        "vid": [],
+        "aliases": [
+          "zhu_yuan"
+        ]
+      },
+      "reason": "duplicate",
+      "duplicate": {
+        "type": "same_name_source",
+        "match": {
+          "id": "1892",
+          "name": "Zhu Yuan",
+          "source": "Zenless Zone Zero"
+        }
+      }
+    },
+    {
+      "input": {
+        "name": "Belle",
+        "value": 37287,
+        "gender": "Mujer",
+        "source": "Zenless Zone Zero",
+        "keyword": "belle_(zenless_zone_zero)"
+      },
+      "normalized": {
+        "name": "Belle",
+        "gender": "Mujer",
+        "value": "37287",
+        "source": "Zenless Zone Zero",
+        "img": [],
+        "vid": [],
+        "aliases": [
+          "belle_(zenless_zone_zero)"
+        ]
+      },
+      "reason": "duplicate",
+      "duplicate": {
+        "type": "same_name_source",
+        "match": {
+          "id": "1893",
+          "name": "Belle",
+          "source": "Zenless Zone Zero"
+        }
+      }
+    },
+    {
+      "input": {
+        "name": "Anby Demara",
+        "value": 27293,
+        "gender": "Mujer",
+        "source": "Zenless Zone Zero",
+        "keyword": "anby_demara"
+      },
+      "normalized": {
+        "name": "Anby Demara",
+        "gender": "Mujer",
+        "value": "27293",
+        "source": "Zenless Zone Zero",
+        "img": [],
+        "vid": [],
+        "aliases": [
+          "anby_demara"
+        ]
+      },
+      "reason": "duplicate",
+      "duplicate": {
+        "type": "same_name_source",
+        "match": {
+          "id": "803",
+          "name": "Anby Demara",
+          "source": "zenless zone zero"
+        }
+      }
+    },
+    {
+      "input": {
+        "name": "Caesar King",
+        "value": 28168,
+        "gender": "Mujer",
+        "source": "Zenless Zone Zero",
+        "keyword": "caesar_king_(zenless_zone_zero)"
+      },
+      "normalized": {
+        "name": "Caesar King",
+        "gender": "Mujer",
+        "value": "28168",
+        "source": "Zenless Zone Zero",
+        "img": [],
+        "vid": [],
+        "aliases": [
+          "caesar_king_(zenless_zone_zero)"
+        ]
+      },
+      "reason": "duplicate",
+      "duplicate": {
+        "type": "fuzzy_name",
+        "score": 0.9090909090909091,
+        "match": {
+          "id": "1887",
+          "name": "César King",
+          "source": "Zenless Zone Zero"
+        }
+      }
+    },
+    {
+      "input": {
+        "name": "Nekomiya Mana",
+        "value": 37296,
+        "gender": "Mujer",
+        "source": "Zenless Zone Zero",
+        "keyword": "nekomiya_mana"
+      },
+      "normalized": {
+        "name": "Nekomiya Mana",
+        "gender": "Mujer",
+        "value": "37296",
+        "source": "Zenless Zone Zero",
+        "img": [],
+        "vid": [],
+        "aliases": [
+          "nekomiya_mana"
+        ]
+      },
+      "reason": "duplicate",
+      "duplicate": {
+        "type": "same_name_source",
+        "match": {
+          "id": "1698",
+          "name": "Nekomiya Mana",
+          "source": "Zenless Zone Zero"
+        }
+      }
+    },
+    {
+      "input": {
+        "name": "Corin Wickes",
+        "value": 37196,
+        "gender": "Mujer",
+        "source": "Zenless Zone Zero",
+        "keyword": "corin_wickes"
+      },
+      "normalized": {
+        "name": "Corin Wickes",
+        "gender": "Mujer",
+        "value": "37196",
+        "source": "Zenless Zone Zero",
+        "img": [],
+        "vid": [],
+        "aliases": [
+          "corin_wickes"
+        ]
+      },
+      "reason": "duplicate",
+      "duplicate": {
+        "type": "same_name_source",
+        "match": {
+          "id": "1757",
+          "name": "Corin Wickes",
+          "source": "Zenless Zone Zero"
+        }
+      }
+    },
+    {
+      "input": {
+        "name": "Nicole Demara",
+        "value": 62958,
+        "gender": "Mujer",
+        "source": "Zenless Zone Zero",
+        "keyword": "nicole_demara"
+      },
+      "normalized": {
+        "name": "Nicole Demara",
+        "gender": "Mujer",
+        "value": "62958",
+        "source": "Zenless Zone Zero",
+        "img": [],
+        "vid": [],
+        "aliases": [
+          "nicole_demara"
+        ]
+      },
+      "reason": "duplicate",
+      "duplicate": {
+        "type": "same_name_source",
+        "match": {
+          "id": "1228",
+          "name": "Nicole Demara",
+          "source": "Zenless Zone Zero"
+        }
+      }
+    },
+    {
+      "input": {
+        "name": "Pulchra Fellini",
+        "value": 58368,
+        "gender": "Mujer",
+        "source": "Zenless Zone Zero",
+        "keyword": "pulchra_fellini"
+      },
+      "normalized": {
+        "name": "Pulchra Fellini",
+        "gender": "Mujer",
+        "value": "58368",
+        "source": "Zenless Zone Zero",
+        "img": [],
+        "vid": [],
+        "aliases": [
+          "pulchra_fellini"
+        ]
+      },
+      "reason": "duplicate",
+      "duplicate": {
+        "type": "same_name_source",
+        "match": {
+          "id": "1884",
+          "name": "Pulchra Fellini",
+          "source": "Zenless Zone Zero"
+        }
+      }
+    },
+    {
+      "input": {
+        "name": "Piper Wheel",
+        "value": 37397,
+        "gender": "Mujer",
+        "source": "Zenless Zone Zero",
+        "keyword": "piper_wheel"
+      },
+      "normalized": {
+        "name": "Piper Wheel",
+        "gender": "Mujer",
+        "value": "37397",
+        "source": "Zenless Zone Zero",
+        "img": [],
+        "vid": [],
+        "aliases": [
+          "piper_wheel"
+        ]
+      },
+      "reason": "duplicate",
+      "duplicate": {
+        "type": "same_name_source",
+        "match": {
+          "id": "1888",
+          "name": "Piper Wheel",
+          "source": "Zenless Zone Zero"
+        }
+      }
+    },
+    {
+      "input": {
+        "name": "Lighter",
+        "value": 47297,
+        "gender": "Mujer",
+        "source": "Zenless Zone Zero",
+        "keyword": "lighter_(zenless_zone_zero)"
+      },
+      "normalized": {
+        "name": "Lighter",
+        "gender": "Mujer",
+        "value": "47297",
+        "source": "Zenless Zone Zero",
+        "img": [],
+        "vid": [],
+        "aliases": [
+          "lighter_(zenless_zone_zero)"
+        ]
+      },
+      "reason": "duplicate",
+      "duplicate": {
+        "type": "same_name_source",
+        "match": {
+          "id": "1886",
+          "name": "Lighter",
+          "source": "Zenless Zone Zero"
+        }
+      }
+    },
+    {
+      "input": {
+        "name": "Alexandrina Sebastiane",
+        "value": 97298,
+        "gender": "Mujer",
+        "source": "Zenless Zone Zero",
+        "keyword": "alexandrina_sebastiane"
+      },
+      "normalized": {
+        "name": "Alexandrina Sebastiane",
+        "gender": "Mujer",
+        "value": "97298",
+        "source": "Zenless Zone Zero",
+        "img": [],
+        "vid": [],
+        "aliases": [
+          "alexandrina_sebastiane"
+        ]
+      },
+      "reason": "duplicate",
+      "duplicate": {
+        "type": "fuzzy_name",
+        "score": 0.9545454545454546,
+        "match": {
+          "id": "1906",
+          "name": "Alexandrina Sebastián",
+          "source": "Zenless Zone Zero"
+        }
+      }
+    },
+    {
+      "input": {
+        "name": "Wise",
+        "value": 72967,
+        "gender": "Mujer",
+        "source": "Zenless Zone Zero",
+        "keyword": "wise_(zenless_zone_zero)"
+      },
+      "normalized": {
+        "name": "Wise",
+        "gender": "Mujer",
+        "value": "72967",
+        "source": "Zenless Zone Zero",
+        "img": [],
+        "vid": [],
+        "aliases": [
+          "wise_(zenless_zone_zero)"
+        ]
+      },
+      "reason": "duplicate",
+      "duplicate": {
+        "type": "same_name_source",
+        "match": {
+          "id": "1894",
+          "name": "Wise",
+          "source": "Zenless Zone Zero"
+        }
+      }
+    },
+    {
+      "input": {
+        "name": "Von Lycaon",
+        "value": 37578,
+        "gender": "Hombre",
+        "source": "Zenless Zone Zero",
+        "keyword": "von_lycaon"
+      },
+      "normalized": {
+        "name": "Von Lycaon",
+        "gender": "Hombre",
+        "value": "37578",
+        "source": "Zenless Zone Zero",
+        "img": [],
+        "vid": [],
+        "aliases": [
+          "von_lycaon"
+        ]
+      },
+      "reason": "duplicate",
+      "duplicate": {
+        "type": "same_name_source",
+        "match": {
+          "id": "1216",
+          "name": "Von Lycaon",
+          "source": "Zenless Zone Zero"
+        }
+      }
+    },
+    {
+      "input": {
+        "name": "Billy Kid",
+        "value": 37286,
+        "gender": "Mujer",
+        "source": "Zenless Zone Zero",
+        "keyword": "billy_kid"
+      },
+      "normalized": {
+        "name": "Billy Kid",
+        "gender": "Mujer",
+        "value": "37286",
+        "source": "Zenless Zone Zero",
+        "img": [],
+        "vid": [],
+        "aliases": [
+          "billy_kid"
+        ]
+      },
+      "reason": "duplicate",
+      "duplicate": {
+        "type": "same_name_source",
+        "match": {
+          "id": "1769",
+          "name": "Billy Kid",
+          "source": "Zenless Zone Zero"
+        }
+      }
+    },
+    {
+      "input": {
+        "name": "Coco",
+        "value": 82377,
+        "gender": "Mujer",
+        "source": "Zenless Zone Zero",
+        "keyword": "coco_(zenless_zone_zero)"
+      },
+      "normalized": {
+        "name": "Coco",
+        "gender": "Mujer",
+        "value": "82377",
+        "source": "Zenless Zone Zero",
+        "img": [],
+        "vid": [],
+        "aliases": [
+          "coco_(zenless_zone_zero)"
+        ]
+      },
+      "reason": "duplicate",
+      "duplicate": {
+        "type": "same_name",
+        "match": {
+          "id": "2374",
+          "name": "Coco",
+          "source": "Witch Hat Atelier"
+        }
+      }
+    },
+    {
+      "input": {
+        "name": "Rain",
+        "value": 36686,
+        "gender": "Mujer",
+        "source": "Zenless Zone Zero",
+        "keyword": "rain_(zenless_zone_zero)"
+      },
+      "normalized": {
+        "name": "Rain",
+        "gender": "Mujer",
+        "value": "36686",
+        "source": "Zenless Zone Zero",
+        "img": [],
+        "vid": [],
+        "aliases": [
+          "rain_(zenless_zone_zero)"
+        ]
+      },
+      "reason": "duplicate",
+      "duplicate": {
+        "type": "same_name",
+        "match": {
+          "id": "312",
+          "name": "Rain",
+          "source": "A-Rank Party o Ridatsu Shita Ore wa, Moto Oshiego-tachi to Meikyū Shinbu o Mezasu"
+        }
+      }
+    },
+    {
+      "input": {
+        "name": "Kobayashi",
+        "value": 1527,
+        "gender": "Mujer",
+        "source": "Kobayashi-san Chi no Dragon Maid",
+        "keyword": "kobayashi"
+      },
+      "normalized": {
+        "name": "Kobayashi",
+        "gender": "Mujer",
+        "value": "1527",
+        "source": "Kobayashi-san Chi no Dragon Maid",
+        "img": [],
+        "vid": [],
+        "aliases": [
+          "kobayashi"
+        ]
+      },
+      "reason": "duplicate",
+      "duplicate": {
+        "type": "same_name",
+        "match": {
+          "id": "2189",
+          "name": "Kobayashi",
+          "source": "Miss Kobayashi's Dragon Maid"
+        }
+      }
+    },
+    {
+      "input": {
+        "name": "Nino Nakano",
+        "value": 28178,
+        "gender": "Mujer",
+        "source": "Gotoubun no Hanayome",
+        "keyword": "nakano_nino"
+      },
+      "normalized": {
+        "name": "Nino Nakano",
+        "gender": "Mujer",
+        "value": "28178",
+        "source": "Gotoubun no Hanayome",
+        "img": [],
+        "vid": [],
+        "aliases": [
+          "nakano_nino"
+        ]
+      },
+      "reason": "duplicate",
+      "duplicate": {
+        "type": "same_name",
+        "match": {
+          "id": "10",
+          "name": "Nino Nakano",
+          "source": "The Quintessential Quintuplets"
+        }
+      }
+    },
+    {
+      "input": {
+        "name": "Ichika Nakano",
+        "value": 2938,
+        "gender": "Mujer",
+        "source": "Gotoubun no Hanayome",
+        "keyword": "nakano_ichika"
+      },
+      "normalized": {
+        "name": "Ichika Nakano",
+        "gender": "Mujer",
+        "value": "2938",
+        "source": "Gotoubun no Hanayome",
+        "img": [],
+        "vid": [],
+        "aliases": [
+          "nakano_ichika"
+        ]
+      },
+      "reason": "duplicate",
+      "duplicate": {
+        "type": "same_name",
+        "match": {
+          "id": "582",
+          "name": "Ichika Nakano",
+          "source": "The Quintessential Quintuplets"
+        }
+      }
+    },
+    {
+      "input": {
+        "name": "Yotsuba Nakano",
+        "value": 26186,
+        "gender": "Mujer",
+        "source": "Gotoubun no Hanayome",
+        "keyword": "nakano_yotsuba"
+      },
+      "normalized": {
+        "name": "Yotsuba Nakano",
+        "gender": "Mujer",
+        "value": "26186",
+        "source": "Gotoubun no Hanayome",
+        "img": [],
+        "vid": [],
+        "aliases": [
+          "nakano_yotsuba"
+        ]
+      },
+      "reason": "duplicate",
+      "duplicate": {
+        "type": "same_name",
+        "match": {
+          "id": "200",
+          "name": "Yotsuba Nakano",
+          "source": "The Quintessential Quintuplets"
+        }
+      }
+    },
+    {
+      "input": {
+        "name": "Itsuki Nakano",
+        "value": 4827,
+        "gender": "Mujer",
+        "source": "Gotoubun no Hanayome",
+        "keyword": "nakano_itsuki"
+      },
+      "normalized": {
+        "name": "Itsuki Nakano",
+        "gender": "Mujer",
+        "value": "4827",
+        "source": "Gotoubun no Hanayome",
+        "img": [],
+        "vid": [],
+        "aliases": [
+          "nakano_itsuki"
+        ]
+      },
+      "reason": "duplicate",
+      "duplicate": {
+        "type": "same_name",
+        "match": {
+          "id": "199",
+          "name": "Itsuki Nakano",
+          "source": "The Quintessential Quintuplets"
+        }
+      }
+    },
+    {
+      "input": {
+        "name": "Fuutarou Uesugi",
+        "value": 2628,
+        "gender": "Hombre",
+        "source": "Gotoubun no Hanayome",
+        "keyword": "uesugi_fuutarou"
+      },
+      "normalized": {
+        "name": "Fuutarou Uesugi",
+        "gender": "Hombre",
+        "value": "2628",
+        "source": "Gotoubun no Hanayome",
+        "img": [],
+        "vid": [],
+        "aliases": [
+          "uesugi_fuutarou"
+        ]
+      },
+      "reason": "duplicate",
+      "duplicate": {
+        "type": "same_name",
+        "match": {
+          "id": "583",
+          "name": "Fuutarou Uesugi",
+          "source": "The Quintessential Quintuplets"
+        }
+      }
+    },
+    {
+      "input": {
+        "name": "Ichika",
+        "value": 28257,
+        "gender": "Mujer",
+        "source": "Blue Archive",
+        "keyword": "ichika_(blue_archive)"
+      },
+      "normalized": {
+        "name": "Ichika",
+        "gender": "Mujer",
+        "value": "28257",
+        "source": "Blue Archive",
+        "img": [],
+        "vid": [],
+        "aliases": [
+          "ichika_(blue_archive)"
+        ]
+      },
+      "reason": "duplicate",
+      "duplicate": {
+        "type": "same_name_source",
+        "match": {
+          "id": "1834",
+          "name": "Ichika",
+          "source": "Blue Archive"
+        }
+      }
+    },
+    {
+      "input": {
+        "name": "Hina",
+        "value": 38199,
+        "gender": "Mujer",
+        "source": "Blue Archive",
+        "keyword": "hina_(blue_archive)"
+      },
+      "normalized": {
+        "name": "Hina",
+        "gender": "Mujer",
+        "value": "38199",
+        "source": "Blue Archive",
+        "img": [],
+        "vid": [],
+        "aliases": [
+          "hina_(blue_archive)"
+        ]
+      },
+      "reason": "duplicate",
+      "duplicate": {
+        "type": "same_name_source",
+        "match": {
+          "id": "928",
+          "name": "Hina",
+          "source": "Blue Archive"
+        }
+      }
+    },
+    {
+      "input": {
+        "name": "Yuuka",
+        "value": 38298,
+        "gender": "Mujer",
+        "source": "Blue Archive",
+        "keyword": "yuuka_(blue_archive)"
+      },
+      "normalized": {
+        "name": "Yuuka",
+        "gender": "Mujer",
+        "value": "38298",
+        "source": "Blue Archive",
+        "img": [],
+        "vid": [],
+        "aliases": [
+          "yuuka_(blue_archive)"
+        ]
+      },
+      "reason": "duplicate",
+      "duplicate": {
+        "type": "same_name_source",
+        "match": {
+          "id": "1828",
+          "name": "Yuuka",
+          "source": "Blue Archive"
+        }
+      }
+    },
+    {
+      "input": {
+        "name": "Asuna",
+        "value": 19368,
+        "gender": "Mujer",
+        "source": "Blue Archive",
+        "keyword": "asuna_(blue_archive)"
+      },
+      "normalized": {
+        "name": "Asuna",
+        "gender": "Mujer",
+        "value": "19368",
+        "source": "Blue Archive",
+        "img": [],
+        "vid": [],
+        "aliases": [
+          "asuna_(blue_archive)"
+        ]
+      },
+      "reason": "duplicate",
+      "duplicate": {
+        "type": "same_name_source",
+        "match": {
+          "id": "1804",
+          "name": "Asuna",
+          "source": "Blue Archive"
+        }
+      }
+    },
+    {
+      "input": {
+        "name": "Karin",
+        "value": 28369,
+        "gender": "Mujer",
+        "source": "Blue Archive",
+        "keyword": "karin_(blue_archive)"
+      },
+      "normalized": {
+        "name": "Karin",
+        "gender": "Mujer",
+        "value": "28369",
+        "source": "Blue Archive",
+        "img": [],
+        "vid": [],
+        "aliases": [
+          "karin_(blue_archive)"
+        ]
+      },
+      "reason": "duplicate",
+      "duplicate": {
+        "type": "same_name_source",
+        "match": {
+          "id": "1806",
+          "name": "Karin",
+          "source": "Blue Archive"
+        }
+      }
+    },
+    {
+      "input": {
+        "name": "Aris",
+        "value": 8263,
+        "gender": "Mujer",
+        "source": "Blue Archive",
+        "keyword": "aris_(blue_archive)"
+      },
+      "normalized": {
+        "name": "Aris",
+        "gender": "Mujer",
+        "value": "8263",
+        "source": "Blue Archive",
+        "img": [],
+        "vid": [],
+        "aliases": [
+          "aris_(blue_archive)"
+        ]
+      },
+      "reason": "duplicate",
+      "duplicate": {
+        "type": "fuzzy_alias",
+        "score": 0.8,
+        "match": {
+          "id": "136",
+          "name": "Arisu Sakayanagi",
+          "source": "Classroom of the Elite"
+        }
+      }
+    },
+    {
+      "input": {
+        "name": "Miku Nakano",
+        "value": 28299,
+        "gender": "Mujer",
+        "source": "Gotoubun no Hanayome",
+        "keyword": "nakano_miku"
+      },
+      "normalized": {
+        "name": "Miku Nakano",
+        "gender": "Mujer",
+        "value": "28299",
+        "source": "Gotoubun no Hanayome",
+        "img": [],
+        "vid": [],
+        "aliases": [
+          "nakano_miku"
+        ]
+      },
+      "reason": "duplicate",
+      "duplicate": {
+        "type": "same_name",
+        "match": {
+          "id": "201",
+          "name": "Miku Nakano",
+          "source": "The Quintessential Quintuplets"
+        }
+      }
+    },
+    {
+      "input": {
+        "name": "Kirino Nakatsukasa",
+        "value": 48293,
+        "gender": "Mujer",
+        "source": "Blue Archive",
+        "keyword": "kirino_(blue_archive)"
+      },
+      "normalized": {
+        "name": "Kirino Nakatsukasa",
+        "gender": "Mujer",
+        "value": "48293",
+        "source": "Blue Archive",
+        "img": [],
+        "vid": [],
+        "aliases": [
+          "kirino_(blue_archive)"
+        ]
+      },
+      "reason": "duplicate",
+      "duplicate": {
+        "type": "same_name_source",
+        "match": {
+          "id": "1802",
+          "name": "Kirino Nakatsukasa",
+          "source": "Blue Archive"
+        }
+      }
+    },
+    {
+      "input": {
+        "name": "Shiroko",
+        "value": 12988,
+        "gender": "Mujer",
+        "source": "Blue Archive",
+        "keyword": "shiroko_(blue_archive)"
+      },
+      "normalized": {
+        "name": "Shiroko",
+        "gender": "Mujer",
+        "value": "12988",
+        "source": "Blue Archive",
+        "img": [],
+        "vid": [],
+        "aliases": [
+          "shiroko_(blue_archive)"
+        ]
+      },
+      "reason": "duplicate",
+      "duplicate": {
+        "type": "same_name_source",
+        "match": {
+          "id": "1821",
+          "name": "Shiroko",
+          "source": "Blue Archive"
+        }
+      }
+    },
+    {
+      "input": {
+        "name": "Aru",
+        "value": 29379,
+        "gender": "Mujer",
+        "source": "Blue Archive",
+        "keyword": "aru_(blue_archive)"
+      },
+      "normalized": {
+        "name": "Aru",
+        "gender": "Mujer",
+        "value": "29379",
+        "source": "Blue Archive",
+        "img": [],
+        "vid": [],
+        "aliases": [
+          "aru_(blue_archive)"
+        ]
+      },
+      "reason": "duplicate",
+      "duplicate": {
+        "type": "same_name_source",
+        "match": {
+          "id": "1809",
+          "name": "Aru",
+          "source": "Blue Archive"
+        }
+      }
+    },
+    {
+      "input": {
+        "name": "Ui",
+        "value": 19088,
+        "gender": "Mujer",
+        "source": "Blue Archive",
+        "keyword": "ui_(blue_archive)"
+      },
+      "normalized": {
+        "name": "Ui",
+        "gender": "Mujer",
+        "value": "19088",
+        "source": "Blue Archive",
+        "img": [],
+        "vid": [],
+        "aliases": [
+          "ui_(blue_archive)"
+        ]
+      },
+      "reason": "duplicate",
+      "duplicate": {
+        "type": "same_name_source",
+        "match": {
+          "id": "1815",
+          "name": "Ui",
+          "source": "Blue Archive"
+        }
+      }
+    },
+    {
+      "input": {
+        "name": "Momoi",
+        "value": 29168,
+        "gender": "Mujer",
+        "source": "Blue Archive",
+        "keyword": "momoi_(blue_archive)"
+      },
+      "normalized": {
+        "name": "Momoi",
+        "gender": "Mujer",
+        "value": "29168",
+        "source": "Blue Archive",
+        "img": [],
+        "vid": [],
+        "aliases": [
+          "momoi_(blue_archive)"
+        ]
+      },
+      "reason": "duplicate",
+      "duplicate": {
+        "type": "same_name_source",
+        "match": {
+          "id": "1812",
+          "name": "Momoi",
+          "source": "Blue Archive"
+        }
+      }
+    },
+    {
+      "input": {
+        "name": "Kisaki",
+        "value": 38268,
+        "gender": "Mujer",
+        "source": "Blue Archive",
+        "keyword": "kisaki_(blue_archive)"
+      },
+      "normalized": {
+        "name": "Kisaki",
+        "gender": "Mujer",
+        "value": "38268",
+        "source": "Blue Archive",
+        "img": [],
+        "vid": [],
+        "aliases": [
+          "kisaki_(blue_archive)"
+        ]
+      },
+      "reason": "duplicate",
+      "duplicate": {
+        "type": "same_name_source",
+        "match": {
+          "id": "1817",
+          "name": "Kisaki",
+          "source": "Blue Archive"
+        }
+      }
+    },
+    {
+      "input": {
+        "name": "Hasumi",
+        "value": 2868,
+        "gender": "Mujer",
+        "source": "Blue Archive",
+        "keyword": "hasumi_(blue_archive)"
+      },
+      "normalized": {
+        "name": "Hasumi",
+        "gender": "Mujer",
+        "value": "2868",
+        "source": "Blue Archive",
+        "img": [],
+        "vid": [],
+        "aliases": [
+          "hasumi_(blue_archive)"
+        ]
+      },
+      "reason": "duplicate",
+      "duplicate": {
+        "type": "same_name_source",
+        "match": {
+          "id": "1823",
+          "name": "Hasumi",
+          "source": "Blue Archive"
+        }
+      }
+    },
+    {
+      "input": {
+        "name": "Arona",
+        "value": 29268,
+        "gender": "Mujer",
+        "source": "Blue Archive",
+        "keyword": "arona_(blue_archive)"
+      },
+      "normalized": {
+        "name": "Arona",
+        "gender": "Mujer",
+        "value": "29268",
+        "source": "Blue Archive",
+        "img": [],
+        "vid": [],
+        "aliases": [
+          "arona_(blue_archive)"
+        ]
+      },
+      "reason": "duplicate",
+      "duplicate": {
+        "type": "same_name_source",
+        "match": {
+          "id": "1833",
+          "name": "Arona",
+          "source": "Blue Archive"
+        }
+      }
+    },
+    {
+      "input": {
+        "name": "Noa",
+        "value": 2658,
+        "gender": "Mujer",
+        "source": "Blue Archive",
+        "keyword": "noa_(blue_archive)"
+      },
+      "normalized": {
+        "name": "Noa",
+        "gender": "Mujer",
+        "value": "2658",
+        "source": "Blue Archive",
+        "img": [],
+        "vid": [],
+        "aliases": [
+          "noa_(blue_archive)"
+        ]
+      },
+      "reason": "duplicate",
+      "duplicate": {
+        "type": "same_name_source",
+        "match": {
+          "id": "1859",
+          "name": "Noa",
+          "source": "Blue Archive"
+        }
+      }
+    },
+    {
+      "input": {
+        "name": "Nonomi",
+        "value": 29207,
+        "gender": "Mujer",
+        "source": "Blue Archive",
+        "keyword": "nonomi_(blue_archive)"
+      },
+      "normalized": {
+        "name": "Nonomi",
+        "gender": "Mujer",
+        "value": "29207",
+        "source": "Blue Archive",
+        "img": [],
+        "vid": [],
+        "aliases": [
+          "nonomi_(blue_archive)"
+        ]
+      },
+      "reason": "duplicate",
+      "duplicate": {
+        "type": "same_name_source",
+        "match": {
+          "id": "1842",
+          "name": "Nonomi",
+          "source": "Blue Archive"
+        }
+      }
+    },
+    {
+      "input": {
+        "name": "Asuma Toki",
+        "value": 2868,
+        "gender": "Mujer",
+        "source": "Blue Archive",
+        "keyword": "asuma_toki"
+      },
+      "normalized": {
+        "name": "Asuma Toki",
+        "gender": "Mujer",
+        "value": "2868",
+        "source": "Blue Archive",
+        "img": [],
+        "vid": [],
+        "aliases": [
+          "asuma_toki"
+        ]
+      },
+      "reason": "duplicate",
+      "duplicate": {
+        "type": "same_name_source",
+        "match": {
+          "id": "1827",
+          "name": "Asuma Toki",
+          "source": "Blue Archive"
+        }
+      }
+    },
+    {
+      "input": {
+        "name": "Saori",
+        "value": 64828,
+        "gender": "Mujer",
+        "source": "Blue Archive",
+        "keyword": "saori_(blue_archive)"
+      },
+      "normalized": {
+        "name": "Saori",
+        "gender": "Mujer",
+        "value": "64828",
+        "source": "Blue Archive",
+        "img": [],
+        "vid": [],
+        "aliases": [
+          "saori_(blue_archive)"
+        ]
+      },
+      "reason": "duplicate",
+      "duplicate": {
+        "type": "same_name_source",
+        "match": {
+          "id": "1853",
+          "name": "Saori",
+          "source": "Blue Archive"
+        }
+      }
+    },
+    {
+      "input": {
+        "name": "Hikari Tachibana",
+        "value": 58398,
+        "gender": "Mujer",
+        "source": "Blue Archive",
+        "keyword": "hikari_(blue_archive)"
+      },
+      "normalized": {
+        "name": "Hikari Tachibana",
+        "gender": "Mujer",
+        "value": "58398",
+        "source": "Blue Archive",
+        "img": [],
+        "vid": [],
+        "aliases": [
+          "hikari_(blue_archive)"
+        ]
+      },
+      "reason": "duplicate",
+      "duplicate": {
+        "type": "fuzzy_name",
+        "score": 0.9375,
+        "match": {
+          "id": "792",
+          "name": "Mikari Tachibana",
+          "source": "2.5-jigen no Ririsa"
+        }
+      }
+    },
+    {
+      "input": {
+        "name": "Neru",
+        "value": 79826,
+        "gender": "Mujer",
+        "source": "Blue Archive",
+        "keyword": "neru_(blue_archive)"
+      },
+      "normalized": {
+        "name": "Neru",
+        "gender": "Mujer",
+        "value": "79826",
+        "source": "Blue Archive",
+        "img": [],
+        "vid": [],
+        "aliases": [
+          "neru_(blue_archive)"
+        ]
+      },
+      "reason": "duplicate",
+      "duplicate": {
+        "type": "same_name_source",
+        "match": {
+          "id": "1854",
+          "name": "Neru",
+          "source": "Blue Archive"
+        }
+      }
+    },
+    {
+      "input": {
+        "name": "Yurizono Seia",
+        "value": 58296,
+        "gender": "Mujer",
+        "source": "Blue Archive",
+        "keyword": "yurizono_seia"
+      },
+      "normalized": {
+        "name": "Yurizono Seia",
+        "gender": "Mujer",
+        "value": "58296",
+        "source": "Blue Archive",
+        "img": [],
+        "vid": [],
+        "aliases": [
+          "yurizono_seia"
+        ]
+      },
+      "reason": "duplicate",
+      "duplicate": {
+        "type": "same_name_source",
+        "match": {
+          "id": "1843",
+          "name": "Yurizono Seia",
+          "source": "Blue Archive"
+        }
+      }
+    },
+    {
+      "input": {
+        "name": "Plana",
+        "value": 48297,
+        "gender": "Mujer",
+        "source": "Blue Archive",
+        "keyword": "plana_(blue_archive)"
+      },
+      "normalized": {
+        "name": "Plana",
+        "gender": "Mujer",
+        "value": "48297",
+        "source": "Blue Archive",
+        "img": [],
+        "vid": [],
+        "aliases": [
+          "plana_(blue_archive)"
+        ]
+      },
+      "reason": "duplicate",
+      "duplicate": {
+        "type": "same_name_source",
+        "match": {
+          "id": "1830",
+          "name": "Plana",
+          "source": "Blue Archive"
+        }
+      }
+    },
+    {
+      "input": {
+        "name": "Fuuka",
+        "value": 3978,
+        "gender": "Mujer",
+        "source": "Blue Archive",
+        "keyword": "fuuka_(blue_archive)"
+      },
+      "normalized": {
+        "name": "Fuuka",
+        "gender": "Mujer",
+        "value": "3978",
+        "source": "Blue Archive",
+        "img": [],
+        "vid": [],
+        "aliases": [
+          "fuuka_(blue_archive)"
+        ]
+      },
+      "reason": "duplicate",
+      "duplicate": {
+        "type": "same_name_source",
+        "match": {
+          "id": "1861",
+          "name": "Fuuka",
+          "source": "Blue Archive"
+        }
+      }
+    },
+    {
+      "input": {
+        "name": "Mutsuki",
+        "value": 78278,
+        "gender": "Mujer",
+        "source": "Blue Archive",
+        "keyword": "mutsuki_(blue_archive)"
+      },
+      "normalized": {
+        "name": "Mutsuki",
+        "gender": "Mujer",
+        "value": "78278",
+        "source": "Blue Archive",
+        "img": [],
+        "vid": [],
+        "aliases": [
+          "mutsuki_(blue_archive)"
+        ]
+      },
+      "reason": "duplicate",
+      "duplicate": {
+        "type": "same_name_source",
+        "match": {
+          "id": "1873",
+          "name": "Mutsuki",
+          "source": "Blue Archive"
+        }
+      }
+    },
+    {
+      "input": {
+        "name": "Akane",
+        "value": 47827,
+        "gender": "Mujer",
+        "source": "Blue Archive",
+        "keyword": "akane_(blue_archive)"
+      },
+      "normalized": {
+        "name": "Akane",
+        "gender": "Mujer",
+        "value": "47827",
+        "source": "Blue Archive",
+        "img": [],
+        "vid": [],
+        "aliases": [
+          "akane_(blue_archive)"
+        ]
+      },
+      "reason": "duplicate",
+      "duplicate": {
+        "type": "same_name_source",
+        "match": {
+          "id": "1832",
+          "name": "Akane",
+          "source": "Blue Archive"
+        }
+      }
+    },
+    {
+      "input": {
+        "name": "Mari",
+        "value": 1392,
+        "gender": "Mujer",
+        "source": "Blue Archive",
+        "keyword": "mari_(blue_archive)"
+      },
+      "normalized": {
+        "name": "Mari",
+        "gender": "Mujer",
+        "value": "1392",
+        "source": "Blue Archive",
+        "img": [],
+        "vid": [],
+        "aliases": [
+          "mari_(blue_archive)"
+        ]
+      },
+      "reason": "duplicate",
+      "duplicate": {
+        "type": "same_name_source",
+        "match": {
+          "id": "1850",
+          "name": "Mari",
+          "source": "Blue Archive"
+        }
+      }
+    },
+    {
+      "input": {
+        "name": "Serika",
+        "value": 48789,
+        "gender": "Mujer",
+        "source": "Blue Archive",
+        "keyword": "serika_(blue_archive)"
+      },
+      "normalized": {
+        "name": "Serika",
+        "gender": "Mujer",
+        "value": "48789",
+        "source": "Blue Archive",
+        "img": [],
+        "vid": [],
+        "aliases": [
+          "serika_(blue_archive)"
+        ]
+      },
+      "reason": "duplicate",
+      "duplicate": {
+        "type": "same_name_source",
+        "match": {
+          "id": "1835",
+          "name": "Serika",
+          "source": "Blue Archive"
+        }
+      }
+    },
+    {
+      "input": {
+        "name": "Shimiko Endo",
+        "value": 49668,
+        "gender": "Mujer",
+        "source": "Blue Archive",
+        "keyword": "shimiko_(blue_archive)"
+      },
+      "normalized": {
+        "name": "Shimiko Endo",
+        "gender": "Mujer",
+        "value": "49668",
+        "source": "Blue Archive",
+        "img": [],
+        "vid": [],
+        "aliases": [
+          "shimiko_(blue_archive)"
+        ]
+      },
+      "reason": "duplicate",
+      "duplicate": {
+        "type": "same_name_source",
+        "match": {
+          "id": "1829",
+          "name": "Shimiko Endo",
+          "source": "Blue Archive"
+        }
+      }
+    },
+    {
+      "input": {
+        "name": "Hakari Hanazono",
+        "value": 39729,
+        "gender": "Mujer",
+        "source": "Kimi no Koto ga Daidaidaidaidaisuki na 100-nin no Kanojo",
+        "keyword": "hanazono_hakari"
+      },
+      "normalized": {
+        "name": "Hakari Hanazono",
+        "gender": "Mujer",
+        "value": "39729",
+        "source": "Kimi no Koto ga Daidaidaidaidaisuki na 100-nin no Kanojo",
+        "img": [],
+        "vid": [],
+        "aliases": [
+          "hanazono_hakari"
+        ]
+      },
+      "reason": "duplicate",
+      "duplicate": {
+        "type": "same_name_source",
+        "match": {
+          "id": "146",
+          "name": "Hakari Hanazono",
+          "source": "Kimi no Koto ga Daidaidaidaidaisuki na 100-nin no Kanojo"
+        }
+      }
+    },
+    {
+      "input": {
+        "name": "Shizuka Yoshimoto",
+        "value": 47297,
+        "gender": "Mujer",
+        "source": "Kimi no Koto ga Daidaidaidaidaisuki na 100-nin no Kanojo",
+        "keyword": "yoshimoto_shizuka"
+      },
+      "normalized": {
+        "name": "Shizuka Yoshimoto",
+        "gender": "Mujer",
+        "value": "47297",
+        "source": "Kimi no Koto ga Daidaidaidaidaisuki na 100-nin no Kanojo",
+        "img": [],
+        "vid": [],
+        "aliases": [
+          "yoshimoto_shizuka"
+        ]
+      },
+      "reason": "duplicate",
+      "duplicate": {
+        "type": "same_name_source",
+        "match": {
+          "id": "148",
+          "name": "Shizuka Yoshimoto",
+          "source": "Kimi no Koto ga Daidaidaidaidaisuki na 100-nin no Kanojo"
+        }
+      }
+    },
+    {
+      "input": {
+        "name": "Karane Inda",
+        "value": 53989,
+        "gender": "Mujer",
+        "source": "Kimi no Koto ga Daidaidaidaidaisuki na 100-nin no Kanojo",
+        "keyword": "inda_karane"
+      },
+      "normalized": {
+        "name": "Karane Inda",
+        "gender": "Mujer",
+        "value": "53989",
+        "source": "Kimi no Koto ga Daidaidaidaidaisuki na 100-nin no Kanojo",
+        "img": [],
+        "vid": [],
+        "aliases": [
+          "inda_karane"
+        ]
+      },
+      "reason": "duplicate",
+      "duplicate": {
+        "type": "same_name_source",
+        "match": {
+          "id": "147",
+          "name": "Karane Inda",
+          "source": "Kimi no Koto ga Daidaidaidaidaisuki na 100-nin no Kanojo"
+        }
+      }
+    },
+    {
+      "input": {
+        "name": "Kaito",
+        "value": 79377,
+        "gender": "Hombre",
+        "source": "Vocaloid",
+        "keyword": "kaito_(vocaloid)"
+      },
+      "normalized": {
+        "name": "Kaito",
+        "gender": "Hombre",
+        "value": "79377",
+        "source": "Vocaloid",
+        "img": [],
+        "vid": [],
+        "aliases": [
+          "kaito_(vocaloid)"
+        ]
+      },
+      "reason": "duplicate",
+      "duplicate": {
+        "type": "fuzzy_alias",
+        "score": 0.8,
+        "match": {
+          "id": "42",
+          "name": "Light Yagami",
+          "source": "Death Note"
+        }
+      }
+    },
+    {
+      "input": {
+        "name": "Len Kagamine",
+        "value": 3761,
+        "gender": "Hombre",
+        "source": "Vocaloid",
+        "keyword": "kagamine_len"
+      },
+      "normalized": {
+        "name": "Len Kagamine",
+        "gender": "Hombre",
+        "value": "3761",
+        "source": "Vocaloid",
+        "img": [],
+        "vid": [],
+        "aliases": [
+          "kagamine_len"
+        ]
+      },
+      "reason": "duplicate",
+      "duplicate": {
+        "type": "fuzzy_name",
+        "score": 0.8333333333333334,
+        "match": {
+          "id": "2522",
+          "name": "Rin Kagamine",
+          "source": "Vocaloid"
+        }
+      }
+    },
+    {
+      "input": {
+        "name": "Kaoruko Waguri",
+        "value": 10000,
+        "gender": "Mujer",
+        "source": "Kaoru Hana wa Rin to Saku",
+        "keyword": "waguri_kaoruko"
+      },
+      "normalized": {
+        "name": "Kaoruko Waguri",
+        "gender": "Mujer",
+        "value": "10000",
+        "source": "Kaoru Hana wa Rin to Saku",
+        "img": [],
+        "vid": [],
+        "aliases": [
+          "waguri_kaoruko"
+        ]
+      },
+      "reason": "duplicate",
+      "duplicate": {
+        "type": "same_name_source",
+        "match": {
+          "id": "2242",
+          "name": "Kaoruko Waguri",
+          "source": "Kaoru Hana wa Rin to Saku"
+        }
+      }
+    },
+    {
+      "input": {
+        "name": "Subaru Hoshina",
+        "value": 7000,
+        "gender": "Mujer",
+        "source": "Kaoru Hana wa Rin to Saku",
+        "keyword": "hoshina_subaru"
+      },
+      "normalized": {
+        "name": "Subaru Hoshina",
+        "gender": "Mujer",
+        "value": "7000",
+        "source": "Kaoru Hana wa Rin to Saku",
+        "img": [],
+        "vid": [],
+        "aliases": [
+          "hoshina_subaru"
+        ]
+      },
+      "reason": "duplicate",
+      "duplicate": {
+        "type": "same_name_source",
+        "match": {
+          "id": "2246",
+          "name": "Subaru Hoshina",
+          "source": "Kaoru Hana wa Rin to Saku"
+        }
+      }
+    },
+    {
+      "input": {
+        "name": "Rintarou Tsumugi",
+        "value": 9000,
+        "gender": "Hombre",
+        "source": "Kaoru Hana wa Rin to Saku",
+        "keyword": "tsumugi_rintarou"
+      },
+      "normalized": {
+        "name": "Rintarou Tsumugi",
+        "gender": "Hombre",
+        "value": "9000",
+        "source": "Kaoru Hana wa Rin to Saku",
+        "img": [],
+        "vid": [],
+        "aliases": [
+          "tsumugi_rintarou"
+        ]
+      },
+      "reason": "duplicate",
+      "duplicate": {
+        "type": "fuzzy_name",
+        "score": 0.9375,
+        "match": {
+          "id": "2241",
+          "name": "Rintaro Tsumugi",
+          "source": "Kaoru Hana wa Rin to Saku"
+        }
+      }
+    },
+    {
+      "input": {
+        "name": "Madoka Yuzuhara",
+        "value": 5000,
+        "gender": "Mujer",
+        "source": "Kaoru Hana wa Rin to Saku",
+        "keyword": "yuzuhara_madoka"
+      },
+      "normalized": {
+        "name": "Madoka Yuzuhara",
+        "gender": "Mujer",
+        "value": "5000",
+        "source": "Kaoru Hana wa Rin to Saku",
+        "img": [],
+        "vid": [],
+        "aliases": [
+          "yuzuhara_madoka"
+        ]
+      },
+      "reason": "duplicate",
+      "duplicate": {
+        "type": "fuzzy_name",
+        "score": 0.9333333333333333,
+        "match": {
+          "id": "2248",
+          "name": "Madoka Suzuhara",
+          "source": "Kaoru Hana wa Rin to Saku"
+        }
+      }
+    },
+    {
+      "input": {
+        "name": "Saku Natsusawa",
+        "value": 2500,
+        "gender": "Hombre",
+        "source": "Kaoru Hana wa Rin to Saku",
+        "keyword": "natsusawa_saku"
+      },
+      "normalized": {
+        "name": "Saku Natsusawa",
+        "gender": "Hombre",
+        "value": "2500",
+        "source": "Kaoru Hana wa Rin to Saku",
+        "img": [],
+        "vid": [],
+        "aliases": [
+          "natsusawa_saku"
+        ]
+      },
+      "reason": "duplicate",
+      "duplicate": {
+        "type": "same_name_source",
+        "match": {
+          "id": "2244",
+          "name": "Saku Natsusawa",
+          "source": "Kaoru Hana wa Rin to Saku"
+        }
+      }
+    },
+    {
+      "input": {
+        "name": "Shouhei Usami",
+        "value": 3000,
+        "gender": "Hombre",
+        "source": "Kaoru Hana wa Rin to Saku",
+        "keyword": "usami_shouhei"
+      },
+      "normalized": {
+        "name": "Shouhei Usami",
+        "gender": "Hombre",
+        "value": "3000",
+        "source": "Kaoru Hana wa Rin to Saku",
+        "img": [],
+        "vid": [],
+        "aliases": [
+          "usami_shouhei"
+        ]
+      },
+      "reason": "duplicate",
+      "duplicate": {
+        "type": "fuzzy_name",
+        "score": 0.9230769230769231,
+        "match": {
+          "id": "2243",
+          "name": "Shohei Usami",
+          "source": "Kaoru Hana wa Rin to Saku"
+        }
+      }
+    },
+    {
+      "input": {
+        "name": "Ayato Yorita",
+        "value": 2000,
+        "gender": "Hombre",
+        "source": "Kaoru Hana wa Rin to Saku",
+        "keyword": "yorita_ayato"
+      },
+      "normalized": {
+        "name": "Ayato Yorita",
+        "gender": "Hombre",
+        "value": "2000",
+        "source": "Kaoru Hana wa Rin to Saku",
+        "img": [],
+        "vid": [],
+        "aliases": [
+          "yorita_ayato"
+        ]
+      },
+      "reason": "duplicate",
+      "duplicate": {
+        "type": "same_name_source",
+        "match": {
+          "id": "2245",
+          "name": "Ayato Yorita",
+          "source": "Kaoru Hana wa Rin to Saku"
+        }
+      }
+    },
+    {
+      "input": {
+        "name": "Mai Zenin",
+        "value": 29619,
+        "gender": "Mujer",
+        "source": "Jujutsu Kaisen",
+        "keyword": "zenin_mai"
+      },
+      "normalized": {
+        "name": "Mai Zenin",
+        "gender": "Mujer",
+        "value": "29619",
+        "source": "Jujutsu Kaisen",
+        "img": [],
+        "vid": [],
+        "aliases": [
+          "zenin_mai"
+        ]
+      },
+      "reason": "duplicate",
+      "duplicate": {
+        "type": "fuzzy_name",
+        "score": 0.9,
+        "match": {
+          "id": "87",
+          "name": "Maki Zenin",
+          "source": "Jujutsu Kaisen"
+        }
+      }
+    },
+    {
+      "input": {
+        "name": "Kasumi Miwa",
+        "value": 2816,
+        "gender": "Mujer",
+        "source": "Jujutsu Kaisen",
+        "keyword": "miwa_kasumi"
+      },
+      "normalized": {
+        "name": "Kasumi Miwa",
+        "gender": "Mujer",
+        "value": "2816",
+        "source": "Jujutsu Kaisen",
+        "img": [],
+        "vid": [],
+        "aliases": [
+          "miwa_kasumi"
+        ]
+      },
+      "reason": "duplicate",
+      "duplicate": {
+        "type": "same_name_source",
+        "match": {
+          "id": "2426",
+          "name": "Kasumi Miwa",
+          "source": "Jujutsu Kaisen"
+        }
+      }
+    },
+    {
+      "input": {
+        "name": "Choso",
+        "value": 19729,
+        "gender": "Hombre",
+        "source": "Jujutsu Kaisen",
+        "keyword": "choso_(jujutsu_kaisen)"
+      },
+      "normalized": {
+        "name": "Choso",
+        "gender": "Hombre",
+        "value": "19729",
+        "source": "Jujutsu Kaisen",
+        "img": [],
+        "vid": [],
+        "aliases": [
+          "choso_(jujutsu_kaisen)"
+        ]
+      },
+      "reason": "duplicate",
+      "duplicate": {
+        "type": "fuzzy_name",
+        "score": 0.8,
+        "match": {
+          "id": "1450",
+          "name": "Chono",
+          "source": "Bokutachi wa Benkyou ga Dekinai"
+        }
+      }
+    },
+    {
+      "input": {
+        "name": "Maki Zenin",
+        "value": 9656,
+        "gender": "Mujer",
+        "source": "Jujutsu Kaisen",
+        "keyword": "zenin_maki"
+      },
+      "normalized": {
+        "name": "Maki Zenin",
+        "gender": "Mujer",
+        "value": "9656",
+        "source": "Jujutsu Kaisen",
+        "img": [],
+        "vid": [],
+        "aliases": [
+          "zenin_maki"
+        ]
+      },
+      "reason": "duplicate",
+      "duplicate": {
+        "type": "same_name_source",
+        "match": {
+          "id": "87",
+          "name": "Maki Zenin",
+          "source": "Jujutsu Kaisen"
+        }
+      }
+    },
+    {
+      "input": {
+        "name": "Mei Mei",
+        "value": 26457,
+        "gender": "Mujer",
+        "source": "Jujutsu Kaisen",
+        "keyword": "mei_mei_(jujutsu_kaisen)"
+      },
+      "normalized": {
+        "name": "Mei Mei",
+        "gender": "Mujer",
+        "value": "26457",
+        "source": "Jujutsu Kaisen",
+        "img": [],
+        "vid": [],
+        "aliases": [
+          "mei_mei_(jujutsu_kaisen)"
+        ]
+      },
+      "reason": "duplicate",
+      "duplicate": {
+        "type": "same_name_source",
+        "match": {
+          "id": "2195",
+          "name": "Mei Mei",
+          "source": "Jujutsu Kaisen"
+        }
+      }
+    },
+    {
+      "input": {
+        "name": "Yuuji Itadori",
+        "value": 72618,
+        "gender": "Hombre",
+        "source": "Jujutsu Kaisen",
+        "keyword": "itadori_yuuji"
+      },
+      "normalized": {
+        "name": "Yuuji Itadori",
+        "gender": "Hombre",
+        "value": "72618",
+        "source": "Jujutsu Kaisen",
+        "img": [],
+        "vid": [],
+        "aliases": [
+          "itadori_yuuji"
+        ]
+      },
+      "reason": "duplicate",
+      "duplicate": {
+        "type": "same_name_source",
+        "match": {
+          "id": "58",
+          "name": "Yuuji Itadori",
+          "source": "Jujutsu Kaisen"
+        }
+      }
+    },
+    {
+      "input": {
+        "name": "Megumi Fushiguro",
+        "value": 26386,
+        "gender": "Hombre",
+        "source": "Jujutsu Kaisen",
+        "keyword": "fushiguro_megumi"
+      },
+      "normalized": {
+        "name": "Megumi Fushiguro",
+        "gender": "Hombre",
+        "value": "26386",
+        "source": "Jujutsu Kaisen",
+        "img": [],
+        "vid": [],
+        "aliases": [
+          "fushiguro_megumi"
+        ]
+      },
+      "reason": "duplicate",
+      "duplicate": {
+        "type": "same_name_source",
+        "match": {
+          "id": "88",
+          "name": "Megumi Fushiguro",
+          "source": "Jujutsu Kaisen"
+        }
+      }
+    },
+    {
+      "input": {
+        "name": "Nobara Kugisaki",
+        "value": 2668,
+        "gender": "Mujer",
+        "source": "Jujutsu Kaisen",
+        "keyword": "kugisaki_nobara"
+      },
+      "normalized": {
+        "name": "Nobara Kugisaki",
+        "gender": "Mujer",
+        "value": "2668",
+        "source": "Jujutsu Kaisen",
+        "img": [],
+        "vid": [],
+        "aliases": [
+          "kugisaki_nobara"
+        ]
+      },
+      "reason": "duplicate",
+      "duplicate": {
+        "type": "same_name_source",
+        "match": {
+          "id": "230",
+          "name": "Nobara Kugisaki",
+          "source": "Jujutsu Kaisen"
+        }
+      }
+    },
+    {
+      "input": {
+        "name": "Yuuta Okkotsu",
+        "value": 4685,
+        "gender": "Hombre",
+        "source": "Jujutsu Kaisen",
+        "keyword": "okkotsu_yuuta"
+      },
+      "normalized": {
+        "name": "Yuuta Okkotsu",
+        "gender": "Hombre",
+        "value": "4685",
+        "source": "Jujutsu Kaisen",
+        "img": [],
+        "vid": [],
+        "aliases": [
+          "okkotsu_yuuta"
+        ]
+      },
+      "reason": "duplicate",
+      "duplicate": {
+        "type": "fuzzy_name",
+        "score": 0.9230769230769231,
+        "match": {
+          "id": "218",
+          "name": "Yuta Okkotsu",
+          "source": "Jujutsu Kaisen"
+        }
+      }
+    },
+    {
+      "input": {
+        "name": "Ryomen Sukuna",
+        "value": 4829,
+        "gender": "Hombre",
+        "source": "Jujutsu Kaisen",
+        "keyword": "ryoumen_sukuna_(jujutsu_kaisen)"
+      },
+      "normalized": {
+        "name": "Ryomen Sukuna",
+        "gender": "Hombre",
+        "value": "4829",
+        "source": "Jujutsu Kaisen",
+        "img": [],
+        "vid": [],
+        "aliases": [
+          "ryoumen_sukuna_(jujutsu_kaisen)"
+        ]
+      },
+      "reason": "duplicate",
+      "duplicate": {
+        "type": "same_name_source",
+        "match": {
+          "id": "380",
+          "name": "Ryomen Sukuna",
+          "source": "Jujutsu Kaisen"
+        }
+      }
+    },
+    {
+      "input": {
+        "name": "Mahito",
+        "value": 58367,
+        "gender": "Hombre",
+        "source": "Jujutsu Kaisen",
+        "keyword": "mahito_(jujutsu_kaisen)"
+      },
+      "normalized": {
+        "name": "Mahito",
+        "gender": "Hombre",
+        "value": "58367",
+        "source": "Jujutsu Kaisen",
+        "img": [],
+        "vid": [],
+        "aliases": [
+          "mahito_(jujutsu_kaisen)"
+        ]
+      },
+      "reason": "duplicate",
+      "duplicate": {
+        "type": "same_name_source",
+        "match": {
+          "id": "381",
+          "name": "Mahito",
+          "source": "Jujutsu Kaisen"
+        }
+      }
+    },
+    {
+      "input": {
+        "name": "Ram",
+        "value": 3757,
+        "gender": "Mujer",
+        "source": "Re:Zero",
+        "keyword": "ram_(re:zero)"
+      },
+      "normalized": {
+        "name": "Ram",
+        "gender": "Mujer",
+        "value": "3757",
+        "source": "Re:Zero",
+        "img": [],
+        "vid": [],
+        "aliases": [
+          "ram_(re:zero)"
+        ]
+      },
+      "reason": "duplicate",
+      "duplicate": {
+        "type": "same_name",
+        "match": {
+          "id": "1560",
+          "name": "Ram",
+          "source": "Re:Zero - Starting Life in Another World"
+        }
+      }
+    },
+    {
+      "input": {
+        "name": "Rem",
+        "value": 2577,
+        "gender": "Mujer",
+        "source": "Re:Zero",
+        "keyword": "rem_(re:zero)"
+      },
+      "normalized": {
+        "name": "Rem",
+        "gender": "Mujer",
+        "value": "2577",
+        "source": "Re:Zero",
+        "img": [],
+        "vid": [],
+        "aliases": [
+          "rem_(re:zero)"
+        ]
+      },
+      "reason": "duplicate",
+      "duplicate": {
+        "type": "same_name",
+        "match": {
+          "id": "404",
+          "name": "Rem",
+          "source": "Re:Zero - Starting Life in Another World"
+        }
+      }
+    },
+    {
+      "input": {
+        "name": "Beatrice",
+        "value": 37668,
+        "gender": "Mujer",
+        "source": "Re:Zero",
+        "keyword": "beatrice_(re:zero)"
+      },
+      "normalized": {
+        "name": "Beatrice",
+        "gender": "Mujer",
+        "value": "37668",
+        "source": "Re:Zero",
+        "img": [],
+        "vid": [],
+        "aliases": [
+          "beatrice_(re:zero)"
+        ]
+      },
+      "reason": "duplicate",
+      "duplicate": {
+        "type": "same_name",
+        "match": {
+          "id": "520",
+          "name": "Beatrice",
+          "source": "Re:Zero - Starting Life in Another World"
+        }
+      }
+    },
+    {
+      "input": {
+        "name": "Subaru Natsuki",
+        "value": 39397,
+        "gender": "Hombre",
+        "source": "Re:Zero",
+        "keyword": "subaru_natsuki_(re:zero)"
+      },
+      "normalized": {
+        "name": "Subaru Natsuki",
+        "gender": "Hombre",
+        "value": "39397",
+        "source": "Re:Zero",
+        "img": [],
+        "vid": [],
+        "aliases": [
+          "subaru_natsuki_(re:zero)"
+        ]
+      },
+      "reason": "duplicate",
+      "duplicate": {
+        "type": "same_name",
+        "match": {
+          "id": "516",
+          "name": "Subaru Natsuki",
+          "source": "Re:Zero - Starting Life in Another World"
+        }
+      }
+    },
+    {
+      "input": {
+        "name": "Emilia",
+        "value": 38919,
+        "gender": "Mujer",
+        "source": "Re:Zero",
+        "keyword": "emilia_(re:zero)"
+      },
+      "normalized": {
+        "name": "Emilia",
+        "gender": "Mujer",
+        "value": "38919",
+        "source": "Re:Zero",
+        "img": [],
+        "vid": [],
+        "aliases": [
+          "emilia_(re:zero)"
+        ]
+      },
+      "reason": "duplicate",
+      "duplicate": {
+        "type": "same_name",
+        "match": {
+          "id": "515",
+          "name": "Emilia",
+          "source": "Re:Zero - Starting Life in Another World"
+        }
+      }
+    },
+    {
+      "input": {
+        "name": "Satella",
+        "value": 26837,
+        "gender": "Mujer",
+        "source": "Re:Zero",
+        "keyword": "satella_(re:zero)"
+      },
+      "normalized": {
+        "name": "Satella",
+        "gender": "Mujer",
+        "value": "26837",
+        "source": "Re:Zero",
+        "img": [],
+        "vid": [],
+        "aliases": [
+          "satella_(re:zero)"
+        ]
+      },
+      "reason": "duplicate",
+      "duplicate": {
+        "type": "same_name",
+        "match": {
+          "id": "1620",
+          "name": "Satella",
+          "source": "Re:Zero - Starting Life in Another World"
+        }
+      }
+    },
+    {
+      "input": {
+        "name": "Albedo",
+        "value": 19309,
+        "gender": "Mujer",
+        "source": "Overlord",
+        "keyword": "albedo_(overlord)",
+        "votes": 1,
+        "lastVoteTime": 1758041916043
+      },
+      "normalized": {
+        "name": "Albedo",
+        "gender": "Mujer",
+        "value": "19309",
+        "source": "Overlord",
+        "img": [],
+        "vid": [],
+        "aliases": [
+          "albedo_(overlord)"
+        ]
+      },
+      "reason": "duplicate",
+      "duplicate": {
+        "type": "same_name_source",
+        "match": {
+          "id": "102",
+          "name": "Albedo",
+          "source": "Overlord"
+        }
+      }
+    },
+    {
+      "input": {
+        "name": "Sailor Moon",
+        "value": 2839,
+        "gender": "Mujer",
+        "source": "Sailor Moon",
+        "keyword": "sailor_moon"
+      },
+      "normalized": {
+        "name": "Sailor Moon",
+        "gender": "Mujer",
+        "value": "2839",
+        "source": "Sailor Moon",
+        "img": [],
+        "vid": [],
+        "aliases": [
+          "sailor_moon"
+        ]
+      },
+      "reason": "duplicate",
+      "duplicate": {
+        "type": "same_name_source",
+        "match": {
+          "id": "2158",
+          "name": "Sailor Moon",
+          "source": "Sailor Moon"
+        }
+      }
+    },
+    {
+      "input": {
+        "name": "Nami",
+        "value": 2829,
+        "gender": "Mujer",
+        "source": "One Piece",
+        "keyword": "nami"
+      },
+      "normalized": {
+        "name": "Nami",
+        "gender": "Mujer",
+        "value": "2829",
+        "source": "One Piece",
+        "img": [],
+        "vid": [],
+        "aliases": [
+          "nami"
+        ]
+      },
+      "reason": "duplicate",
+      "duplicate": {
+        "type": "same_name_source",
+        "match": {
+          "id": "875",
+          "name": "Nami",
+          "source": "One Piece"
+        }
+      }
+    },
+    {
+      "input": {
+        "name": "Uta",
+        "value": 9689,
+        "gender": "Mujer",
+        "source": "One Piece",
+        "keyword": "uta"
+      },
+      "normalized": {
+        "name": "Uta",
+        "gender": "Mujer",
+        "value": "9689",
+        "source": "One Piece",
+        "img": [],
+        "vid": [],
+        "aliases": [
+          "uta"
+        ]
+      },
+      "reason": "duplicate",
+      "duplicate": {
+        "type": "same_name_source",
+        "match": {
+          "id": "452",
+          "name": "Uta",
+          "source": "One Piece"
+        }
+      }
+    },
+    {
+      "input": {
+        "name": "Sailor Venus",
+        "value": 38268,
+        "gender": "Mujer",
+        "source": "Sailor Moon",
+        "keyword": "sailor_venus"
+      },
+      "normalized": {
+        "name": "Sailor Venus",
+        "gender": "Mujer",
+        "value": "38268",
+        "source": "Sailor Moon",
+        "img": [],
+        "vid": [],
+        "aliases": [
+          "sailor_venus"
+        ]
+      },
+      "reason": "duplicate",
+      "duplicate": {
+        "type": "same_name_source",
+        "match": {
+          "id": "2161",
+          "name": "Sailor Venus",
+          "source": "Sailor Moon"
+        }
+      }
+    },
+    {
+      "input": {
+        "name": "Monkey D. Luffy",
+        "value": 38379,
+        "gender": "Hombre",
+        "source": "One Piece",
+        "keyword": "monkey_d_luffy"
+      },
+      "normalized": {
+        "name": "Monkey D. Luffy",
+        "gender": "Hombre",
+        "value": "38379",
+        "source": "One Piece",
+        "img": [],
+        "vid": [],
+        "aliases": [
+          "monkey_d_luffy"
+        ]
+      },
+      "reason": "duplicate",
+      "duplicate": {
+        "type": "same_name_source",
+        "match": {
+          "id": "62",
+          "name": "Monkey D. Luffy",
+          "source": "One Piece"
+        }
+      }
+    },
+    {
+      "input": {
+        "name": "Sailor Mars",
+        "value": 28299,
+        "gender": "Mujer",
+        "source": "Sailor Moon",
+        "keyword": "sailor_mars"
+      },
+      "normalized": {
+        "name": "Sailor Mars",
+        "gender": "Mujer",
+        "value": "28299",
+        "source": "Sailor Moon",
+        "img": [],
+        "vid": [],
+        "aliases": [
+          "sailor_mars"
+        ]
+      },
+      "reason": "duplicate",
+      "duplicate": {
+        "type": "same_name_source",
+        "match": {
+          "id": "2160",
+          "name": "Sailor Mars",
+          "source": "Sailor Moon"
+        }
+      }
+    },
+    {
+      "input": {
+        "name": "Sailor Mercury",
+        "value": 9291,
+        "gender": "Mujer",
+        "source": "Sailor Moon",
+        "keyword": "sailor_mercury"
+      },
+      "normalized": {
+        "name": "Sailor Mercury",
+        "gender": "Mujer",
+        "value": "9291",
+        "source": "Sailor Moon",
+        "img": [],
+        "vid": [],
+        "aliases": [
+          "sailor_mercury"
+        ]
+      },
+      "reason": "duplicate",
+      "duplicate": {
+        "type": "same_name_source",
+        "match": {
+          "id": "2162",
+          "name": "Sailor Mercury",
+          "source": "Sailor Moon"
+        }
+      }
+    },
+    {
+      "input": {
+        "name": "Kanna Kamui",
+        "value": 38618,
+        "gender": "Mujer",
+        "source": "Kobayashi-san Chi no Dragon Maid",
+        "keyword": "kanna_kamui"
+      },
+      "normalized": {
+        "name": "Kanna Kamui",
+        "gender": "Mujer",
+        "value": "38618",
+        "source": "Kobayashi-san Chi no Dragon Maid",
+        "img": [],
+        "vid": [],
+        "aliases": [
+          "kanna_kamui"
+        ]
+      },
+      "reason": "duplicate",
+      "duplicate": {
+        "type": "same_name",
+        "match": {
+          "id": "2188",
+          "name": "Kanna Kamui",
+          "source": "Miss Kobayashi's Dragon Maid"
+        }
+      }
+    },
+    {
+      "input": {
+        "name": "Elma",
+        "value": 3829,
+        "gender": "Mujer",
+        "source": "Kobayashi-san Chi no Dragon Maid",
+        "keyword": "elma"
+      },
+      "normalized": {
+        "name": "Elma",
+        "gender": "Mujer",
+        "value": "3829",
+        "source": "Kobayashi-san Chi no Dragon Maid",
+        "img": [],
+        "vid": [],
+        "aliases": [
+          "elma"
+        ]
+      },
+      "reason": "duplicate",
+      "duplicate": {
+        "type": "same_name",
+        "match": {
+          "id": "2190",
+          "name": "Elma",
+          "source": "Miss Kobayashi's Dragon Maid"
+        }
+      }
+    },
+    {
+      "input": {
+        "name": "Ilulu",
+        "value": 2989,
+        "gender": "Mujer",
+        "source": "Kobayashi-san Chi no Dragon Maid",
+        "keyword": "ilulu"
+      },
+      "normalized": {
+        "name": "Ilulu",
+        "gender": "Mujer",
+        "value": "2989",
+        "source": "Kobayashi-san Chi no Dragon Maid",
+        "img": [],
+        "vid": [],
+        "aliases": [
+          "ilulu"
+        ]
+      },
+      "reason": "duplicate",
+      "duplicate": {
+        "type": "fuzzy_name",
+        "score": 0.8,
+        "match": {
+          "id": "392",
+          "name": "Lulu",
+          "source": "Oneshota the animation"
+        }
+      }
+    },
+    {
+      "input": {
+        "name": "Quetzalcoatl",
+        "value": 2819,
+        "gender": "Mujer",
+        "source": "Kobayashi-san Chi no Dragon Maid",
+        "keyword": "quetzalcoatl"
+      },
+      "normalized": {
+        "name": "Quetzalcoatl",
+        "gender": "Mujer",
+        "value": "2819",
+        "source": "Kobayashi-san Chi no Dragon Maid",
+        "img": [],
+        "vid": [],
+        "aliases": [
+          "quetzalcoatl"
+        ]
+      },
+      "reason": "duplicate",
+      "duplicate": {
+        "type": "same_name",
+        "match": {
+          "id": "2182",
+          "name": "Quetzalcóatl",
+          "source": "Miss Kobayashi's Dragon Maid"
+        }
+      }
+    },
+    {
+      "input": {
+        "name": "Tohru",
+        "value": 2967,
+        "gender": "Mujer",
+        "source": "Kobayashi-san Chi no Dragon Maid",
+        "keyword": "tohru"
+      },
+      "normalized": {
+        "name": "Tohru",
+        "gender": "Mujer",
+        "value": "2967",
+        "source": "Kobayashi-san Chi no Dragon Maid",
+        "img": [],
+        "vid": [],
+        "aliases": [
+          "tohru"
+        ]
+      },
+      "reason": "duplicate",
+      "duplicate": {
+        "type": "same_name",
+        "match": {
+          "id": "2187",
+          "name": "Tohru",
+          "source": "Miss Kobayashi's Dragon Maid"
+        }
+      }
+    },
+    {
+      "input": {
+        "name": "Frieren",
+        "value": 39789,
+        "gender": "Mujer",
+        "source": "Sousou no Frieren",
+        "keyword": "frieren"
+      },
+      "normalized": {
+        "name": "Frieren",
+        "gender": "Mujer",
+        "value": "39789",
+        "source": "Sousou no Frieren",
+        "img": [],
+        "vid": [],
+        "aliases": [
+          "frieren"
+        ]
+      },
+      "reason": "duplicate",
+      "duplicate": {
+        "type": "same_name_source",
+        "match": {
+          "id": "1700",
+          "name": "Frieren",
+          "source": "Sousou no Frieren"
+        }
+      }
+    },
+    {
+      "input": {
+        "name": "Ryo Yamada",
+        "value": 10000,
+        "gender": "Mujer",
+        "source": "Bocchi The Rock",
+        "keyword": "yamada_ryo"
+      },
+      "normalized": {
+        "name": "Ryo Yamada",
+        "gender": "Mujer",
+        "value": "10000",
+        "source": "Bocchi The Rock",
+        "img": [],
+        "vid": [],
+        "aliases": [
+          "yamada_ryo"
+        ]
+      },
+      "reason": "duplicate",
+      "duplicate": {
+        "type": "fuzzy_name",
+        "score": 0.9090909090909091,
+        "match": {
+          "id": "11",
+          "name": "Ryou Yamada",
+          "source": "Bocchi the Rock!"
+        }
+      }
+    },
+    {
+      "input": {
+        "name": "Nijika Ijichi",
+        "value": 5000,
+        "gender": "Mujer",
+        "source": "Bocchi The Rock",
+        "keyword": "ijichi_nijika"
+      },
+      "normalized": {
+        "name": "Nijika Ijichi",
+        "gender": "Mujer",
+        "value": "5000",
+        "source": "Bocchi The Rock",
+        "img": [],
+        "vid": [],
+        "aliases": [
+          "ijichi_nijika"
+        ]
+      },
+      "reason": "duplicate",
+      "duplicate": {
+        "type": "same_name_source",
+        "match": {
+          "id": "762",
+          "name": "Nijika Ijichi",
+          "source": "Bocchi the Rock!"
+        }
+      }
+    },
+    {
+      "input": {
+        "name": "Kikuri Hiroi",
+        "value": 4500,
+        "gender": "Mujer",
+        "source": "Bocchi The Rock",
+        "keyword": "hiroi_kikuri"
+      },
+      "normalized": {
+        "name": "Kikuri Hiroi",
+        "gender": "Mujer",
+        "value": "4500",
+        "source": "Bocchi The Rock",
+        "img": [],
+        "vid": [],
+        "aliases": [
+          "hiroi_kikuri"
+        ]
+      },
+      "reason": "duplicate",
+      "duplicate": {
+        "type": "same_name_source",
+        "match": {
+          "id": "767",
+          "name": "Kikuri Hiroi",
+          "source": "Bocchi the Rock!"
+        }
+      }
+    },
+    {
+      "input": {
+        "name": "Seika Ijichi",
+        "value": 3000,
+        "gender": "Mujer",
+        "source": "Bocchi The Rock",
+        "keyword": "ijichi_seika"
+      },
+      "normalized": {
+        "name": "Seika Ijichi",
+        "gender": "Mujer",
+        "value": "3000",
+        "source": "Bocchi The Rock",
+        "img": [],
+        "vid": [],
+        "aliases": [
+          "ijichi_seika"
+        ]
+      },
+      "reason": "duplicate",
+      "duplicate": {
+        "type": "same_name_source",
+        "match": {
+          "id": "770",
+          "name": "Seika Ijichi",
+          "source": "Bocchi the Rock!"
+        }
+      }
+    },
+    {
+      "input": {
+        "name": "Alisa Mikhailovna Kujou",
+        "value": 4000,
+        "gender": "Mujer",
+        "source": "Tokidoki Bosotto Russia-go de Dereru Tonari no Alya-san",
+        "keyword": "alisa_mikhailovna_kujou"
+      },
+      "normalized": {
+        "name": "Alisa Mikhailovna Kujou",
+        "gender": "Mujer",
+        "value": "4000",
+        "source": "Tokidoki Bosotto Russia-go de Dereru Tonari no Alya-san",
+        "img": [],
+        "vid": [],
+        "aliases": [
+          "alisa_mikhailovna_kujou"
+        ]
+      },
+      "reason": "duplicate",
+      "duplicate": {
+        "type": "same_name_source",
+        "match": {
+          "id": "21",
+          "name": "Alisa Mikhailovna Kujou",
+          "source": "Tokidoki Bosotto Russia-go de Dereru Tonari no Alya-san"
+        }
+      }
+    },
+    {
+      "input": {
+        "name": "Mariya Mikhailovna Kujou",
+        "value": 28570,
+        "gender": "Mujer",
+        "source": "Tokidoki Bosotto Russia-go de Dereru Tonari no Alya-san",
+        "keyword": "mariya_mikhailovna_kujou"
+      },
+      "normalized": {
+        "name": "Mariya Mikhailovna Kujou",
+        "gender": "Mujer",
+        "value": "28570",
+        "source": "Tokidoki Bosotto Russia-go de Dereru Tonari no Alya-san",
+        "img": [],
+        "vid": [],
+        "aliases": [
+          "mariya_mikhailovna_kujou"
+        ]
+      },
+      "reason": "duplicate",
+      "duplicate": {
+        "type": "same_name_source",
+        "match": {
+          "id": "1686",
+          "name": "Mariya Mikhailovna Kujou",
+          "source": "Tokidoki Bosotto Russia-go de Dereru Tonari no Alya-san"
+        }
+      }
+    },
+    {
+      "input": {
+        "name": "Ayano Kimishima",
+        "value": 28570,
+        "gender": "Mujer",
+        "source": "Tokidoki Bosotto Russia-go de Dereru Tonari no Alya-san",
+        "keyword": "kimishima_ayano"
+      },
+      "normalized": {
+        "name": "Ayano Kimishima",
+        "gender": "Mujer",
+        "value": "28570",
+        "source": "Tokidoki Bosotto Russia-go de Dereru Tonari no Alya-san",
+        "img": [],
+        "vid": [],
+        "aliases": [
+          "kimishima_ayano"
+        ]
+      },
+      "reason": "duplicate",
+      "duplicate": {
+        "type": "same_name_source",
+        "match": {
+          "id": "467",
+          "name": "Ayano Kimishima",
+          "source": "Tokidoki Bosotto Russia-go de Dereru Tonari no Alya-san"
+        }
+      }
+    },
+    {
+      "input": {
+        "name": "Varesa",
+        "value": 39600,
+        "gender": "Mujer",
+        "source": "Genshin Impact",
+        "keyword": "varesa_(genshin_impact)"
+      },
+      "normalized": {
+        "name": "Varesa",
+        "gender": "Mujer",
+        "value": "39600",
+        "source": "Genshin Impact",
+        "img": [],
+        "vid": [],
+        "aliases": [
+          "varesa_(genshin_impact)"
+        ]
+      },
+      "reason": "duplicate",
+      "duplicate": {
+        "type": "same_name_source",
+        "match": {
+          "id": "1881",
+          "name": "Varesa",
+          "source": "Genshin Impact"
+        }
+      }
+    },
+    {
+      "input": {
+        "name": "Furina",
+        "value": 18360,
+        "gender": "Mujer",
+        "source": "Genshin Impact",
+        "keyword": "furina_(genshin_impact)"
+      },
+      "normalized": {
+        "name": "Furina",
+        "gender": "Mujer",
+        "value": "18360",
+        "source": "Genshin Impact",
+        "img": [],
+        "vid": [],
+        "aliases": [
+          "furina_(genshin_impact)"
+        ]
+      },
+      "reason": "duplicate",
+      "duplicate": {
+        "type": "same_name_source",
+        "match": {
+          "id": "411",
+          "name": "Furina",
+          "source": "Genshin Impact"
+        }
+      }
+    },
+    {
+      "input": {
+        "name": "Hu Tao",
+        "value": 39600,
+        "gender": "Mujer",
+        "source": "Genshin Impact",
+        "keyword": "hu_tao"
+      },
+      "normalized": {
+        "name": "Hu Tao",
+        "gender": "Mujer",
+        "value": "39600",
+        "source": "Genshin Impact",
+        "img": [],
+        "vid": [],
+        "aliases": [
+          "hu_tao"
+        ]
+      },
+      "reason": "duplicate",
+      "duplicate": {
+        "type": "same_name_source",
+        "match": {
+          "id": "229",
+          "name": "Hu Tao",
+          "source": "Genshin Impact"
+        }
+      }
+    },
+    {
+      "input": {
+        "name": "Makima",
+        "value": 19268,
+        "gender": "Mujer",
+        "source": "Chainsaw Man",
+        "keyword": "makima"
+      },
+      "normalized": {
+        "name": "Makima",
+        "gender": "Mujer",
+        "value": "19268",
+        "source": "Chainsaw Man",
+        "img": [],
+        "vid": [],
+        "aliases": [
+          "makima"
+        ]
+      },
+      "reason": "duplicate",
+      "duplicate": {
+        "type": "same_name_source",
+        "match": {
+          "id": "15",
+          "name": "Makima",
+          "source": "Chainsaw Man"
+        }
+      }
+    },
+    {
+      "input": {
+        "name": "Reze",
+        "value": 29297,
+        "gender": "Mujer",
+        "source": "Chainsaw Man",
+        "keyword": "reze_(chainsaw_man)"
+      },
+      "normalized": {
+        "name": "Reze",
+        "gender": "Mujer",
+        "value": "29297",
+        "source": "Chainsaw Man",
+        "img": [],
+        "vid": [],
+        "aliases": [
+          "reze_(chainsaw_man)"
+        ]
+      },
+      "reason": "duplicate",
+      "duplicate": {
+        "type": "same_name_source",
+        "match": {
+          "id": "66",
+          "name": "Reze",
+          "source": "Chainsaw Man"
+        }
+      }
+    },
+    {
+      "input": {
+        "name": "Denji",
+        "value": 2868,
+        "gender": "Hombre",
+        "source": "Chainsaw Man",
+        "keyword": "denji"
+      },
+      "normalized": {
+        "name": "Denji",
+        "gender": "Hombre",
+        "value": "2868",
+        "source": "Chainsaw Man",
+        "img": [],
+        "vid": [],
+        "aliases": [
+          "denji"
+        ]
+      },
+      "reason": "duplicate",
+      "duplicate": {
+        "type": "same_name_source",
+        "match": {
+          "id": "177",
+          "name": "Denji",
+          "source": "Chainsaw Man"
+        }
+      }
+    },
+    {
+      "input": {
+        "name": "Angel Devil",
+        "value": 5089,
+        "gender": "Hombre",
+        "source": "Chainsaw Man",
+        "keyword": "angel_devil_(chainsaw_man)"
+      },
+      "normalized": {
+        "name": "Angel Devil",
+        "gender": "Hombre",
+        "value": "5089",
+        "source": "Chainsaw Man",
+        "img": [],
+        "vid": [],
+        "aliases": [
+          "angel_devil_(chainsaw_man)"
+        ]
+      },
+      "reason": "duplicate",
+      "duplicate": {
+        "type": "same_name_source",
+        "match": {
+          "id": "448",
+          "name": "Angel Devil",
+          "source": "Chainsaw Man"
+        }
+      }
+    },
+    {
+      "input": {
+        "name": "Power",
+        "value": 29698,
+        "gender": "Mujer",
+        "source": "Chainsaw Man",
+        "keyword": "power_(chainsaw_man)"
+      },
+      "normalized": {
+        "name": "Power",
+        "gender": "Mujer",
+        "value": "29698",
+        "source": "Chainsaw Man",
+        "img": [],
+        "vid": [],
+        "aliases": [
+          "power_(chainsaw_man)"
+        ]
+      },
+      "reason": "duplicate",
+      "duplicate": {
+        "type": "same_name_source",
+        "match": {
+          "id": "16",
+          "name": "Power",
+          "source": "Chainsaw Man"
+        }
+      }
+    },
+    {
+      "input": {
+        "name": "Wiz",
+        "value": 29272,
+        "gender": "Mujer",
+        "source": "Kono Subarashii Sekai ni Shukufuku wo!",
+        "keyword": "wiz_(konosuba)"
+      },
+      "normalized": {
+        "name": "Wiz",
+        "gender": "Mujer",
+        "value": "29272",
+        "source": "Kono Subarashii Sekai ni Shukufuku wo!",
+        "img": [],
+        "vid": [],
+        "aliases": [
+          "wiz_(konosuba)"
+        ]
+      },
+      "reason": "duplicate",
+      "duplicate": {
+        "type": "same_name",
+        "match": {
+          "id": "232",
+          "name": "Wiz",
+          "source": "Konosuba"
+        }
+      }
+    },
+    {
+      "input": {
+        "name": "Megumin",
+        "value": 39651,
+        "gender": "Mujer",
+        "source": "Kono Subarashii Sekai ni Shukufuku wo!",
+        "keyword": "megumin"
+      },
+      "normalized": {
+        "name": "Megumin",
+        "gender": "Mujer",
+        "value": "39651",
+        "source": "Kono Subarashii Sekai ni Shukufuku wo!",
+        "img": [],
+        "vid": [],
+        "aliases": [
+          "megumin"
+        ]
+      },
+      "reason": "duplicate",
+      "duplicate": {
+        "type": "same_name",
+        "match": {
+          "id": "185",
+          "name": "Megumin",
+          "source": "Konosuba"
+        }
+      }
+    },
+    {
+      "input": {
+        "name": "Yunyun",
+        "value": 26188,
+        "gender": "Mujer",
+        "source": "Kono Subarashii Sekai ni Shukufuku wo!",
+        "keyword": "yunyun_(konosuba)"
+      },
+      "normalized": {
+        "name": "Yunyun",
+        "gender": "Mujer",
+        "value": "26188",
+        "source": "Kono Subarashii Sekai ni Shukufuku wo!",
+        "img": [],
+        "vid": [],
+        "aliases": [
+          "yunyun_(konosuba)"
+        ]
+      },
+      "reason": "duplicate",
+      "duplicate": {
+        "type": "same_name",
+        "match": {
+          "id": "233",
+          "name": "Yunyun",
+          "source": "Konosuba"
+        }
+      }
+    },
+    {
+      "input": {
+        "name": "Aqua",
+        "value": 39676,
+        "gender": "Mujer",
+        "source": "Kono Subarashii Sekai ni Shukufuku wo!",
+        "keyword": "aqua_(konosuba)"
+      },
+      "normalized": {
+        "name": "Aqua",
+        "gender": "Mujer",
+        "value": "39676",
+        "source": "Kono Subarashii Sekai ni Shukufuku wo!",
+        "img": [],
+        "vid": [],
+        "aliases": [
+          "aqua_(konosuba)"
+        ]
+      },
+      "reason": "duplicate",
+      "duplicate": {
+        "type": "same_name",
+        "match": {
+          "id": "186",
+          "name": "Aqua",
+          "source": "Konosuba"
+        }
+      }
+    },
+    {
+      "input": {
+        "name": "Hitori Gotou",
+        "value": 93789,
+        "gender": "Mujer",
+        "source": "Bocchi the Rock",
+        "keyword": "bocchi"
+      },
+      "normalized": {
+        "name": "Hitori Gotou",
+        "gender": "Mujer",
+        "value": "93789",
+        "source": "Bocchi the Rock",
+        "img": [],
+        "vid": [],
+        "aliases": [
+          "bocchi"
+        ]
+      },
+      "reason": "duplicate",
+      "duplicate": {
+        "type": "same_name_source",
+        "match": {
+          "id": "761",
+          "name": "Hitori Gotou",
+          "source": "Bocchi the Rock!"
+        }
+      }
+    },
+    {
+      "input": {
+        "name": "Hatsune Miku",
+        "value": 50,
+        "gender": "Mujer",
+        "source": "Vocaloid",
+        "keyword": "hatsune_miku"
+      },
+      "normalized": {
+        "name": "Hatsune Miku",
+        "gender": "Mujer",
+        "value": "50",
+        "source": "Vocaloid",
+        "img": [],
+        "vid": [],
+        "aliases": [
+          "hatsune_miku"
+        ]
+      },
+      "reason": "duplicate",
+      "duplicate": {
+        "type": "same_name_source",
+        "match": {
+          "id": "104",
+          "name": "Hatsune Miku",
+          "source": "Vocaloid"
+        }
+      }
+    },
+    {
+      "input": {
+        "name": "Sumi Sakurasawa",
+        "value": 230,
+        "gender": "Mujer",
+        "source": "Kanojo, Okarishimasu",
+        "keyword": "sakurasawa_sumi"
+      },
+      "normalized": {
+        "name": "Sumi Sakurasawa",
+        "gender": "Mujer",
+        "value": "230",
+        "source": "Kanojo, Okarishimasu",
+        "img": [],
+        "vid": [],
+        "aliases": [
+          "sakurasawa_sumi"
+        ]
+      },
+      "reason": "duplicate",
+      "duplicate": {
+        "type": "same_name",
+        "match": {
+          "id": "12",
+          "name": "Sumi Sakurasawa",
+          "source": "Rent a Girlfriend"
+        }
+      }
+    },
+    {
+      "input": {
+        "name": "Ai Hoshino",
+        "value": 500,
+        "gender": "Mujer",
+        "source": "Oshi no Ko",
+        "keyword": "hoshino_ai"
+      },
+      "normalized": {
+        "name": "Ai Hoshino",
+        "gender": "Mujer",
+        "value": "500",
+        "source": "Oshi no Ko",
+        "img": [],
+        "vid": [],
+        "aliases": [
+          "hoshino_ai"
+        ]
+      },
+      "reason": "duplicate",
+      "duplicate": {
+        "type": "same_name_source",
+        "match": {
+          "id": "20",
+          "name": "Ai Hoshino",
+          "source": "Oshi no Ko"
+        }
+      }
+    },
+    {
+      "input": {
+        "name": "Aquamarine Hoshino",
+        "value": 190,
+        "gender": "Hombre",
+        "source": "Oshi no Ko",
+        "keyword": "hoshino_aquamarine"
+      },
+      "normalized": {
+        "name": "Aquamarine Hoshino",
+        "gender": "Hombre",
+        "value": "190",
+        "source": "Oshi no Ko",
+        "img": [],
+        "vid": [],
+        "aliases": [
+          "hoshino_aquamarine"
+        ]
+      },
+      "reason": "duplicate",
+      "duplicate": {
+        "type": "same_name_source",
+        "match": {
+          "id": "439",
+          "name": "Aquamarine Hoshino",
+          "source": "Oshi no Ko"
+        }
+      }
+    },
+    {
+      "input": {
+        "name": "Ruby Hoshino",
+        "value": 100,
+        "gender": "Mujer",
+        "source": "Oshi no Ko",
+        "keyword": "hoshino_ruby"
+      },
+      "normalized": {
+        "name": "Ruby Hoshino",
+        "gender": "Mujer",
+        "value": "100",
+        "source": "Oshi no Ko",
+        "img": [],
+        "vid": [],
+        "aliases": [
+          "hoshino_ruby"
+        ]
+      },
+      "reason": "duplicate",
+      "duplicate": {
+        "type": "same_name_source",
+        "match": {
+          "id": "35",
+          "name": "Ruby Hoshino",
+          "source": "Oshi no Ko"
+        }
+      }
+    },
+    {
+      "input": {
+        "name": "Kana Arima",
+        "value": 1500,
+        "gender": "Mujer",
+        "source": "Oshi no Ko",
+        "keyword": "arima_kana"
+      },
+      "normalized": {
+        "name": "Kana Arima",
+        "gender": "Mujer",
+        "value": "1500",
+        "source": "Oshi no Ko",
+        "img": [],
+        "vid": [],
+        "aliases": [
+          "arima_kana"
+        ]
+      },
+      "reason": "duplicate",
+      "duplicate": {
+        "type": "same_name_source",
+        "match": {
+          "id": "438",
+          "name": "Kana Arima",
+          "source": "Oshi no Ko"
+        }
+      }
+    },
+    {
+      "input": {
+        "name": "Akane Kurokawa",
+        "value": 2300,
+        "gender": "Mujer",
+        "source": "Oshi no Ko",
+        "keyword": "kurokawa_akane"
+      },
+      "normalized": {
+        "name": "Akane Kurokawa",
+        "gender": "Mujer",
+        "value": "2300",
+        "source": "Oshi no Ko",
+        "img": [],
+        "vid": [],
+        "aliases": [
+          "kurokawa_akane"
+        ]
+      },
+      "reason": "duplicate",
+      "duplicate": {
+        "type": "same_name_source",
+        "match": {
+          "id": "106",
+          "name": "Akane Kurokawa",
+          "source": "Oshi no Ko"
+        }
+      }
+    },
+    {
+      "input": {
+        "name": "Mem-Cho",
+        "value": 220,
+        "gender": "Mujer",
+        "source": "Oshi no Ko",
+        "keyword": "mem-cho"
+      },
+      "normalized": {
+        "name": "Mem-Cho",
+        "gender": "Mujer",
+        "value": "220",
+        "source": "Oshi no Ko",
+        "img": [],
+        "vid": [],
+        "aliases": [
+          "mem-cho"
+        ]
+      },
+      "reason": "duplicate",
+      "duplicate": {
+        "type": "same_name_source",
+        "match": {
+          "id": "1511",
+          "name": "Mem-Cho",
+          "source": "Oshi no Ko"
+        }
+      }
+    },
+    {
+      "input": {
+        "name": "Gorou Amamiya",
+        "value": 280,
+        "gender": "Hombre",
+        "source": "Oshi no Ko",
+        "keyword": "amamiya_gorou"
+      },
+      "normalized": {
+        "name": "Gorou Amamiya",
+        "gender": "Hombre",
+        "value": "280",
+        "source": "Oshi no Ko",
+        "img": [],
+        "vid": [],
+        "aliases": [
+          "amamiya_gorou"
+        ]
+      },
+      "reason": "duplicate",
+      "duplicate": {
+        "type": "same_name_source",
+        "match": {
+          "id": "441",
+          "name": "Gorou Amamiya",
+          "source": "Oshi no Ko"
+        }
+      }
+    },
+    {
+      "input": {
+        "name": "Frill Shiranui",
+        "value": 240,
+        "gender": "Mujer",
+        "source": "Oshi no Ko",
+        "keyword": "shiranui_frill"
+      },
+      "normalized": {
+        "name": "Frill Shiranui",
+        "gender": "Mujer",
+        "value": "240",
+        "source": "Oshi no Ko",
+        "img": [],
+        "vid": [],
+        "aliases": [
+          "shiranui_frill"
+        ]
+      },
+      "reason": "duplicate",
+      "duplicate": {
+        "type": "same_name_source",
+        "match": {
+          "id": "1513",
+          "name": "Frill Shiranui",
+          "source": "Oshi no Ko"
+        }
+      }
+    },
+    {
+      "input": {
+        "name": "Miyako Saitou",
+        "value": 260,
+        "gender": "Mujer",
+        "source": "Oshi no Ko",
+        "keyword": "saitou_miyako"
+      },
+      "normalized": {
+        "name": "Miyako Saitou",
+        "gender": "Mujer",
+        "value": "260",
+        "source": "Oshi no Ko",
+        "img": [],
+        "vid": [],
+        "aliases": [
+          "saitou_miyako"
+        ]
+      },
+      "reason": "duplicate",
+      "duplicate": {
+        "type": "same_name_source",
+        "match": {
+          "id": "1510",
+          "name": "Miyako Saitou",
+          "source": "Oshi no Ko"
+        }
+      }
+    },
+    {
+      "input": {
+        "name": "Chizuru Mizuhara",
+        "value": 900,
+        "gender": "Mujer",
+        "source": "Kanojo, Okarishimasu",
+        "keyword": "mizuhara_chizuru"
+      },
+      "normalized": {
+        "name": "Chizuru Mizuhara",
+        "gender": "Mujer",
+        "value": "900",
+        "source": "Kanojo, Okarishimasu",
+        "img": [],
+        "vid": [],
+        "aliases": [
+          "mizuhara_chizuru"
+        ]
+      },
+      "reason": "duplicate",
+      "duplicate": {
+        "type": "same_name",
+        "match": {
+          "id": "14",
+          "name": "Chizuru Mizuhara",
+          "source": "Rent a Girlfriend"
+        }
+      }
+    },
+    {
+      "input": {
+        "name": "Kazuya Kinoshita",
+        "value": 670,
+        "gender": "Hombre",
+        "source": "Kanojo, Okarishimasu",
+        "keyword": "kinoshita_kazuya"
+      },
+      "normalized": {
+        "name": "Kazuya Kinoshita",
+        "gender": "Hombre",
+        "value": "670",
+        "source": "Kanojo, Okarishimasu",
+        "img": [],
+        "vid": [],
+        "aliases": [
+          "kinoshita_kazuya"
+        ]
+      },
+      "reason": "duplicate",
+      "duplicate": {
+        "type": "same_name",
+        "match": {
+          "id": "692",
+          "name": "Kazuya Kinoshita",
+          "source": "Kanojo, Okarishimasu 3rd Season"
+        }
+      }
+    },
+    {
+      "input": {
+        "name": "Ruka Sarashina",
+        "value": 800,
+        "gender": "Mujer",
+        "source": "Kanojo, Okarishimasu",
+        "keyword": "sarashina_ruka"
+      },
+      "normalized": {
+        "name": "Ruka Sarashina",
+        "gender": "Mujer",
+        "value": "800",
+        "source": "Kanojo, Okarishimasu",
+        "img": [],
+        "vid": [],
+        "aliases": [
+          "sarashina_ruka"
+        ]
+      },
+      "reason": "duplicate",
+      "duplicate": {
+        "type": "same_name",
+        "match": {
+          "id": "701",
+          "name": "Ruka Sarashina",
+          "source": "Kajono Okarishimasu"
+        }
+      }
+    },
+    {
+      "input": {
+        "name": "Mami Nanami",
+        "value": 750,
+        "gender": "Mujer",
+        "source": "Kanojo, Okarishimasu",
+        "keyword": "nanami_mami"
+      },
+      "normalized": {
+        "name": "Mami Nanami",
+        "gender": "Mujer",
+        "value": "750",
+        "source": "Kanojo, Okarishimasu",
+        "img": [],
+        "vid": [],
+        "aliases": [
+          "nanami_mami"
+        ]
+      },
+      "reason": "duplicate",
+      "duplicate": {
+        "type": "same_name",
+        "match": {
+          "id": "699",
+          "name": "Mami Nanami",
+          "source": "Kanojo, Okarishimasu 3rd Season"
+        }
+      }
+    },
+    {
+      "input": {
+        "name": "Mahiru Shiina",
+        "value": "2500",
+        "gender": "Mujer",
+        "source": "Otonari no Tenshi-sama ni Itsunomanika Dame Ningen ni Sareteita Ken",
+        "keyword": "shiina_mahiru_(otonari_no_tenshi-sama)"
+      },
+      "normalized": {
+        "name": "Mahiru Shiina",
+        "gender": "Mujer",
+        "value": "2500",
+        "source": "Otonari no Tenshi-sama ni Itsunomanika Dame Ningen ni Sareteita Ken",
+        "img": [],
+        "vid": [],
+        "aliases": [
+          "shiina_mahiru_(otonari_no_tenshi-sama)"
+        ]
+      },
+      "reason": "duplicate",
+      "duplicate": {
+        "type": "same_name_source",
+        "match": {
+          "id": "118",
+          "name": "Mahiru Shiina",
+          "source": "Otonari no Tenshi-sama ni Itsunomanika Dame Ningen ni Sareteita Ken"
+        }
+      }
+    },
+    {
+      "input": {
+        "name": "Sylpha Langlis",
+        "value": "2000",
+        "gender": "Mujer",
+        "source": "Tensei shitara Dainana Ouji Datta node, Kimama ni Majutsu wo Kiwamemasu",
+        "keyword": "sylpha_(dai_nana_oji)"
+      },
+      "normalized": {
+        "name": "Sylpha Langlis",
+        "gender": "Mujer",
+        "value": "2000",
+        "source": "Tensei shitara Dainana Ouji Datta node, Kimama ni Majutsu wo Kiwamemasu",
+        "img": [],
+        "vid": [],
+        "aliases": [
+          "sylpha_(dai_nana_oji)"
+        ]
+      },
+      "reason": "duplicate",
+      "duplicate": {
+        "type": "same_name",
+        "match": {
+          "id": "2146",
+          "name": "Sylpha Langlis",
+          "source": "I Was Reincarnated as the 7th Prince so I Can Take My Time Perfecting My Magical Ability"
+        }
+      }
+    },
+    {
+      "input": {
+        "name": "Nagisa Kubo",
+        "value": "850",
+        "gender": "Mujer",
+        "source": "Kubo-san wa Mob wo Yurusanai",
+        "keyword": "kubo_nagisa"
+      },
+      "normalized": {
+        "name": "Nagisa Kubo",
+        "gender": "Mujer",
+        "value": "850",
+        "source": "Kubo-san wa Mob wo Yurusanai",
+        "img": [],
+        "vid": [],
+        "aliases": [
+          "kubo_nagisa"
+        ]
+      },
+      "reason": "duplicate",
+      "duplicate": {
+        "type": "same_name_source",
+        "match": {
+          "id": "1319",
+          "name": "Nagisa Kubo",
+          "source": "Kubo-san wa Mob wo Yurusanai"
+        }
+      }
+    }
+  ],
+  "warnings": []
+}

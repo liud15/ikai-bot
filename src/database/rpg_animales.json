@@ -188,7 +188,7 @@
         "recompensaMin": 800,
         "recompensaMax": 1200,
         "peligro": 0.35,
-        "foto": "https://i.pinimg.com/1200x/38/0a/07/380a078bdd0b808edacadc149c563855.jpg",
+        "foto": "https://i.pinimg.com/originals/9f/c0/20/9fc02070735490e4ebf59bc611101994.jpg",
         "mensajes": {
             "exito": "Cortaste la cabeza de la Serpiente Escamas de Esmeralda evitando todo su veneno.",
             "escape": "La serpiente gigantesca te escupió ácido corrosivo en el pecho y reptó lejos.",
@@ -202,7 +202,7 @@
         "recompensaMin": 900,
         "recompensaMax": 1400,
         "peligro": 0.35,
-        "foto": "https://i.pinimg.com/1200x/5f/24/87/5f2487da4a7fc59b6c397f9b40e180cd.jpg",
+        "foto": "https://i.pinimg.com/originals/27/31/e2/2731e2179db89aeb62ce860721814758.jpg",
         "mensajes": {
             "exito": "Esquivaste las telarañas y aplastaste a la Araña Tejedora de Pesadillas.",
             "escape": "Caíste en la telaraña. La araña te inyectó toxinas de pesadilla y te dejó envuelto.",
@@ -216,7 +216,7 @@
         "recompensaMin": 500,
         "recompensaMax": 800,
         "peligro": 0.25,
-        "foto": "https://i.pinimg.com/1200x/99/1c/25/991c2579677c2a7a630a3b2bb2916d16.jpg",
+        "foto": "https://i.pinimg.com/originals/82/ed/04/82ed049dc8547f7eacc5f0b104356801.jpg",
         "mensajes": {
             "exito": "Interceptaste al Águila Ojo de Tormenta en caída libre con un ataque glorioso.",
             "escape": "El Águila desató un tornado en miniatura que te destrozó contra unas rocas.",
@@ -230,7 +230,7 @@
         "recompensaMin": 700,
         "recompensaMax": 1100,
         "peligro": 0.3,
-        "foto": "https://i.pinimg.com/1200x/03/9c/4b/039c4b65e02f288e0e6f2119f93e96ff.jpg",
+        "foto": "https://i.pinimg.com/originals/3b/fd/61/3bfd6130a215b122a003e0e84c4eb495.jpg",
         "mensajes": {
             "exito": "Predijiste el movimiento del Leopardo Cazador de Almas y perforaste su corazón místico.",
             "escape": "El Leopardo desgarró parte de tu alma con un zarpazo espectral y se desvaneció.",
@@ -244,7 +244,7 @@
         "recompensaMin": 1000,
         "recompensaMax": 1500,
         "peligro": 0.4,
-        "foto": "https://i.pinimg.com/1200x/59/f8/29/59f829379dcacc2ddf4e8580a15fbe00.jpg",
+        "foto": "https://i.pinimg.com/originals/7d/14/be/7d14be21408334b8537f5bb1376d317a.jpg",
         "mensajes": {
             "exito": "Evitaste el giro de la muerte y abriste el vientre del Cocodrilo Fauces de Acero.",
             "escape": "El Cocodrilo te agarró de un brazo, te hizo girar triturando tus huesos y te escupió.",
@@ -258,7 +258,7 @@
         "recompensaMin": 360,
         "recompensaMax": 600,
         "peligro": 0.3,
-        "foto": "https://i.pinimg.com/1200x/55/e4/b7/55e4b7733bdc046101efc7a3e6ab2d83.jpg",
+        "foto": "https://i.pinimg.com/originals/b2/a1/84/b2a184c042e4403590ff11fb02f01da5.jpg",
         "mensajes": {
             "exito": "Aplastaste al enloquecido Tejón Rabioso antes de que iniciara su frenesí letal.",
             "escape": "Garras endemoniadas del Tejón te cortaron el cuerpo como tijeras antes de que pudiera huir.",
@@ -272,7 +272,7 @@
         "recompensaMin": 1100,
         "recompensaMax": 1600,
         "peligro": 0.2,
-        "foto": "https://i.pinimg.com/1200x/1d/02/9e/1d029e5a2cef59d4c029ed6e023e6b46.jpg",
+        "foto": "https://i.pinimg.com/originals/27/43/6b/27436b61b405a4e6737da0ef1c4e5533.jpg",
         "mensajes": {
             "exito": "Eludiste su hipnosis visual y atravesaste al Búho Oráculo Nocturno con agilidad fría.",
             "escape": "El Búho te mostró tu propia muerte. Caíste de rodillas paralizado de terror mientras él huía.",
@@ -286,7 +286,7 @@
         "recompensaMin": 1400,
         "recompensaMax": 2400,
         "peligro": 0.45,
-        "foto": "https://i.pinimg.com/1200x/95/69/89/956989031345bc5d115c1156d8c88e8c.jpg",
+        "foto": "https://i.pinimg.com/originals/d2/5e/95/d25e95f977967955c4132b4fc15df1f6.jpg",
         "mensajes": {
             "exito": "Destruiste el cristal mágico del Oso Rúnico Furioso deteniendo su carga mortal en seco.",
             "escape": "¡Un zarpazo rúnico atravesó tu armadura como si fuera papel! Quedaste tirado y sangrando.",
@@ -300,7 +300,7 @@
         "recompensaMin": 1800,
         "recompensaMax": 2800,
         "peligro": 0.5,
-        "foto": "https://i.pinimg.com/1200x/29/d6/4c/29d64cf16410aa380191c35da645372e.jpg",
+        "foto": "https://i.pinimg.com/originals/80/27/d8/8027d89e0f595fc9d8c05a6a760ab6ab.jpg",
         "mensajes": {
             "exito": "Cortaste el aguijón gigante del Escorpión Rey del Desierto y dominaste a la bestia.",
             "escape": "Fuiste empalado por el aguijón de pesadilla. El veneno te paralizó mientras él se enterraba.",
@@ -314,7 +314,7 @@
         "recompensaMin": 2400,
         "recompensaMax": 3600,
         "peligro": 0.55,
-        "foto": "https://i.pinimg.com/1200x/bb/15/a6/bb15a6051a4b58be5a35188345f6c816.jpg",
+        "foto": "https://i.pinimg.com/originals/55/b2/f2/55b2f2d601908586fb6cc179348973a9.jpg",
         "mensajes": {
             "exito": "Desviaste los picos de aire del Grifo y encajaste tu acero directo en su noble cuello.",
             "escape": "El Grifo invocó un huracán aplastante que te arrastró por el suelo sin piedad.",
@@ -328,7 +328,7 @@
         "recompensaMin": 2800,
         "recompensaMax": 4000,
         "peligro": 0.6,
-        "foto": "https://i.pinimg.com/1200x/f4/18/73/f418736df57ba5c6102c05ecd4c646bc.jpg",
+        "foto": "https://i.pinimg.com/originals/d8/75/8d/d8758d43179a2b03ff170291a264efc8.jpg",
         "mensajes": {
             "exito": "Tus reflejos sobrehumanos esquivaron su asalto gélido. ¡Cazaste al Tigre Dientes de Hielo!",
             "escape": "Cientos de carámbanos disparados de su pelaje te congelaron y el tigre desapareció.",
@@ -342,7 +342,7 @@
         "recompensaMin": 3200,
         "recompensaMax": 4400,
         "peligro": 0.65,
-        "foto": "https://i.pinimg.com/1200x/75/a0/75/75a075c8148a83c42d9191f5ba52c9ec.jpg",
+        "foto": "https://i.pinimg.com/originals/5e/01/51/5e01517e69181fd8533d0c2f71488545.jpg",
         "mensajes": {
             "exito": "Toreaste al colosal Gorila Brazo de Acero haciendo que se destruyera a sí mismo.",
             "escape": "¡Un puñetazo del gorila te mandó a volar 20 metros! Tus huesos tronaron mientras él rugía victorioso.",
@@ -356,7 +356,7 @@
         "recompensaMin": 1600,
         "recompensaMax": 2600,
         "peligro": 0.5,
-        "foto": "https://i.pinimg.com/1200x/43/e8/39/43e83918c3d794fe409373a7d7c53cc6.jpg",
+        "foto": "https://i.pinimg.com/originals/56/af/24/56af241ee375b59dddeec1c2ac960430.jpg",
         "mensajes": {
             "exito": "Fuiste más rápido que el gran cazador prehistórico. Abatiste al Raptor de un destello.",
             "escape": "La velocidad del Raptor fue abrumadora. Tres cortes profundos te desangraron mientras corría.",
@@ -370,7 +370,7 @@
         "recompensaMin": 3000,
         "recompensaMax": 4200,
         "peligro": 0.65,
-        "foto": "https://i.pinimg.com/1200x/8f/7c/6f/8f7c6fe8530ec06811b0b8a7eeb5e364.jpg",
+        "foto": "https://i.pinimg.com/originals/85/2c/69/852c6935120da1e973c7a14d91c736c5.jpg",
         "mensajes": {
             "exito": "Tu fuerza bruta equiparó a la bestia. Partiste el cuerno del Rinoceronte de un golpe devastador.",
             "escape": "No pudiste detener la monstruosa carga del Rinoceronte. Te pisoteó con sus 3 toneladas de peso.",
@@ -384,7 +384,7 @@
         "recompensaMin": 3400,
         "recompensaMax": 4800,
         "peligro": 0.7,
-        "foto": "https://i.pinimg.com/1200x/00/4a/6b/004a6bf1a1c452008d8e744fbbfc6385.jpg",
+        "foto": "https://i.pinimg.com/originals/70/45/c2/7045c21b9f6737b25996f71a68348f94.jpg",
         "mensajes": {
             "exito": "Picaste el centro neurológico del Kraken Joven de los Lagos antes de que destrozara tu navío.",
             "escape": "Poderosos tentáculos te asfixiaron bajo el fango antes de soltarte herido e irse a lo profundo.",
@@ -398,7 +398,7 @@
         "recompensaMin": 3600,
         "recompensaMax": 5200,
         "peligro": 0.6,
-        "foto": "https://i.pinimg.com/1200x/ef/d6/68/efd668b7a4a8002d0adcedd9ba953cad.jpg",
+        "foto": "https://i.pinimg.com/originals/04/85/59/048559fea1e29aa927bd3eca5da07b5a.jpg",
         "mensajes": {
             "exito": "Electrocutaste al pesado Mamut Colmillo de Tormenta usando su propia magia contra él.",
             "escape": "¡Un relámpago colosal de sus colmillos impacto directo en tu pecho frenando tu corazón por segundos!",
@@ -412,7 +412,7 @@
         "recompensaMin": 4000,
         "recompensaMax": 5600,
         "peligro": 0.7,
-        "foto": "https://i.pinimg.com/1200x/b3/4a/24/b34a24190b3360a0bbf0cfe0713a4fc4.jpg",
+        "foto": "https://i.pinimg.com/originals/41/a7/cc/41a7cceee6aea597d9a0c0dafa4266e4.jpg",
         "mensajes": {
             "exito": "Inmovilizaste al Gran Tiburón del desierto perforando su aleta con un ancla mágica limpia.",
             "escape": "¡El Tiburón embistió desde debajo de la arena! Su mordida te rebanó tejido muscular y huyó veloz.",
@@ -426,7 +426,7 @@
         "recompensaMin": 5000,
         "recompensaMax": 7000,
         "peligro": 0.75,
-        "foto": "https://i.pinimg.com/1200x/9f/c5/05/9fc5053b96a7e8c4be1cbe704b02aa8b.jpg",
+        "foto": "https://i.pinimg.com/originals/f7/ec/57/f7ec5778a7e677fec293c0f9e7bfdec1.jpg",
         "mensajes": {
             "exito": "Disipaste la energía pútrida con tu alma y le diste descanso piadoso e impecable al Unicornio Corrompido.",
             "escape": "El miasma de la bestia te envenenó el alma; caíste tosiendo sangre negra mientras la leyenda relinchaba escapando.",
@@ -440,7 +440,7 @@
         "recompensaMin": 6000,
         "recompensaMax": 9000,
         "peligro": 0.8,
-        "foto": "https://i.pinimg.com/1200x/11/94/64/1194648e6a4c97ba349762d838d30980.jpg",
+        "foto": "https://i.pinimg.com/originals/d7/07/08/d70708f3781f8cf2426b787652c18810.jpg",
         "mensajes": {
             "exito": "Hiciste colapsar el terremoto dominando la monumental cacería del legendario Leviatán de Tierra sin rastro de miedo.",
             "escape": "El Leviatán creo un masivo terremoto dividiendo el suelo; caíste cien pies en la grieta sangrando casi a morir.",
@@ -454,7 +454,7 @@
         "recompensaMin": 8000,
         "recompensaMax": 12000,
         "peligro": 0.85,
-        "foto": "https://i.pinimg.com/1200x/0b/ab/28/0bab28bc5d9c102dffc499ac85a62545.jpg",
+        "foto": "https://i.pinimg.com/originals/b0/45/e1/b045e18b4a47ef67974c9b35f1647cf4.jpg",
         "mensajes": {
             "exito": "A pesar ser un rey magmático, cortaste las incipientes alas del Dragón Infernal liquidando al monstruo absoluto.",
             "escape": "La Cría desató fuego infernal purificador, fundiendo tu armadura y armas a tu carne y elevando en fuga.",
@@ -468,7 +468,7 @@
         "recompensaMin": 12000,
         "recompensaMax": 17000,
         "peligro": 0.85,
-        "foto": "https://i.pinimg.com/1200x/9a/56/c2/9a56c2a719ce9a6f811fe7faf8e28a6b.jpg",
+        "foto": "https://i.pinimg.com/originals/8e/53/01/8e5301b085f544133c6ad6993e67d152.jpg",
         "mensajes": {
             "exito": "Usaste un orbe rúnico de vacío para absorber el alma llameante del Fénix, cazándolo perfecto de un solo tiro absoluto.",
             "escape": "Justo al morir el Fénix estalló en una supernova ardiente volándote a pedazos mientras su semilla huía cantando alegre.",
@@ -482,7 +482,7 @@
         "recompensaMin": 20000,
         "recompensaMax": 30000,
         "peligro": 0.9,
-        "foto": "https://i.pinimg.com/1200x/16/8f/69/168f699d7e95edc6bc20d63515529ce1.jpg",
+        "foto": "https://i.pinimg.com/originals/01/7d/b0/017db0b17f9b3abba70382371c362c4c.jpg",
         "mensajes": {
             "exito": "¡MILAGROSO! Partiste las escamas indestructibles del Dragón Anciano y reclamaste un dios en una danza incólume inigualable.",
             "escape": "El rugido del Dragón Anciano destrozó tus tímpanos y detuvo el tiempo, te aniquiló sin siquiera tocarte y se marchó.",
@@ -496,7 +496,7 @@
         "recompensaMin": 10000,
         "recompensaMax": 14000,
         "peligro": 0.8,
-        "foto": "https://i.pinimg.com/1200x/df/5c/46/df5c46a7929a53dfe84e2f5523ba8f08.jpg",
+        "foto": "https://i.pinimg.com/originals/95/29/64/952964159d23acbb4c76ff9032048286.jpg",
         "mensajes": {
             "exito": "Lanzaste una cadena mágica directa a la enorme boca del Gusano Devorador de Mundos reventándolo desde su propio interior.",
             "escape": "Las fauces dimensionales del Gusano te arrancaron años de vida de un solo mordisco mientras creaba un agujero negro de escape.",
@@ -510,7 +510,7 @@
         "recompensaMin": 14000,
         "recompensaMax": 19000,
         "peligro": 0.85,
-        "foto": "https://i.pinimg.com/1200x/72/01/f2/7201f23110cfd202bc92edcadc6c40ad.jpg",
+        "foto": "https://i.pinimg.com/originals/f9/64/c3/f964c39274b6e9479f702410980d297d.jpg",
         "mensajes": {
             "exito": "Engañaste a las tres miradas del Cerbero Perro del Inframundo al tiempo ahogándolo con corrientes benditas. Una caza limpia y mortal.",
             "escape": "Las llamas abisales que expelen las tres mandíbulas devoraron tu escudo y te aplastaron mortalmente con su asedio infame.",
@@ -524,7 +524,7 @@
         "recompensaMin": 16000,
         "recompensaMax": 22000,
         "peligro": 0.9,
-        "foto": "https://i.pinimg.com/1200x/59/4f/e8/594fe8279c4321b74990f8ee6efc8617.jpg",
+        "foto": "https://i.pinimg.com/originals/b6/31/fc/b631fc1b3a53498639f1f54317be9000.jpg",
         "mensajes": {
             "exito": "Utilizando espejos encantados engañaste al grandioso Basilisco decapitándolo sin que tuviera una chance de petrificarte.",
             "escape": "Miraste los ojos prohibidos del Basilisco; tu cuerpo comenzó a convertirse en piedra obligándote a sufrir el tormento en tu fuga lenta.",
@@ -538,7 +538,7 @@
         "recompensaMin": 24000,
         "recompensaMax": 36000,
         "peligro": 0.95,
-        "foto": "https://i.pinimg.com/1200x/28/8b/16/288b165e9fb20b616124d68d58871102.jpg",
+        "foto": "https://i.pinimg.com/originals/7a/c1/34/7ac1348136bac483d634fe06e042504e.jpg",
         "mensajes": {
             "exito": "Cuestionaste toda realidad pero clavaste tu lanza de luz estelar directo en el único ojo del Horror Cósmico purificándolo con honor.",
             "escape": "Su mente se enredó con tentáculos cósmicos y fractales dolorosos, el Horror destrozó tu cordura y escapó de nuevo al espacio.",
@@ -552,7 +552,7 @@
         "recompensaMin": 30000,
         "recompensaMax": 50000,
         "peligro": 0.99,
-        "foto": "https://i.pinimg.com/1200x/97/85/05/9785054a43e9cd3080cc1f3386d3d06f.jpg",
+        "foto": "https://i.pinimg.com/originals/c9/f4/9d/c9f49d723066b314734e1a57d1dd7d1b.jpg",
         "mensajes": {
             "exito": "¡ERES LA LEYENDA VIVIENTE! Humillaste el letal arsenal de la Quimera Rey de las Bestias demostrando por qué eres el máximo cazador.",
             "escape": "¡La fusión perfecta de la Quimera aplastó, incineró y devoró simultáneamente la ilusión de fuerza! Vencido vergonzosamente escapaste.",
@@ -566,7 +566,7 @@
         "recompensaMin": 50,
         "recompensaMax": 130,
         "peligro": 0.05,
-        "foto": "https://i.pinimg.com/1200x/47/ea/66/47ea663aba8e1e5b7ab4e35bc88470c6.jpg",
+        "foto": "https://i.pinimg.com/originals/06/39/16/0639169bf10d0548666fbe82cd975403.jpg",
         "mensajes": {
             "exito": "Atrapaste a la Mariposa Polvo de Diamante con una red de seda antes de que alzara el vuelo.",
             "escape": "Sus alas soltaron polvo de diamante que te cegó momentáneamente, y huyó entre los rayos de sol.",
@@ -580,7 +580,7 @@
         "recompensaMin": 70,
         "recompensaMax": 160,
         "peligro": 0.1,
-        "foto": "https://i.pinimg.com/1200x/c3/99/12/c399124cb39abfbef34f3b984091db8b.jpg",
+        "foto": "https://i.pinimg.com/originals/fb/e0/eb/fbe0eb2d1e11d7048df6fb925c8f0b02.jpg",
         "mensajes": {
             "exito": "La Lagartija Solar no pudo reaccionar; la capturaste antes de que absorbiera energía del sol.",
             "escape": "Concentró un rayo de luz directamente en tus ojos, aprovechó tu ceguera y se escurrió entre las rocas.",
@@ -594,7 +594,7 @@
         "recompensaMin": 90,
         "recompensaMax": 200,
         "peligro": 0.15,
-        "foto": "https://i.pinimg.com/1200x/d9/54/00/d95400cde3cb8251e05abaa86abdf9fd.jpg",
+        "foto": "https://i.pinimg.com/originals/63/bb/4b/63bb4b191d4dd4213fc84ec5519fa10a.jpg",
         "mensajes": {
             "exito": "Ahumaste la colmena de cristal y capturaste a la Abeja Reina sin recibir ninguna picada.",
             "escape": "La Reina llamó a su enjambre. Cientos de aguijones de cristal te clavaron por doquier mientras huía.",
@@ -608,7 +608,7 @@
         "recompensaMin": 450,
         "recompensaMax": 850,
         "peligro": 0.25,
-        "foto": "https://i.pinimg.com/1200x/ce/ac/ee/ceacee59335f49edbbbd9a829a91afa4.jpg",
+        "foto": "https://i.pinimg.com/originals/9a/4e/4a/9a4e4a523ebedc5e22c429573f51313e.jpg",
         "mensajes": {
             "exito": "Predijiste su trayectoria sónica y lo harponaste limpiamente desde la proa de tu bote.",
             "escape": "Un echoloc de frecuencia prohibida te aturdió y desorientó; el Delfín desapareció en las profundidades.",
@@ -622,7 +622,7 @@
         "recompensaMin": 600,
         "recompensaMax": 1100,
         "peligro": 0.3,
-        "foto": "https://i.pinimg.com/1200x/c6/23/06/c623068748c3d387768afe12740b1d4b.jpg",
+        "foto": "https://i.pinimg.com/originals/b1/3e/10/b13e1000f900428b6b7162b67835efa3.jpg",
         "mensajes": {
             "exito": "Te mimetizaste con el entorno y abatiste al Ciervo Astado con una daga de plata antes de que huyera.",
             "escape": "El Ciervo giró velozmente y sus astas de plata líquida te perforaron el hombro antes de desvanecerse.",
@@ -636,7 +636,7 @@
         "recompensaMin": 1800,
         "recompensaMax": 3200,
         "peligro": 0.5,
-        "foto": "https://i.pinimg.com/1200x/6b/50/f3/6b50f30c1c90b92803857288dc426722.jpg",
+        "foto": "https://i.pinimg.com/originals/a6/b6/8c/a6b68c569e166e8245b806bff767544a.jpg",
         "mensajes": {
             "exito": "Cortaste los tendones de sus alas antes de que pudiera alzar el vuelo. ¡Caza perfecta y silenciosa!",
             "escape": "Sus plumas carmesí secretan un veneno nervioso. Quedaste paralizado mientras la Garza ascendía burlona.",
@@ -650,7 +650,7 @@
         "recompensaMin": 2200,
         "recompensaMax": 4000,
         "peligro": 0.6,
-        "foto": "https://i.pinimg.com/1200x/74/da/7f/74da7ff50d542bddc323434a73e8fe95.jpg",
+        "foto": "https://i.pinimg.com/originals/a0/cf/63/a0cf637bb8ec41acf2050f5b96a88013.jpg",
         "mensajes": {
             "exito": "Tus arpones encantados drenaron la tinta mágica de la Ballena antes de que pudiera oscurecer el océano.",
             "escape": "Liberó un océano de tinta negra a tu alrededor; perdiste toda orientación y la Ballena se hundió en el abismo.",
@@ -664,7 +664,7 @@
         "recompensaMin": 2600,
         "recompensaMax": 4600,
         "peligro": 0.65,
-        "foto": "https://i.pinimg.com/1200x/50/2a/7d/502a7d5a12b52ac74b78f0158c903be7.jpg",
+        "foto": "https://i.pinimg.com/originals/f5/31/80/f5318040bc968c1fb308a3f4b206f683.jpg",
         "mensajes": {
             "exito": "Atravesaste su forma espectral con una lanza de cuarzo sagrado, disolviéndolo al instante en el viento.",
             "escape": "El León se volvió completamente intangible y su zarpa etérea te atravesó el pecho congelando tu corazón por un segundo.",
@@ -678,7 +678,7 @@
         "recompensaMin": 18000,
         "recompensaMax": 28000,
         "peligro": 0.92,
-        "foto": "https://i.pinimg.com/1200x/7a/38/f5/7a38f50326b1b47b90277cbe8c25cfa3.jpg",
+        "foto": "https://i.pinimg.com/originals/a4/ac/ec/a4acec2ef9c44985328d1dbfa4eba3a8.jpg",
         "mensajes": {
             "exito": "Pronunciaste el nombre verdadero del Vacío. La Sombra sin nombre aulló disolviéndose en luz pura bajo tu dominio absoluto.",
             "escape": "La Sombra del Vacío borró de tu mente todos tus recuerdos de caza. Huiste sin saber quién eres mientras ella reía en la oscuridad.",
@@ -692,9 +692,9 @@
         "recompensaMin": 22000,
         "recompensaMax": 40000,
         "peligro": 0.97,
-        "foto": "https://i.pinimg.com/1200x/4d/37/05/4d37053dc12ae4d8b18306c5e200970b.jpg",
+        "foto": "https://i.pinimg.com/originals/7b/31/8f/7b318f5a500dd2f5e62ee8898266a022.jpg",
         "mensajes": {
-            "exito": "Sellaste el núcleo de agua de su corazón con runa de tierra eterna. El Titán Océano se petri­ficó y te entregó el océano mismo como trofeo.",
+            "exito": "Sellaste el núcleo de agua de su corazón con runa de tierra eterna. El Titán Océano se petrificó y te entregó el océano mismo como trofeo.",
             "escape": "Una ola del tamaño de una montaña te borró del mapa. El Titán Océano sumerge continentes; tú apenas lograste respirar con vida.",
             "derrota": "El peso de todos los mares del mundo cayó sobre ti. Tus huesos crujieron bajo presión abisalísima, pero tu voluntad fue más grande que el océano."
         }
@@ -706,7 +706,7 @@
         "recompensaMin": 750,
         "recompensaMax": 1300,
         "peligro": 0.35,
-        "foto": "https://i.pinimg.com/1200x/bb/ef/2c/bbef2c41d9fa4ec82b8e74a4cf323f77.jpg",
+        "foto": "https://i.pinimg.com/originals/9f/49/a5/9f49a51f310e38a6c466093b9d6e7fc5.jpg",
         "mensajes": {
             "exito": "Cerraste los ojos antes de que desplegara su cola; lo atrapaste a ciegas con precisión absoluta.",
             "escape": "Abrió su abanico de plumas malditas. Cualquiera que las mirara quedaba bajo su hechizo de locura; huiste aterrorizado.",
@@ -720,7 +720,7 @@
         "recompensaMin": 25000,
         "recompensaMax": 45000,
         "peligro": 0.95,
-        "foto": "https://i.pinimg.com/1200x/b5/ed/98/b5ed982d0410c7f1b4823d346ecf26be.jpg",
+        "foto": "https://i.pinimg.com/originals/42/00/6f/42006fd80e4aa1f3bf7a72319215e3ad.jpg",
         "mensajes": {
             "exito": "Clavaste un pararrayos de obsidiana sagrada en su núcleo. El Coloso impactó con estruendo y cedió su energía eterna.",
             "escape": "Una descarga de millones de voltios te catapultó a kilómetros de distancia. Mientras caías carbonizado, el Coloso rugió inmortal.",
@@ -734,7 +734,7 @@
         "recompensaMin": 80,
         "recompensaMax": 150,
         "peligro": 0.05,
-        "foto": "https://i.pinimg.com/1200x/0d/a0/96/0da0969a01537662992cb37f36dede4b.jpg",
+        "foto": "https://i.pinimg.com/originals/15/74/1b/15741b1df2c00b7844bdf39a8ab024ee.jpg",
         "mensajes": {
             "exito": "Sorprendiste al Mapache antes de que pudiera fundirse con las sombras y lo capturaste.",
             "escape": "El Mapache robó tu poción de curación, se camufló en la oscuridad y escapó riendo.",
@@ -748,7 +748,7 @@
         "recompensaMin": 60,
         "recompensaMax": 140,
         "peligro": 0.05,
-        "foto": "https://i.pinimg.com/1200x/db/c0/4a/dbc04a7f80ba4c75483a74d1dff1a43f.jpg",
+        "foto": "https://i.pinimg.com/originals/d5/d6/85/d5d685481b2861e1b5ae163e2cafc09d.jpg",
         "mensajes": {
             "exito": "Con un movimiento rápido, atrapaste al Escarabajo antes de que se enterrara.",
             "escape": "Su caparazón reflejó la luz del sol cegándote, momento que aprovechó para huir volando.",
@@ -762,7 +762,7 @@
         "recompensaMin": 90,
         "recompensaMax": 180,
         "peligro": 0.1,
-        "foto": "https://i.pinimg.com/1200x/eb/a0/1a/eba01a51694c74e0d476cf3faa33c720.jpg",
+        "foto": "https://i.pinimg.com/originals/e0/15/26/e015265b6834da5f7a03cbcc073416f1.jpg",
         "mensajes": {
             "exito": "Pescaste al Pato con un sedal ignífugo justo antes de que se sumergiera en la lava.",
             "escape": "El Pato chapoteó agua hirviendo sobre tu ropa y se alejó nadando tranquilamente.",
@@ -776,7 +776,7 @@
         "recompensaMin": 50,
         "recompensaMax": 120,
         "peligro": 0.0,
-        "foto": "https://i.pinimg.com/1200x/c5/3b/a9/c53ba9f9fe5a882197a645aa9422314e.jpg",
+        "foto": "https://i.pinimg.com/originals/f1/6f/d1/f16fd175d43c45b8a965b743caaa4c13.jpg",
         "mensajes": {
             "exito": "Pisaste al Ratón antes de que pudiera comerse un pergamino de hechizos valioso.",
             "escape": "El Ratón masticó un hechizo de teletransportación y desapareció en un destello azul.",
@@ -790,7 +790,7 @@
         "recompensaMin": 100,
         "recompensaMax": 200,
         "peligro": 0.05,
-        "foto": "https://i.pinimg.com/1200x/c5/4f/65/c54f65b2f74150fecda695613a92abf1.jpg",
+        "foto": "https://i.pinimg.com/originals/a4/e6/4c/a4e64ce85581c6eca202e5ec9f9edae6.jpg",
         "mensajes": {
             "exito": "Rompiste su lentitud despegando su caparazón de cuarzo de la roca limpiamente.",
             "escape": "Se retrajo en su caparazón indestructible y rodó colina abajo hasta perderse.",
@@ -804,7 +804,7 @@
         "recompensaMin": 500,
         "recompensaMax": 900,
         "peligro": 0.25,
-        "foto": "https://i.pinimg.com/1200x/30/cb/9d/30cb9dece7cd0634d7b080544dff624a.jpg",
+        "foto": "https://i.pinimg.com/originals/56/b9/67/56b967a05d54e083e85efa24e81fbe44.jpg",
         "mensajes": {
             "exito": "Lanzaste una manta húmeda sobre el Pavo apagando sus llamas antes de atraparlo.",
             "escape": "Soltó un graznido ensordecedor y lanzó una ráfaga de fuego azul que incendió tu equipo mientras huía.",
@@ -818,7 +818,7 @@
         "recompensaMin": 600,
         "recompensaMax": 1000,
         "peligro": 0.3,
-        "foto": "https://i.pinimg.com/1200x/75/7d/0f/757d0faebbf1a91e93befd475d6b948a.jpg",
+        "foto": "https://i.pinimg.com/originals/d6/19/5a/d6195af56195a9de86640c85c5e521d6.jpg",
         "mensajes": {
             "exito": "Esquivaste su ráfaga de aire comprimido y asestaste un golpe letal en su punto ciego.",
             "escape": "Te conectó un gancho de derecha impulsado por un mini tornado que te noqueó por minutos.",
@@ -832,7 +832,7 @@
         "recompensaMin": 800,
         "recompensaMax": 1200,
         "peligro": 0.2,
-        "foto": "https://i.pinimg.com/1200x/3e/8d/0d/3e8d0d387b47601a5461b667386013f9.jpg",
+        "foto": "https://i.pinimg.com/originals/49/53/a7/4953a7071fda3bbdc4763ac77c921cb8.jpg",
         "mensajes": {
             "exito": "Aceleraste tus propios reflejos mágicos para contrarrestar su aura de lentitud y lo cazaste.",
             "escape": "Te atrapó en una burbuja de tiempo lento. Para cuando parpadeaste, ya no estaba en el árbol.",
@@ -846,7 +846,7 @@
         "recompensaMin": 400,
         "recompensaMax": 750,
         "peligro": 0.35,
-        "foto": "https://i.pinimg.com/1200x/f5/73/19/f573198d5fa1e97f4d0c45cc90894f6a.jpg",
+        "foto": "https://i.pinimg.com/originals/bd/8d/71/bd8d7172e0b249f13c87f7136a92db63.jpg",
         "mensajes": {
             "exito": "Contuviste la respiración y disparaste a distancia, evitando su tóxica nube morada.",
             "escape": "Respiraste su gas. Pasaste horas peleando contra dragones imaginarios mientras ella escapaba.",
@@ -860,7 +860,7 @@
         "recompensaMin": 700,
         "recompensaMax": 1300,
         "peligro": 0.25,
-        "foto": "https://i.pinimg.com/1200x/68/18/7c/68187cedb2508098763fa7cea0600ab8.jpg",
+        "foto": "https://i.pinimg.com/originals/ce/74/bc/ce74bc83ed7c321e4bae3ff470d32b13.jpg",
         "mensajes": {
             "exito": "Cortaste las jorobas de agua cristalina del Camello antes de que pudiera desatar una tormenta afilada.",
             "escape": "El Camello se disolvió en una tormenta de fragmentos de cristal cortante, dejándote ciego temporalmente.",
@@ -874,7 +874,7 @@
         "recompensaMin": 2500,
         "recompensaMax": 3800,
         "peligro": 0.6,
-        "foto": "https://i.pinimg.com/1200x/00/e4/bf/00e4bf5624aa864f22d2d8a177932c56.jpg",
+        "foto": "https://i.pinimg.com/originals/5c/9a/f8/5c9af8d0bc0ca6d514c3ba2dc3d2cfc6.jpg",
         "mensajes": {
             "exito": "Clavaste tu arpón en el largo cuello del Plesiosaurio justo cuando emergía para tragar tu barca entera.",
             "escape": "Volcó tu embarcación con una aleta, creando un remolino que te atrapó mientras él se sumergía en las profundidades.",
@@ -888,7 +888,7 @@
         "recompensaMin": 3000,
         "recompensaMax": 4500,
         "peligro": 0.65,
-        "foto": "https://i.pinimg.com/1200x/40/80/c2/4080c27d3d612e929baafe9b874da648.jpg",
+        "foto": "https://i.pinimg.com/originals/8e/e9/a6/8ee9a6809b95a7661b61d16711708edf.jpg",
         "mensajes": {
             "exito": "Causaste una avalancha controlada que sepultó al Troll, dejándolo vulnerable para tu remate final.",
             "escape": "Su rugido ensordecedor provocó un derrumbe. Tuviste que saltar para salvar tu vida mientras él reía a carcajadas.",
@@ -902,7 +902,7 @@
         "recompensaMin": 3200,
         "recompensaMax": 5000,
         "peligro": 0.55,
-        "foto": "https://i.pinimg.com/1200x/37/3c/3a/373c3ab3438162ef7690faf2e70cf6ea.jpg",
+        "foto": "https://i.pinimg.com/originals/52/5e/c8/525ec85f324aa48335fb362d60e7d513.jpg",
         "mensajes": {
             "exito": "Disparaste tu virote balístico perforando sus alas antes de que tocara el suelo y causara el sismo letal.",
             "escape": "Aterrizó con tanta fuerza que abrió una grieta en la tierra; caíste en ella mientras el Ganso emitía un graznido maléfico.",
@@ -916,7 +916,7 @@
         "recompensaMin": 2800,
         "recompensaMax": 4200,
         "peligro": 0.6,
-        "foto": "https://i.pinimg.com/1200x/83/07/25/830725af258538382f05b2b3c6252d59.jpg",
+        "foto": "https://i.pinimg.com/originals/23/b1/6e/23b16eedd2f12e21c3f37d6063109555.jpg",
         "mensajes": {
             "exito": "Con un martillo de luz sagrada, destrozaste su forma de piedra antes de que pudiera animarse por completo.",
             "escape": "La Gárgola alzó vuelo llevándote consigo y te dejó caer desde 50 metros a un río cercano.",
@@ -930,7 +930,7 @@
         "recompensaMin": 3500,
         "recompensaMax": 5500,
         "peligro": 0.7,
-        "foto": "https://i.pinimg.com/1200x/cc/f4/2a/ccf42a75c62f95c0efddd5e696f26ed5.jpg",
+        "foto": "https://i.pinimg.com/originals/1e/04/a9/1e04a9fcb49ec3ccfc5f6f40f3830fdf.jpg",
         "mensajes": {
             "exito": "Tus trampas de luz ultravioleta revelaron su posición; abatiste a la Pantera de la nada absoluta.",
             "escape": "Se disolvió en el vacío; sentiste garras invisibles cortando tu espalda antes de que se desvaneciera por completo.",
@@ -944,7 +944,7 @@
         "recompensaMin": 25000,
         "recompensaMax": 45000,
         "peligro": 0.95,
-        "foto": "https://i.pinimg.com/1200x/8b/d5/2f/8bd52f06b463f5d06c7e5d3afd391cd3.jpg",
+        "foto": "https://i.pinimg.com/originals/83/f9/3c/83f93c52ebff3b8875db6c59f2c34db9.jpg",
         "mensajes": {
             "exito": "Destruiste la base de su colmillo de diamante; la bestia colapsó sobre sí misma antes de poder quebrar el continente.",
             "escape": "Golpeó sus colmillos contra el hielo, partiendo el glaciar en dos. Te quedaste a la deriva mientras ella se sumergía rugiendo.",
@@ -958,7 +958,7 @@
         "recompensaMin": 18000,
         "recompensaMax": 28000,
         "peligro": 0.85,
-        "foto": "https://i.pinimg.com/1200x/5c/93/88/5c93885a92339ffbba546deaf3d9fc94.jpg",
+        "foto": "https://i.pinimg.com/originals/cb/8a/30/cb8a306a400bde892f519c31310e3f27.jpg",
         "mensajes": {
             "exito": "Reflejaste la luz de mil espejos hacia su caparazón cósmico, sobrecargando su núcleo de eclipse y atrapándola en un prisma.",
             "escape": "Abrió sus alas bloqueando el sol por completo. En la oscuridad total, te golpeó dejándote inconsciente y se fue volando.",
@@ -972,7 +972,7 @@
         "recompensaMin": 20000,
         "recompensaMax": 35000,
         "peligro": 0.9,
-        "foto": "https://i.pinimg.com/1200x/c9/64/a0/c964a00557c13acd74315bb8beb1769a.jpg",
+        "foto": "https://i.pinimg.com/originals/98/73/9f/98739fe9ce1e4d8b6711357dbc90ac29.jpg",
         "mensajes": {
             "exito": "Lanzaste una cadena forjada con meteoritos que ancló al Pegaso cósmico a la tierra, rindiéndose ante tu destreza legendaria.",
             "escape": "El Pegaso dio una coz que destrozó la barrera del sonido y el espacio; saliste disparado cientos de metros mientras él volvía a las estrellas.",
@@ -986,7 +986,7 @@
         "recompensaMin": 30000,
         "recompensaMax": 50000,
         "peligro": 0.98,
-        "foto": "https://i.pinimg.com/1200x/bd/d9/d3/bdd9d3f8c14e23c79b0a7d44a47af5d0.jpg",
+        "foto": "https://i.pinimg.com/originals/82/3d/ef/823defc99bcf2c9d7f158efedc881820.jpg",
         "mensajes": {
             "exito": "¡Hazaña divina! Encadenaste las fauces del mismísimo Sabueso con hilos de magia pura antes de que desatara el fin del mundo.",
             "escape": "El Sabueso mordió el aire y el impacto destrozó tu armamento y voluntad. Te dejó vivir solo por lástima antes de seguir su cacería.",
@@ -1000,7 +1000,7 @@
         "recompensaMin": 22000,
         "recompensaMax": 38000,
         "peligro": 0.92,
-        "foto": "https://i.pinimg.com/1200x/f6/0c/5b/f60c5bc1ed7fe8a37b4b073ecf13d123.jpg",
+        "foto": "https://i.pinimg.com/originals/f4/1a/78/f41a7866045e2e046e543441f9fb7188.jpg",
         "mensajes": {
             "exito": "Perforaste el núcleo volcánico de la isla en la espalda del Cangrejo colosal; detuviste su marcha titanica de un solo golpe táctico.",
             "escape": "Sus pinzas del tamaño de rascacielos cortaron el acantilado donde estabas parado; caíste al mar mientras la 'isla' se alejaba flotando.",
@@ -1014,7 +1014,7 @@
         "recompensaMin": 40000,
         "recompensaMax": 60000,
         "peligro": 0.99,
-        "foto": "https://i.pinimg.com/1200x/8e/5e/95/8e5e95d9b401b8e5ea98d7a9623e9930.jpg",
+        "foto": "https://i.pinimg.com/originals/c0/5e/10/c05e1080e788b68261c91bfebe67b5e2.jpg",
         "mensajes": {
             "exito": "Superaste su prueba divina. El cielo se despejó y el Dragón te recompensó con riquezas incalculables antes de dispersarse en siete orbes.",
             "escape": "El cielo se oscureció repentinamente. Sus relámpagos dorados te cegaron y la majestuosa bestia ascendió hasta desaparecer en las nubes.",
@@ -1028,7 +1028,7 @@
         "recompensaMin": 35000,
         "recompensaMax": 55000,
         "peligro": 0.96,
-        "foto": "https://i.pinimg.com/1200x/f2/97/84/f297842a39a56d4a54067c7e4fe03215.jpg",
+        "foto": "https://i.pinimg.com/originals/95/4c/6c/954c6c938ea4247f51bc96cb5ee3b97f.jpg",
         "mensajes": {
             "exito": "Esquivaste los impactos de su báculo que rompían montañas y lograste sellarlo de vuelta bajo la roca mágica.",
             "escape": "Invocó miles de clones idénticos usando su propio pelaje. Te perdiste en la ilusión mientras él escapaba volando en una nube dorada.",
@@ -1042,7 +1042,7 @@
         "recompensaMin": 28000,
         "recompensaMax": 48000,
         "peligro": 0.94,
-        "foto": "https://i.pinimg.com/1200x/16/a6/14/16a6140e88fb00fcb54a2a30feeec624.jpg",
+        "foto": "https://i.pinimg.com/originals/c6/5e/75/c65e756c5e15575ae48365db9df5e929.jpg",
         "mensajes": {
             "exito": "Atravesaste sus tentáculos de nebulosa y destruiste su núcleo estelar antes de que pudiera consumir la energía del planeta.",
             "escape": "Un pulso electromagnético de su cuerpo apagó tu sistema nervioso temporalmente. Despertaste horas después, viendo cómo flotaba hacia el abismo.",
@@ -1056,7 +1056,7 @@
         "recompensaMin": 4000,
         "recompensaMax": 6000,
         "peligro": 0.65,
-        "foto": "https://i.pinimg.com/1200x/9f/33/07/9f3307011b60ac52244532a369f136e0.jpg",
+        "foto": "https://i.pinimg.com/originals/b8/ae/11/b8ae116b844ceecac104e1af28ae5180.jpg",
         "mensajes": {
             "exito": "Aprovechaste su ira ciega para que embistiera un muro de piedra reforzada; el impacto lo aturdió y le diste el golpe de gracia.",
             "escape": "Los muros a tu alrededor cambiaron de forma. Te perdiste en el laberinto oscuro escuchando sus risas y bufidos a la distancia.",
@@ -1070,11 +1070,333 @@
         "recompensaMin": 3800,
         "recompensaMax": 5800,
         "peligro": 0.68,
-        "foto": "https://i.pinimg.com/1200x/f9/22/30/f922300e9ad1ed9ce36d00b928425002.jpg",
+        "foto": "https://i.pinimg.com/originals/a4/af/5e/a4af5ec006f7be028bd7123cd7aca27c.jpg",
         "mensajes": {
             "exito": "Esquivaste sus mandíbulas trituradoras y atacaste su punto ciego bajo el agua putrefacta, logrando una caza rápida y limpia.",
             "escape": "Abrió sus fauces del tamaño de una caverna, devoró tu armadura pesada y se sumergió en el río de los muertos sin dejar rastro.",
             "derrota": "Casi mueres asfixiado por el fango tóxico del inframundo tras recibir un coletazo, pero te aferraste a sus colmillos hasta vencerlo."
+        }
+    },
+    {
+        "id": 78,
+        "tier": "Mítico",
+        "nombre": "🦎 Ajolote Guardián de Memorias Líquidas",
+        "recompensaMin": 18000,
+        "recompensaMax": 30000,
+        "peligro": 0.84,
+        "foto": "",
+        "mensajes": {
+            "exito": "Sellaste sus orbes de memoria en una vasija antigua y capturaste al Ajolote sin alterar el santuario sumergido.",
+            "escape": "El Ajolote liberó recuerdos olvidados en el agua; quedaste paralizado reviviendo vidas ajenas mientras se desvanecía.",
+            "derrota": "Sus memorias líquidas inundaron tu mente hasta casi quebrarte, pero lograste romper el círculo mágico y reclamar tu presa."
+        }
+    },
+    {
+        "id": 79,
+        "tier": "Mítico",
+        "nombre": "🐦 Colibrí Aguja de Aurora",
+        "recompensaMin": 20000,
+        "recompensaMax": 32000,
+        "peligro": 0.86,
+        "foto": "",
+        "mensajes": {
+            "exito": "Anticipaste su vuelo imposible y atrapaste al Colibrí en una red de hielo auroral antes de que perforara el cielo.",
+            "escape": "Su pico cristalino atravesó tu defensa como una aguja de luz y huyó dejando una estela de aurora sobre la nieve.",
+            "derrota": "Recibiste cortes de luz boreal por todo el cuerpo, pero tu último disparo interrumpió su vuelo legendario."
+        }
+    },
+    {
+        "id": 80,
+        "tier": "Mítico",
+        "nombre": "🪰 Libélula Lente de Ámbar Antiguo",
+        "recompensaMin": 21000,
+        "recompensaMax": 34000,
+        "peligro": 0.87,
+        "foto": "",
+        "mensajes": {
+            "exito": "Leíste el reflejo de sus alas de ámbar y la derribaste antes de que invocara ecos prehistóricos.",
+            "escape": "La Libélula refractó la luz del amanecer en cientos de copias fósiles y desapareció entre helechos gigantes.",
+            "derrota": "Sus alas de resina cortaron tu piel con fragmentos antiguos, pero conseguiste romper su vuelo y cobrar el premio."
+        }
+    },
+    {
+        "id": 81,
+        "tier": "Mítico",
+        "nombre": "🐒 Lémur Linterna de Niebla",
+        "recompensaMin": 22000,
+        "recompensaMax": 36000,
+        "peligro": 0.88,
+        "foto": "",
+        "mensajes": {
+            "exito": "Apagaste su linterna de niebla con polvo lunar y lo capturaste entre raíces mojadas sin perder el rumbo.",
+            "escape": "Su cola iluminó una niebla azul que borró todos los senderos; cuando la bruma cedió, el Lémur ya no estaba.",
+            "derrota": "La luz de su cola confundió tus sentidos durante horas, pero lograste seguir su rastro y vencerlo al final."
+        }
+    },
+    {
+        "id": 82,
+        "tier": "Mítico",
+        "nombre": "🐾 Pangolín Pergamino Viviente",
+        "recompensaMin": 24000,
+        "recompensaMax": 38000,
+        "peligro": 0.89,
+        "foto": "",
+        "mensajes": {
+            "exito": "Descifraste las rutas vivas de sus escamas y cerraste el mapa mágico antes de que pudiera reescribir tu destino.",
+            "escape": "El Pangolín se enrolló como un pergamino sagrado y rodó entre dunas, borrando tus huellas con tinta viva.",
+            "derrota": "Sus símbolos rojos marcaron tu piel con maldiciones de viaje, pero conseguiste inmovilizarlo antes de caer."
+        }
+    },
+    {
+        "id": 83,
+        "tier": "Mítico",
+        "nombre": "🦄 Narval Lanza de Ópalo Boreal",
+        "recompensaMin": 26000,
+        "recompensaMax": 42000,
+        "peligro": 0.91,
+        "foto": "",
+        "mensajes": {
+            "exito": "Arrojaste el arpón en el instante exacto y quebraste el brillo de su lanza de ópalo bajo el hielo polar.",
+            "escape": "El Narval perforó el glaciar con su colmillo boreal y escapó por una grieta iluminada por auroras.",
+            "derrota": "La presión del agua helada casi te aplasta durante la lucha, pero tu arpón alcanzó su punto vulnerable."
+        }
+    },
+    {
+        "id": 84,
+        "tier": "Mítico",
+        "nombre": "🌊 Mantarraya de Cristal Sonoro",
+        "recompensaMin": 28000,
+        "recompensaMax": 44000,
+        "peligro": 0.92,
+        "foto": "",
+        "mensajes": {
+            "exito": "Afinaste una nota contraria a su canto de cristal y la Mantarraya cayó inmóvil entre ondas de luz.",
+            "escape": "Su cuerpo resonó como una catedral submarina, rompiendo tu equilibrio y dejándote perdido en el cañón oceánico.",
+            "derrota": "Las vibraciones de su cristal agrietaron tu armadura y tus huesos, pero lograste silenciar su núcleo sonoro."
+        }
+    },
+    {
+        "id": 85,
+        "tier": "Mítico",
+        "nombre": "🐾 Hiena Máscara de Hueso Resonante",
+        "recompensaMin": 30000,
+        "recompensaMax": 46000,
+        "peligro": 0.93,
+        "foto": "",
+        "mensajes": {
+            "exito": "Rompiste su máscara de hueso con un golpe limpio y su risa maldita se apagó sobre el campo de restos.",
+            "escape": "La Hiena soltó una carcajada resonante que levantó huesos del suelo; escapó mientras te cubrías los oídos sangrantes.",
+            "derrota": "Su máscara amplificó cada mordida como un tambor fúnebre, pero resististe el dolor y la derribaste."
+        }
+    },
+    {
+        "id": 86,
+        "tier": "Mítico",
+        "nombre": "🫎 Alce del Bosque Invertido",
+        "recompensaMin": 31000,
+        "recompensaMax": 48000,
+        "peligro": 0.94,
+        "foto": "",
+        "mensajes": {
+            "exito": "Anclaste tus botas al suelo real y atravesaste al Alce antes de que invirtiera el bosque por completo.",
+            "escape": "El mundo giró sobre su cornamenta; caíste hacia un cielo imposible mientras el Alce caminaba fuera de tu alcance.",
+            "derrota": "Sus astas voltearon la gravedad y destrozaron tu orientación, pero tu ataque final encontró tierra firme."
+        }
+    },
+    {
+        "id": 87,
+        "tier": "Mítico",
+        "nombre": "🪲 Mantis Cuchilla de Vidrio Invisible",
+        "recompensaMin": 32000,
+        "recompensaMax": 50000,
+        "peligro": 0.95,
+        "foto": "",
+        "mensajes": {
+            "exito": "Usaste la lluvia para revelar su silueta invisible y partiste sus cuchillas de vidrio antes del golpe mortal.",
+            "escape": "Solo viste gotas cortadas en el aire; la Mantis te abrió la defensa y desapareció entre bambúes oscuros.",
+            "derrota": "Sus filos invisibles te dejaron heridas precisas y profundas, pero lograste escuchar su respiración y abatirla."
+        }
+    },
+    {
+        "id": 88,
+        "tier": "Mítico",
+        "nombre": "🦫 Capibara Santuario de Sueños",
+        "recompensaMin": 22000,
+        "recompensaMax": 36000,
+        "peligro": 0.88,
+        "foto": "",
+        "mensajes": {
+            "exito": "Entraste lúcido en su sueño termal y despertaste justo a tiempo para sellar al Capibara en calma.",
+            "escape": "El vapor del santuario te durmió al instante; despertaste sonriendo, sin monedas y sin rastro del Capibara.",
+            "derrota": "Sus sueños pesados intentaron atraparte para siempre, pero lograste romper la ilusión y reclamar su esencia."
+        }
+    },
+    {
+        "id": 89,
+        "tier": "Mítico",
+        "nombre": "🦬 Bisonte Catedral de Musgo",
+        "recompensaMin": 34000,
+        "recompensaMax": 52000,
+        "peligro": 0.95,
+        "foto": "",
+        "mensajes": {
+            "exito": "Derrumbaste los arcos de musgo sobre su lomo y el Bisonte cayó como una catedral vencida por el trueno.",
+            "escape": "Su embestida hizo retumbar la pradera como campanas antiguas; cuando recuperaste el aire, ya había cruzado el bosque.",
+            "derrota": "Te aplastó contra monolitos cubiertos de lluvia, pero tu lanza alcanzó el corazón oculto bajo el musgo."
+        }
+    },
+    {
+        "id": 90,
+        "tier": "Mítico",
+        "nombre": "🐾 Tapir Portal de la Selva Hundida",
+        "recompensaMin": 33000,
+        "recompensaMax": 51000,
+        "peligro": 0.94,
+        "foto": "",
+        "mensajes": {
+            "exito": "Cerraste el portal en su lomo con barro sagrado y cazaste al Tapir antes de que la selva lo tragara.",
+            "escape": "El Tapir abrió una grieta verde bajo la lluvia y cruzó hacia una selva hundida donde no pudiste seguirlo.",
+            "derrota": "Medio cuerpo cayó dentro de su portal selvático, pero tiraste de tu arma y lo venciste antes de perderte."
+        }
+    },
+    {
+        "id": 91,
+        "tier": "Mítico",
+        "nombre": "🐍 Anguila Gravitacional del Abismo",
+        "recompensaMin": 36000,
+        "recompensaMax": 56000,
+        "peligro": 0.96,
+        "foto": "",
+        "mensajes": {
+            "exito": "Ajustaste el peso de tu arpón con magia inversa y atravesaste a la Anguila en plena distorsión abisal.",
+            "escape": "La gravedad se dobló alrededor de su cuerpo; subiste y caíste al mismo tiempo mientras la Anguila desaparecía.",
+            "derrota": "La presión y la gravedad torcida casi pulverizaron tus huesos, pero resististe lo suficiente para abatirla."
+        }
+    },
+    {
+        "id": 92,
+        "tier": "Mítico",
+        "nombre": "🦎 Salamandra Forja de Vidrio Volcánico",
+        "recompensaMin": 34000,
+        "recompensaMax": 54000,
+        "peligro": 0.95,
+        "foto": "",
+        "mensajes": {
+            "exito": "Enfriaste su forja con sal de glaciar y la Salamandra quedó atrapada dentro de su propio vidrio volcánico.",
+            "escape": "El suelo se volvió cristal líquido bajo tus pies; la Salamandra nadó en fuego y desapareció entre columnas de basalto.",
+            "derrota": "Su vidrio ardiente atravesó tu armadura como cuchillas calientes, pero tu último golpe rompió su núcleo ígneo."
+        }
+    },
+    {
+        "id": 93,
+        "tier": "Mítico",
+        "nombre": "🦌 Antílope Espejo de los Espejismos",
+        "recompensaMin": 28000,
+        "recompensaMax": 44000,
+        "peligro": 0.91,
+        "foto": "",
+        "mensajes": {
+            "exito": "Ignoraste mil reflejos falsos y disparaste al único Antílope que no proyectaba sombra sobre la sal.",
+            "escape": "El horizonte se partió en espejismos infinitos; perseguiste copias hasta caer agotado bajo el sol blanco.",
+            "derrota": "Sus reflejos te hicieron atacar el vacío una y otra vez, pero encontraste su pulso real y lo derribaste."
+        }
+    },
+    {
+        "id": 94,
+        "tier": "Mítico",
+        "nombre": "🦒 Jirafa Observatorio de Constelaciones",
+        "recompensaMin": 30000,
+        "recompensaMax": 48000,
+        "peligro": 0.92,
+        "foto": "",
+        "mensajes": {
+            "exito": "Alineaste tu ataque con la constelación correcta y la Jirafa cayó antes de leer tu futuro en las estrellas.",
+            "escape": "La Jirafa inclinó su cuello hacia el cielo y abrió un mapa estelar que la elevó fuera de tu alcance.",
+            "derrota": "Sus constelaciones predijeron cada movimiento tuyo, pero rompiste el patrón con un golpe desesperado y certero."
+        }
+    },
+    {
+        "id": 95,
+        "tier": "Mítico",
+        "nombre": "🐟 Esturión Corona de Perlas Negras",
+        "recompensaMin": 32000,
+        "recompensaMax": 50000,
+        "peligro": 0.93,
+        "foto": "",
+        "mensajes": {
+            "exito": "Arrancaste la corriente del río con un anzuelo ritual y capturaste al Esturión antes de que hundiera el puente.",
+            "escape": "Su corona de perlas negras absorbió la luz del agua; cuando volvió el brillo, solo quedaban burbujas.",
+            "derrota": "Las raíces sumergidas te atraparon por mandato de su corona, pero cortaste el hechizo y venciste al pez sagrado."
+        }
+    },
+    {
+        "id": 96,
+        "tier": "Mítico",
+        "nombre": "🐻 Wombat Fortaleza de Raíces Profundas",
+        "recompensaMin": 35000,
+        "recompensaMax": 55000,
+        "peligro": 0.95,
+        "foto": "",
+        "mensajes": {
+            "exito": "Encontraste la raíz maestra de su fortaleza y el Wombat quedó expuesto antes de poder cerrar los túneles.",
+            "escape": "El subsuelo entero se plegó sobre sí mismo; el Wombat selló la madriguera y te dejó sepultado en raíces.",
+            "derrota": "Las raíces profundas te comprimieron como una prisión viva, pero tu hoja abrió camino hasta su núcleo defensivo."
+        }
+    },
+    {
+        "id": 97,
+        "tier": "Mítico",
+        "nombre": "🦌 Saola Fantasma de Bambú Blanco",
+        "recompensaMin": 30000,
+        "recompensaMax": 47000,
+        "peligro": 0.92,
+        "foto": "",
+        "mensajes": {
+            "exito": "Seguiste el único bambú que no se movía con el viento y capturaste al Saola antes de volverse niebla.",
+            "escape": "El Saola cruzó entre bambúes blancos como un fantasma; tu arma atravesó solo bruma plateada.",
+            "derrota": "Su cornamenta espectral te hirió sin tocarte, pero lograste fijar su sombra y acabar la cacería."
+        }
+    },
+    {
+        "id": 98,
+        "tier": "Mítico",
+        "nombre": "🐚 Nautilus Cartógrafo de Mareas Eternas",
+        "recompensaMin": 36000,
+        "recompensaMax": 58000,
+        "peligro": 0.96,
+        "foto": "",
+        "mensajes": {
+            "exito": "Rompiste la ruta imposible grabada en su concha y el Nautilus quedó atrapado en una marea sin salida.",
+            "escape": "Redibujó el océano sobre su caparazón; nadabas hacia él, pero cada brazada te alejaba más.",
+            "derrota": "Sus mapas de marea torcieron el mar a tu alrededor, pero hundiste tu arpón en la coordenada final."
+        }
+    },
+    {
+        "id": 99,
+        "tier": "Mítico",
+        "nombre": "🐜 Oso Hormiguero Lengua del Vacío",
+        "recompensaMin": 38000,
+        "recompensaMax": 60000,
+        "peligro": 0.97,
+        "foto": "",
+        "mensajes": {
+            "exito": "Clavaste un sello de luz en su lengua del vacío antes de que absorbiera la cámara del templo.",
+            "escape": "Su lengua abrió un agujero negro diminuto que devoró tus trampas, tus huellas y casi tu brazo.",
+            "derrota": "El vacío tiró de tu energía vital hasta dejarte al borde del colapso, pero lograste cortar su lengua dimensional."
+        }
+    },
+    {
+        "id": 100,
+        "tier": "Mítico",
+        "nombre": "🧬 Tardígrado Devorador de Dimensiones",
+        "recompensaMin": 50000,
+        "recompensaMax": 80000,
+        "peligro": 0.99,
+        "foto": "",
+        "mensajes": {
+            "exito": "Sincronizaste tu ataque entre dimensiones y sellaste al Tardígrado antes de que mordiera otra capa de realidad.",
+            "escape": "El Tardígrado plegó el espacio como tela húmeda; cuando intentaste golpearlo, ya estaba en otra dimensión.",
+            "derrota": "La realidad se quebró alrededor de tu cuerpo durante la pelea, pero tu voluntad sostuvo el golpe que lo encerró."
         }
     }
 ]
