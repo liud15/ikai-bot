@@ -16,7 +16,7 @@ function saveDB(data) {
 const CHECK_INTERVAL = 30 * 60 * 1000; // Revisar cada 30 minutos
 const MAX_CHATS = 5;
 
-let handler = async (m, { conn, command, usedPrefix, text, args }) => {
+let handler = async (m, { conn, command, usedPrefix, text, args, isOwner, isROwner }) => {
     let db = readDB();
     if (!db[m.chat]) db[m.chat] = { animes: [] };
     let chatAnimes = db[m.chat].animes;
@@ -28,7 +28,7 @@ let handler = async (m, { conn, command, usedPrefix, text, args }) => {
     }
 
     if (action === 'checknow') {
-        if (!m.fromMe && !global.owner.map(v => v[0] + '@s.whatsapp.net').includes(m.sender)) {
+        if (!m.fromMe && !isOwner && !isROwner) {
              return m.reply('Este comando es solo para admins/owners.');
         }
         global.forceTioanimeCheck = true;
