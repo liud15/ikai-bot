@@ -1,6 +1,7 @@
 import fs from 'fs';
 import axios from 'axios';
 import FormData from 'form-data';
+import { tmpPath } from '../lib/tmp.js';
 
 /**
  * @param {string} filePath
@@ -60,10 +61,7 @@ let handler = async (m, { conn, usedPrefix, command, text }) => {
         if (!media) throw new Error('No se pudo descargar la imagen');
 
         // Usamos un nombre único para evitar conflictos si varios usuarios lo usan a la vez
-        temp = `./tmp/tofigure_${Date.now()}.jpg`; 
-        
-        // Aseguramos que la carpeta tmp exista (opcional, pero recomendado)
-        if (!fs.existsSync('./tmp')) fs.mkdirSync('./tmp');
+        temp = tmpPath(`tofigure_${Date.now()}.jpg`); 
         
         fs.writeFileSync(temp, media);
 
