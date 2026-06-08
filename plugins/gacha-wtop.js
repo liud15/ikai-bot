@@ -6,6 +6,18 @@ const __filename = fileURLToPath(import.meta.url)
 const __dirname = path.dirname(__filename)
 const CHARACTERS_PATH = path.join(__dirname, '..', 'src', 'database', 'characters.json')
 
+function resolveName(userId, conn) {
+    const u = global.db.data.users?.[userId]
+    if (u?.name && u.name.trim()) return u.name.trim()
+    const fromConn = conn.getName(userId)
+    if (fromConn) return fromConn
+    if (userId.endsWith('@lid')) {
+        const real = global.db.data.lidmap?.[userId]
+        if (real) return '+' + real.split('@')[0]
+    }
+    return userId.split('@')[0]
+}
+
 let handler = async (m, { conn }) => {
     const chat = global.db.data.chats[m.chat]
     if (!chat.gacha || !chat.gacha.claimed || Object.keys(chat.gacha.claimed).length === 0) {
@@ -44,7 +56,7 @@ let handler = async (m, { conn }) => {
     const medals = ['👑', '🥈', '🥉']
 
     let ranking = topChars.map((char, i) => {
-        const ownerName = conn.getName(char.owner) || 'Usuario'
+        const ownerName = resolveName(char.owner, conn)
         const medal = medals[i] || `${i + 1}.`
         const value = parseInt(char.value) || 0
         return `│ ${medal} *${char.name}*\n│    💰 Valor: ${value.toLocaleString()} \n│    👤 Dueño: ${ownerName}`

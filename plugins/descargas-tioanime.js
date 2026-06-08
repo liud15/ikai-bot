@@ -54,21 +54,12 @@ ${epsDisplay}${epsAbbrev}
             });
 
             let buffer = await (await fetch(results[0].img)).arrayBuffer();
-            conn.relayMessage(m.chat, {
-                extendedTextMessage: {
-                    text: cap,
-                    contextInfo: {
-                        externalAdReply: {
-                            title: 'Búsqueda TioAnime',
-                            mediaType: 1,
-                            previewType: 0,
-                            renderLargerThumbnail: true,
-                            thumbnail: Buffer.from(buffer),
-                            sourceUrl: ''
-                        }
-                    }, mentions: [m.sender]
-                }
-            }, {});
+            await conn.sendMessage(m.chat, { 
+                image: Buffer.from(buffer), 
+                caption: cap, 
+                mentions: [m.sender] 
+            }, { quoted: m });
+            
             m.react("✅");
         }
     } catch (error) {

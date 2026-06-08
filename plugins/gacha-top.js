@@ -6,6 +6,18 @@ const __filename = fileURLToPath(import.meta.url)
 const __dirname = path.dirname(__filename)
 const CHARACTERS_PATH = path.join(__dirname, '..', 'src', 'database', 'characters.json')
 
+function resolveName(userId, conn) {
+    const u = global.db.data.users?.[userId]
+    if (u?.name && u.name.trim()) return u.name.trim()
+    const fromConn = conn.getName(userId)
+    if (fromConn) return fromConn
+    if (userId.endsWith('@lid')) {
+        const real = global.db.data.lidmap?.[userId]
+        if (real) return '+' + real.split('@')[0]
+    }
+    return userId.split('@')[0]
+}
+
 let handler = async (m, { conn }) => {
     const chat = global.db.data.chats[m.chat]
     if (!chat.gacha) chat.gacha = { claimed: {}, activeRolls: {} }
@@ -44,7 +56,7 @@ let handler = async (m, { conn }) => {
     const medals = ['👑', '🥈', '🥉']
 
     let ranking = sorted.map(([userId, data], i) => {
-        const name = conn.getName(userId) || 'Usuario'
+        const name = resolveName(userId, conn)
         const medal = medals[i] || `${i + 1}.`
         return `│ ${medal} *${name}*\n│    🎴 ${data.count} personajes — 💰 ${data.totalValue.toLocaleString()}`
     }).join('\n│\n')

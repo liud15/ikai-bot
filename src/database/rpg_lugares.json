@@ -4,7 +4,7 @@
         "bioma": "Bosques y Flora",
         "nombre": "🌳 Bosque de las Hadas",
         "descripcion": "un bosque vibrante donde el polen brilla en la oscuridad",
-        "foto": "https://i.pinimg.com/1200x/46/01/36/460136ef0545ad4e2a9d6ab55d296975.jpg",
+        "foto": "https://i.pinimg.com/originals/14/d7/26/14d7264ae2c9b766e7858e8afba9baab.jpg",
         "mensajes": {
             "exito": "Limpiaste la maleza del Bosque de las Hadas descubriendo tesoros naturales intactos y robando el néctar dorado.",
             "derrota_menor": "Unas enredaderas púrpuras te atraparon y robaron tu vida, pero escapaste adolorido cortando sus raíces.",
@@ -16,7 +16,7 @@
         "bioma": "Bosques y Flora",
         "nombre": "🌿 Arboleda de los Ents Dormidos",
         "descripcion": "un antiguo sendero rodeado de árboles con rostros melancólicos",
-        "foto": "https://i.pinimg.com/1200x/7c/0b/fe/7c0bfe6e196e8d5f90f3a6529a5e8275.jpg",
+        "foto": "https://i.pinimg.com/originals/ec/81/69/ec8169756e71843d467425d1fe5c24a7.jpg",
         "mensajes": {
             "exito": "Esquivaste las raíces vigilantes y saqueaste las ofrendas secretas sagradas de los Ents majestuosos.",
             "derrota_menor": "Un Guardián de Madera despertó enojado y te golpeó con su rama; apenas saliste de la Arboleda arrastrándote.",
@@ -28,7 +28,7 @@
         "bioma": "Bosques y Flora",
         "nombre": "🔮 Selva de Cristal Espina",
         "descripcion": "una selva letal donde las hojas cortan como vidrio",
-        "foto": "https://i.pinimg.com/1200x/0d/36/ec/0d36ec6495517813bc1c37492c686d2a.jpg",
+        "foto": "https://i.pinimg.com/originals/91/fb/40/91fb4064e655717e3fad9d6b44896f86.jpg",
         "mensajes": {
             "exito": "Evadidas las zarzas translúcidas de cristal, obtuviste los preciosos diamantes vegetales sanos y salvos.",
             "derrota_menor": "Te cortaste decenas de veces el rostro con el filo orgánico de cristal y huiste ensangrentado salvando unas piedras.",
@@ -40,7 +40,7 @@
         "bioma": "Bosques y Flora",
         "nombre": "🌺 Jardín de la Diosa Olvidada",
         "descripcion": "ruinas circulares repletas de flores que nunca marchitan",
-        "foto": "https://i.pinimg.com/1200x/98/9e/72/989e723812e5b0f681192db23a76b93d.jpg",
+        "foto": "https://i.pinimg.com/originals/01/f1/83/01f18328c7700bb2c374c0aa002a050e.jpg",
         "mensajes": {
             "exito": "Rendiste homenaje sagrado y el Jardín bendijo tu causa con pétalos curativos convertidos en tesoro ancestral.",
             "derrota_menor": "Los pétalos te indujeron fiebre alta mientras saqueabas la estatua divina, dejándote moribundo pero con ganancias.",
@@ -52,7 +52,7 @@
         "bioma": "Bosques y Flora",
         "nombre": "🌸 Valle de los Cerezos Eternos",
         "descripcion": "un valle donde siempre es primavera y caen pétalos de sakura",
-        "foto": "https://i.pinimg.com/1200x/60/1d/73/601d734f3452065acd040bdb4ac49937.jpg",
+        "foto": "https://i.pinimg.com/originals/3f/99/47/3f9947299dd66d22d6d9f4c12e7ab7cc.jpg",
         "mensajes": {
             "exito": "Dominaste a los samuráis caídos que protegían las santas flores y tomaste sus reliquias imperiales.",
             "derrota_menor": "La lluvia de navajas sakura lastimó profundamente tus manos, pero encontraste oro forjado caído en el valle.",
@@ -64,7 +64,7 @@
         "bioma": "Acuáticos y Abisales",
         "nombre": "🌊 Lago de la Luna Reflejada",
         "descripcion": "un lago tan cristalino que el cielo y el agua parecen uno solo",
-        "foto": "https://i.pinimg.com/1200x/57/cc/86/57cc860409e7506c6930096443dbd68a.jpg",
+        "foto": "https://i.pinimg.com/originals/ed/d2/ac/edd2ac0e58c38eabba50a3a06c5faae3.jpg",
         "mensajes": {
             "exito": "Buceaste perfecto hasta el fondo ignorando a los hipnotizadores y trajiste las joyas celestiales intactas.",
             "derrota_menor": "Casi te ahogas en la falsa profundidad del Lago; subiste tosiendo agua mágica, con un botín pírrico.",
@@ -76,7 +76,7 @@
         "bioma": "Acuáticos y Abisales",
         "nombre": "🐙 Abismo de Coral Negro",
         "descripcion": "una trinchera submarina iluminada por medusas bioluminiscentes",
-        "foto": "https://i.pinimg.com/1200x/a1/48/57/a14857fcbadd1cdb7df1c2707dd55bc8.jpg",
+        "foto": "https://i.pinimg.com/originals/9b/93/e4/9b93e4fc85df754834d2015efc612adb.jpg",
         "mensajes": {
             "exito": "Esquivaste venenos bioluminiscentes letales y pescaste la perlas de cristal abisal en lo oscuro.",
             "derrota_menor": "La picadura venenosa de una medusa te paralizó temporalmente; escapaste de arrastre perdiendo tesoros.",
@@ -88,7 +88,7 @@
         "bioma": "Acuáticos y Abisales",
         "nombre": "⚓ Costa de los Naufragios Fantasma",
         "descripcion": "una espesa neblina cubre cientos de barcos antiguos",
-        "foto": "https://i.pinimg.com/1200x/87/fe/50/87fe50998ab613727995e0d586c55960.jpg",
+        "foto": "https://i.pinimg.com/originals/3c/19/a3/3c19a3610fe249d8d27098a344c0c04f.jpg",
         "mensajes": {
             "exito": "Invocaste un viento sagrado espantando almas en desgracia para saquear todos los tesoros perdidos pirata.",
             "derrota_menor": "A un marino espectral le dolió su tajo helado en tu hombro, robando valiosa vida por unos cuantos de cobre.",
@@ -100,7 +100,7 @@
         "bioma": "Acuáticos y Abisales",
         "nombre": "🐉 Cascadas del Dragón de Agua",
         "descripcion": "monumentales caídas de agua que desafían la gravedad",
-        "foto": "https://i.pinimg.com/1200x/e7/0e/60/e70e602dfaf7ef4db4de1a70ed2b6b8a.jpg",
+        "foto": "https://i.pinimg.com/originals/37/82/2c/37822c60b9c1db39ead2e0085ea3287a.jpg",
         "mensajes": {
             "exito": "Saltaste libre entre rocas perfectas sorteando los tsunamis locales descubriendo la guarida draconiana vacía.",
             "derrota_menor": "Te resbalaste perdiendo el agarre hacia una estalactita. Golpeaste fuerte la cabeza reteniendo oro de milagro.",
@@ -112,7 +112,7 @@
         "bioma": "Acuáticos y Abisales",
         "nombre": "🍃 Pantano de los Lamentos",
         "descripcion": "aguas turbias donde sombras misteriosas acechan bajo el lodo",
-        "foto": "https://i.pinimg.com/1200x/a1/93/9d/a1939da819d8a1493e6f4e939d837719.jpg",
+        "foto": "https://i.pinimg.com/originals/a5/74/a6/a574a6acb7bcadde8efd35cb75cdfded.jpg",
         "mensajes": {
             "exito": "Lograste recolectar hierbas oscuras evadiendo a los acechadores camuflados vendiéndolas a gran costo extraído.",
             "derrota_menor": "Enfermaste fatal por la miasma local pantanoso sufriendo horribles calambres gástricos mientras juntabas tu botín.",
@@ -124,7 +124,7 @@
         "bioma": "Montañosos y Aéreos",
         "nombre": "⛰️ Picos Rompecielos",
         "descripcion": "montañas tan altas que rasgan las nubes en dos",
-        "foto": "https://i.pinimg.com/1200x/83/03/1a/83031aab7b6c30d48804d59f05be0852.jpg",
+        "foto": "https://i.pinimg.com/originals/8f/e0/1b/8fe01b80fb5752d9f1556de26943058d.jpg",
         "mensajes": {
             "exito": "Te balanceaste por sus bordes escarpados llegando al pico imbatido recuperando gemas estelares a salvo.",
             "derrota_menor": "La falta de oxígeno nubló tus sentidos. Caíste metros herido leve en la cabeza, pero pescaste algo de valor en la roca.",
@@ -136,7 +136,7 @@
         "bioma": "Montañosos y Aéreos",
         "nombre": "☁️ Archipiélago Flotante de Aethel",
         "descripcion": "islas de tierra y hierba que levitan en el cielo abierto",
-        "foto": "https://i.pinimg.com/1200x/af/c3/65/afc365cdf90569be640dab0d84e90da5.jpg",
+        "foto": "https://i.pinimg.com/originals/d7/13/a0/d713a0cbe252af5a9259e08018de0efe.jpg",
         "mensajes": {
             "exito": "Planeaste de nube en isla derrotando guardias solares en su base central asegurando los tesoros gravimétricos.",
             "derrota_menor": "Una fuerte corriente descendente te hizo caer en el lodo celestial golpeándote torpe todo el pecho con pérdida mínima de botín.",
@@ -148,7 +148,7 @@
         "bioma": "Montañosos y Aéreos",
         "nombre": "☄️ Cráter del Meteorito Arcano",
         "descripcion": "una enorme grieta brillante que exhala energía púrpura",
-        "foto": "https://i.pinimg.com/1200x/40/cc/da/40ccda2383a05ec4a82fffe8ff0386e3.jpg",
+        "foto": "https://i.pinimg.com/originals/dd/20/1d/dd201d6707a4a27b1f38007409393b37.jpg",
         "mensajes": {
             "exito": "La irradiación letal fortaleció tu defensa y recolectaste el núcleo radioactivo mágico puro de un tajo absoluto.",
             "derrota_menor": "La zona tóxica generó mutaciones ardorosas en tu cuerpo robando salud; por inercia te aferraste al meteoro ganando menos de lo soñado.",
@@ -160,7 +160,7 @@
         "bioma": "Montañosos y Aéreos",
         "nombre": "⚡ Nido del Pájaro del Trueno",
         "descripcion": "cúspide rústica constantemente golpeada por relámpagos",
-        "foto": "https://i.pinimg.com/1200x/8c/2c/b3/8c2cb39b3b78754096185b28b0ef8d1d.jpg",
+        "foto": "https://i.pinimg.com/originals/da/c2/16/dac216b3f9a984047bd4f5250dfea6fe.jpg",
         "mensajes": {
             "exito": "Sincronizaste tus cruces limpios perdiendo a las guardianas entre ecos eléctricos masivos saqueando el gran nido entero intacto.",
             "derrota_menor": "Un relámpago colosal estático afectó un choque quemando tu flanco derecho mientras llenaste tu mochila entre gritos dolorosos.",
@@ -172,7 +172,7 @@
         "bioma": "Montañosos y Aéreos",
         "nombre": "🧊 Cordillera de Escarcha Eterna",
         "descripcion": "glaciares masivos que parecen colmillos de hielo",
-        "foto": "https://i.pinimg.com/1200x/54/6a/69/546a698b29ac17ce24805af9e723accd.jpg",
+        "foto": "https://i.pinimg.com/originals/2b/b5/0b/2bb50bc4e3d947be2f6e74ef41ff8d7d.jpg",
         "mensajes": {
             "exito": "Atravesaste la gélida barrera natural descubriendo el lago sub-cero repleto de diamantes limpios libres de la nieve asfixiante.",
             "derrota_menor": "Fuiste engañado por la nieve que bloqueó tus dedos rompiendo piel de hielo mientras forzadamente tomaste plata antigua de la caverna.",
@@ -184,7 +184,7 @@
         "bioma": "Desérticos y Yermos",
         "nombre": "💀 Desierto de las Cenizas Blancas",
         "descripcion": "un mar de arena blanca donde nunca sopla el viento",
-        "foto": "https://i.pinimg.com/1200x/03/c6/a0/03c6a09a45bf547b7b61f7d80d10a3cb.jpg",
+        "foto": "https://i.pinimg.com/originals/fa/a6/72/faa6720b4d212efb2acc430022d6e824.jpg",
         "mensajes": {
             "exito": "Encontraste una estela arcana prístina oculta dentro de las dunas fantasmales tomando su ofrenda inmaculada de oro.",
             "derrota_menor": "El silencio absoluto comenzó a matarte por dentro; lograste apenas recoger chatarra sagrada pero un mareo horrible afectó tu cordura profundamente.",
@@ -196,7 +196,7 @@
         "bioma": "Desérticos y Yermos",
         "nombre": "🦴 Cañón de Huesos de Dragón",
         "descripcion": "desfiladero formado por el esqueleto petrificado de un leviatán",
-        "foto": "https://i.pinimg.com/1200x/31/72/2a/31722a7f91549653af0fb19c17fb2a77.jpg",
+        "foto": "https://i.pinimg.com/originals/18/4f/b7/184fb7c75e2f55c391d2abf3a4615378.jpg",
         "mensajes": {
             "exito": "Escalaste hasta el mismísimo cráneo dracónico y lograste minar los dientes de joya valiosa engañando a las arañas de hueso.",
             "derrota_menor": "Punzantes púas de hueso te atravesaron la pantorrilla, dolió a rabiar, pudiste recoger menos joyas de lo esperado entre la sangre y costillas.",
@@ -208,7 +208,7 @@
         "bioma": "Desérticos y Yermos",
         "nombre": "🏜️ Mar de Dunas Carmesí",
         "descripcion": "un desierto abrasador cuya arena parece sangre bajo el sol",
-        "foto": "https://i.pinimg.com/1200x/44/35/92/443592fcace524c3e7ab01798adfdbba.jpg",
+        "foto": "https://i.pinimg.com/originals/72/78/02/7278028431af6b45971b67bed54f167e.jpg",
         "mensajes": {
             "exito": "Aprovechaste la falta de Sol y encontraste los templos beduinos de las dunas rojas recolectando las sedas impagables sin ser notado.",
             "derrota_menor": "En la exploración las dunas hirvientes desgastaron tu cuerpo horrendo pero tus manos aún rasgaron reliquias doradas con cortes brutales y quemaduras.",
@@ -220,7 +220,7 @@
         "bioma": "Desérticos y Yermos",
         "nombre": "💧 Oasis de los Espejismos",
         "descripcion": "un resguardo de agua mágica que vuelve locos a los viajeros",
-        "foto": "https://i.pinimg.com/1200x/19/c3/48/19c34880317c06fb192ee042f8539f85.jpg",
+        "foto": "https://i.pinimg.com/originals/8b/04/21/8b04212ec6bb31c84cd457ef114e5440.jpg",
         "mensajes": {
             "exito": "Usando protecciones místicas purificaste las ninfas locales obteniendo aguas milenarias cotizadas al mayor precio del comercio.",
             "derrota_menor": "Caíste victima a las visiones aterradoras paralizado de dolor ciego llevándote oro pero dañando permanentemente pedazos puros de la cordura misma.",
@@ -232,7 +232,7 @@
         "bioma": "Desérticos y Yermos",
         "nombre": "⚔️ Páramo de Acero",
         "descripcion": "un yermo lleno de espadas oxidadas de una guerra olvidada",
-        "foto": "https://i.pinimg.com/1200x/ba/20/9d/ba209d2028b71a721480726d3ac53326.jpg",
+        "foto": "https://i.pinimg.com/originals/33/41/1a/33411a5f9ca28e8c303ea2c9c3f9a054.jpg",
         "mensajes": {
             "exito": "Soporte de acero, ganancia de acero. Lograste sacar la espada intacta mítica resguardando ganancias supremas frente al óxido en control total del terreno.",
             "derrota_menor": "Fuiste acuchillado miserable por fantasmas caballeros armados de hierro malgastado pero saliste huyendo cojeante cargan pesadas recompensas del terreno sangriento.",
@@ -244,7 +244,7 @@
         "bioma": "Estructuras y Ruinas",
         "nombre": "🏛️ Academia Mágica en Ruinas",
         "descripcion": "bibliotecas colapsadas con libros flotando en gravedad cero",
-        "foto": "https://i.pinimg.com/1200x/55/15/94/55159457a249b36e81f1ecd72dd548fa.jpg",
+        "foto": "https://i.pinimg.com/originals/f7/4e/cd/f74ecd968061422ce2a757fe84c615ba.jpg",
         "mensajes": {
             "exito": "Descifraste protecciones arcanas en la sala 12 saqueando pergaminos perdidos sin que los orbes de luz guardián te detectasen a pesar de la gravedad fluctuante.",
             "derrota_menor": "Un hechizo inestable te dejó sordo con pérdida parcial de movimiento. Apenas pudiste huir robando pequeños grimorios con tremenda dificultad ardosa.",
@@ -256,7 +256,7 @@
         "bioma": "Estructuras y Ruinas",
         "nombre": "🕰️ Torre del Reloj Roto",
         "descripcion": "una gigantesca maquinaria de engranajes que doblan el tiempo",
-        "foto": "https://i.pinimg.com/1200x/7d/e3/01/7de301d478f65d6bbb3bb0befec71acf.jpg",
+        "foto": "https://i.pinimg.com/originals/91/6f/7f/916f7f777890e5fb0f311d210bdf2955.jpg",
         "mensajes": {
             "exito": "Navegaste el laberinto temporal y congelaste el espacio robando engranajes del mismísimo Cronos obteniendo recompensa legendaria en una coreografía perfecta fluida.",
             "derrota_menor": "Un salto temporal falló y desgarró y envejeció bruscamente parte de tu espalda y piernas al tiempo logrando tomar tesoros por el choque inexperto pero heróico.",
@@ -268,7 +268,7 @@
         "bioma": "Estructuras y Ruinas",
         "nombre": "🔥 Catacumbas del Rey Exánime",
         "descripcion": "pasillos subterráneos iluminados por fuego azul",
-        "foto": "https://i.pinimg.com/1200x/f2/71/c1/f271c192a0f7096f307105f564c76c95.jpg",
+        "foto": "https://i.pinimg.com/originals/a5/20/15/a52015527e8270fecba2c6da5ee47d27.jpg",
         "mensajes": {
             "exito": "Apagaste las flamas de tumba azul superando a las brujas malditas extirpando el botín necrológico más puro del sarcófago prohibido absoluto del rey decaído impecable.",
             "derrota_menor": "Aspiraste hollín profano que debilitó pulmones al máximo perdiendo valiente gran salud por oro putrefacto que sin embargo sirvió un propósito letal valioso para sobrevivir.",
@@ -280,7 +280,7 @@
         "bioma": "Estructuras y Ruinas",
         "nombre": "⚙️ Ciudadela Mecánica Abandonada",
         "descripcion": "una urbe de latón impulsada por vapor que sigue funcionando sola",
-        "foto": "https://i.pinimg.com/1200x/1a/8a/89/1a8a899c780cc32f6f93fcf64e273d4e.jpg",
+        "foto": "https://i.pinimg.com/originals/bc/ee/11/bcee1184e2a7709fa64548fe9fcc6d41.jpg",
         "mensajes": {
             "exito": "Burlaste defensas automatizadas piratas y envenenaste combustible vaporizado dominando todas las factorías ocultas extrayendo piezas ultra exóticas sin rival.",
             "derrota_menor": "Fallas del pistón de latón te arrojaron agua ferviente por media cara. Arrancaste diamantes brutos soportando la asolada de vapor hirviente en extremo valiente.",
@@ -292,7 +292,7 @@
         "bioma": "Estructuras y Ruinas",
         "nombre": "🌌 Templo del Fin del Mundo",
         "descripcion": "un altar blanco suspendido sobre el inmenso vacío estelar",
-        "foto": "https://i.pinimg.com/1200x/e2/0b/69/e20b6953859279aeb5cfbd3bd1801a16.jpg",
+        "foto": "https://i.pinimg.com/originals/14/e0/c0/14e0c007336ac9d5eadfbc066926543a.jpg",
         "mensajes": {
             "exito": "Meditaste en el filo del universo. Comulgaste los dioses del silencio profundo obteniendo su fragmento y la recompensa cósmica sagrada impune de caos oscuro.",
             "derrota_menor": "Te asomaste y el vacío jaló retinas lastimando en profundidad el coraje real tuyo arrancando por un hilo del balcón inmenso llevándote oro apenas para calmar el pánico ardiente extremo.",
@@ -304,7 +304,7 @@
         "bioma": "Dimensionales / Sobrenaturales",
         "nombre": "💎 Dimensión de Cristal",
         "descripcion": "un espacio infinito de prismas reflectantes",
-        "foto": "https://i.pinimg.com/1200x/0f/02/e4/0f02e4d05a94f742737074156c195719.jpg",
+        "foto": "https://i.pinimg.com/originals/65/ae/63/65ae631c2fdff312d6792284c89d77fc.jpg",
         "mensajes": {
             "exito": "Evitaste tus dobles reflectantes asesinos rompiendo el cristal central maestro de forma quirúrgica dominando toda la física prisma brillante perfecta.",
             "derrota_menor": "Un espejo errático explotó tajando hombros, extremidad e irrumpiendo piel; escapaste adoloridísimo con cristales en tu manto sagrado pero con botín valeroso seguro.",
@@ -316,7 +316,7 @@
         "bioma": "Dimensionales / Sobrenaturales",
         "nombre": "☁️ Mar de Nubes Invertido",
         "descripcion": "un plano donde caminas sobre las nubes y el cielo está abajo",
-        "foto": "https://i.pinimg.com/1200x/5f/89/53/5f8953720ed349f3ce0214585968ff26.jpg",
+        "foto": "https://i.pinimg.com/originals/5e/51/34/5e5134510d8dfdafd2a0d94b4bcfd311.jpg",
         "mensajes": {
             "exito": "Usaste la anti-gravedad para bucear nube alta sacando tesoros divinos perdidos en algodón suave de inmortales deidades caídas antes con audacia invicta intocable.",
             "derrota_menor": "Mareos cósmicos golpearon mente; caíste temporal al fondo del cielo rompiendo cráneo falso antes de subir y huir empacando riquezas de deidad pequeña.",
@@ -328,7 +328,7 @@
         "bioma": "Dimensionales / Sobrenaturales",
         "nombre": "🌫️ Reino de Purgatorio Sombrío",
         "descripcion": "un mundo sin colores donde todos los sonidos son ecos",
-        "foto": "https://i.pinimg.com/1200x/35/58/eb/3558ebcc288f26f85dd8d3bebe4044bf.jpg",
+        "foto": "https://i.pinimg.com/originals/55/d1/43/55d1431f2d02877e2e160672f101592c.jpg",
         "mensajes": {
             "exito": "No mostraste debilidad frente a los fantasmas propios limpiando la energía sombría y extrayendo metales de ceniza maldita sin sucumbir absoluto a la debilidad jamás.",
             "derrota_menor": "Tu energía drenó hasta casi matarte por frío existencial; logras empujar las puertas y robar riquezas frías temblando débil pero no lo suficiente a tu fin.",
@@ -340,7 +340,7 @@
         "bioma": "Dimensionales / Sobrenaturales",
         "nombre": "🌀 Horizonte de Sucesos Místico",
         "descripcion": "el borde de un agujero negro hecho puramente de magia densa",
-        "foto": "https://i.pinimg.com/1200x/84/f8/59/84f859c7001d1b7acef22df69ee7247e.jpg",
+        "foto": "https://i.pinimg.com/originals/91/f8/9f/91f89f34379425b74ed19e6de7f3e53c.jpg",
         "mensajes": {
             "exito": "Pescaste en la destrucción del evento universal, obteniendo polvo mágico estelar ultra exótico superando toda la fuerza devoradora oscura imbatible del vacío final.",
             "derrota_menor": "El agujero deformó el tiempo de tu dedo causando necrosis mística grave logrando apartarte antes de absorber todo llevando gemas pesadas y oscuras letales victoriosamente.",
@@ -352,7 +352,7 @@
         "bioma": "Dimensionales / Sobrenaturales",
         "nombre": "✨ Santuario de la Memoria",
         "descripcion": "un salón lleno de esferas que muestran el pasado del universo",
-        "foto": "https://i.pinimg.com/1200x/a9/af/54/a9af5437f9167860ae692f0ce518b589.jpg",
+        "foto": "https://i.pinimg.com/originals/58/d3/54/58d354017ee79400f8ff170a0d69b9cb.jpg",
         "mensajes": {
             "exito": "Evitaste ver pasados prohibidos enfocándote y saqueando recuerdos puros diamantes líquidos conservando la gloria mística incorrupta total ante la omnipotencia callada.",
             "derrota_menor": "Miraste tu propia muerte pasada fracturando brutal cerebro unida con sangre manante nasal ganando joyas por costo del tormento infernal de los profetas rotos.",
@@ -364,7 +364,7 @@
         "bioma": "Mundo Humano / Urbano Fantasía",
         "nombre": "🏮 Callejón de los Yokai",
         "descripcion": "un rincón neón escondido en Tokio donde comercian los demonios",
-        "foto": "https://i.pinimg.com/1200x/4b/c2/b3/4bc2b391b12359ced43da547c0a173d5.jpg",
+        "foto": "https://i.pinimg.com/originals/7f/8d/60/7f8d601806410f5cc88c956fbd8bae6d.jpg",
         "mensajes": {
             "exito": "Robaste en las sombras a la yakuza demoníaca cruzando callejones luces de neon con maestría ágil recuperando yenes ensangrentados malditos e intocables perfectos.",
             "derrota_menor": "Un demonio gordo asestó cuchillo neón quemante en tu brazo escapando tú bajo lluvia con honor sangriento robado con la bolsa repleta apenas vivos ambos pero feliz del botín masivo.",
@@ -376,7 +376,7 @@
         "bioma": "Mundo Humano / Urbano Fantasía",
         "nombre": "🧪 Mercado Negro Subterráneo",
         "descripcion": "un laberinto de tiendas clandestinas vendiendo objetos malditos",
-        "foto": "https://i.pinimg.com/1200x/58/e8/34/58e8346155139be00d4d6e8c5c147d30.jpg",
+        "foto": "https://i.pinimg.com/originals/cb/c7/cb/cbc7cb5662f6d37f6e131317774ba4c9.jpg",
         "mensajes": {
             "exito": "Seduciste y timaste a brujos desquiciados asaltando su mercancía vendiéndola doble a guardias corruptos haciendo negocio redondo limpio ganando reputación absoluta ilícita.",
             "derrota_menor": "Descubrieron la farsa propinando paliza mágica, arrastrándote afuera moribundo lograste escapar escondiendo orbes debajo del fango en el dolor agudo e inmenso cruel valiente.",
@@ -388,7 +388,7 @@
         "bioma": "Mundo Humano / Urbano Fantasía",
         "nombre": "🚂 Estación de Trenes Espiritual",
         "descripcion": "andenes nebulosos donde los espectros esperan su tren",
-        "foto": "https://i.pinimg.com/1200x/fe/ee/ea/feeeeade79094713b400af14a0a2bc68.jpg",
+        "foto": "https://i.pinimg.com/originals/45/ae/3d/45ae3d5cf830b7f5fff54689aee8878c.jpg",
         "mensajes": {
             "exito": "Asaltaste el vagón del tren del hades logrando evacuar monedas de caronte fantasma en movimiento impecable antes que tocara terreno espectral fatal invicto.",
             "derrota_menor": "Tropezaste bajando del andén veloz dislocando tu brazo mientras guardas fantasmas rajaban espaldas huyendo y riendo de terror extremo recolectando metales sucios pagables de forma.",
@@ -400,7 +400,7 @@
         "bioma": "Mundo Humano / Urbano Fantasía",
         "nombre": "🏰 Barrio Gótico Inundado",
         "descripcion": "una antigua ciudad victoriana hundida a medias en el océano",
-        "foto": "https://i.pinimg.com/1200x/e1/50/62/e150628dd30ece5e369e470325e779c6.jpg",
+        "foto": "https://i.pinimg.com/originals/d7/b8/d9/d7b8d99c5aacd9d8d366a0530bcd1219.jpg",
         "mensajes": {
             "exito": "Nadadores no debían estar aquí. Asaltaste la mansión del conde vampiro abisal llevándote herencias victorianas doradas en puro mar victorioso del terror vampírico limpio intachable.",
             "derrota_menor": "Murciélagos marinos drenaron parte letal de tu vida pero tú pescaste rubíes con red asomando a flote moribundo tosiendo de terror extremo y sangre en mar negro huyendo vivo.",
@@ -412,7 +412,7 @@
         "bioma": "Mundo Humano / Urbano Fantasía",
         "nombre": "🏴‍☠️ Castillo Flotante del Gremio",
         "descripcion": "una inmensa base pirata voladora construida con globos y hierro",
-        "foto": "https://i.pinimg.com/1200x/a6/b5/1b/a6b51b07b204c8513bd1af7daad90665.jpg",
+        "foto": "https://i.pinimg.com/originals/c3/10/52/c310523ef2572b008fd82b52947abb57.jpg",
         "mensajes": {
             "exito": "Saboteaste amarras saltando del globo rey atrayendo la fama pirata voladora estallando todos los barriles de hierro salvando riquezas gloriosas del cielo azul con maestría aérea implacable sublime gloriosa y perfecta de admirar al unísono de dioses.",
             "derrota_menor": "Un balazo en ala quemó pluma fuerte, te dejó cayendo cojo sobre fardo de paja salvador y pudiste apenas recoger diamantes piratas cojeando fuerte y duro pero rico y vencedor.",
@@ -424,7 +424,7 @@
         "bioma": "Subterráneos y Cuarteles",
         "nombre": "⛏️ Mina del Resplandor Dorado",
         "descripcion": "túneles saturados del brillo cegador de un mineral extraño",
-        "foto": "https://i.pinimg.com/1200x/f8/97/37/f89737cf5fe3c0e46405bf9422e17d94.jpg",
+        "foto": "https://i.pinimg.com/originals/0c/5f/d7/0c5fd73f48bcf3173a30fa7bb569277a.jpg",
         "mensajes": {
             "exito": "Cegado, utilizaste ecos puros aplastando defensores extrayendo el oro puro de ley que abunda del resplandor salvando la mina brillante sin sufrir y salir triunfante glorioso e inmenso de rico sagrado y eterno dominando todo.",
             "derrota_menor": "Envenenamiento mineral debilitó tus piernas y quemó parcialmente visión logrando arrancar parte la de mina de oro puro y huir gateando de la brillante pero brutal trampa subterránea de muerte rica envidiada terrible y sangrienta ganando la apuesta final.",
@@ -436,7 +436,7 @@
         "bioma": "Subterráneos y Cuarteles",
         "nombre": "⛓️ Prisión Tártaro",
         "descripcion": "la cárcel más profunda del mundo, guardada por gólems de piedra",
-        "foto": "https://i.pinimg.com/1200x/17/db/3f/17db3fb83986436676ad68323a4a05dd.jpg",
+        "foto": "https://i.pinimg.com/originals/11/3a/2e/113a2ee135099a81c4af72db7acf7794.jpg",
         "mensajes": {
             "exito": "Dominaste la fuga logrando corromper sistemas, sacando reos famosos a cambio de enormes diamantes pagando su rescate limpiamente bajo tus términos y logrando riqueza e insultos ilesos majestuosa impoluta de un gran y potente explorador victorioso invicto incontrolable dominando golem y acero con inteligencia pura ganando la mayor fortuna del subsuelo negro.",
             "derrota_menor": "Desviando lanzas gólem en tus piernas sufriste dolor sangrante logrando escabullir gemas presidiarias saliendo al pozo principal pero requiriendo ayuda grande letal pero un botín gigante seguro inmenso cruel pero favorable ante todo el terror agudo del sistema oscuro infernal corrupto ganando valerosa fama pero pidiendo clemencia al cielo.",
@@ -448,7 +448,7 @@
         "bioma": "Subterráneos y Cuarteles",
         "nombre": "🩸 Coliseo Sangriento",
         "descripcion": "arenas de combate manchadas de eras de peleas de gladiadores",
-        "foto": "https://i.pinimg.com/1200x/35/a1/5c/35a15cbf85d9b578dc9398fc13429677.jpg",
+        "foto": "https://i.pinimg.com/originals/2a/17/c3/2a17c39a4a8941b2818c4f7df6ab8522.jpg",
         "mensajes": {
             "exito": "Venciste a tres leones demoníacos en combate directo bajo los hurras del público oscuro llevándote fama monedas estandarte bañado puro intacto glorioso intocable supremo valeroso héroe gladiador de la edad de acero sangre y victoria dorada inmortalizada ganadora de riqueza total y sagrada bendita del fuego de honor de dioses caídos gloriosos alabados del estadio completo sangrante eterno puro supremo.",
             "derrota_menor": "Un tajo vil por espalda de trampa arena arrojó dolor extremo logrando ensartar tu tridente sobreviviendo apaleado y amado por multitudes logrando oro seguro en manos muertas tu gloria duele y punza fuerte pero oro de la arena jamás despreciado y aplaudido en la inmensa miseria heróica pura de honor valeroso del final ganado con sudor lágrimas dolor punzante ardiente sangriento heroico triunfador aplastante trágico hermoso cruel victorioso absoluto.",
@@ -460,7 +460,7 @@
         "bioma": "Subterráneos y Cuarteles",
         "nombre": "🦬 Laberinto del Minotauro",
         "descripcion": "pasillos de setos oscuros que cambian de forma constantemente",
-        "foto": "https://i.pinimg.com/1200x/d1/10/6c/d1106c870a4d29528adfbbe10e4bb495.jpg",
+        "foto": "https://i.pinimg.com/1200x/cf/4a/83/cf4a83f0433574c6113fa25605048197.jpg",
         "mensajes": {
             "exito": "Siguiendo el trazo arcaico engañaste mente y mito, decapitando minotauro real llevándote cofres de joya de reyes minoicos antiguo sin rozar armadura dominando laberinto y bestia con maestría insuperable dorada pulcra e implacable fuerte valiente heroica superior ganando todo su premio real sagrado del final triunfante grandioso maravilloso estupendo invicto intocable superior del cielo alabado espléndido valioso ganador divino.",
             "derrota_menor": "Un giro engañoso clavó trampa en tu tórax quebrado en sudor cazaste el monstruo sacando ganancia pero sufriendo dolor maldito trampa cruel sangrando sin cesar ganando botín noble arcaico precioso de un peligro eminente agudo sofocante y trágico victorioso adolorido agonizante valiente desesperado pero vencedor triunfante del calvario oscuro del final laberíntico tortuoso sinuoso letal.",
@@ -472,7 +472,7 @@
         "bioma": "Subterráneos y Cuarteles",
         "nombre": "🔔 Cámara de las Almas Resonantes",
         "descripcion": "un salón inmenso lleno de campanas que suenan solas",
-        "foto": "https://i.pinimg.com/1200x/a7/33/5c/a7335c272a44f18c2a5da4dea06e7b2c.jpg",
+        "foto": "https://i.pinimg.com/originals/df/a0/94/dfa09430387d309b4b2df827c5ff47f3.jpg",
         "mensajes": {
             "exito": "Tus oídos sordos ayudaron superando los gritos de muerte dominando el espíritu guardián llevándote energía áurea resonante intacta sin rozar armadura dominando la acústica mágica de los infiernos triunfante.",
             "derrota_menor": "Sufriendo hemorragia timpánica logras sacar diamante espiritual cayendo al umbral sangrante del terror rítmico perdiendo vida valiosa a cambio del botín supremo milenario adolorido sin par vencedor del caos armónico.",

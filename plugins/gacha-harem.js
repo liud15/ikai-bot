@@ -8,17 +8,20 @@ const CHARACTERS_PATH = path.join(__dirname, '..', 'src', 'database', 'character
 
 const ITEMS_PER_PAGE = 10
 
+// Normaliza un JID eliminando el sufijo de dispositivo (:XX) sin romper @lid ni @s.whatsapp.net
+const stripDevice = (jid = '') => String(jid).replace(/:\d+(?=@)/, '')
+
 let handler = async (m, { conn, args }) => {
     const chat = global.db.data.chats[m.chat]
 
     if (!chat.gacha) chat.gacha = { claimed: {}, activeRolls: {} }
     if (!chat.gacha.claimed) chat.gacha.claimed = {}
 
-    // Determinar de quién ver el harem
+    // Determinar de quién ver el harem (compatible con LID)
     const rawTargetUser = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.sender
-    const targetUser = `${global.getJidNum(rawTargetUser)}@s.whatsapp.net`
+    const targetUser = stripDevice(rawTargetUser)
     const userName = conn.getName(rawTargetUser) || 'Usuario'
-    const isSelf = targetUser === `${global.getJidNum(m.sender)}@s.whatsapp.net`
+    const isSelf = targetUser === stripDevice(m.sender)
 
     // Leer personajes
     let characters

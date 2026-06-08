@@ -116,7 +116,7 @@ let handler = async (m, { conn, args, usedPrefix, command }) => {
             const esDocumento = fileSizeNum > 160
             if (fileSizeBytes) {
                 const tmpSpace = getPathSpace(BOT_TMP)
-                const requiredBytes = Math.ceil(fileSizeBytes * 2.25)
+                const requiredBytes = Math.ceil(fileSizeBytes * 1.2)
                 if (tmpSpace.freeBytes < requiredBytes) {
                     throw new Error(`Temporal sin espacio suficiente. Libre: ${formatBytes(tmpSpace.freeBytes)}. Necesario aprox: ${formatBytes(requiredBytes)}. TMP: ${BOT_TMP}`)
                 }
