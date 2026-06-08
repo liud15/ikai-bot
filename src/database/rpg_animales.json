@@ -6,7 +6,7 @@
         "recompensaMin": 40,
         "recompensaMax": 120,
         "peligro": 0,
-        "foto": "https://i.pinimg.com/1200x/30/6d/b7/306db70f50254e31bd2e52d81d29655a.jpg",
+        "foto": "https://i.pinimg.com/originals/df/d0/43/dfd04334691b318f1d605c7eed1339b2.jpg",
         "mensajes": {
             "exito": "Abatiste al Conejo Cuerno de Luna de un solo golpe certero sin sufrir daño.",
             "escape": "El Conejo Cuerno de Luna te mordió rápido y huyó entre la maleza brillante.",
@@ -20,7 +20,7 @@
         "recompensaMin": 60,
         "recompensaMax": 140,
         "peligro": 0.05,
-        "foto": "https://i.pinimg.com/1200x/93/f0/d3/93f0d305c7d61b0df476a32e06198371.jpg",
+        "foto": "https://i.pinimg.com/originals/6d/54/ef/6d54ef6b86e0ddb9f2bdab5ffcd90730.jpg",
         "mensajes": {
             "exito": "Aplastaste al Sapo Hongo de Cristal antes de que soltara sus esporas.",
             "escape": "El Sapo liberó polvo alucinógeno que te mareó mientras escapaba saltando.",
@@ -1084,7 +1084,7 @@
         "recompensaMin": 18000,
         "recompensaMax": 30000,
         "peligro": 0.84,
-        "foto": "",
+        "foto": "https://i.pinimg.com/originals/cf/b8/52/cfb852826932878a1b2645ca0ba1ba98.jpg",
         "mensajes": {
             "exito": "Sellaste sus orbes de memoria en una vasija antigua y capturaste al Ajolote sin alterar el santuario sumergido.",
             "escape": "El Ajolote liberó recuerdos olvidados en el agua; quedaste paralizado reviviendo vidas ajenas mientras se desvanecía.",
@@ -1098,7 +1098,7 @@
         "recompensaMin": 20000,
         "recompensaMax": 32000,
         "peligro": 0.86,
-        "foto": "",
+        "foto": "https://i.pinimg.com/originals/48/8d/e5/488de544d3a1c32e4e4bb6d8773bf9b5.jpg",
         "mensajes": {
             "exito": "Anticipaste su vuelo imposible y atrapaste al Colibrí en una red de hielo auroral antes de que perforara el cielo.",
             "escape": "Su pico cristalino atravesó tu defensa como una aguja de luz y huyó dejando una estela de aurora sobre la nieve.",
@@ -1112,7 +1112,7 @@
         "recompensaMin": 21000,
         "recompensaMax": 34000,
         "peligro": 0.87,
-        "foto": "",
+        "foto": "https://i.pinimg.com/originals/e8/f6/aa/e8f6aaad89e9e7f6fd1d3a253a3ec909.jpg",
         "mensajes": {
             "exito": "Leíste el reflejo de sus alas de ámbar y la derribaste antes de que invocara ecos prehistóricos.",
             "escape": "La Libélula refractó la luz del amanecer en cientos de copias fósiles y desapareció entre helechos gigantes.",
@@ -1126,7 +1126,7 @@
         "recompensaMin": 22000,
         "recompensaMax": 36000,
         "peligro": 0.88,
-        "foto": "",
+        "foto": "https://i.pinimg.com/originals/58/78/8a/58788ad9eb9454bd035aa0067f4ea45e.jpg",
         "mensajes": {
             "exito": "Apagaste su linterna de niebla con polvo lunar y lo capturaste entre raíces mojadas sin perder el rumbo.",
             "escape": "Su cola iluminó una niebla azul que borró todos los senderos; cuando la bruma cedió, el Lémur ya no estaba.",
@@ -1140,7 +1140,7 @@
         "recompensaMin": 24000,
         "recompensaMax": 38000,
         "peligro": 0.89,
-        "foto": "",
+        "foto": "https://i.pinimg.com/originals/3a/82/58/3a825866ee2e0dd6329ce9ae750a8bb0.jpg",
         "mensajes": {
             "exito": "Descifraste las rutas vivas de sus escamas y cerraste el mapa mágico antes de que pudiera reescribir tu destino.",
             "escape": "El Pangolín se enrolló como un pergamino sagrado y rodó entre dunas, borrando tus huellas con tinta viva.",
@@ -1154,7 +1154,7 @@
         "recompensaMin": 26000,
         "recompensaMax": 42000,
         "peligro": 0.91,
-        "foto": "",
+        "foto": "https://i.pinimg.com/originals/01/43/95/01439591d0c19f801f1a7e6a2ed99820.jpg",
         "mensajes": {
             "exito": "Arrojaste el arpón en el instante exacto y quebraste el brillo de su lanza de ópalo bajo el hielo polar.",
             "escape": "El Narval perforó el glaciar con su colmillo boreal y escapó por una grieta iluminada por auroras.",
@@ -1168,7 +1168,7 @@
         "recompensaMin": 28000,
         "recompensaMax": 44000,
         "peligro": 0.92,
-        "foto": "",
+        "foto": "https://i.pinimg.com/originals/04/5f/dc/045fdc3b7d06fa66e8eddde883512264.jpg",
         "mensajes": {
             "exito": "Afinaste una nota contraria a su canto de cristal y la Mantarraya cayó inmóvil entre ondas de luz.",
             "escape": "Su cuerpo resonó como una catedral submarina, rompiendo tu equilibrio y dejándote perdido en el cañón oceánico.",
@@ -1182,7 +1182,7 @@
         "recompensaMin": 30000,
         "recompensaMax": 46000,
         "peligro": 0.93,
-        "foto": "",
+        "foto": "https://i.pinimg.com/originals/8b/d7/5d/8bd75da06ff64fe095d0792b8c310487.jpg",
         "mensajes": {
             "exito": "Rompiste su máscara de hueso con un golpe limpio y su risa maldita se apagó sobre el campo de restos.",
             "escape": "La Hiena soltó una carcajada resonante que levantó huesos del suelo; escapó mientras te cubrías los oídos sangrantes.",
@@ -1196,7 +1196,7 @@
         "recompensaMin": 31000,
         "recompensaMax": 48000,
         "peligro": 0.94,
-        "foto": "",
+        "foto": "https://i.pinimg.com/originals/0b/85/fe/0b85fe0855497db5c9345d454247ed4f.jpg",
         "mensajes": {
             "exito": "Anclaste tus botas al suelo real y atravesaste al Alce antes de que invirtiera el bosque por completo.",
             "escape": "El mundo giró sobre su cornamenta; caíste hacia un cielo imposible mientras el Alce caminaba fuera de tu alcance.",
@@ -1210,7 +1210,7 @@
         "recompensaMin": 32000,
         "recompensaMax": 50000,
         "peligro": 0.95,
-        "foto": "",
+        "foto": "https://i.pinimg.com/originals/b1/e2/5e/b1e25e4a4fe33537cd12e86af3478a17.jpg",
         "mensajes": {
             "exito": "Usaste la lluvia para revelar su silueta invisible y partiste sus cuchillas de vidrio antes del golpe mortal.",
             "escape": "Solo viste gotas cortadas en el aire; la Mantis te abrió la defensa y desapareció entre bambúes oscuros.",
@@ -1224,7 +1224,7 @@
         "recompensaMin": 22000,
         "recompensaMax": 36000,
         "peligro": 0.88,
-        "foto": "",
+        "foto": "https://i.pinimg.com/originals/b1/da/09/b1da09082bde9dbca5f1002a2cdaca49.jpg",
         "mensajes": {
             "exito": "Entraste lúcido en su sueño termal y despertaste justo a tiempo para sellar al Capibara en calma.",
             "escape": "El vapor del santuario te durmió al instante; despertaste sonriendo, sin monedas y sin rastro del Capibara.",
@@ -1238,7 +1238,7 @@
         "recompensaMin": 34000,
         "recompensaMax": 52000,
         "peligro": 0.95,
-        "foto": "",
+        "foto": "https://i.pinimg.com/originals/fb/78/60/fb7860b887e7e2f2118bbb84c0b2ab71.jpg",
         "mensajes": {
             "exito": "Derrumbaste los arcos de musgo sobre su lomo y el Bisonte cayó como una catedral vencida por el trueno.",
             "escape": "Su embestida hizo retumbar la pradera como campanas antiguas; cuando recuperaste el aire, ya había cruzado el bosque.",
@@ -1252,7 +1252,7 @@
         "recompensaMin": 33000,
         "recompensaMax": 51000,
         "peligro": 0.94,
-        "foto": "",
+        "foto": "https://i.pinimg.com/originals/c0/98/96/c0989668fb73f40309c75bc1a2617765.jpg",
         "mensajes": {
             "exito": "Cerraste el portal en su lomo con barro sagrado y cazaste al Tapir antes de que la selva lo tragara.",
             "escape": "El Tapir abrió una grieta verde bajo la lluvia y cruzó hacia una selva hundida donde no pudiste seguirlo.",
@@ -1266,7 +1266,7 @@
         "recompensaMin": 36000,
         "recompensaMax": 56000,
         "peligro": 0.96,
-        "foto": "",
+        "foto": "https://i.pinimg.com/originals/bc/91/b2/bc91b2e1fbae2420a4d7375d5806af1a.jpg",
         "mensajes": {
             "exito": "Ajustaste el peso de tu arpón con magia inversa y atravesaste a la Anguila en plena distorsión abisal.",
             "escape": "La gravedad se dobló alrededor de su cuerpo; subiste y caíste al mismo tiempo mientras la Anguila desaparecía.",
@@ -1280,7 +1280,7 @@
         "recompensaMin": 34000,
         "recompensaMax": 54000,
         "peligro": 0.95,
-        "foto": "",
+        "foto": "https://i.pinimg.com/originals/0a/07/55/0a0755ced3d405cec9a26b6b27e9af5a.jpg",
         "mensajes": {
             "exito": "Enfriaste su forja con sal de glaciar y la Salamandra quedó atrapada dentro de su propio vidrio volcánico.",
             "escape": "El suelo se volvió cristal líquido bajo tus pies; la Salamandra nadó en fuego y desapareció entre columnas de basalto.",
@@ -1294,7 +1294,7 @@
         "recompensaMin": 28000,
         "recompensaMax": 44000,
         "peligro": 0.91,
-        "foto": "",
+        "foto": "https://i.pinimg.com/originals/41/5a/e7/415ae7d2606fe1f6b555f082bd5f4993.jpg",
         "mensajes": {
             "exito": "Ignoraste mil reflejos falsos y disparaste al único Antílope que no proyectaba sombra sobre la sal.",
             "escape": "El horizonte se partió en espejismos infinitos; perseguiste copias hasta caer agotado bajo el sol blanco.",
@@ -1308,7 +1308,7 @@
         "recompensaMin": 30000,
         "recompensaMax": 48000,
         "peligro": 0.92,
-        "foto": "",
+        "foto": "https://i.pinimg.com/originals/e5/db/d0/e5dbd0f39e673e7eee625b5ec5c0532b.jpg",
         "mensajes": {
             "exito": "Alineaste tu ataque con la constelación correcta y la Jirafa cayó antes de leer tu futuro en las estrellas.",
             "escape": "La Jirafa inclinó su cuello hacia el cielo y abrió un mapa estelar que la elevó fuera de tu alcance.",
@@ -1322,7 +1322,7 @@
         "recompensaMin": 32000,
         "recompensaMax": 50000,
         "peligro": 0.93,
-        "foto": "",
+        "foto": "https://i.pinimg.com/originals/ca/db/42/cadb423f7a53180d6a44a64f4cd5409f.jpg",
         "mensajes": {
             "exito": "Arrancaste la corriente del río con un anzuelo ritual y capturaste al Esturión antes de que hundiera el puente.",
             "escape": "Su corona de perlas negras absorbió la luz del agua; cuando volvió el brillo, solo quedaban burbujas.",
@@ -1336,7 +1336,7 @@
         "recompensaMin": 35000,
         "recompensaMax": 55000,
         "peligro": 0.95,
-        "foto": "",
+        "foto": "https://i.pinimg.com/originals/4b/af/41/4baf418e3618ce163799d990538cb82c.jpg",
         "mensajes": {
             "exito": "Encontraste la raíz maestra de su fortaleza y el Wombat quedó expuesto antes de poder cerrar los túneles.",
             "escape": "El subsuelo entero se plegó sobre sí mismo; el Wombat selló la madriguera y te dejó sepultado en raíces.",
@@ -1350,7 +1350,7 @@
         "recompensaMin": 30000,
         "recompensaMax": 47000,
         "peligro": 0.92,
-        "foto": "",
+        "foto": "https://i.pinimg.com/originals/75/19/c1/7519c186aa549ca9e1edd6942717caa9.jpg",
         "mensajes": {
             "exito": "Seguiste el único bambú que no se movía con el viento y capturaste al Saola antes de volverse niebla.",
             "escape": "El Saola cruzó entre bambúes blancos como un fantasma; tu arma atravesó solo bruma plateada.",
@@ -1364,7 +1364,7 @@
         "recompensaMin": 36000,
         "recompensaMax": 58000,
         "peligro": 0.96,
-        "foto": "",
+        "foto": "https://i.pinimg.com/originals/d5/f6/f9/d5f6f9237e0a94662223758d039d1b31.jpg",
         "mensajes": {
             "exito": "Rompiste la ruta imposible grabada en su concha y el Nautilus quedó atrapado en una marea sin salida.",
             "escape": "Redibujó el océano sobre su caparazón; nadabas hacia él, pero cada brazada te alejaba más.",
@@ -1378,7 +1378,7 @@
         "recompensaMin": 38000,
         "recompensaMax": 60000,
         "peligro": 0.97,
-        "foto": "",
+        "foto": "https://i.pinimg.com/originals/59/41/8a/59418a24029e9008c481015b8f6a80c2.jpg",
         "mensajes": {
             "exito": "Clavaste un sello de luz en su lengua del vacío antes de que absorbiera la cámara del templo.",
             "escape": "Su lengua abrió un agujero negro diminuto que devoró tus trampas, tus huellas y casi tu brazo.",
@@ -1392,7 +1392,7 @@
         "recompensaMin": 50000,
         "recompensaMax": 80000,
         "peligro": 0.99,
-        "foto": "",
+        "foto": "https://i.pinimg.com/originals/90/a9/e7/90a9e788519e1fe3eb98c8bde8af79e3.jpg",
         "mensajes": {
             "exito": "Sincronizaste tu ataque entre dimensiones y sellaste al Tardígrado antes de que mordiera otra capa de realidad.",
             "escape": "El Tardígrado plegó el espacio como tela húmeda; cuando intentaste golpearlo, ya estaba en otra dimensión.",
