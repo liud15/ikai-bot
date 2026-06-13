@@ -209,47 +209,87 @@ if (global.db.data) await global.db.write()
 
 // if (opts['server']) (await import('./server.js')).default(global.conn, PORT);
 
+// ── Reconexión automática infinita con backoff exponencial ─────────────────
+// Basado en el patrón oficial de Baileys: re-leer creds del disco en cada
+// intento garantiza que la sesión siempre esté fresca.
+let reconnectAttempts = 0
+const BASE_DELAY_MS = 2000
+const MAX_DELAY_MS = 60000
+
+function getBackoffDelay(attempt) {
+  const exponential = Math.min(BASE_DELAY_MS * Math.pow(2, attempt), MAX_DELAY_MS)
+  const jitter = exponential * 0.2 * (Math.random() - 0.5) // ±10% jitter
+  return Math.round(exponential + jitter)
+}
+
+async function scheduleReconnect(label) {
+  const delay = getBackoffDelay(reconnectAttempts)
+  reconnectAttempts++
+  console.log(chalk.bold.yellowBright(`\n⏳ ${label} — Reconexión #${reconnectAttempts}, esperando ${(delay / 1000).toFixed(1)}s...`))
+  await new Promise(r => setTimeout(r, delay))
+  // Re-leer creds del disco antes de reconectar (patrón oficial Baileys)
+  try {
+    const fresh = await useMultiFileAuthState(global.sessions)
+    connectionOptions.auth = {
+      creds: fresh.state.creds,
+      keys: makeCacheableSignalKeyStore(fresh.state.keys, Pino({ level: 'fatal' }).child({ level: 'fatal' }))
+    }
+    conn.credsUpdate = fresh.saveCreds.bind(global.conn, true)
+  } catch (e) {
+    console.error('[Reconexión] No se pudieron re-leer las credenciales:', e.message)
+  }
+  await global.reloadHandler(true).catch(console.error)
+}
+// ───────────────────────────────────────────────────────────────────────────
+
 async function connectionUpdate(update) {
 const {connection, lastDisconnect, isNewLogin} = update;
 global.stopped = connection;
 if (isNewLogin) conn.isInit = true;
 const code = lastDisconnect?.error?.output?.statusCode || lastDisconnect?.error?.output?.payload?.statusCode;
 if (code && code !== DisconnectReason.loggedOut && conn?.ws.socket == null) {
-await global.reloadHandler(true).catch(console.error);
-global.timestamp.connect = new Date;
+    global.timestamp.connect = new Date;
 }
 if (global.db.data == null) loadDatabase();
 if (update.qr != 0 && update.qr != undefined || methodCodeQR) {
-if (opcion == '1' || methodCodeQR) {
-console.log(chalk.bold.yellow(`\n❐ ESCANEA EL CÓDIGO QR EXPIRA EN 45 SEGUNDOS`))}
+ if (opcion == '1' || methodCodeQR) {
+  console.log(chalk.bold.yellow(`\n❐ ESCANEA EL CÓDIGO QR EXPIRA EN 45 SEGUNDOS`))}
 }
 if (connection == 'open') {
-console.log(chalk.bold.green('\n MitaBot-MD Conectada con éxito'))
+  // ✅ Conexión exitosa: resetear contador de intentos
+  if (reconnectAttempts > 0)
+    console.log(chalk.bold.green(`\n✅ Reconexión exitosa después de ${reconnectAttempts} intento(s).`))
+  reconnectAttempts = 0
+  console.log(chalk.bold.green('\n MitaBot-MD Conectada con éxito ✓'))
 }
 let reason = new Boom(lastDisconnect?.error)?.output?.statusCode
 if (connection === 'close') {
-if (reason === DisconnectReason.badSession) {
-console.log(chalk.bold.cyanBright(`\n⚠︎ SIN CONEXIÓN, BORRE LA CARPETA ${global.sessions} Y REINICIE EL SERVIDOR ⚠︎`))
-} else if (reason === DisconnectReason.connectionClosed) {
-console.log(chalk.bold.magentaBright(`\n╭┄┄┄┄┄┄┄┄┄┄┄┄┄┄ • • • ┄┄┄┄┄┄┄┄┄┄┄┄┄┄ ☹\n┆ ⚠︎ CONEXION CERRADA, RECONECTANDO....\n╰┄┄┄┄┄┄┄┄┄┄┄┄┄┄ • • • ┄┄┄┄┄┄┄┄┄┄┄┄┄┄ ☹`))
-await global.reloadHandler(true).catch(console.error)
-} else if (reason === DisconnectReason.connectionLost) {
-console.log(chalk.bold.blueBright(`\n╭┄┄┄┄┄┄┄┄┄┄┄┄┄┄ • • • ┄┄┄┄┄┄┄┄┄┄┄┄┄┄ ☂\n┆ ⚠︎ CONEXIÓN PERDIDA CON EL SERVIDOR, RECONECTANDO....\n╰┄┄┄┄┄┄┄┄┄┄┄┄┄┄ • • • ┄┄┄┄┄┄┄┄┄┄┄┄┄┄ ☂`))
-await global.reloadHandler(true).catch(console.error)
-} else if (reason === DisconnectReason.connectionReplaced) {
-console.log(chalk.bold.yellowBright(`\n╭┄┄┄┄┄┄┄┄┄┄┄┄┄┄ • • • ┄┄┄┄┄┄┄┄┄┄┄┄┄┄ ✗\n┆ ⚠︎ CONEXIÓN REEMPLAZADA, SE HA ABIERTO OTRA NUEVA SESION, POR FAVOR, CIERRA LA SESIÓN ACTUAL PRIMERO.\n╰┄┄┄┄┄┄┄┄┄┄┄┄┄┄ • • • ┄┄┄┄┄┄┄┄┄┄┄┄┄┄ ✗`))
-} else if (reason === DisconnectReason.loggedOut) {
-console.log(chalk.bold.redBright(`\n⚠︎ SIN CONEXIÓN, BORRE LA CARPETA ${global.sessions} Y REINICIE EL SERVIDOR ⚠︎`))
-await global.reloadHandler(true).catch(console.error)
-} else if (reason === DisconnectReason.restartRequired) {
-console.log(chalk.bold.cyanBright(`\n╭┄┄┄┄┄┄┄┄┄┄┄┄┄┄ • • • ┄┄┄┄┄┄┄┄┄┄┄┄┄┄ ✓\n┆ ✧ CONECTANDO AL SERVIDOR...\n╰┄┄┄┄┄┄┄┄┄┄┄┄┄┄ • • • ┄┄┄┄┄┄┄┄┄┄┄┄┄┄ ✓`))
-await global.reloadHandler(true).catch(console.error)
-} else if (reason === DisconnectReason.timedOut) {
-console.log(chalk.bold.yellowBright(`\n╭┄┄┄┄┄┄┄┄┄┄┄┄┄┄ • • • ┄┄┄┄┄┄┄┄┄┄┄┄┄┄ ▸\n┆ ⧖ TIEMPO DE CONEXIÓN AGOTADO, RECONECTANDO....\n╰┄┄┄┄┄┄┄┄┄┄┄┄┄┄ • • • ┄┄┄┄┄┄┄┄┄┄┄┄┄┄ ▸`))
-await global.reloadHandler(true).catch(console.error) //process.send('reset')
-} else {
-console.log(chalk.bold.redBright(`\n⚠︎！ RAZON DE DESCONEXIÓN DESCONOCIDA: ${reason || 'No encontrado'} >> ${connection || 'No encontrado'}`))
-}}
+ if (reason === DisconnectReason.badSession) {
+  console.log(chalk.bold.cyanBright(`\n⚠︎ SIN CONEXIÓN, BORRE LA CARPETA ${global.sessions} Y REINICIE EL SERVIDOR ⚠︎`))
+  // Sesión corrupta: no reconectar automáticamente
+ } else if (reason === DisconnectReason.connectionClosed) {
+  console.log(chalk.bold.magentaBright(`\n╭┄┄┄┄┄┄┄┄┄┄┄┄┄┄ • • • ┄┄┄┄┄┄┄┄┄┄┄┄┄┄ ☹\n┆ ⚠︎ CONEXION CERRADA, RECONECTANDO....\n╰┄┄┄┄┄┄┄┄┄┄┄┄┄┄ • • • ┄┄┄┄┄┄┄┄┄┄┄┄┄┄ ☹`))
+  await scheduleReconnect('Conexión cerrada')
+ } else if (reason === DisconnectReason.connectionLost) {
+  console.log(chalk.bold.blueBright(`\n╭┄┄┄┄┄┄┄┄┄┄┄┄┄┄ • • • ┄┄┄┄┄┄┄┄┄┄┄┄┄┄ ☂\n┆ ⚠︎ CONEXIÓN PERDIDA CON EL SERVIDOR, RECONECTANDO....\n╰┄┄┄┄┄┄┄┄┄┄┄┄┄┄ • • • ┄┄┄┄┄┄┄┄┄┄┄┄┄┄ ☂`))
+  await scheduleReconnect('Conexión perdida')
+ } else if (reason === DisconnectReason.connectionReplaced) {
+  console.log(chalk.bold.yellowBright(`\n╭┄┄┄┄┄┄┄┄┄┄┄┄┄┄ • • • ┄┄┄┄┄┄┄┄┄┄┄┄┄┄ ✗\n┆ ⚠︎ CONEXIÓN REEMPLAZADA, SE HA ABIERTO OTRA NUEVA SESION, POR FAVOR, CIERRA LA SESIÓN ACTUAL PRIMERO.\n╰┄┄┄┄┄┄┄┄┄┄┄┄┄┄ • • • ┄┄┄┄┄┄┄┄┄┄┄┄┄┄ ✗`))
+  // Sesión reemplazada: no reconectar (requiere cierre manual de la otra sesión)
+ } else if (reason === DisconnectReason.loggedOut) {
+  console.log(chalk.bold.redBright(`\n⚠︎ SIN CONEXIÓN, BORRE LA CARPETA ${global.sessions} Y REINICIE EL SERVIDOR ⚠︎`))
+  // Logged out: no reconectar automáticamente (requiere nuevo QR/código)
+ } else if (reason === DisconnectReason.restartRequired) {
+  console.log(chalk.bold.cyanBright(`\n╭┄┄┄┄┄┄┄┄┄┄┄┄┄┄ • • • ┄┄┄┄┄┄┄┄┄┄┄┄┄┄ ✓\n┆ ✧ CONECTANDO AL SERVIDOR...\n╰┄┄┄┄┄┄┄┄┄┄┄┄┄┄ • • • ┄┄┄┄┄┄┄┄┄┄┄┄┄┄ ✓`))
+  await scheduleReconnect('Reinicio requerido')
+ } else if (reason === DisconnectReason.timedOut) {
+  console.log(chalk.bold.yellowBright(`\n╭┄┄┄┄┄┄┄┄┄┄┄┄┄┄ • • • ┄┄┄┄┄┄┄┄┄┄┄┄┄┄ ▸\n┆ ⧖ TIEMPO DE CONEXIÓN AGOTADO, RECONECTANDO....\n╰┄┄┄┄┄┄┄┄┄┄┄┄┄┄ • • • ┄┄┄┄┄┄┄┄┄┄┄┄┄┄ ▸`))
+  await scheduleReconnect('Tiempo agotado')
+ } else {
+  console.log(chalk.bold.redBright(`\n⚠︎！ RAZON DE DESCONEXIÓN DESCONOCIDA: ${reason || 'No encontrado'} >> ${connection || 'No encontrado'}`))
+  if (reason) await scheduleReconnect('Desconexión desconocida')
+ }
+}
 }
 process.on('uncaughtException', console.error)
 
@@ -414,19 +454,13 @@ function clearTmp() {
     return borrados
 }
 
-function purgeSession() {
-let prekey = []
-let directorio = readdirSync(`./${sessions}`)
-let filesFolderPreKeys = directorio.filter(file => {
-return file.startsWith('pre-key-')
-})
-prekey = [...prekey, ...filesFolderPreKeys]
-filesFolderPreKeys.forEach(files => {
-unlinkSync(`./${sessions}/${files}`)
-})
-} 
+// ── purgeSession y purgeSessionSB eliminadas ───────────────────────────────
+// Los archivos pre-key-* son parte del protocolo Signal (doble ratchet).
+// Borrarlos periódicamente corrompe la sesión y provoca desconexiones.
+// Si la carpeta de sesión crece demasiado, es síntoma de otro problema.
+// ───────────────────────────────────────────────────────────────────────────
 
-function purgeSessionSB() {
+function _purgeSessionSB_DISABLED() { // Deshabilitada: borraba pre-keys Signal
 try {
 const listaDirectorios = readdirSync(`./${jadi}/`);
 let SBprekey = [];
@@ -480,19 +514,9 @@ if (!conn || !conn.user) return
 await clearTmp()
 console.log(chalk.bold.cyanBright(`\n╭» ❍ MULTIMEDIA ❍\n│→ ARCHIVOS DE LA CARPETA TMP ELIMINADAS\n╰― ― ― ― ― ― ― ― ― ― ― ― ― ― ― ― ― ― ― ⌫ ♻`))}, 1000 * 60 * 4) // 4 min 
 
-setInterval(async () => {
-if (stopped === 'close' || !conn || !conn.user) return
-await purgeSession()
-console.log(chalk.bold.cyanBright(`\n╭» ❍ ${global.sessions} ❍\n│→ SESIONES NO ESENCIALES ELIMINADAS\n╰― ― ― ― ― ― ― ― ― ― ― ― ― ― ― ― ― ― ― ⌫ ♻`))}, 1000 * 60 * 10) // 10 min
-
-setInterval(async () => {
-if (stopped === 'close' || !conn || !conn.user) return
-await purgeSessionSB()}, 1000 * 60 * 10) 
-
-setInterval(async () => {
-if (stopped === 'close' || !conn || !conn.user) return
-await purgeOldFiles()
-console.log(chalk.bold.cyanBright(`\n╭» ❍ ARCHIVOS ❍\n│→ ARCHIVOS RESIDUALES ELIMINADAS\n╰― ― ― ― ― ― ― ― ― ― ― ― ― ― ― ― ― ― ― ⌫ ♻`))}, 1000 * 60 * 10)
+// setIntervals de purgeSession / purgeSessionSB / purgeOldFiles eliminados.
+// Razón: borraban archivos pre-key-* del protocolo Signal cada 10 min,
+// desestabilizando la sesión y provocando desconexiones frecuentes.
 
 _quickTest().then(() => conn.logger.info(chalk.bold(`✦  H E C H O\n`.trim()))).catch(console.error)
 
