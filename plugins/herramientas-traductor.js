@@ -3,28 +3,26 @@ import fetch from 'node-fetch';
 let handler = async (m, { text, usedPrefix, command, conn }) => {
     if (!text) {
         return m.reply(
-            `🌐 *Traductor*\n\n` +
-            `*Uso:*\n` +
-            `${usedPrefix + command} <idioma> <texto>\n\n` +
-            `*Ejemplos:*\n` +
-            `${usedPrefix}traducir en Hello, how are you?\n` +
-            `${usedPrefix}traducir es Bonjour le monde\n` +
-            `${usedPrefix}traducir ja Hola mundo\n` +
-            `${usedPrefix}traducir fr I love programming\n\n` +
-            `*También puedes responder a un mensaje:*\n` +
-            `${usedPrefix}traducir en\n\n` +
-            `*Idiomas populares:*\n` +
-            `🇪🇸 es — Español\n` +
-            `🇺🇸 en — English\n` +
-            `🇫🇷 fr — Français\n` +
-            `🇩🇪 de — Deutsch\n` +
-            `🇮🇹 it — Italiano\n` +
-            `🇵🇹 pt — Português\n` +
-            `🇯🇵 ja — 日本語\n` +
-            `🇰🇷 ko — 한국어\n` +
-            `🇨🇳 zh — 中文\n` +
-            `🇷🇺 ru — Русский\n` +
-            `🇸🇦 ar — العربية`
+            `「✦」 *TRADUCTOR*\n\n` +
+            `┃ Uso: *${usedPrefix + command} <idioma> <texto>*\n\n` +
+            `┃ Ejemplos:\n` +
+            `┃ ${usedPrefix}traducir en Hello, how are you?\n` +
+            `┃ ${usedPrefix}traducir es Bonjour le monde\n` +
+            `┃ ${usedPrefix}traducir ja Hola mundo\n\n` +
+            `┃ También puedes responder a un mensaje:\n` +
+            `┃ ${usedPrefix}traducir en\n\n` +
+            `┃ Idiomas populares:\n` +
+            `┃ es — Español\n` +
+            `┃ en — English\n` +
+            `┃ fr — Français\n` +
+            `┃ de — Deutsch\n` +
+            `┃ it — Italiano\n` +
+            `┃ pt — Português\n` +
+            `┃ ja — 日本語\n` +
+            `┃ ko — 한국어\n` +
+            `┃ zh — 中文\n` +
+            `┃ ru — Русский\n` +
+            `┃ ar — العربية`
         );
     }
 
@@ -77,16 +75,14 @@ let handler = async (m, { text, usedPrefix, command, conn }) => {
             return m.reply('❌ No se pudo traducir el texto. Inténtalo más tarde.');
         }
 
-        const bandera = obtenerBandera(targetLang);
-        const nombreIdioma = obtenerNombreIdioma(targetLang);
+        const bandera = obtenerNombreIdioma(targetLang);
 
-        let msg = `🌐 *TRADUCTOR*\n\n`;
-        msg += `📥 *Original:*\n${textoTraducir}\n\n`;
-        msg += `${bandera} *${nombreIdioma}:*\n${traduccion}\n\n`;
-        msg += `━━━━━━━━━━━━━━━\n`;
-        msg += `⪛✰ IKAIBOT - Traductor ✰⪜`;
+        let msg = `「✦」 *TRADUCTOR*\n\n`;
+        msg += `┃ ▻ Original:\n${textoTraducir}\n\n`;
+        msg += `┃ ✦ *${bandera}:*\n${traduccion}\n\n`;
+        msg += `└───────────────`;
 
-        await conn.sendMessage(m.chat, { react: { text: '✅', key: m.key } });
+        await conn.sendMessage(m.chat, { react: { text: '✔️', key: m.key } });
         return m.reply(msg);
 
     } catch (e) {

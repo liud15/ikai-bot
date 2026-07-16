@@ -1,4 +1,6 @@
-const handler = async (m, { conn, participants, groupMetadata }) => {
+import fetch from 'node-fetch'
+
+let handler = async (m, { conn }) => {
   const { welcome, autolevelup, antiBot, antiBot2, autoAceptar, autoRechazar, autoresponder, modoadmin, reaction, nsfw, detect, antiLink, antiLink2, antitoxic, antiTraba, antifake } = global.db.data.chats[m.chat];
   
   const text = `✨ *CONFIGURACIÓN DEL GRUPO* 
@@ -53,19 +55,18 @@ const handler = async (m, { conn, participants, groupMetadata }) => {
 
 _*✦ Nota: Puedes activar una de estas opciones de esta manera Ejemplo: #antilink*_`.trim();
 
-await conn.sendMessage(m.chat, {
-text: text,
-contextInfo: {
-externalAdReply: {
-title: packname,
-body: dev,
-thumbnailUrl: avatar,
-mediaType: 1,
-showAdAttribution: true,
-renderLargerThumbnail: true
-}
-}
-}, { quoted: m });
+  // Enviar con imagen del bot en lugar de miniatura de link preview
+  let avatarBuffer = null
+  try {
+    const res = await fetch(avatar)
+    if (res.ok) avatarBuffer = Buffer.from(await res.arrayBuffer())
+  } catch { /* fallback a texto si falla */ }
+
+  if (avatarBuffer) {
+    await conn.sendMessage(m.chat, { image: avatarBuffer, caption: text }, { quoted: m })
+  } else {
+    await conn.sendMessage(m.chat, { text }, { quoted: m })
+  }
 };
 
 handler.help = ['configuraciongrupo'];

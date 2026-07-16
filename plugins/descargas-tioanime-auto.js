@@ -1,6 +1,64 @@
 import { detail, download } from '../lib/tioanime.js';
-import { File } from "megajs";
+import axios from 'axios';
+import * as cheerio from 'cheerio';
 import fs from "fs";
+
+// Helper: descarga desde Mega con reintentos y backoff exponencial
+async function downloadMegaWithRetry(url, maxRetries = 3) {
+    const { File } = await import('megajs');
+    const delays = [5000, 15000, 30000];
+    let lastErr;
+    for (let i = 0; i < maxRetries; i++) {
+        try {
+            const file = File.fromURL(url);
+            await file.loadAttributes();
+            return await file.downloadBuffer();
+        } catch (err) {
+            lastErr = err;
+            const isRetryable = err.message && (err.message.includes('ETOOMANY') || err.message.includes('-6') || err.message.includes('EAGAIN'));
+            if (!isRetryable || i === maxRetries - 1) throw err;
+            console.log(`[TioAnime Auto] Mega ETOOMANY, reintentando en ${delays[i] / 1000}s... (intento ${i + 1}/${maxRetries})`);
+            await new Promise(r => setTimeout(r, delays[i]));
+        }
+    }
+    throw lastErr;
+}
+
+// Helper: descarga desde un fallback — mp4 directo o extrayendo del embed (Voe, YourUpload, etc.)
+async function downloadFallback(url) {
+    // Si ya es un mp4 directo, descargar directo
+    if (/\.mp4/i.test(url)) {
+        const res = await fetch(url, {
+            headers: { 'User-Agent': 'Mozilla/5.0', 'Referer': 'https://tioanime.com/' }
+        });
+        if (res.ok) return Buffer.from(await res.arrayBuffer());
+    }
+    // Si es un embed, intentar extraer el mp4 real
+    try {
+        const { data } = await axios.get(url, {
+            headers: { 'User-Agent': 'Mozilla/5.0', 'Referer': 'https://tioanime.com/' },
+            timeout: 15000
+        });
+        const $ = cheerio.load(data);
+        let mp4 = $('meta[property="og:video"]').attr('content') ||
+                  $('meta[property="og:video:url"]').attr('content');
+        if (!mp4) {
+            const patterns = [
+                /file:\s*["'](https?:\/\/[^"']+\.mp4[^"']*)["']/i,
+                /source\s+src=["'](https?:\/\/[^"']+\.mp4[^"']*)["']/i,
+            ];
+            for (const pat of patterns) {
+                const m = data.match(pat);
+                if (m) { mp4 = m[1]; break; }
+            }
+        }
+        if (mp4) {
+            const res2 = await fetch(mp4, { headers: { 'User-Agent': 'Mozilla/5.0', 'Referer': url } });
+            if (res2.ok) return Buffer.from(await res2.arrayBuffer());
+        }
+    } catch (_) {}
+    throw new Error('Fallback no disponible para este episodio.');
+}
 
 const DB_FILE = './tioanime_db.json';
 
@@ -93,7 +151,7 @@ let handler = async (m, { conn, command, usedPrefix, text, args, isOwner, isROwn
         saveDB(db);
 
         m.react('✅');
-        return m.reply(`✅ *${info.title}* añadido correctamente a la lista.\n\n> 📆 Se revisará automáticamente los **${normalizedDay}s** a partir de las **${time}** (+30 mins aprox.).\n> El último detectado fue el **${maxEpNum}**.`);
+        return m.reply(`✅ *${info.title}* añadido correctamente a la lista.\n\n> 📆 Se revisará automáticamente los **${normalizedDay}** a partir de las **${time}** (+30 mins aprox.).\n> El último detectado fue el capitulo **${maxEpNum}**.`);
     }
 
     if (action === 'remove') {
@@ -185,12 +243,34 @@ handler.before = async (m, { conn }) => {
                             if (!inf.error && inf.dl && inf.dl.sub) {
                                 let videoBuffer;
                                 if (inf.type === 'mega') {
-                                    const file = File.fromURL(inf.dl.sub);
-                                    await file.loadAttributes();
-                                    videoBuffer = await file.downloadBuffer();
+                                    try {
+                                        videoBuffer = await downloadMegaWithRetry(inf.dl.sub);
+                                    } catch (megaErr) {
+                                        // Mega falló incluso con reintentos — intentar con fallback (Voe, YourUpload, etc.)
+                                        if (inf.fallback) {
+                                            console.log(`[TioAnime Auto] Mega saturado para ${anime.title} ep ${ep}, usando fallback.`);
+                                            videoBuffer = await downloadFallback(inf.fallback);
+                                        } else {
+                                            throw megaErr;
+                                        }
+                                    }
                                 } else {
-                                    const res = await fetch(inf.dl.sub);
-                                    videoBuffer = Buffer.from(await res.arrayBuffer());
+                                    // type === 'direct': Voe/YourUpload ya resuelto a mp4 directo
+                                    try {
+                                        const res = await fetch(inf.dl.sub, {
+                                            headers: { 'User-Agent': 'Mozilla/5.0', 'Referer': 'https://tioanime.com/' }
+                                        });
+                                        if (!res.ok) throw new Error(`HTTP ${res.status}`);
+                                        videoBuffer = Buffer.from(await res.arrayBuffer());
+                                    } catch (directErr) {
+                                        // Si falla y hay Mega disponible como fallback
+                                        if (inf.fallback) {
+                                            console.log(`[TioAnime Auto] Directo falló para ${anime.title} ep ${ep}, intentando Mega.`);
+                                            videoBuffer = await downloadMegaWithRetry(inf.fallback);
+                                        } else {
+                                            throw new Error(`Error descargando directo: ${directErr.message}`);
+                                        }
+                                    }
                                 }
                                 
                                 await conn.sendFile(chatId, videoBuffer, `${anime.title} - ep ${ep}.mp4`, `✨ *¡NUEVO EPISODIO DETECTADO!*\n\n> 📺 *Anime:* ${anime.title}\n> 🍿 *Episodio:* ${ep}`, null, false, {

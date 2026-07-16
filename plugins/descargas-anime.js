@@ -1,4 +1,4 @@
-//código creado por tesis 
+﻿//código creado por tesis 
 import { download, detail, search } from "../lib/anime.js";
 
 async function lang(episodes) {
@@ -18,7 +18,7 @@ async function lang(episodes) {
 }
 
 let handler = async (m, { command, usedPrefix, conn, text, args }) => {
-    if (!text) return m.reply(`${emoji} \`Ingresa el título de algún anime o la URL. Ejemplo:\`\n\n • ${usedPrefix + command} Mushoku Tensei\n • ${usedPrefix + command} https://animeav1.com/media/mushoku-tensei`);
+    if (!text) return m.reply(`❍ \`Ingresa el título de algún anime o la URL. Ejemplo:\`\n\n • ${usedPrefix + command} Mushoku Tensei\n • ${usedPrefix + command} https://animeav1.com/media/mushoku-tensei`);
 
     try {
         if (text.includes('https://animeav1.com/media/')) {

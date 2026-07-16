@@ -3,8 +3,10 @@ import { delay } from "@whiskeysockets/baileys"
 
 // --- CONSTANTES Y CONFIGURACIÓN ---
 const carreras = {} // Estado en memoria para carreras activas por chat
+const cooldownCreacion = new Map() // userId -> timestamp de la última creación
+const COOLDOWN_CREAR = 20 * 60 * 1000 // 20 minutos en ms
 const MIN_APUESTA = 50
-const MAX_APUESTA = 50000
+const MAX_APUESTA = 500000
 const EMOJIS_VALIDOS = ["🚗", "🚕", "🚙", "🏎️", "🚓", "🚚"]
 const META_DISTANCIA = 15 // Longitud visual de la pista
 const TIEMPO_ESPERA_UNION = 25000 // 25 segundos para unirse
@@ -50,25 +52,24 @@ let handler = async (m, { conn, text, command, args }) => {
   // Validaciones
   if (!emojiSeleccionado || !EMOJIS_VALIDOS.includes(emojiSeleccionado)) {
     return conn.reply(m.chat, `
-❌ *Vehículo no válido*
-
-📌 *Usa:* ${command} <emoji> <apuesta>
+*Vehículo no válido*
+> *Usa:* ${command} <emoji> <apuesta>
 
 *Ejemplo:*
-${command} 🚗 500
+> ${command} 🚗 500
 
 *Vehículos disponibles:*
-${EMOJIS_VALIDOS.join(" ")}
+> ${EMOJIS_VALIDOS.join(" ")}
 
 *Límites:*
-Mín: ${MIN_APUESTA} | Máx: ${MAX_APUESTA} coins
+> *Mín:* ${MIN_APUESTA} | *Máx:* ${MAX_APUESTA} coins
 
 🏆 *Gana x${PRECIO_GANANCIA}* tu apuesta
     `, m)
   }
 
   if (isNaN(apuesta) || apuesta < MIN_APUESTA || apuesta > MAX_APUESTA) {
-    return m.reply(`❌ *Apuesta inválida*\n\nMínimo: ${MIN_APUESTA}\nMáximo: ${MAX_APUESTA}`)
+    return m.reply(`❌ *Apuesta inválida*\n\n> *💰Mínimo:* ${MIN_APUESTA}\n> *💰Máximo:* ${MAX_APUESTA}`)
   }
 
   if (!Number.isInteger(apuesta)) {
@@ -77,11 +78,28 @@ Mín: ${MIN_APUESTA} | Máx: ${MAX_APUESTA} coins
 
   const coinsActuales = userData.coin || 0
   if (coinsActuales < apuesta) {
-    return m.reply(`❌ *Fondos insuficientes*\n\n💰 Tienes: ${coinsActuales} coins\n📊 Necesitas: ${apuesta} coins`)
+    return m.reply(`❌ *Fondos insuficientes*\n\n> *💰Tienes:* ${coinsActuales} coins\n> *📊Necesitas:* ${apuesta} coins`)
   }
 
   // --- CREAR O UNIRSE A CARRERA ---
   if (!carreras[chatId] || carreras[chatId].finalizada) {
+    // Verificar cooldown antes de permitir crear una nueva carrera
+    const ahora = Date.now()
+    const ultimaCreacion = cooldownCreacion.get(userId)
+    if (ultimaCreacion) {
+      const tiempoTranscurrido = ahora - ultimaCreacion
+      const tiempoRestante = COOLDOWN_CREAR - tiempoTranscurrido
+      if (tiempoRestante > 0) {
+        const minutos = Math.floor(tiempoRestante / 60000)
+        const segundos = Math.floor((tiempoRestante % 60000) / 1000)
+        return m.reply(
+          `⏳ *¡Calma, piloto!*\n\n` +
+          `> Debes esperar *${minutos}m ${segundos}s* antes de crear una nueva carrera.\n\n` +
+          `> 💡 _Puedes unirte a una carrera activa si hay una en curso._`
+        )
+      }
+    }
+    cooldownCreacion.set(userId, ahora)
     await crearCarrera(chatId, conn, m)
     await delay(500)
   }
@@ -290,7 +308,6 @@ async function iniciarCarrera(chatId, conn, m) {
 
   const textoInicio = `
 🚦 *¡LA CARRERA COMIENZA!* 🚦
-META ← ← ← DIRECCIÓN
 
 ${renderCarrera()}
 
@@ -335,7 +352,7 @@ ${Object.values(carrera.jugadores).map(j => `${j.emoji} ${j.nombre}`).join(' •
 
 ${renderCarrera()}
 
-Frame: ${frame} ⏱️
+> _*Frame:* ${frame} ⏱️_
       `.trim()
 
       try {
@@ -355,7 +372,7 @@ Frame: ${frame} ⏱️
     const userData = global.db.data.users
     const ganadorData = carrera.jugadores[ganador]
 
-    let mensajeFinal = `\n🎉 *¡GANÓ ${ganadorData.nombre} CON ${ganadorData.emoji}!* 🎉\n\n`
+    let mensajeFinal = `\n> 🎉 *¡GANÓ ${ganadorData.nombre} CON ${ganadorData.emoji}!*\n`
 
     let ganadoresInfo = []
     let hayGanadores = false
@@ -374,14 +391,14 @@ Frame: ${frame} ⏱️
             premio
           })
 
-          mensajeFinal += `💰 *${data.nombre}* gana *${premio}* coins!\n`
+          mensajeFinal += `> 💰 *${data.nombre}* gana *${premio}* coins!\n`
 
           userData[userId].carrera.victorias++
           userData[userId].carrera.gananciasTotal += premio
           hayGanadores = true
         } else {
           // El bot ganó
-          mensajeFinal += `🤖 *${data.nombre}* ganó la carrera (no hay premio para bots)\n`
+          mensajeFinal += `🤖 *${data.nombre}* ganó la carrera\n`
         }
       } else {
         // Solo restar si no es bot
@@ -455,9 +472,7 @@ async function mostrarStats(m, conn, userId) {
 🏁 *CARRERAS:* ${stats.juegos}
 ✅ *VICTORIAS:* ${stats.victorias}
 ❌ *DERROTAS:* ${stats.perdidas}
-
 ━━━━━━━━━━━━━━━━━━━━━━
-
 💰 *ANÁLISIS FINANCIERO:*
 📈 Ganancias: +${stats.gananciasTotal}
 📉 Pérdidas: -${stats.perdidasTotal}
@@ -480,23 +495,21 @@ async function mostrarAyuda(m, conn, command) {
 Apuesta en un auto y gana x${PRECIO_GANANCIA} si llega primero a la META.
 
 💰 *CÓMO JUGAR:*
-${command} <emoji> <apuesta>
-
+> ${command} <emoji> <apuesta>
 *Ejemplo:*
-${command} 🚗 500
+> ${command} 🚗 500
 
 🚗 *VEHÍCULOS:*
-${EMOJIS_VALIDOS.join(" ")}
+> ${EMOJIS_VALIDOS.join(" ")}
 
 ━━━━━━━━━━━━━━━━━━━━━━
 💰 *APUESTAS:*
 Mín: ${MIN_APUESTA} | Máx: ${MAX_APUESTA} coins
 
-✅ GANA: x${PRECIO_GANANCIA}
-❌ PIERDE: -apuesta
+*GANA:* x${PRECIO_GANANCIA}
+*PIERDE:* -apuesta
 
 ⏱️ *ESPERA:* ${TIEMPO_ESPERA_UNION / 1000}s para unirse
-
 🤖 *NOTA:* Si solo hay 1 jugador, se añade un Bot automáticamente
 
 📌 *COMANDOS:*

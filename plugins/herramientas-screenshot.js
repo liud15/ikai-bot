@@ -3,13 +3,12 @@ import fetch from 'node-fetch';
 let handler = async (m, { text, usedPrefix, command, conn }) => {
     if (!text) {
         return m.reply(
-            `🖥️ *Screenshot de Web*\n\n` +
-            `*Uso:*\n` +
-            `${usedPrefix + command} <url>\n\n` +
-            `*Ejemplos:*\n` +
-            `${usedPrefix}ss google.com\n` +
-            `${usedPrefix}screenshot https://github.com\n` +
-            `${usedPrefix}captura wikipedia.org`
+            `「✦」 *SCREENSHOT*\n\n` +
+            `┃ Uso: *${usedPrefix + command} <url>*\n\n` +
+            `┃ Ejemplos:\n` +
+            `┃ ${usedPrefix}ss google.com\n` +
+            `┃ ${usedPrefix}screenshot https://github.com\n` +
+            `┃ ${usedPrefix}captura wikipedia.org`
         );
     }
 
@@ -28,7 +27,7 @@ let handler = async (m, { text, usedPrefix, command, conn }) => {
     }
 
     await conn.sendMessage(m.chat, { react: { text: '📸', key: m.key } });
-    await conn.reply(m.chat, `📸 Capturando screenshot de:\n*${url}*\n\n⏳ Espera unos segundos...`, m);
+    await conn.reply(m.chat, `「✦」 Capturando: *${url}*`, m);
 
     try {
         let screenshotBuffer = null;
@@ -65,7 +64,7 @@ let handler = async (m, { text, usedPrefix, command, conn }) => {
 
         await conn.sendMessage(m.chat, {
             image: screenshotBuffer,
-            caption: `🖥️ *Screenshot capturado*\n🔗 ${url}\n\n⪛✰ IKAIBOT - Screenshot ✰⪜`,
+            caption: `「✦」 *SCREENSHOT*\n┃ ⌘ ${url}`,
             mimetype: 'image/png'
         }, { quoted: m });
 

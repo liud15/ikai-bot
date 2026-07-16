@@ -121,7 +121,6 @@ function buildResult(playerChoice, botChoice, result, playerName, bet, user, str
   let phrase = ''
   let coinSection = ''
   let streakSection = ''
-  let footer = ''
 
   if (result === 'win') {
     header = `╔════════════════════╗\n` +
@@ -177,24 +176,13 @@ function buildResult(playerChoice, botChoice, result, playerName, bet, user, str
     }
   }
 
-  // Stats globales
-  const totalGames = (user._pptWins || 0) + (user._pptLosses || 0) + (user._pptTies || 0)
-  const winRate = totalGames > 0 ? (((user._pptWins || 0) / totalGames) * 100).toFixed(1) : '0.0'
-  const bestStreak = user._pptBestStreak || 0
-
-  footer = `\n\n┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈\n` +
-    `📊 *Estadísticas:*\n` +
-    `▸ 🏅 Victorias: *${user._pptWins || 0}* | ❌ Derrotas: *${user._pptLosses || 0}* | 🤝 Empates: *${user._pptTies || 0}*\n` +
-    `▸ 📈 Winrate: *${winRate}%* | 🔥 Mejor racha: *${bestStreak}*`
-
   return `${header}\n\n` +
     `👤 *${playerName}*  ➜  ${pEmoji}  *${playerChoice.toUpperCase()}*\n` +
     `🤖 *Ikai*  ➜  ${bEmoji}  *${botChoice.toUpperCase()}*\n\n` +
     `${resultIcon} ${resultText}\n` +
     `_"${phrase}"_` +
     `${coinSection}` +
-    `${streakSection}` +
-    `${footer}`
+    `${streakSection}`
 }
 
 function buildHelpMenu(usedPrefix) {

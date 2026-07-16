@@ -80,23 +80,22 @@ async function buscarDefinicion(palabra, lang = 'es') {
         if (!Array.isArray(data) || data.length === 0) return null;
 
         const entry = data[0];
-        const langLabel = lang === 'es' ? '🇪🇸 Español' : '🇺🇸 English';
+        const langLabel = lang === 'es' ? 'Español' : 'English';
 
-        let msg = `📖 *DICCIONARIO*\n\n`;
-        msg += `📝 *Palabra:* ${entry.word}\n`;
-        msg += `🌐 *Idioma:* ${langLabel}\n`;
+        let msg = `「✦」 *DICCIONARIO*\n\n`;
+        msg += `┃ ✦ Palabra: *${entry.word}*\n`;
+        msg += `┃ ◇ Idioma: *${langLabel}*\n`;
 
         // Fonética
         if (entry.phonetic) {
-            msg += `🔊 *Fonética:* ${entry.phonetic}\n`;
+            msg += `┃ ▹ Fonética: *${entry.phonetic}*\n`;
         } else if (entry.phonetics?.length > 0) {
             const phonetic = entry.phonetics.find(p => p.text);
-            if (phonetic) msg += `🔊 *Fonética:* ${phonetic.text}\n`;
+            if (phonetic) msg += `┃ ▹ Fonética: *${phonetic.text}*\n`;
         }
 
-        // Origen
         if (entry.origin) {
-            msg += `📜 *Origen:* ${entry.origin}\n`;
+            msg += `┃ ▻ Origen: *${entry.origin}*\n`;
         }
 
         msg += `\n`;
@@ -105,35 +104,32 @@ async function buscarDefinicion(palabra, lang = 'es') {
         const meanings = entry.meanings.slice(0, 3);
         for (const meaning of meanings) {
             const partOfSpeech = traducirCategoria(meaning.partOfSpeech);
-            msg += `━━━━━━━━━━━━━━━\n`;
-            msg += `📌 *${partOfSpeech}*\n\n`;
+            msg += `───────────────\n`;
+            msg += `┃ ◈ *${partOfSpeech}*\n\n`;
 
-            // Definiciones (máximo 3 por categoría)
             const defs = meaning.definitions.slice(0, 3);
             defs.forEach((def, i) => {
                 msg += `  ${i + 1}. ${def.definition}\n`;
                 if (def.example) {
-                    msg += `     💬 _"${def.example}"_\n`;
+                    msg += `     ▻ _"${def.example}"_\n`;
                 }
             });
 
-            // Sinónimos
             if (meaning.synonyms?.length > 0) {
                 const syns = meaning.synonyms.slice(0, 5).join(', ');
-                msg += `\n  🔄 *Sinónimos:* ${syns}\n`;
+                msg += `\n  ⇄ *Sinónimos:* ${syns}\n`;
             }
 
-            // Antónimos
             if (meaning.antonyms?.length > 0) {
                 const ants = meaning.antonyms.slice(0, 5).join(', ');
-                msg += `  ⚡ *Antónimos:* ${ants}\n`;
+                msg += `  * Antónimos: ${ants}\n`;
             }
 
             msg += `\n`;
         }
 
-        msg += `━━━━━━━━━━━━━━━\n`;
-        msg += `⪛✰ IKAIBOT - Diccionario ✰⪜`;
+        msg += `───────────────\n`;
+        msg += `└───────────────`;
 
         return msg;
     } catch {
@@ -184,24 +180,24 @@ async function buscarSinonimos(palabra) {
             return null;
         }
 
-        let msg = `📖 *SINÓNIMOS Y ANTÓNIMOS*\n\n`;
-        msg += `📝 *Palabra:* ${entry.word}\n`;
-        msg += `🌐 *Idioma:* ${lang === 'es' ? '🇪🇸 Español' : '🇺🇸 English'}\n\n`;
+        let msg = `*SINÓNIMOS Y ANTÓNIMOS*\n\n`;
+        msg += `┃ Palabra: *${entry.word}*\n`;
+        msg += `┃ Idioma: *${lang === 'es' ? 'Español' : 'English'}*\n\n`;
 
         if (allSynonyms.length > 0) {
-            msg += `🔄 *Sinónimos (${allSynonyms.length}):*\n`;
-            msg += allSynonyms.slice(0, 15).map(s => `  • ${s}`).join('\n');
+            msg += `* Sinónimos (${allSynonyms.length}):*\n`;
+            msg += allSynonyms.slice(0, 15).map(s => `  - ${s}`).join('\n');
             msg += '\n\n';
         }
 
         if (allAntonyms.length > 0) {
-            msg += `⚡ *Antónimos (${allAntonyms.length}):*\n`;
-            msg += allAntonyms.slice(0, 10).map(a => `  • ${a}`).join('\n');
+            msg += `* Antónimos (${allAntonyms.length}):*\n`;
+            msg += allAntonyms.slice(0, 10).map(a => `  - ${a}`).join('\n');
             msg += '\n';
         }
 
-        msg += `\n━━━━━━━━━━━━━━━\n`;
-        msg += `⪛✰ IKAIBOT - Sinónimos ✰⪜`;
+        msg += `\n───────────────\n`;
+        msg += `└───────────────`;
 
         return msg;
     } catch {

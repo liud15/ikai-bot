@@ -1,15 +1,22 @@
 import { getRankLabel } from '../lib/levelRanks.js'
+import { getRealJid } from '../src/lib/family-utils.js'
 
 let robarCooldown = 3600000 // 1 hora en milisegundos
 
 let handler = async (m, { conn, text, usedPrefix, command }) => {
     let who
     const _mentioned = await m.mentionedJid
-    if (m.isGroup) who = _mentioned[0] ? _mentioned[0] : m.quoted ? m.quoted.sender : false
-    else who = m.chat
+    const rawWho = m.isGroup
+        ? (_mentioned[0] ? _mentioned[0] : m.quoted ? m.quoted.sender : false)
+        : m.chat
+
+    // Normalizar LID → PN para buscar correctamente en la DB
+    if (rawWho) who = getRealJid(rawWho)
+    else who = false
 
     if (!who) return m.reply(`✳️ Etiqueta a alguien para intentar robarle.\nEjemplo: *${usedPrefix + command} @usuario*`)
-    if (who === m.sender) return m.reply(`❌ No puedes robarte a ti mismo.`)
+    // Comparar también con el sender normalizado
+    if (who === getRealJid(m.sender)) return m.reply(`❌ No puedes robarte a ti mismo.`)
 
     let users = global.db.data.users
 
@@ -47,7 +54,8 @@ let handler = async (m, { conn, text, usedPrefix, command }) => {
     }
 
     if (target.coin < 100) {
-        return m.reply(`⚠️ No seas abusivo, *@${global.getJidNum(who)}* tiene menos de 100 ${moneda}s en su wallet. No vale la pena el riesgo.`, null, { mentions: [`${global.getJidNum(who)}@s.whatsapp.net`] })
+        const whoNum = who.split('@')[0]
+        return m.reply(`⚠️ No seas abusivo, *@${whoNum}* tiene menos de 100 ${moneda}s en su wallet. No vale la pena el riesgo.`, null, { mentions: [who] })
     }
 
     // Actualizar tiempos
@@ -73,13 +81,15 @@ let handler = async (m, { conn, text, usedPrefix, command }) => {
         user.exp += xpRob
         const rango = getRankLabel(user.level || 1)
 
-        return m.reply(`🥷 *ROBO EXITOSO*\nLograste robar *${stolenAmount} ${moneda}* a *@${global.getJidNum(who)}*.\n> 🪙 Tu wallet: *${user.coin}*\n> ✨ XP: *+${xpRob} XP*\n> 🎖️ Rango: *${rango}*`, null, { mentions: [`${global.getJidNum(who)}@s.whatsapp.net`] })
+        const whoNum2 = who.split('@')[0]
+        return m.reply(`🥷 *ROBO EXITOSO*\nLograste robar *${stolenAmount} ${moneda}* a *@${whoNum2}*.\n> 🪙 Tu wallet: *${user.coin}*\n> ✨ XP: *+${xpRob} XP*\n> 🎖️ Rango: *${rango}*`, null, { mentions: [who] })
     } else {
         // FRACASO: Pierde salud, y si la salud llega a 0, pierde dinero
         let healthLoss = Math.floor(Math.random() * (250 - 150 + 1) + 150) // Pierde de 150 a 250 de salud
         user.health -= healthLoss
 
-        let replyMsg = `👮‍♂️ *TE ATRAPARON*\nIntentaste robar a *@${global.getJidNum(who)}* pero la policía te alcanzó. Perdiste en la pelea.\n> ❤️ Salud restada: -*${healthLoss}* (${user.health >= 0 ? user.health : 0}/1000)`
+        const whoNum3 = who.split('@')[0]
+        let replyMsg = `👮‍♂️ *TE ATRAPARON*\nIntentaste robar a *@${whoNum3}* pero la policía te alcanzó. Perdiste en la pelea.\n> ❤️ Salud restada: -*${healthLoss}* (${user.health >= 0 ? user.health : 0}/1000)`
 
         // Sistema de desmayo/hospital si la salud llega o baja de cero
         if (user.health <= 0) {
@@ -95,7 +105,7 @@ let handler = async (m, { conn, text, usedPrefix, command }) => {
             }
         }
 
-        return m.reply(replyMsg, null, { mentions: [`${global.getJidNum(who)}@s.whatsapp.net`] })
+        return m.reply(replyMsg, null, { mentions: [who] })
     }
 }
 

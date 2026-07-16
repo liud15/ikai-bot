@@ -53,13 +53,21 @@ let handler = async (m, { conn, command, text, usedPrefix }) => {
 
   // Aplicar interés pasivo antes de cualquier transacción
   const earnedInterest = applyInterest(user)
-  let interestMsg = earnedInterest > 0 ? `\n\n> 📈 *¡Tus ahorros crecieron!*\n> Se han sumado *+${earnedInterest} ${moneda}* de interés pasivo.` : ''
+  let interestMsg = earnedInterest > 0 ? `\n┃ ▶ *¡Tus ahorros crecieron!*\n┃ Se sumaron *+${earnedInterest} ${moneda}* de interés pasivo.` : ''
 
   if (/^(bal|balance|wallet|cartera)$/i.test(command)) {
     const total = user.coin + user.bank
     const nivel = Number.isFinite(user.level) ? user.level : 0
     const rango = getRankLabel(nivel)
-    return m.reply(`💳 *Tu economía*\n🪙 Wallet: *${user.coin}*\n🏦 Banco: *${user.bank} / ${user.bankLimit}*\n💎 Diamantes: *${user.diamond}*\n📊 Total en Coins: *${total}* ${moneda}\n\n🎖️ *Rango:* ${rango}\n✨ *XP:* ${Number.isFinite(user.exp) ? user.exp : 0}${interestMsg}`)
+    return m.reply(
+      `「✦」 *TU ECONOMÍA*\n` +
+      `┃ ▣ Cartera: *${user.coin}*\n` +
+      `┃ ▣ Banco: *${user.bank} / ${user.bankLimit}*\n` +
+      `┃ ◆ Diamantes: *${user.diamond}*\n` +
+      `┃ ◇ Total: *${total}* ${moneda}\n\n` +
+      `┃ ◈ Rango: *${rango}*\n` +
+      `┃ ✦ XP: *${Number.isFinite(user.exp) ? user.exp : 0}*${interestMsg}`
+    )
   }
 
   // --- Sistema de Mejoras (Upgrades) ---
@@ -71,13 +79,13 @@ let handler = async (m, { conn, command, text, usedPrefix }) => {
     if (!text || !text.trim()) {
       const maxAffordable = Math.floor(user.diamond / COST_PER_BLOCK)
       return m.reply(
-        `🏦 *Mejora de Bóveda*\n\n` +
-        `> 💎 Cada *${BLOCK_SIZE.toLocaleString()}* de capacidad cuesta *${COST_PER_BLOCK} 💎*\n` +
-        `> 💳 Límite actual: *${user.bankLimit.toLocaleString()}* ${moneda}\n` +
-        `> 💎 Tus diamantes: *${user.diamond}*\n` +
-        `> 📦 Puedes ampliar hasta *+${(maxAffordable * BLOCK_SIZE).toLocaleString()}* de una sola vez\n\n` +
-        `Usa: *${usedPrefix}upgrade <cantidad>*\n` +
-        `Ejemplo: *${usedPrefix}upgrade 40000* ampliará *+40,000* por *${8 * 8} 💎*`
+        `「✦」 *MEJORA DE BÓVEDA*\n\n` +
+        `┃ ◆ Cada *${BLOCK_SIZE.toLocaleString()}* de capacidad cuesta *${COST_PER_BLOCK} ◆*\n` +
+        `┃ ▣ Límite actual: *${user.bankLimit.toLocaleString()}* ${moneda}\n` +
+        `┃ ◆ Tus diamantes: *${user.diamond}*\n` +
+        `┃ ▻ Puedes ampliar hasta *+${(maxAffordable * BLOCK_SIZE).toLocaleString()}* de una vez\n\n` +
+        `┃ Usa: *${usedPrefix}upgrade <cantidad>*\n` +
+        `┃ Ejemplo: *${usedPrefix}upgrade 40000*`
       )
     }
 
@@ -95,10 +103,10 @@ let handler = async (m, { conn, command, text, usedPrefix }) => {
     if (totalCost > user.diamond) {
       const maxAffordable = Math.floor(user.diamond / COST_PER_BLOCK)
       return m.reply(
-        `❌ *No tienes suficientes diamantes*\n\n` +
-        `> Quieres: *+${totalIncrease.toLocaleString()}* → cuesta *${totalCost} 💎*\n` +
-        `> Tienes: *${user.diamond} 💎*\n` +
-        `> Máximo que puedes comprar ahora: *+${(maxAffordable * BLOCK_SIZE).toLocaleString()}* por *${maxAffordable * COST_PER_BLOCK} 💎*`
+        `「✦」 *No tienes suficientes diamantes*\n\n` +
+        `┃ ▻ Quieres: *+${totalIncrease.toLocaleString()}* → cuesta *${totalCost} ◆*\n` +
+        `┃ ◆ Tienes: *${user.diamond}*\n` +
+        `┃ ◈ Máximo ahora: *+${(maxAffordable * BLOCK_SIZE).toLocaleString()}* por *${maxAffordable * COST_PER_BLOCK} ◆*`
       )
     }
 
@@ -106,12 +114,12 @@ let handler = async (m, { conn, command, text, usedPrefix }) => {
     user.bankLimit += totalIncrease
 
     return m.reply(
-      `✅ *¡Bóveda Mejorada!*\n\n` +
-      `> 📦 Bloques comprados: *${blocks}* (x${BLOCK_SIZE.toLocaleString()} c/u)\n` +
-      `> 📈 Capacidad añadida: *+${totalIncrease.toLocaleString()}* ${moneda}\n` +
-      `> 💎 Diamantes gastados: *${totalCost}*\n` +
-      `> 🏦 Nueva capacidad: *${user.bankLimit.toLocaleString()}* ${moneda}\n` +
-      `> 💎 Diamantes restantes: *${user.diamond}*${interestMsg}`
+      `「✦」 *¡Bóveda Mejorada!*\n\n` +
+      `┃ ▣ Bloques comprados: *${blocks}* (×${BLOCK_SIZE.toLocaleString()} c/u)\n` +
+      `┃ ▶ Capacidad añadida: *+${totalIncrease.toLocaleString()}* ${moneda}\n` +
+      `┃ ◆ Diamantes gastados: *${totalCost}*\n` +
+      `┃ ▣ Nueva capacidad: *${user.bankLimit.toLocaleString()}* ${moneda}\n` +
+      `┃ ◆ Diamantes restantes: *${user.diamond}*${interestMsg}`
     )
   }
 
@@ -136,14 +144,13 @@ let handler = async (m, { conn, command, text, usedPrefix }) => {
   if (isDeposit && amount > user.coin) return m.reply(`❌ No tienes suficientes coins en wallet. Recuerda que tu espacio disponible en el banco es de *${maxPossible}*.`)
   if (!isDeposit && amount > user.bank) return m.reply('❌ No tienes esos coins en banco.')
 
-  const loading = await conn.sendMessage(m.chat, { text: '🏦 Actualizando saldo...' }, { quoted: m })
+  const loading = await conn.sendMessage(m.chat, { text: '▣ Actualizando saldo...' }, { quoted: m })
 
   if (isDeposit) {
     user.coin -= amount
     user.bank += amount
-    const action = 'depositados al banco'
     await conn.sendMessage(m.chat, {
-      text: `✅ *${amount} ${moneda}* ${action}.\n> 🪙 Wallet: *${user.coin}*\n> 🏦 Banco: *${user.bank} / ${user.bankLimit}*${interestMsg}`,
+      text: `「✦」 *${amount} ${moneda}* depositados al banco.\n┃ ▣ Cartera: *${user.coin}*\n┃ ▣ Banco: *${user.bank} / ${user.bankLimit}*${interestMsg}`,
       edit: loading.key
     })
   } else {
@@ -156,7 +163,7 @@ let handler = async (m, { conn, command, text, usedPrefix }) => {
     user.coin += finalAmount
 
     await conn.sendMessage(m.chat, {
-      text: `✅ *${finalAmount} ${moneda}* retirados del banco.\n⚠️ El banco cobró un impuesto del *3%* (*${taxAmount} ${moneda}*).\n> 🪙 Wallet: *${user.coin}*\n> 🏦 Banco: *${user.bank} / ${user.bankLimit}*${interestMsg}`,
+      text: `「✦」 *${finalAmount} ${moneda}* retirados del banco.\n┃ ↔ El banco cobró un impuesto del *3%* (*${taxAmount} ${moneda}*).\n┃ ▣ Cartera: *${user.coin}*\n┃ ▣ Banco: *${user.bank} / ${user.bankLimit}*${interestMsg}`,
       edit: loading.key
     })
   }
@@ -164,7 +171,7 @@ let handler = async (m, { conn, command, text, usedPrefix }) => {
 
 handler.help = ['balance', 'deposit <cantidad|all>', 'withdraw <cantidad|all>', 'upgrade (banco)']
 handler.tags = ['economy']
-handler.command = ['bal', 'balance', 'wallet', 'cartera', 'deposit', 'dep', 'd', 'withdraw', 'wd', 'upgrade']
+handler.command = ['bal', 'balance', 'wallet', 'cartera', 'deposit', 'dep', 'd', 'withdraw', 'wd', "retirar", 'upgrade']
 handler.group = true
 
 export default handler

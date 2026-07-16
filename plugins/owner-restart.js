@@ -1,4 +1,4 @@
-let handler = async (m, { conn, usedPrefix, command }) => {
+﻿let handler = async (m, { conn, usedPrefix, command }) => {
 
     try {
         m.reply('Reiniciando...')
@@ -7,7 +7,7 @@ let handler = async (m, { conn, usedPrefix, command }) => {
         }, 3000) 
     } catch (error) {
         console.log(error)
-        conn.reply(m.chat, `${error}`, m)
+        conn.reply(m.chat, `✖️`, m)
     }
 }
 

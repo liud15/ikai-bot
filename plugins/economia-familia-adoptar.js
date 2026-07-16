@@ -1,8 +1,8 @@
-import { getUser, mention, setRequest, getRequest, deleteRequest, validateAdoption, linkParentChild, unlinkParentChild, unlinkCouple, removeAllFamilyLinks, getRealJid, resolveJid, ensureUser } from '../src/lib/family-utils.js'
+import { getFamilyData, getUser, mention, setRequest, getRequest, deleteRequest, validateAdoption, linkParentChild, unlinkParentChild, unlinkCouple, removeAllFamilyLinks, getRealJid, resolveJid, ensureUser } from '../src/lib/family-utils.js'
 
 let handler = async (m, { conn, command, text, usedPrefix, isAdmin, isROwner }) => {
-    const me = getUser(m.sender)
     const senderJid = getRealJid(m.sender)
+    const groupJid  = m.chat
 
     // ─── ADOPTAR ─────────────────────────────────────────────
     if (/^(adoptar|adopcion)$/i.test(command)) {
@@ -10,7 +10,7 @@ let handler = async (m, { conn, command, text, usedPrefix, isAdmin, isROwner }) 
         if (!targetRaw) return m.reply(`✳️ Usa: *${usedPrefix + command} @usuario*`)
         const target = getRealJid(targetRaw)
 
-        const error = validateAdoption(senderJid, target)
+        const error = validateAdoption(senderJid, target, groupJid)
         if (error) return m.reply(error)
 
         setRequest('adoption', target, senderJid)
@@ -29,20 +29,28 @@ let handler = async (m, { conn, command, text, usedPrefix, isAdmin, isROwner }) 
 
         const reqFrom = getRealJid(req.from)
 
-        // Re-validar por si cambió algo mientras esperaba
-        const error = validateAdoption(reqFrom, senderJid)
+        const error = validateAdoption(reqFrom, senderJid, groupJid)
         if (error) {
             deleteRequest('adoption', senderJid)
             return m.reply(error)
         }
 
-        linkParentChild(reqFrom, senderJid)
+        linkParentChild(reqFrom, senderJid, groupJid)
         deleteRequest('adoption', senderJid)
 
-        return conn.sendMessage(m.chat, {
-            text: `✅ Adopción confirmada\n${await mention(reqFrom, m)} ahora es padre/madre de ${await mention(senderJid, m)}.`,
-            mentions: [await resolveJid(reqFrom, m), await resolveJid(senderJid, m)]
-        }, { quoted: m })
+        // Verificar si el padre adoptante tiene pareja en este grupo
+        const adoptingParent = getFamilyData(reqFrom, groupJid)
+        const partnerJid = adoptingParent.marry ? getRealJid(adoptingParent.marry) : null
+
+        const allMentions = [await resolveJid(reqFrom, m), await resolveJid(senderJid, m)]
+        let msgText = `✅ *Adopción confirmada*\n${await mention(reqFrom, m)} ahora es padre/madre de ${await mention(senderJid, m)}.`
+
+        if (partnerJid) {
+            allMentions.push(await resolveJid(partnerJid, m))
+            msgText += `\n👨‍👩‍👧 ${await mention(partnerJid, m)} también es su padre/madre como parte de la pareja.`
+        }
+
+        return conn.sendMessage(m.chat, { text: msgText, mentions: allMentions }, { quoted: m })
     }
 
     // ─── RECHAZAR ADOPCIÓN ───────────────────────────────────
@@ -59,12 +67,11 @@ let handler = async (m, { conn, command, text, usedPrefix, isAdmin, isROwner }) 
         if (!targetRaw) return m.reply(`✳️ Usa: *${usedPrefix + command} @usuario*`)
         const target = getRealJid(targetRaw)
 
-        // Normalizar los hijos para comparar JIDs correctamente (compatibilidad LID/PN)
+        const me = getFamilyData(senderJid, groupJid)
         const hasChild = me.children.some(c => getRealJid(c) === target)
-        if (!hasChild)
-            return m.reply('❌ Esa persona no es tu hijo/a.')
+        if (!hasChild) return m.reply('❌ Esa persona no es tu hijo/a en este grupo.')
 
-        unlinkParentChild(senderJid, target)
+        unlinkParentChild(senderJid, target, groupJid)
         return conn.sendMessage(m.chat, {
             text: `💢 ${await mention(senderJid, m)} ha desheredado a ${await mention(target, m)}.`,
             mentions: [await resolveJid(senderJid, m), await resolveJid(target, m)]
@@ -73,11 +80,12 @@ let handler = async (m, { conn, command, text, usedPrefix, isAdmin, isROwner }) 
 
     // ─── EMANCIPAR (hijo se desvincula de sus padres) ────────
     if (/^emancipar$/i.test(command)) {
-        if (!me.parents.length) return m.reply('❌ No tienes padres registrados.')
+        const me = getFamilyData(senderJid, groupJid)
+        if (!me.parents.length) return m.reply('❌ No tienes padres registrados en este grupo.')
 
         const parentsList = [...me.parents]
         for (const p of parentsList) {
-            unlinkParentChild(p, senderJid)
+            unlinkParentChild(p, senderJid, groupJid)
         }
 
         const resolvedParents = await Promise.all(parentsList.map(p => resolveJid(p, m)))
@@ -91,7 +99,6 @@ let handler = async (m, { conn, command, text, usedPrefix, isAdmin, isROwner }) 
     if (/^limpiarfamilia$/i.test(command)) {
         if (!isAdmin && !isROwner) return m.reply('❌ Solo los administradores pueden usar este comando.')
 
-        // Obtener participantes actuales del grupo
         let groupMeta
         try {
             groupMeta = await conn.groupMetadata(m.chat)
@@ -99,9 +106,11 @@ let handler = async (m, { conn, command, text, usedPrefix, isAdmin, isROwner }) 
             return m.reply('❌ No se pudo obtener la lista de participantes del grupo.')
         }
 
-        const memberJids = new Set(
-            (groupMeta.participants || []).map(p => getRealJid(p.id))
-        )
+        const memberSet = new Set()
+        for (const p of (groupMeta.participants || [])) {
+            if (p.id)  memberSet.add(getRealJid(p.id))
+            if (p.lid) memberSet.add(getRealJid(p.lid))
+        }
 
         let cleaned = 0
         const allUsers = global.db.data.users
@@ -109,36 +118,29 @@ let handler = async (m, { conn, command, text, usedPrefix, isAdmin, isROwner }) 
         for (const [jid, userData] of Object.entries(allUsers)) {
             if (!userData) continue
             ensureUser(userData)
+            if (!userData.family?.[groupJid]) continue
+
+            const fd = userData.family[groupJid]
 
             // Limpiar padres que ya no están en el grupo
-            const validParents = (userData.parents || []).filter(p => {
-                const pJid = getRealJid(p)
-                return memberJids.has(pJid)
-            })
-            if (validParents.length !== (userData.parents || []).length) {
-                const removed = (userData.parents || []).filter(p => !memberJids.has(getRealJid(p)))
-                for (const rp of removed) {
-                    unlinkParentChild(getRealJid(rp), jid)
+            for (const p of [...(fd.parents || [])]) {
+                if (!memberSet.has(getRealJid(p))) {
+                    unlinkParentChild(getRealJid(p), jid, groupJid)
                     cleaned++
                 }
             }
 
             // Limpiar hijos que ya no están en el grupo
-            const validChildren = (userData.children || []).filter(c => {
-                const cJid = getRealJid(c)
-                return memberJids.has(cJid)
-            })
-            if (validChildren.length !== (userData.children || []).length) {
-                const removed = (userData.children || []).filter(c => !memberJids.has(getRealJid(c)))
-                for (const rc of removed) {
-                    unlinkParentChild(jid, getRealJid(rc))
+            for (const c of [...(fd.children || [])]) {
+                if (!memberSet.has(getRealJid(c))) {
+                    unlinkParentChild(jid, getRealJid(c), groupJid)
                     cleaned++
                 }
             }
 
             // Limpiar pareja que ya no está en el grupo
-            if (userData.marry && !memberJids.has(getRealJid(userData.marry))) {
-                unlinkCouple(jid)
+            if (fd.marry && !memberSet.has(getRealJid(fd.marry))) {
+                unlinkCouple(jid, groupJid)
                 cleaned++
             }
         }
@@ -146,23 +148,21 @@ let handler = async (m, { conn, command, text, usedPrefix, isAdmin, isROwner }) 
         return m.reply(`✅ Limpieza completada. Se eliminaron *${cleaned}* vínculos familiares rotos de usuarios que ya no están en el grupo.`)
     }
 
-    // ─── DESVINCULAR por número (admin quita a alguien de una familia por número) ──
+    // ─── DESVINCULAR por número (admin quita a alguien de una familia) ──
     if (/^desvincularfamilia$/i.test(command)) {
         if (!isAdmin && !isROwner) return m.reply('❌ Solo los administradores pueden usar este comando.')
         const targetRaw = m.mentionedJid?.[0] || m.quoted?.sender || (text && text.replace(/[^0-9]/g, '').length >= 7 ? text.replace(/[^0-9]/g, '') + '@s.whatsapp.net' : null)
         if (!targetRaw) return m.reply(`✳️ Usa: *${usedPrefix + command} @usuario* (menciona o escribe el número)`)
         const target = getRealJid(targetRaw)
 
-        const targetUser = getUser(target)
-        ensureUser(targetUser)
+        const targetFd = getFamilyData(target, groupJid)
+        const hadLinks = targetFd.marry || targetFd.parents.length > 0 || targetFd.children.length > 0
+        if (!hadLinks) return m.reply('ℹ️ Ese usuario no tiene vínculos familiares en este grupo.')
 
-        const hadLinks = targetUser.marry || targetUser.parents.length > 0 || targetUser.children.length > 0
-        if (!hadLinks) return m.reply('ℹ️ Ese usuario no tiene vínculos familiares registrados.')
-
-        removeAllFamilyLinks(target)
+        removeAllFamilyLinks(target, groupJid)
 
         return conn.sendMessage(m.chat, {
-            text: `🔗💔 ${await mention(target, m)} fue desvinculado de todos sus lazos familiares por un administrador.`,
+            text: `🔗💔 ${await mention(target, m)} fue desvinculado de todos sus lazos familiares en este grupo por un administrador.`,
             mentions: [await resolveJid(target, m)]
         }, { quoted: m })
     }

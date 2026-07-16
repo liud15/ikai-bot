@@ -1,303 +1,266 @@
-// Plugin de descarga de Manga desde TomosManga.com
-// Búsqueda -> Detalle -> Descarga archivo via TeraBox -> Envía directo por WhatsApp
-import { search, detail, resolveTerabox } from "../lib/tomosmanga.js";
-import { createWriteStream, existsSync, mkdirSync, statSync, readFileSync, unlinkSync } from 'fs';
-import { join } from 'path';
-import { Readable } from 'stream';
-import { pipeline } from 'stream/promises';
+// Plugin de lectura de Manga desde lectortmo.vip
+// Uso: #manga <nombre-manga> [cap-N] → busca capítulo y envía imágenes como álbum
+// Uso: #manga <URL-lectortmo> → extrae imágenes del capítulo directamente
+import axios from 'axios';
 
-const TMP_DIR = join(process.cwd(), 'tmp', 'manga');
+const BASE_URL = 'https://lectortmo.vip';
 
-/** Asegura que el directorio tmp/manga exista */
-function ensureTmpDir() {
-    if (!existsSync(TMP_DIR)) mkdirSync(TMP_DIR, { recursive: true });
-}
-
-/** Limpia el archivo descargado de forma segura */
-function cleanup(filePath) {
-    try { if (filePath && existsSync(filePath)) unlinkSync(filePath); } catch {}
-}
-
-let handler = async (m, { command, usedPrefix, conn, text, args }) => {
-    if (!text) return m.reply(`\`Ingresa el nombre del manga o la URL de TomosManga. Ejemplo:\`\n\n • ${usedPrefix + command} Kimetsu no Yaiba\n • ${usedPrefix + command} One Piece\n • ${usedPrefix + command} https://tomosmanga.com/descargar-kimetsu-no-yaiba/`);
-
-    try {
-        // Si el texto es una URL de tomosmanga, mostrar detalles y preparar descarga
-        if (text.includes('tomosmanga.com/')) {
-            m.react("⌛");
-
-            let info = await detail(text.trim());
-            if (info.error) return m.reply('❌ Error al obtener los detalles: ' + info.error);
-
-            // Construir lista numerada de TeraBox links disponibles
-            const tbLinks = info.teraboxLinks;
-            let dlDisplay = '';
-
-            if (tbLinks.length > 0) {
-                dlDisplay = '\n☁️ *TERABOX (Descarga directa)*\n';
-                tbLinks.forEach((link, idx) => {
-                    dlDisplay += `> \`${idx + 1}\` • ${link.label}\n`;
-                });
-                dlDisplay += `\n> 💡 Responde con el *número* del tomo para descargarlo.\n> 📥 Responde *todos* para descargar todo automáticamente.`;
-            } else {
-                // Mostrar links alternativos si no hay TeraBox
-                for (const [server, links] of Object.entries(info.downloads)) {
-                    let emoji = '📦';
-                    const serverUp = server.toUpperCase();
-                    if (serverUp.includes('MEGA')) emoji = '📥';
-                    else if (serverUp.includes('MEDIAFIRE') || serverUp.includes('MF')) emoji = '🔥';
-                    else if (serverUp.includes('FIRELOAD')) emoji = '🌐';
-
-                    dlDisplay += `\n${emoji} *${server}*\n`;
-                    links.forEach((link, idx) => {
-                        dlDisplay += `> ${idx + 1}. ${link.label}\n> 🔗 ${link.url}\n`;
-                    });
-                }
-            }
-
-            if (!dlDisplay) {
-                dlDisplay = '\n> ⚠️ No se encontraron links de descarga en esta página.';
-            }
-
-            let cap = `
-乂 \`\`\`MANGA - DOWNLOAD\`\`\`
-
-「✦」 \`Título :\` ${info.title}
-> ✰ \`Sinopsis :\` ${info.synopsis ? info.synopsis.substring(0, 350) + (info.synopsis.length > 350 ? '...' : '') : 'Sin sinopsis'}
-> 📚 \`Formato :\` ${info.techData.formato || 'N/A'}
-> 🌐 \`Idioma :\` ${info.techData.idioma || 'Español'}
-> 📦 \`Tamaño total :\` ${info.techData.size || 'N/A'}
-> 📊 \`Estado :\` ${info.techData.estado || 'N/A'}
-> 🏷️ \`Categoría :\` ${info.categories.join(', ') || 'N/A'}
-
-━━━ 📖 LINKS DE DESCARGA ━━━
-${dlDisplay}
-> ⚠️ *Contraseña de archivos:* \`tomosmanga\`
-`.trim();
-
-            let sent = await conn.sendMessage(m.chat, {
-                text: cap,
-                contextInfo: {
-                    externalAdReply: {
-                        title: info.title,
-                        body: 'TomosManga - Descarga de Manga',
-                        thumbnailUrl: info.cover,
-                        sourceUrl: info.url || text,
-                        mediaType: 1,
-                        renderLargerThumbnail: true
-                    }
-                }
-            }, { quoted: m });
-
-            // Guardar sesión para interactividad (solo si hay links TeraBox)
-            if (tbLinks.length > 0) {
-                conn.manga = conn.manga || {};
-                conn.manga[m.sender] = {
-                    title: info.title,
-                    teraboxLinks: tbLinks,
-                    key: sent.key,
-                    downloading: false,
-                    timeout: setTimeout(() => delete conn.manga[m.sender], 600_000) // 10 min
-                };
-            }
-
-            m.react("✅");
-        } else {
-            // Búsqueda por nombre
-            m.react('🔍');
-            const results = await search(text);
-            if (results.length === 0) {
-                return conn.reply(m.chat, '❌ No se encontraron resultados en TomosManga.', m);
-            }
-
-            let cap = `◢ 📖 Manga - Búsqueda ◤\n`;
-            results.slice(0, 15).forEach((res, index) => {
-                cap += `\n\`${index + 1}\`\n「✦」\`Título :\` ${res.title}\n> 📝 \`Info :\` ${res.snippet ? res.snippet.substring(0, 120) + '...' : 'Sin descripción'}\n> 🔗 \`Link :\` ${res.link}\n`;
-            });
-
-            cap += `\n> 💡 *Tip:* Usa \`${usedPrefix + command} <URL>\` con el link de arriba para ver los links de descarga.`;
-
-            await conn.sendMessage(m.chat, {
-                text: cap,
-                contextInfo: {
-                    mentionedJid: [m.sender],
-                    externalAdReply: {
-                        title: 'Búsqueda de Manga',
-                        body: `${results.length} resultado(s) encontrado(s)`,
-                        thumbnailUrl: results[0]?.cover || '',
-                        sourceUrl: results[0]?.link || '',
-                        mediaType: 1,
-                        renderLargerThumbnail: true
-                    }
-                }
-            }, { quoted: m });
-            m.react("✅");
-        }
-    } catch (error) {
-        console.error('Error en handler manga:', error);
-        conn.reply(m.chat, '❌ Error al procesar la solicitud: ' + error.message, m);
-    }
+/** Headers de navegador real para evitar bloqueos básicos */
+const BROWSER_HEADERS = {
+    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36',
+    'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8',
+    'Accept-Language': 'es-ES,es;q=0.9,en;q=0.8',
+    'Accept-Encoding': 'gzip, deflate, br',
+    'Referer': 'https://lectortmo.vip/',
+    'Cache-Control': 'no-cache',
+    'Pragma': 'no-cache',
+    'Upgrade-Insecure-Requests': '1',
+    'Sec-Fetch-Dest': 'document',
+    'Sec-Fetch-Mode': 'navigate',
+    'Sec-Fetch-Site': 'same-origin',
 };
 
 /**
- * Descarga un RAR desde TeraBox, lo extrae en tmp/ y envía cada archivo individual
+ * Extrae las URLs de las imágenes del HTML de un capítulo de LectorTMO.
+ * LectorTMO embebe las páginas en un inline <script> como:
+ *   var slides_pags = ["url1","url2",...];
+ * También se intenta con data-src en elementos img.
  */
-async function downloadAndSend(conn, m, session, teraboxLink, mangaTitle) {
-    let filePath = null;
+function extractImagesFromHtml(html) {
+    const images = [];
+
+    // Método 1: variable JS inline slides_pags (patrón original de TMO)
+    const slidesMatch = html.match(/(?:slides_pags|pags_chapter|chapter_pages|pages_images)\s*=\s*(\[[\s\S]*?\])/);
+    if (slidesMatch) {
+        try {
+            const parsed = JSON.parse(slidesMatch[1]);
+            if (Array.isArray(parsed) && parsed.length > 0) {
+                images.push(...parsed.filter(u => typeof u === 'string' && u.startsWith('http')));
+                if (images.length > 0) return images;
+            }
+        } catch {}
+    }
+
+    // Método 2: JSON dentro de window.__NUXT__ o __INITIAL_STATE__ o similar
+    const nuxtMatch = html.match(/window\.__(?:NUXT|INITIAL_STATE|DATA)__\s*=\s*({[\s\S]*?});/);
+    if (nuxtMatch) {
+        try {
+            const obj = JSON.parse(nuxtMatch[1]);
+            const found = findImages(obj);
+            if (found.length > 0) {
+                images.push(...found);
+                return images;
+            }
+        } catch {}
+    }
+
+    // Método 3: img tags con data-src o src que contengan imagen de capítulo
+    const imgRegex = /<img[^>]+(?:data-src|src)\s*=\s*["']([^"']+)["'][^>]*>/gi;
+    let m;
+    while ((m = imgRegex.exec(html)) !== null) {
+        const src = m[1];
+        if (
+            src.includes('lectortmo') ||
+            src.includes('img.manga') ||
+            src.match(/\.(jpg|jpeg|png|webp)(\?|$)/i)
+        ) {
+            if (!src.includes('logo') && !src.includes('avatar') && !src.includes('icon') && !src.includes('banner')) {
+                images.push(src);
+            }
+        }
+    }
+
+    // Método 4: buscar URLs en JSON inline genérico
+    if (images.length === 0) {
+        const urlRegex = /"(https?:\/\/[^"]+\.(?:jpg|jpeg|png|webp)[^"]*)"/gi;
+        while ((m = urlRegex.exec(html)) !== null) {
+            const url = m[1];
+            if (!url.includes('logo') && !url.includes('avatar') && !url.includes('icon')) {
+                images.push(url);
+            }
+        }
+    }
+
+    return [...new Set(images)]; // deduplicar
+}
+
+/** Busca recursivamente arrays de URLs de imagen en un objeto JSON */
+function findImages(obj, depth = 0) {
+    if (depth > 10) return [];
+    const found = [];
+    if (Array.isArray(obj)) {
+        for (const item of obj) {
+            if (typeof item === 'string' && item.match(/\.(jpg|jpeg|png|webp)/i)) {
+                found.push(item);
+            } else if (typeof item === 'object' && item) {
+                found.push(...findImages(item, depth + 1));
+            }
+        }
+    } else if (typeof obj === 'object' && obj) {
+        for (const val of Object.values(obj)) {
+            found.push(...findImages(val, depth + 1));
+        }
+    }
+    return found;
+}
+
+/**
+ * Construye la URL de LectorTMO para un capítulo dado.
+ * Ejemplo: "kimetsu no yaiba cap 206" → https://lectortmo.vip/manga-chapter/kimetsu-no-yaiba-cap-206/
+ */
+function buildChapterUrl(input) {
+    // Si ya es URL de lectortmo, devolverla tal cual
+    if (input.includes('lectortmo.vip/manga-chapter/')) {
+        return input.trim().endsWith('/') ? input.trim() : input.trim() + '/';
+    }
+
+    // Convertir texto a slug de URL
+    const slug = input
+        .toLowerCase()
+        .normalize('NFD').replace(/[\u0300-\u036f]/g, '') // quitar tildes
+        .replace(/[^a-z0-9\s-]/g, '')                    // solo alfanumérico
+        .trim()
+        .replace(/\s+/g, '-')                             // espacios a guiones
+        .replace(/-+/g, '-');                             // guiones múltiples
+
+    return `${BASE_URL}/manga-chapter/${slug}/`;
+}
+
+/**
+ * Scrapea el capítulo y devuelve { title, images[], url }
+ */
+async function scrapeChapter(chapterUrl) {
+    const response = await axios.get(chapterUrl, {
+        headers: BROWSER_HEADERS,
+        timeout: 20_000,
+        maxRedirects: 5,
+        decompress: true,
+    });
+
+    const html = response.data;
+
+    // Extraer título de la página
+    const titleMatch = html.match(/<title[^>]*>([^<]+)<\/title>/i);
+    const title = titleMatch ? titleMatch[1].replace('| LectorTmo', '').trim() : 'Capítulo';
+
+    const images = extractImagesFromHtml(html);
+
+    return { title, images, url: chapterUrl };
+}
+
+// ─────────────────────────────────────────────────────────────────────────────
+// HANDLER PRINCIPAL
+// ─────────────────────────────────────────────────────────────────────────────
+let handler = async (m, { command, usedPrefix, conn, text }) => {
+    const prefix = usedPrefix + command;
+
+    if (!text) {
+        return m.reply(
+            `📖 *Lector de Manga - LectorTMO*\n\n` +
+            `Envía el nombre del capítulo o una URL directa:\n\n` +
+            `▸ \`${prefix} kimetsu no yaiba cap 206\`\n` +
+            `▸ \`${prefix} one piece cap 1100\`\n` +
+            `▸ \`${prefix} https://lectortmo.vip/manga-chapter/kimetsu-no-yaiba-cap-206/\`\n\n` +
+            `> 🌐 Fuente exclusiva: lectortmo.vip`
+        );
+    }
+
+    await m.react('⏳');
+
+    const chapterUrl = buildChapterUrl(text.trim());
 
     try {
-        await conn.reply(m.chat, `⏳ Resolviendo link: *${teraboxLink.label}*...`, m);
+        await conn.reply(m.chat, `🔍 Buscando capítulo en:\n> ${chapterUrl}`, m);
 
-        const resolved = await resolveTerabox(teraboxLink.url);
-        if (!resolved.status || resolved.files.length === 0) {
-            await conn.reply(m.chat, `❌ No se pudo resolver el link de TeraBox para *${teraboxLink.label}*.\n> ${resolved.error || 'Sin archivos disponibles'}`, m);
-            return false;
+        const { title, images, url } = await scrapeChapter(chapterUrl);
+
+        if (!images || images.length === 0) {
+            await m.react('❌');
+            return conn.reply(
+                m.chat,
+                `❌ *No se encontraron imágenes* en el capítulo.\n\n` +
+                `> Puede que el sitio requiera JavaScript para cargar las páginas,\n` +
+                `> o que el capítulo no exista en esa URL.\n\n` +
+                `🔗 Verifica manualmente: ${url}`,
+                m
+            );
         }
 
-        ensureTmpDir();
+        await conn.reply(
+            m.chat,
+            `📖 *${title}*\n` +
+            `> 🖼️ ${images.length} página(s) encontradas\n` +
+            `> 🌐 Fuente: lectortmo.vip\n\n` +
+            `⏳ Enviando álbum de imágenes...`,
+            m
+        );
 
-        for (const file of resolved.files) {
-            const sizeMB = (file.bytes / 1024 / 1024).toFixed(1);
-            const timestamp = Date.now();
-            filePath = join(TMP_DIR, `${timestamp}_${file.filename}`);
+        // ── Enviar como álbum (mismo patrón que Pinterest) ──────────────────
+        const albumMessage = await conn.sendMessage(m.chat, {
+            album: {
+                expectedImageCount: images.length,
+                expectedVideoCount: 0
+            }
+        }, { quoted: m });
 
-            await conn.reply(m.chat, `📥 Descargando *${file.filename}* (${sizeMB} MB)...\n> ⏳ Esto puede tardar varios minutos.`, m);
-
+        let sent = 0;
+        for (let i = 0; i < images.length; i++) {
             try {
-                // Timeout de 10 minutos para descarga desde TeraBox
-                const controller = new AbortController();
-                const dlTimeout = setTimeout(() => controller.abort(), 10 * 60 * 1000);
-
-                const response = await fetch(file.dlink, {
-                    headers: { 'User-Agent': 'Mozilla/5.0' },
-                    signal: controller.signal
-                });
-                clearTimeout(dlTimeout);
-
-                if (!response.ok) {
-                    await conn.reply(m.chat, `❌ Error HTTP ${response.status} al descargar *${file.filename}*\n> 🔗 Link directo: ${file.dlink}`, m);
-                    continue;
-                }
-
-                // Guardar a disco en lugar de memoria (stream)
-                const fileStream = createWriteStream(filePath);
-                const bodyStream = Readable.fromWeb(response.body);
-                await pipeline(bodyStream, fileStream);
-
-                const savedSize = statSync(filePath).size;
-                if (savedSize < 1000) {
-                    await conn.reply(m.chat, `❌ El archivo descargado está vacío o corrupto.\n> 🔗 Link directo: ${file.dlink}`, m);
-                    cleanup(filePath);
-                    continue;
-                }
-
-                const savedMB = (savedSize / 1024 / 1024).toFixed(1);
-                await conn.reply(m.chat, `✅ Descarga completa (${savedMB} MB). Enviando archivo...`, m);
-
-                // Enviar el archivo directamente sin extraer
-                const fileBuffer = readFileSync(filePath);
-
-                // Detectar tipo MIME
-                let mimetype = 'application/octet-stream';
-                if (file.filename.endsWith('.rar')) mimetype = 'application/x-rar-compressed';
-                else if (file.filename.endsWith('.zip')) mimetype = 'application/zip';
-                else if (file.filename.endsWith('.cbr')) mimetype = 'application/x-cbr';
-                else if (file.filename.endsWith('.cbz')) mimetype = 'application/x-cbz';
-                else if (file.filename.endsWith('.pdf')) mimetype = 'application/pdf';
-
-                await conn.sendFile(m.chat, fileBuffer, file.filename,
-                    `✅ *${mangaTitle}*\n> 📄 ${file.filename}\n> 📦 Tamaño: ${savedMB} MB\n> 🔑 Contraseña: \`tomosmanga\`\n> 🌐 Fuente: TeraBox`,
-                    m, false, {
-                    mimetype,
-                    asDocument: true
-                });
-
-                // Limpiar archivo temporal
-                cleanup(filePath);
-
-            } catch (dlErr) {
-                console.error('[manga] Error en descarga/envío:', file.filename, dlErr);
-                cleanup(filePath);
-
-                // Enviar link directo como fallback
                 await conn.sendMessage(m.chat, {
-                    text: `❌ Error procesando *${file.filename}*: ${dlErr.message}\n\n> 📥 Link directo de descarga:\n${file.dlink}\n\n> 🔑 Contraseña: \`tomosmanga\`\n> ⏰ El link expira en ~8 horas`,
-                    contextInfo: {
-                        externalAdReply: {
-                            title: file.filename,
-                            body: `${sizeMB} MB - Descarga directa`,
-                            sourceUrl: file.dlink,
-                            mediaType: 1
-                        }
-                    }
-                }, { quoted: m });
+                    image: { url: images[i] },
+                    caption: `📖 *${title}*\n🖼️ Página ${i + 1}/${images.length}\n> 🌐 lectortmo.vip`,
+                    albumParentKey: albumMessage.key
+                });
+                sent++;
+                // Pequeña pausa para no saturar
+                if (i < images.length - 1) await new Promise(r => setTimeout(r, 300));
+            } catch (imgErr) {
+                console.error(`[manga] Error enviando imagen ${i + 1}:`, imgErr.message);
             }
         }
-        return true;
-    } catch (err) {
-        console.error('[manga] Error en downloadAndSend:', err);
-        cleanup(filePath);
-        await conn.reply(m.chat, `❌ Error procesando *${teraboxLink.label}*: ${err.message}`, m);
-        return false;
-    }
-}
 
-/**
- * Handler interactivo - detecta respuestas del usuario al mensaje de detalle
- */
-handler.before = async (m, { conn }) => {
-    conn.manga = conn.manga || {};
-    const session = conn.manga[m.sender];
-    if (!session || !m.quoted || m.quoted.id !== session.key.id) return;
-    if (session.downloading) return m.reply('⏳ Ya hay una descarga en proceso. Espera a que termine.');
+        await m.react('✅');
 
-    const input = m.text.trim().toLowerCase();
-    const tbLinks = session.teraboxLinks;
-
-    if (input === 'todos' || input === 'all' || input === 'todo') {
-        // Descargar todos los tomos automáticamente
-        session.downloading = true;
-        m.react('📥');
-
-        await conn.reply(m.chat, `⏳ Iniciando descarga de *${tbLinks.length} paquete(s)* de *${session.title}*...\n> Esto puede tardar un rato dependiendo del tamaño.`, m);
-
-        let success = 0;
-        let failed = 0;
-        for (const link of tbLinks) {
-            const ok = await downloadAndSend(conn, m, session, link, session.title);
-            if (ok) success++;
-            else failed++;
+        if (sent < images.length) {
+            await conn.reply(
+                m.chat,
+                `⚠️ Se enviaron *${sent}/${images.length}* páginas.\n` +
+                `> Algunas imágenes pueden no haber cargado correctamente.`,
+                m
+            );
         }
 
-        await conn.reply(m.chat, `✅ *Descarga completada*\n> ✅ Exitosos: ${success}/${tbLinks.length}\n> ❌ Fallidos: ${failed}`, m);
-        m.react('✅');
+    } catch (error) {
+        await m.react('❌');
+        console.error('[manga] Error:', error.message);
 
-        clearTimeout(session.timeout);
-        delete conn.manga[m.sender];
-    } else {
-        // Descargar un tomo específico por número
-        const num = parseInt(input);
-        if (isNaN(num) || num < 1 || num > tbLinks.length) {
-            return m.reply(`❌ Número no válido. Envía un número entre *1* y *${tbLinks.length}*, o *todos* para descargar todo.`);
+        if (error.response?.status === 404) {
+            return conn.reply(
+                m.chat,
+                `❌ *Capítulo no encontrado* (404)\n\n` +
+                `> La URL generada fue:\n> ${chapterUrl}\n\n` +
+                `💡 *Tip:* Verifica el nombre exacto del capítulo en lectortmo.vip\n` +
+                `Ejemplo: \`${prefix} kimetsu no yaiba cap 206\``,
+                m
+            );
         }
 
-        session.downloading = true;
-        m.react('📥');
+        if (error.response?.status === 403 || error.response?.status === 429) {
+            return conn.reply(
+                m.chat,
+                `🚫 *Acceso bloqueado por el sitio* (${error.response.status})\n\n` +
+                `> LectorTMO puede tener protección anti-bots activa.\n` +
+                `> Intenta de nuevo en unos minutos.`,
+                m
+            );
+        }
 
-        const selectedLink = tbLinks[num - 1];
-        await downloadAndSend(conn, m, session, selectedLink, session.title);
-
-        session.downloading = false;
-        m.react('✅');
-
-        // No eliminar sesión para que pueda seguir descargando otros
-        clearTimeout(session.timeout);
-        session.timeout = setTimeout(() => delete conn.manga[m.sender], 600_000);
+        conn.reply(m.chat, `❌ Error al obtener el capítulo: ${error.message}`, m);
     }
 };
 
-handler.command = ["manga", "mangadl", "tomosmanga"];
+handler.command = ['manga', 'mangalee', 'leer', 'tmo'];
 handler.tags = ['download'];
-handler.help = ["manga"];
+handler.help = ['manga <nombre cap N> | <URL lectortmo>'];
 
 export default handler;

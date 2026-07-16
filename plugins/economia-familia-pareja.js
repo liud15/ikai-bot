@@ -1,7 +1,8 @@
-import { getUser, mention, setRequest, getRequest, linkCouple, unlinkCouple, deleteRequest, getRealJid, resolveJid } from '../src/lib/family-utils.js'
+import { getFamilyData, getUser, mention, setRequest, getRequest, linkCouple, unlinkCouple, deleteRequest, getRealJid, resolveJid } from '../src/lib/family-utils.js'
 
 let handler = async (m, { conn, command, text, usedPrefix }) => {
-    const me = getUser(m.sender)
+    const senderJid = getRealJid(m.sender)
+    const groupJid  = m.chat
 
     // ─── PAREJA ───────────────────────────────────────────────
     if (/^(pareja|casar|proponer)$/i.test(command)) {
@@ -9,68 +10,66 @@ let handler = async (m, { conn, command, text, usedPrefix }) => {
         if (!targetRaw) return m.reply(`✳️ Usa: *${usedPrefix + command} @usuario*`)
 
         const target = getRealJid(targetRaw)
-        const sender = getRealJid(m.sender)
-        if (target === sender) return m.reply('❌ No puedes emparejarte contigo mismo.')
+        if (target === senderJid) return m.reply('❌ No puedes emparejarte contigo mismo.')
 
-        const other = getUser(target)
+        const me    = getFamilyData(senderJid, groupJid)
+        const other = getFamilyData(target,    groupJid)
 
-        if (me.marry) return m.reply('❌ Ya tienes pareja. Usa *#divorcio* para terminar tu relación.')
-        if (other.marry) return m.reply('❌ Esa persona ya tiene pareja.')
+        if (me.marry)    return m.reply('❌ Ya tienes pareja en este grupo. Usa *#divorcio* para terminar tu relación.')
+        if (other.marry) return m.reply('❌ Esa persona ya tiene pareja en este grupo.')
 
-        // No emparejarse con tu hijo/padre
+        // No emparejarse con tu hijo/padre en este grupo
         if (me.children.includes(target)) return m.reply('❌ No puedes emparejarte con tu hijo/a.')
-        if (me.parents.includes(target)) return m.reply('❌ No puedes emparejarte con tu padre/madre.')
+        if (me.parents.includes(target))  return m.reply('❌ No puedes emparejarte con tu padre/madre.')
 
-        setRequest('couple', target, sender)
+        setRequest('couple', target, senderJid)
         return conn.sendMessage(m.chat, {
-            text: `💍 ${await mention(target, m)}, ${await mention(sender, m)} quiere formar pareja contigo.\n` +
+            text: `💍 ${await mention(target, m)}, ${await mention(senderJid, m)} quiere formar pareja contigo.\n` +
                 `Responde con *${usedPrefix}aceptarpareja* o *${usedPrefix}rechazarpareja*.\n` +
                 `⏳ La solicitud expira en 5 minutos.`,
-            mentions: [await resolveJid(target, m), await resolveJid(sender, m)]
+            mentions: [await resolveJid(target, m), await resolveJid(senderJid, m)]
         }, { quoted: m })
     }
 
     // ─── ACEPTAR PAREJA ──────────────────────────────────────
     if (/^aceptarpareja$/i.test(command)) {
-        const sender = getRealJid(m.sender)
-        const req = getRequest('couple', sender)
+        const req = getRequest('couple', senderJid)
         if (!req) return m.reply('❌ No tienes solicitudes de pareja pendientes (o ya expiró).')
 
-        const reqFrom = getRealJid(req.from)
-        const fromUser = getUser(reqFrom)
-        const receiverUser = getUser(sender)
+        const reqFrom     = getRealJid(req.from)
+        const fromUser    = getFamilyData(reqFrom,    groupJid)
+        const receiverUser = getFamilyData(senderJid, groupJid)
 
         if (fromUser.marry || receiverUser.marry) {
-            deleteRequest('couple', sender)
-            return m.reply('❌ No se puede completar, una de las personas ya tiene pareja.')
+            deleteRequest('couple', senderJid)
+            return m.reply('❌ No se puede completar, una de las personas ya tiene pareja en este grupo.')
         }
 
-        linkCouple(reqFrom, sender)
-        deleteRequest('couple', sender)
+        linkCouple(reqFrom, senderJid, groupJid)
+        deleteRequest('couple', senderJid)
 
         return conn.sendMessage(m.chat, {
-            text: `💞 ¡Nueva pareja!\n${await mention(reqFrom, m)} ❤️ ${await mention(sender, m)}`,
-            mentions: [await resolveJid(reqFrom, m), await resolveJid(sender, m)]
+            text: `💞 ¡Nueva pareja!\n${await mention(reqFrom, m)} ❤️ ${await mention(senderJid, m)}`,
+            mentions: [await resolveJid(reqFrom, m), await resolveJid(senderJid, m)]
         }, { quoted: m })
     }
 
     // ─── RECHAZAR PAREJA ─────────────────────────────────────
     if (/^rechazarpareja$/i.test(command)) {
-        const sender = getRealJid(m.sender)
-        const req = getRequest('couple', sender)
+        const req = getRequest('couple', senderJid)
         if (!req) return m.reply('❌ No tienes solicitudes de pareja pendientes.')
-        deleteRequest('couple', sender)
+        deleteRequest('couple', senderJid)
         return m.reply('🚫 Solicitud de pareja rechazada.')
     }
 
-    // ─── DIVORCIO (solo matrimonio, NO toca padres/hijos) ────
+    // ─── DIVORCIO ────────────────────────────────────────────
     if (/^divorcio$/i.test(command)) {
-        if (!me.marry) return m.reply('❌ No tienes pareja registrada.')
-        const sender = getRealJid(m.sender)
-        const ex = unlinkCouple(sender)
+        const me = getFamilyData(senderJid, groupJid)
+        if (!me.marry) return m.reply('❌ No tienes pareja registrada en este grupo.')
+        const ex = unlinkCouple(senderJid, groupJid)
         return conn.sendMessage(m.chat, {
-            text: `💔 Divorcio completado entre ${await mention(sender, m)} y ${await mention(ex, m)}.`,
-            mentions: [await resolveJid(sender, m), await resolveJid(ex, m)]
+            text: `💔 Divorcio completado entre ${await mention(senderJid, m)} y ${await mention(ex, m)}.`,
+            mentions: [await resolveJid(senderJid, m), await resolveJid(ex, m)]
         }, { quoted: m })
     }
 }
